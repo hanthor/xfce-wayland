@@ -1,0 +1,2296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce4-panel.master package.
+# 
+# Translators:
+# Andreas Eitel <github-aneitel@online.de>, 2018-2020,2022-2026
+# Christoph Wickert <christoph.wickert@gmail.com>, 2017
+# Enrico Tröger <enrico@xfce.org>, 2008
+# Harald Judt <h.judt@gmx.at>, 2013,2015
+# Jakob Kramer <jakob.kramer@gmx.de>, 2012
+# Joerg Schachner, 2020
+# Markus, 2013
+# Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2010,2012
+# Simon Schneider <simon@schneiderimtal.de>, 2009
+# Tobias Bannert <tobannert@gmail.com>, 2013-2017
+# Vinzenz Vietzke <vv@muibox.de>, 2017-2019
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce4-panel\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2026-01-17 00:55+0100\n"
+"PO-Revision-Date: 2013-07-02 20:26+0000\n"
+"Last-Translator: Andreas Eitel <github-aneitel@online.de>, 2018-2020,2022-2026\n"
+"Language-Team: German (http://app.transifex.com/xfce/xfce4-panel/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: panel-desktop-handler.desktop.in:4
+msgid "Create Launcher on the panel"
+msgstr "Programmstarter zur Leiste hinzufügen"
+
+#: panel-desktop-handler.desktop.in:5
+msgid ""
+"Add a new launcher to the panel based on the information of this desktop "
+"file"
+msgstr "Einen neuen Programmstarter zur Leiste hinzufügen, basierend auf den Informationen in dieser Schreibtischdatei"
+
+#: panel-preferences.desktop.in:8
+msgid ""
+"panels;settings;preferences;taskbar;autohide;application "
+"menu;start;buttons;launcher;notification area;status;icons;plugins;"
+msgstr "Leiste;Einstellungen;Voreinstellungen;Taskleiste;automatisch ausblenden;Anwendungsmenü;Start;Knöpfe;Startprogramm;Benachrichtigungsbereich;Status;Symbole;Plugins;"
+
+#: panel-preferences.desktop.in:15 panel/panel-window.c:3859
+msgid "Panel"
+msgstr "Leiste"
+
+#: panel-preferences.desktop.in:16
+msgid "Customize the panel"
+msgstr "Leiste einrichten"
+
+#: common/resources/panel-preferences-dialog.glade:13
+msgid "Never"
+msgstr "Nie"
+
+#: common/resources/panel-preferences-dialog.glade:16
+msgid "Intelligently"
+msgstr "Intelligent"
+
+#: common/resources/panel-preferences-dialog.glade:19
+msgid "Always"
+msgstr "Immer"
+
+#: common/resources/panel-preferences-dialog.glade:71
+msgid "Horizontal"
+msgstr "Waagerecht"
+
+#: common/resources/panel-preferences-dialog.glade:74
+msgid "Vertical"
+msgstr "Senkrecht"
+
+#: common/resources/panel-preferences-dialog.glade:77
+msgid "Deskbar"
+msgstr "Schreibtischleiste"
+
+#: common/resources/panel-preferences-dialog.glade:124
+msgid "None (use system style)"
+msgstr "– (Systemstil verwenden)"
+
+#: common/resources/panel-preferences-dialog.glade:127
+msgid "Solid color"
+msgstr "Deckfarbe"
+
+#: common/resources/panel-preferences-dialog.glade:130
+msgid "Background image"
+msgstr "Hintergrundbild"
+
+#: common/resources/panel-preferences-dialog.glade:136
+msgid "Panel Preferences"
+msgstr "Leisteneinstellungen"
+
+#: common/resources/panel-preferences-dialog.glade:153
+#: common/resources/actions-dialog.glade:82
+#: common/resources/applicationsmenu-dialog.glade:55
+#: common/resources/clock-dialog.glade:105
+#: common/resources/directorymenu-dialog.glade:34
+#: common/resources/launcher-dialog.glade:103
+#: common/resources/launcher-dialog.glade:270
+#: common/resources/pager-dialog.glade:97
+#: common/resources/separator-dialog.glade:58
+#: common/resources/showdesktop-dialog.glade:34
+#: common/resources/sn-dialog.glade:65
+#: common/resources/tasklist-dialog.glade:86
+#: common/resources/windowmenu-dialog.glade:51 panel/panel-item-dialog.c:205
+#: panel/panel-tic-tac-toe.c:110
+msgid "_Close"
+msgstr "_Schließen"
+
+#. help item
+#: common/resources/panel-preferences-dialog.glade:168
+#: common/resources/actions-dialog.glade:97
+#: common/resources/applicationsmenu-dialog.glade:39
+#: common/resources/clock-dialog.glade:120
+#: common/resources/directorymenu-dialog.glade:49
+#: common/resources/launcher-dialog.glade:254
+#: common/resources/pager-dialog.glade:81
+#: common/resources/separator-dialog.glade:73
+#: common/resources/showdesktop-dialog.glade:49
+#: common/resources/tasklist-dialog.glade:102
+#: common/resources/windowmenu-dialog.glade:66
+#: libxfce4panel/xfce-panel-plugin.c:1344 panel/panel-item-dialog.c:201
+#: panel/panel-window.c:3925
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: common/resources/panel-preferences-dialog.glade:213
+msgid "Profiles:"
+msgstr "Profile:"
+
+#: common/resources/panel-preferences-dialog.glade:241
+msgid "_Backup and restore"
+msgstr "_Sichern und Wiederherstellen"
+
+#: common/resources/panel-preferences-dialog.glade:245
+msgid "Switch between panel presets"
+msgstr "Zwischen Leistenvoreinstellungen wechseln"
+
+#: common/resources/panel-preferences-dialog.glade:289
+msgid "Add a new panel"
+msgstr "Neue Leiste hinzufügen"
+
+#: common/resources/panel-preferences-dialog.glade:314
+msgid "Remove the currently selected panel"
+msgstr "Die ausgewählte Leiste entfernen"
+
+#: common/resources/panel-preferences-dialog.glade:365
+#: common/resources/panel-preferences-dialog.glade:745
+msgid "<b>General</b>"
+msgstr "<b>Allgemein</b>"
+
+#: common/resources/panel-preferences-dialog.glade:380
+msgid "M_ode:"
+msgstr "M_odus:"
+
+#: common/resources/panel-preferences-dialog.glade:409
+msgid "Span mo_nitors"
+msgstr "_Auf mehrere Bildschirme ausdehnen"
+
+#: common/resources/panel-preferences-dialog.glade:413
+msgid "Select this option to extend the panel over multiple monitors."
+msgstr "Bitte diese Option auswählen, um die Leiste über mehrere Bildschirme zu erweitern."
+
+#: common/resources/panel-preferences-dialog.glade:426
+msgid "_Lock panel"
+msgstr "_Leiste sperren"
+
+#: common/resources/panel-preferences-dialog.glade:430
+msgid ""
+"Select this option to hide the handles of the panel and lock its position."
+msgstr "Diese Option auswählen, um die Leistengriffe zu verbergen und die Position zu sperren."
+
+#: common/resources/panel-preferences-dialog.glade:443
+msgid "_Reserve space on screen edges for the panel"
+msgstr "Platz an den Bildschirmrändern für die Leiste _reservieren"
+
+#: common/resources/panel-preferences-dialog.glade:447
+msgid ""
+"Select this option if you don't want maximized windows to overlap the panel "
+"area. This only works when the panel is attached to a screen edge and "
+"autohide is disabled."
+msgstr "Wähle diese Option, um zu verhindern, dass maximierte Fenster den Leisten-Bereich überlappen. Dies funktioniert nur, wenn die Leiste an einem Bildschirmrand befestigt ist und die automatische Ausblendung deaktiviert ist."
+
+#: common/resources/panel-preferences-dialog.glade:460
+msgid "_Keep panel below windows"
+msgstr "_Leiste unterhalb der Fenster beibehalten"
+
+#: common/resources/panel-preferences-dialog.glade:464
+msgid ""
+"Select this option if you want windows to cover the panel. When autohide is "
+"enabled, panel is always on top."
+msgstr "Wähle diese Option, wenn die Fenster die Leiste überdecken sollen. Wenn  \"Autohide\" aktiviert ist, bleibt die Leiste immer im Vordergrund."
+
+#: common/resources/panel-preferences-dialog.glade:485
+msgid "Au_tomatically hide the panel:"
+msgstr "Leiste au_tomatisch verstecken:"
+
+#: common/resources/panel-preferences-dialog.glade:526
+msgid "O_utput:"
+msgstr "_Ausgabe:"
+
+#. I18N: name of the section (frame) in the panel preferences where the user
+#. can define the length and size of the panel
+#: common/resources/panel-preferences-dialog.glade:570
+msgid "<b>Measurements</b>"
+msgstr "<b>Abmessungen</b>"
+
+#: common/resources/panel-preferences-dialog.glade:585
+msgid "Row _size (pixels):"
+msgstr "_Zeilengröße (in Pixeln):"
+
+#: common/resources/panel-preferences-dialog.glade:599
+msgid "Num_ber of rows:"
+msgstr "Anzahl _der Zeilen:"
+
+#: common/resources/panel-preferences-dialog.glade:613
+msgid "L_ength (pixels):"
+msgstr "Läng_e (Pixel):"
+
+#: common/resources/panel-preferences-dialog.glade:642
+msgid "Border width (pixels):"
+msgstr "Randbreite (Pixel):"
+
+#: common/resources/panel-preferences-dialog.glade:665
+msgid "A_utomatically increase the length"
+msgstr "_Länge automatisch erhöhen"
+
+#: common/resources/panel-preferences-dialog.glade:669
+msgid ""
+"Select this option to automatically increase the length of the panel if the "
+"plugins request more space."
+msgstr "Diese Option auswählen, wenn die Länge der Leiste automatisch vergrößert werden soll, wenn Erweiterungen mehr Platz benötigen."
+
+#: common/resources/panel-preferences-dialog.glade:719
+msgid "D_isplay"
+msgstr "A_nzeige"
+
+#: common/resources/panel-preferences-dialog.glade:760
+msgid "Dark mode"
+msgstr "Dunkelmodus"
+
+#: common/resources/panel-preferences-dialog.glade:800
+msgid "<b>Background</b>"
+msgstr "<b>Hintergrund</b>"
+
+#: common/resources/panel-preferences-dialog.glade:815
+#: common/resources/separator-dialog.glade:123
+msgid "_Style:"
+msgstr "_Stil:"
+
+#: common/resources/panel-preferences-dialog.glade:847
+msgid "C_olor:"
+msgstr "_Farbe:"
+
+#: common/resources/panel-preferences-dialog.glade:862
+msgid "Pick a Panel Color"
+msgstr "Farbe für die Leiste auswählen"
+
+#: common/resources/panel-preferences-dialog.glade:875
+msgid "_File:"
+msgstr "_Datei:"
+
+#: common/resources/panel-preferences-dialog.glade:888
+msgid "Select A Background Image"
+msgstr "Hintergrundbild auswählen"
+
+#: common/resources/panel-preferences-dialog.glade:915
+msgid "<b>Icons</b>"
+msgstr "<b>Symbole</b>"
+
+#: common/resources/panel-preferences-dialog.glade:929
+msgid "Adjust size au_tomatically"
+msgstr "Größe au_tomatisch anpassen"
+
+#: common/resources/panel-preferences-dialog.glade:966
+msgid "Fixed icon _size (pixels):"
+msgstr "Feste Symbol_größe (Pixel):"
+
+#: common/resources/panel-preferences-dialog.glade:1009
+msgid "<b>Opacity</b>"
+msgstr "<b>Deckkraft</b>"
+
+#: common/resources/panel-preferences-dialog.glade:1035
+msgid "Configure..."
+msgstr "Einrichten..."
+
+#: common/resources/panel-preferences-dialog.glade:1073
+msgid ""
+"<b>Compositing is currently disabled</b>\n"
+"Enable compositing in the window manager for opacity settings in the panel."
+msgstr "<b>Komposit ist derzeit deaktiviert</b>\nAktivieren Sie das Anzeigenkomposit in den »Feineinstellungen der Fensterverwaltung« für die Deckkrafteinstellungen in der Leiste."
+
+#. I18N: label for the enter transparency slider
+#: common/resources/panel-preferences-dialog.glade:1113
+msgid "_Enter:"
+msgstr "_Betreten:"
+
+#. I18N: label for the leave transparency slider
+#: common/resources/panel-preferences-dialog.glade:1140
+msgid "_Leave:"
+msgstr "_Verlassen:"
+
+#: common/resources/panel-preferences-dialog.glade:1153
+msgid ""
+"Transparency when the pointer is not hovering over the panel, with 0 being "
+"fully transparent and 100 fully opaque."
+msgstr "Durchsichtig, wenn der Mauszeiger nicht über dieser Leiste ist. Von 0 (durchsichtig) bis 100 (deckend)."
+
+#: common/resources/panel-preferences-dialog.glade:1180
+msgid "Appeara_nce"
+msgstr "_Erscheinungsbild"
+
+#: common/resources/panel-preferences-dialog.glade:1208
+msgid "Ite_ms"
+msgstr "_Objekte"
+
+#: common/resources/actions-dialog.glade:35
+#: common/resources/actions-dialog.glade:64
+#: plugins/actions/actions.desktop.in.in:4
+msgid "Action Buttons"
+msgstr "Aktionsknöpfe"
+
+#: common/resources/actions-dialog.glade:38 plugins/actions/actions.c:32
+msgid "Session Menu"
+msgstr "Sitzungsmenü"
+
+#: common/resources/actions-dialog.glade:49
+msgid "Full Name"
+msgstr "Vollständiger Name"
+
+#: common/resources/actions-dialog.glade:52
+msgid "Username"
+msgstr "Benutzername"
+
+#: common/resources/actions-dialog.glade:55
+msgid "User ID"
+msgstr "Benutzer ID"
+
+#: common/resources/actions-dialog.glade:58
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: common/resources/actions-dialog.glade:162
+msgid "Appeara_nce:"
+msgstr "_Erscheinungsbild"
+
+#: common/resources/actions-dialog.glade:188
+msgid "Title:"
+msgstr "Titel:"
+
+#: common/resources/actions-dialog.glade:201
+msgid "Custo_m title:"
+msgstr "Be_nutzerdefinierter Titel:"
+
+#: common/resources/actions-dialog.glade:255
+#: common/resources/launcher-dialog.glade:306
+msgid "General"
+msgstr "Allgemein"
+
+#: common/resources/actions-dialog.glade:303
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: common/resources/actions-dialog.glade:314
+msgid "Action"
+msgstr "Aktionsknöpfe"
+
+#: common/resources/actions-dialog.glade:334
+msgid "_Show confirmation dialog"
+msgstr "_Bestätigungsdialog anzeigen"
+
+#: common/resources/actions-dialog.glade:338
+msgid ""
+"Show a confirmation dialog with a 30 second timeout for some of the actions."
+msgstr "Für manche Aktionen 30 Sekunden lang einen Bestätigungsdialog anzeigen."
+
+#: common/resources/actions-dialog.glade:354
+msgid "_Actions"
+msgstr "_Aktionen"
+
+#: common/resources/applicationsmenu-dialog.glade:23
+#: plugins/applicationsmenu/applicationsmenu.desktop.in.in:4
+msgid "Applications Menu"
+msgstr "Anwendungsmenü"
+
+#: common/resources/applicationsmenu-dialog.glade:101
+#: common/resources/directorymenu-dialog.glade:122
+msgid "_Icon:"
+msgstr "S_ymbol:"
+
+#: common/resources/applicationsmenu-dialog.glade:125
+msgid "Button _title:"
+msgstr "_Knopftitel:"
+
+#: common/resources/applicationsmenu-dialog.glade:136
+msgid "Show button on one _line"
+msgstr "Schaltfläche in einer _Zeile anzeigen"
+
+#: common/resources/applicationsmenu-dialog.glade:151
+msgid "_Show button title"
+msgstr "_Titel im Knopf anzeigen"
+
+#: common/resources/applicationsmenu-dialog.glade:166
+msgid "Show application d_escription in tooltip"
+msgstr "A_nwendungsbeschreibung in Kurzhilfe anzeigen"
+
+#: common/resources/applicationsmenu-dialog.glade:182
+msgid "Show ic_ons in menu"
+msgstr "_Symbole im Menü anzeigen"
+
+#: common/resources/applicationsmenu-dialog.glade:197
+msgid "Show generic application n_ames"
+msgstr "_Allgemeine Anwendungsnamen anzeigen"
+
+#: common/resources/applicationsmenu-dialog.glade:201
+msgid ""
+"Select this option to show the generic application name in the menu, for "
+"example \"File Manager\" instead of \"Thunar\""
+msgstr "Diese Option auswählen, um den allgemeinen Anwendungsnamen im Menü anzuzeigen. \nZum Beispiel: »Dateiverwaltung« anstelle von »Thunar«"
+
+#: common/resources/applicationsmenu-dialog.glade:229
+#: common/resources/clock-dialog.glade:418
+#: common/resources/directorymenu-dialog.glade:150
+#: common/resources/separator-dialog.glade:222
+#: common/resources/tasklist-dialog.glade:266
+#: common/resources/windowmenu-dialog.glade:209
+msgid "Appearance"
+msgstr "Aussehen"
+
+#: common/resources/applicationsmenu-dialog.glade:267
+msgid "Use the _default menu"
+msgstr "Stan_dardmenü verwenden"
+
+#: common/resources/applicationsmenu-dialog.glade:282
+msgid "Ed_it Menu"
+msgstr "_Menü bearbeiten"
+
+#: common/resources/applicationsmenu-dialog.glade:304
+msgid "Use c_ustom menu file:"
+msgstr "_Angepasste Menüdatei verwenden:"
+
+#: common/resources/applicationsmenu-dialog.glade:333
+msgid "Menu _file:"
+msgstr "_Menüdatei:"
+
+#: common/resources/applicationsmenu-dialog.glade:346
+msgid "Select A Menu File"
+msgstr "Eine Menüdatei auswählen"
+
+#: common/resources/applicationsmenu-dialog.glade:371
+msgid "Menu File"
+msgstr "Menüdatei"
+
+#: common/resources/clock-dialog.glade:13
+msgid "Decimal"
+msgstr "Dezimal"
+
+#: common/resources/clock-dialog.glade:16
+msgid "Sexagesimal"
+msgstr "Sexagesimal"
+
+#: common/resources/clock-dialog.glade:19
+msgid "Binary time"
+msgstr "Binärzeit"
+
+#: common/resources/clock-dialog.glade:30
+msgid "Date, then time"
+msgstr "Datum, dann Uhrzeit"
+
+#: common/resources/clock-dialog.glade:33
+msgid "Time, then date"
+msgstr "Uhrzeit, dann Datum"
+
+#: common/resources/clock-dialog.glade:36
+msgid "Date Only"
+msgstr "Ausschließlich Datum"
+
+#: common/resources/clock-dialog.glade:39
+msgid "Time Only"
+msgstr "Ausschließlich Uhrzeit"
+
+#: common/resources/clock-dialog.glade:71
+msgid "Analog"
+msgstr "Analog"
+
+#: common/resources/clock-dialog.glade:74
+msgid "Binary"
+msgstr "Binär"
+
+#: common/resources/clock-dialog.glade:77
+msgid "Digital"
+msgstr "Digital"
+
+#: common/resources/clock-dialog.glade:80
+msgid "Fuzzy"
+msgstr "In Worten"
+
+#: common/resources/clock-dialog.glade:83
+msgid "LCD"
+msgstr "LCD"
+
+#: common/resources/clock-dialog.glade:89 plugins/clock/clock.desktop.in.in:4
+msgid "Clock"
+msgstr "Uhr"
+
+#: common/resources/clock-dialog.glade:172
+msgid ""
+"Name of a timezone corresponding a file in the zoneinfo database, for "
+"example \"America/New_York\". Leave empty to use the localtime."
+msgstr "Name einer Zeitzone, die einem Dateinamen in der Zeitzonendatenbank entspricht, zum Beispiel »Europe/Berlin«. Wenn leer, wird die lokale Zeit verwendet.\nhttp://php.net/manual/en/timezones.europe.php"
+
+#: common/resources/clock-dialog.glade:183
+msgid "Time_zone:"
+msgstr "_Zeitzone:"
+
+#: common/resources/clock-dialog.glade:200
+msgid ""
+"Command to start on right-click \"Time settings\" menu item. Default is "
+"\"time-admin\"."
+msgstr "Befehl zum Starten über den Rechtsklick auf den Menüpunkt \"Zeiteinstellungen\". Standard ist \"time-admin\"."
+
+#: common/resources/clock-dialog.glade:211
+msgid "Configuration tool:"
+msgstr "Konfigurationstool:"
+
+#: common/resources/clock-dialog.glade:227
+msgid "Time Settings"
+msgstr "Zeiteinstellungen"
+
+#: common/resources/clock-dialog.glade:263
+msgid ""
+"If set, this command is run when the plugin is left-clicked, instead of "
+"displaying the default calendar."
+msgstr "Wenn diese Option aktiviert ist, wird dieser Befehl ausgeführt, wenn die Erweiterung mit der linken Maustaste angeklickt wird, anstatt den Standardkalender anzuzeigen."
+
+#: common/resources/clock-dialog.glade:274
+msgid "Co_mmand:"
+msgstr "_Befehl:"
+
+#: common/resources/clock-dialog.glade:286
+msgid "_Show week numbers"
+msgstr "_Wochenzahlen anzeigen"
+
+#: common/resources/clock-dialog.glade:307
+msgid "Calendar"
+msgstr "Kalender"
+
+#: common/resources/clock-dialog.glade:342
+#: common/resources/clock-dialog.glade:682
+#: common/resources/clock-dialog.glade:804
+msgid ""
+"The format describes the date and time parts to insert into the panel. For "
+"example, %Y will be substituted with the year, %m with the month and %d with"
+" the day. Similarly, <b></b> tags will make the text bold. See the \"Help\" "
+"page for additional information."
+msgstr "Das Anzeigeformat beschreibt, welche Teile von Datum und Uhrzeit in den Dateinamen eingefügt werden sollen. Beispiel: %Y wird durch das Jahr ersetzt, %m durch den Monat und %d mit dem Tag. Dabei können auch HTML-Auszeichnungen wie <b></b> verwendet werden, um den Text hervorzuheben. Weitere Informationen dazu finden Sie auf der »Hilfe«-Seite."
+
+#: common/resources/clock-dialog.glade:371
+msgid "_Tooltip format:"
+msgstr "_Format der Kurzhilfen:"
+
+#: common/resources/clock-dialog.glade:384
+#: common/resources/clock-dialog.glade:632
+msgid "_Layout:"
+msgstr "_Anordnung:"
+
+#: common/resources/clock-dialog.glade:448
+msgid "Sho_w AM/PM"
+msgstr "AM/PM an_zeigen"
+
+#: common/resources/clock-dialog.glade:463
+msgid "Fl_ash time separators"
+msgstr "_Blinkende Zeit-Trennzeichen"
+
+#: common/resources/clock-dialog.glade:478
+msgid "24-_hour clock"
+msgstr "24-S_tunden Uhr verwenden"
+
+#: common/resources/clock-dialog.glade:521
+msgid "Binary mode:"
+msgstr "Binärmodus:"
+
+#: common/resources/clock-dialog.glade:537
+msgid "Display _seconds"
+msgstr "_Sekunden anzeigen"
+
+#. I18N: the fuzziness the *precision* of the fuzzy clock. Time steps of 5, 15
+#. or parts of the day.
+#: common/resources/clock-dialog.glade:558
+msgid "F_uzziness:"
+msgstr "_Ungenauigkeit der Formulierung:"
+
+#: common/resources/clock-dialog.glade:592
+msgid "Show _inactive segments"
+msgstr "_Inaktive Segmente anzeigen"
+
+#: common/resources/clock-dialog.glade:607
+msgid "Show gri_d"
+msgstr "_Netz anzeigen"
+
+#: common/resources/clock-dialog.glade:653
+#: common/resources/clock-dialog.glade:775
+msgid "Font:"
+msgstr "Schriftart:"
+
+#: common/resources/clock-dialog.glade:666
+#: common/resources/clock-dialog.glade:788
+msgid "Format:"
+msgstr "Format:"
+
+#: common/resources/clock-dialog.glade:683
+#: common/resources/clock-dialog.glade:805
+msgid ""
+"The format describes the date and time parts to insert into the panel. For "
+"example, %Y will be substituted with the year, %m with the month and %d with"
+" the day. Similarly, &lt;b&gt;&lt;/b&gt; tags will make the text bold. See "
+"the &quot;Help&quot; page for additional information."
+msgstr "Das Anzeigeformat beschreibt, welche Teile von Datum und Uhrzeit in die Leiste eingefügt werden sollen. Beispiel: %Y wird durch das Jahr ersetzt, %m durch den Monat und %d mit dem Tag. Dabei können auch HTML-Auszeichnungen wie &lt;b&gt;&lt;/b&gt; verwendet werden, um den Text hervorzuheben. Weitere Informationen dazu finden Sie auf der &quot;Help&quot;-Seite."
+
+#: common/resources/clock-dialog.glade:712
+msgid "Date"
+msgstr "Datum"
+
+#: common/resources/clock-dialog.glade:757
+msgid "Time"
+msgstr "Uhrzeit"
+
+#: common/resources/clock-dialog.glade:884
+msgid "Clock Options"
+msgstr "Einstellungen für die Uhr"
+
+#: common/resources/directorymenu-dialog.glade:18
+#: plugins/directorymenu/directorymenu.c:293
+#: plugins/directorymenu/directorymenu.desktop.in.in:4
+msgid "Directory Menu"
+msgstr "Verzeichnismenü"
+
+#: common/resources/directorymenu-dialog.glade:99
+msgid "Select A Directory"
+msgstr "Verzeichnis auswählen"
+
+#: common/resources/directorymenu-dialog.glade:135
+msgid "_Base Directory:"
+msgstr "_Basisverzeichnis:"
+
+#: common/resources/directorymenu-dialog.glade:179
+msgid "Show 'New Text _Document'"
+msgstr "'Neues Text_dokument' anzeigen"
+
+#: common/resources/directorymenu-dialog.glade:194
+msgid "Show '_New Folder'"
+msgstr "'_Neuer Ordner' anzeigen"
+
+#: common/resources/directorymenu-dialog.glade:209
+msgid "Show 'Open in _Terminal'"
+msgstr "Zeige 'Öffnen in _Terminal'"
+
+#: common/resources/directorymenu-dialog.glade:224
+msgid "Show '_Open _Folder'"
+msgstr "Zeige '_Ordner öffnen'"
+
+#: common/resources/directorymenu-dialog.glade:243
+msgid "Menu"
+msgstr "Menü"
+
+#: common/resources/directorymenu-dialog.glade:272
+msgid "Show _hidden files"
+msgstr "_Versteckte Dateien anzeigen"
+
+#: common/resources/directorymenu-dialog.glade:289
+msgid ""
+"Enter a list of patterns that will be used to determine which files are "
+"visible in a directory. If you specify more than one pattern here, the list "
+"items must be separated with semicolons (e.g. *.txt;*.doc)."
+msgstr "Liste mit Mustern eingeben, um festzulegen, welche Dateien in einem Verzeichnis sichtbar sein sollen. Bei der Angabe mehrerer Muster müssen diese durch Semikolons getrennt werden (z.B. *.txt; *.doc)."
+
+#: common/resources/directorymenu-dialog.glade:301
+msgid "_File Pattern:"
+msgstr "_Dateimuster:"
+
+#: common/resources/directorymenu-dialog.glade:316
+#: common/resources/tasklist-dialog.glade:529
+#: common/resources/windowmenu-dialog.glade:263
+msgid "Filtering"
+msgstr "Filtern"
+
+#: common/resources/launcher-dialog.glade:30
+msgid "Default"
+msgstr "Standard"
+
+#: common/resources/launcher-dialog.glade:33
+msgid "North"
+msgstr "Norden"
+
+#: common/resources/launcher-dialog.glade:36
+msgid "West"
+msgstr "Westen"
+
+#: common/resources/launcher-dialog.glade:39
+msgid "East"
+msgstr "Osten"
+
+#: common/resources/launcher-dialog.glade:42
+msgid "South"
+msgstr "Süden"
+
+#: common/resources/launcher-dialog.glade:45
+msgid "Inside Button"
+msgstr "Im Knopf"
+
+#: common/resources/launcher-dialog.glade:66 panel/panel-item-dialog.c:192
+msgid "Add New Items"
+msgstr "Neue Elemente hinzufügen"
+
+#: common/resources/launcher-dialog.glade:73
+msgid "Add one or more existing items to the launcher"
+msgstr "Ein oder mehrere vorhandene Objekte zum Programmstarter hinzufügen"
+
+#: common/resources/launcher-dialog.glade:87 panel/panel-dialogs.c:157
+#: panel/panel-item-dialog.c:197
+msgid "_Add"
+msgstr "_Hinzufügen"
+
+#: common/resources/launcher-dialog.glade:140 panel/panel-item-dialog.c:221
+msgid "_Search:"
+msgstr "_Suche:"
+
+#: common/resources/launcher-dialog.glade:235
+#: plugins/launcher/launcher.desktop.in.in:4
+msgid "Launcher"
+msgstr "Programmstarter"
+
+#: common/resources/launcher-dialog.glade:321
+msgid "Disable t_ooltips"
+msgstr "_Kurzhilfen deaktivieren"
+
+#: common/resources/launcher-dialog.glade:325
+msgid ""
+"Select this option to disable the tooltips when moving over the panel button"
+" or menu items."
+msgstr "Diese Option auswählen, um Kurzhilfen beim Bewegen über die Leistenknöpfe und Menüeinträge zu deaktivieren."
+
+#: common/resources/launcher-dialog.glade:337
+msgid "Show _label instead of icon"
+msgstr "_Text anstatt Symbol anzeigen"
+
+#: common/resources/launcher-dialog.glade:352
+msgid "Show last _used item in panel"
+msgstr "_Zuletzt benutztes Element in der Leiste anzeigen"
+
+#: common/resources/launcher-dialog.glade:356
+msgid "Select this option to move the clicked menu item to the panel."
+msgstr "Wählen Sie diese Option, um den angewählten Menüeintrag zur Leiste hinzuzufügen."
+
+#: common/resources/launcher-dialog.glade:375
+msgid "_Arrow button position:"
+msgstr "_Position des Pfeilknopfes:"
+
+#: common/resources/launcher-dialog.glade:418
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: common/resources/pager-dialog.glade:15
+msgid "Buttons"
+msgstr "Reihenfolge der Tasten"
+
+#: common/resources/pager-dialog.glade:19
+msgid "Miniature View"
+msgstr "Miniaturansicht"
+
+#: common/resources/pager-dialog.glade:48 plugins/pager/pager.desktop.in.in:4
+msgid "Workspace Switcher"
+msgstr "Arbeitsflächenumschalter"
+
+#: common/resources/pager-dialog.glade:64 plugins/pager/pager.c:706
+msgid "Workspace _Settings..."
+msgstr "_Arbeitsflächeneinstellungen …"
+
+#: common/resources/pager-dialog.glade:131
+msgid "Number of _rows:"
+msgstr "Anzahl der _Zeilen:"
+
+#: common/resources/pager-dialog.glade:197
+msgid "Show workspace number"
+msgstr "Arbeitsflächennummer anzeigen"
+
+#: common/resources/pager-dialog.glade:210
+msgid "Switch workspaces using the mouse wheel"
+msgstr "Arbeitsflächen mit dem Mausrad wechseln"
+
+#: common/resources/pager-dialog.glade:224
+msgid "Wrap around workspaces"
+msgstr "Umfassende Arbeitsbereiche"
+
+#: common/resources/pager-dialog.glade:241
+msgid "<b>Appearance</b>"
+msgstr "<b>Aussehen</b>"
+
+#: common/resources/separator-dialog.glade:27
+msgid "Transparent"
+msgstr "Durchsichtig"
+
+#: common/resources/separator-dialog.glade:30
+#: common/resources/separator-dialog.glade:42 plugins/actions/actions.c:726
+#: plugins/separator/separator.desktop.in.in:4
+msgid "Separator"
+msgstr "Trennelement"
+
+#: common/resources/separator-dialog.glade:33
+msgid "Handle"
+msgstr "Griff"
+
+#: common/resources/separator-dialog.glade:36
+msgid "Dots"
+msgstr "Punkte"
+
+#: common/resources/separator-dialog.glade:161
+msgid "_Expand"
+msgstr "_Ausdehnen"
+
+#: common/resources/separator-dialog.glade:183
+msgid "Si_ze:"
+msgstr "G_röße:"
+
+#: common/resources/showdesktop-dialog.glade:18
+#: plugins/showdesktop/showdesktop.c:327
+#: plugins/showdesktop/showdesktop.desktop.in.in:4
+msgid "Show Desktop"
+msgstr "Schreibtisch anzeigen"
+
+#: common/resources/showdesktop-dialog.glade:92
+msgid "_Show on mouse hover"
+msgstr "Beim Mau_sover anzeigen"
+
+#: common/resources/showdesktop-dialog.glade:113
+#: common/resources/sn-dialog.glade:300
+msgid "Behavior"
+msgstr "Verhalten"
+
+#: common/resources/sn-dialog.glade:48
+msgid "Status Tray Items"
+msgstr "Status Tray-Elemente"
+
+#: common/resources/sn-dialog.glade:80
+msgid "C_lear Known Items"
+msgstr "Bekannte Elemente löschen"
+
+#: common/resources/sn-dialog.glade:84
+msgid "Resets the list of items and their visibility settings"
+msgstr "Setzt die Liste der Elemente und ihre Sichtbarkeitseinstellungen zurück"
+
+#: common/resources/sn-dialog.glade:144
+msgid "_Fixed icon size (pixels):"
+msgstr "_Feste Symbolgröße (Pixel):"
+
+#: common/resources/sn-dialog.glade:185
+msgid "Adjust size _automatically"
+msgstr "Größe _automatisch anpassen"
+
+#: common/resources/sn-dialog.glade:213
+msgid "Icons"
+msgstr "Symbole"
+
+#: common/resources/sn-dialog.glade:246
+msgid "Arrange _items in a single row"
+msgstr "Elemente _in einer Reihe anordnen"
+
+#: common/resources/sn-dialog.glade:250
+msgid "If enabled, ensure that the items are laid out in a single row"
+msgstr "Falls aktiviert, stellen Sie sicher, dass die Elemente in einer einzigen Zeile angeordnet sind."
+
+#: common/resources/sn-dialog.glade:262
+msgid "_Hide items by default"
+msgstr "_Elemente standardmäßig ausblenden"
+
+#: common/resources/sn-dialog.glade:266
+msgid "When enabled, all new items will be marked as \"Hidden\""
+msgstr "Wenn aktiviert, werden alle neuen Elemente als \"Versteckt\" markiert"
+
+#: common/resources/sn-dialog.glade:278
+msgid "_Square items"
+msgstr "_Quadratische Elemente"
+
+#: common/resources/sn-dialog.glade:282
+msgid "Item buttons will take a square when it's possible"
+msgstr "Element-Buttons werden quadratisch dargestellt, wenn möglich"
+
+#: common/resources/sn-dialog.glade:386 common/resources/sn-dialog.glade:618
+msgid "Item"
+msgstr "Element"
+
+#: common/resources/sn-dialog.glade:398 common/resources/sn-dialog.glade:630
+msgid "Hidden"
+msgstr "Versteckt"
+
+#: common/resources/sn-dialog.glade:426 common/resources/sn-dialog.glade:658
+msgid "Move the selected item one row up"
+msgstr "Das ausgewählte Element eine Zeile nach oben verschieben"
+
+#: common/resources/sn-dialog.glade:446 common/resources/sn-dialog.glade:678
+msgid "Move the selected item one row down"
+msgstr "Das ausgewählte Element eine Zeile nach unten verschieben"
+
+#: common/resources/sn-dialog.glade:479 common/resources/sn-dialog.glade:711
+msgid "Known Items"
+msgstr "Bekannte Elemente"
+
+#: common/resources/sn-dialog.glade:512
+msgid "_Menu is primary action"
+msgstr "_Menü ist die primäre Aktion "
+
+#: common/resources/sn-dialog.glade:516
+msgid "Left click will always display the menu for item"
+msgstr "Ein Linksklick zeigt immer das Menü für das Element"
+
+#: common/resources/sn-dialog.glade:528
+msgid "_Request symbolic icons"
+msgstr "_Symbolische Icons anfordern "
+
+#: common/resources/sn-dialog.glade:532
+msgid "Load symbolic icons if available"
+msgstr "Symbolische Icons laden, falls verfügbar"
+
+#: common/resources/sn-dialog.glade:550
+msgid "Features"
+msgstr "Merkmale"
+
+#: common/resources/sn-dialog.glade:566
+msgid "Status Notifiers"
+msgstr "Status-Benachrichtiger"
+
+#: common/resources/sn-dialog.glade:720
+msgid "Systray Icons"
+msgstr "Systray-Icons"
+
+#: common/resources/tasklist-dialog.glade:23
+msgid "Nothing"
+msgstr "Nichts"
+
+#: common/resources/tasklist-dialog.glade:26
+msgid "Close Window"
+msgstr "Fenster schließen"
+
+#: common/resources/tasklist-dialog.glade:29
+msgid "Minimize Window"
+msgstr "Fenster verkleinern"
+
+#: common/resources/tasklist-dialog.glade:32
+msgid "New Instance"
+msgstr "Neue Instanz"
+
+#: common/resources/tasklist-dialog.glade:43
+msgid "Timestamp"
+msgstr "Zeitstempel"
+
+#: common/resources/tasklist-dialog.glade:46
+msgid "Group title and timestamp"
+msgstr "Titel und Zeitstempel gruppieren"
+
+#: common/resources/tasklist-dialog.glade:49
+msgid "Window title"
+msgstr "Fenstertitel"
+
+#: common/resources/tasklist-dialog.glade:52
+msgid "Group title and window title"
+msgstr "Titel und Fenstertitel gruppieren"
+
+#: common/resources/tasklist-dialog.glade:55
+msgid "None, allow drag-and-drop"
+msgstr "Keine, ziehen und ablegen ermöglichen"
+
+#: common/resources/tasklist-dialog.glade:70
+#: plugins/tasklist/tasklist.desktop.in.in:4
+msgid "Window Buttons"
+msgstr "Fensterknöpfe"
+
+#: common/resources/tasklist-dialog.glade:152
+msgid "Show button _labels"
+msgstr "_Knopfbeschriftungen anzeigen"
+
+#: common/resources/tasklist-dialog.glade:168
+msgid "Show _flat buttons"
+msgstr "_Flache Knöpfe"
+
+#: common/resources/tasklist-dialog.glade:184
+msgid "Show _handle"
+msgstr "_Griff anzeigen"
+
+#: common/resources/tasklist-dialog.glade:200
+msgid "Show _tooltips"
+msgstr "_Hinweise anzeigen"
+
+#: common/resources/tasklist-dialog.glade:223
+msgid "Sorting _order:"
+msgstr "_Sortierreihenfolge:"
+
+#: common/resources/tasklist-dialog.glade:306
+msgid "Mi_ddle click action:"
+msgstr "_Mittelklickaktion:"
+
+#: common/resources/tasklist-dialog.glade:344
+msgid "_Group windows by application"
+msgstr "Fenster nach Anwendung _gruppieren"
+
+#: common/resources/tasklist-dialog.glade:360
+msgid "Restore minimized windows to current _workspace"
+msgstr "_Verkleinerte Fenster in aktueller Arbeitsfläche wiederherstellen"
+
+#: common/resources/tasklist-dialog.glade:376
+msgid "D_raw window frame when hovering a button"
+msgstr "Fenster_rahmen zeichnen, wenn ein Knopf mit der Maus überfahren wird"
+
+#: common/resources/tasklist-dialog.glade:392
+msgid "_Switch windows using the mouse wheel"
+msgstr "Fenster mit _dem Mausrad wechseln"
+
+#: common/resources/tasklist-dialog.glade:414
+msgid "Behaviour"
+msgstr "Verhalten"
+
+#: common/resources/tasklist-dialog.glade:447
+#: common/resources/windowmenu-dialog.glade:242
+msgid "Show windows from _all workspaces"
+msgstr "_Fenster aller Arbeitsflächen anzeigen"
+
+#: common/resources/tasklist-dialog.glade:470
+msgid "Show windows _from:"
+msgstr "_Fenster anzeigen von:"
+
+#: common/resources/tasklist-dialog.glade:507
+msgid "Show only _minimized windows"
+msgstr "N_ur verkleinerte Fenster anzeigen"
+
+#: common/resources/windowmenu-dialog.glade:23
+msgid "Icon"
+msgstr "Symbol"
+
+#: common/resources/windowmenu-dialog.glade:26
+msgid "Arrow"
+msgstr "Pfeil"
+
+#: common/resources/windowmenu-dialog.glade:29
+msgid "Text"
+msgstr "Text"
+
+#: common/resources/windowmenu-dialog.glade:35
+#: plugins/windowmenu/windowmenu.desktop.in.in:4
+msgid "Window Menu"
+msgstr "Fenstermenü"
+
+#: common/resources/windowmenu-dialog.glade:122
+msgid "Button layout:"
+msgstr "Knopfansicht:"
+
+#: common/resources/windowmenu-dialog.glade:158
+msgid "Show workspace a_ctions"
+msgstr "_Arbeitsflächenaktionen anzeigen"
+
+#: common/resources/windowmenu-dialog.glade:173
+msgid "Show workspace _names"
+msgstr "Arbeitsflächen_namen anzeigen"
+
+#: common/resources/windowmenu-dialog.glade:188
+msgid "Enable _urgency notification"
+msgstr "_Dringlichkeitsbenachrichtigung aktivieren"
+
+#. I18N: monitor name in the output selector
+#: common/panel-utils.c:425
+#, c-format
+msgid "Monitor %d"
+msgstr "Bildschirm %d"
+
+#: libxfce4panel/xfce-panel-plugin.c:1109
+#: panel/panel-preferences-dialog.c:1499
+msgid "Remove"
+msgstr "Entfernen"
+
+#: libxfce4panel/xfce-panel-plugin.c:1110
+msgid ""
+"Removing the item from the panel also means its configuration will be lost."
+msgstr "Wenn Sie das Element aus der Leiste entfernen, geht auch seine Konfiguration verloren."
+
+#: libxfce4panel/xfce-panel-plugin.c:1114
+#: panel/panel-preferences-dialog.c:1506
+#, c-format
+msgid "Are you sure that you want to remove \"%s\"?"
+msgstr "Soll »%s« wirklich entfernt werden?"
+
+#. properties item
+#: libxfce4panel/xfce-panel-plugin.c:1236
+msgid "_Properties"
+msgstr "_Eigenschaften …"
+
+#. about item
+#: libxfce4panel/xfce-panel-plugin.c:1247 panel/panel-window.c:3934
+msgid "_About"
+msgstr "_Über"
+
+#. move item
+#: libxfce4panel/xfce-panel-plugin.c:1258
+msgid "_Move"
+msgstr "_Verschieben"
+
+#. remove
+#: libxfce4panel/xfce-panel-plugin.c:1274 panel/panel-application.c:354
+#: panel/panel-plugin-external.c:420 panel/panel-preferences-dialog.c:1076
+#: plugins/launcher/launcher-dialog.c:935
+msgid "_Remove"
+msgstr "_Entfernen"
+
+#: libxfce4panel/xfce-panel-plugin.c:1292
+msgid "Pane_l"
+msgstr "_Leiste"
+
+#. add new items
+#: libxfce4panel/xfce-panel-plugin.c:1300 panel/panel-window.c:3871
+msgid "Add _New Items..."
+msgstr "_Neue Elemente hinzufügen …"
+
+#. customize panel
+#: libxfce4panel/xfce-panel-plugin.c:1311 panel/panel-window.c:3882
+msgid "Panel Pr_eferences..."
+msgstr "_Leisteneinstellungen …"
+
+#. logout item
+#: libxfce4panel/xfce-panel-plugin.c:1328 panel/panel-window.c:3909
+msgid "Log _Out"
+msgstr "_Abmelden"
+
+#. about item
+#: libxfce4panel/xfce-panel-plugin.c:1355
+msgid "About"
+msgstr "Über"
+
+#: panel/main.c:66
+msgid "Show the 'Panel Preferences' dialog"
+msgstr "Dialog »Leiste einrichten« anzeigen"
+
+#: panel/main.c:66 panel/main.c:67
+msgid "PANEL-NUMBER"
+msgstr "LEISTENNUMMER"
+
+#: panel/main.c:67
+msgid "Show the 'Add New Items' dialog"
+msgstr "Dialog »Neue Objekte hinzufügen« anzeigen"
+
+#: panel/main.c:68
+msgid "Save the panel configuration"
+msgstr "Leisteneinstellungen speichern"
+
+#: panel/main.c:69
+msgid "Add a new plugin to the panel"
+msgstr "Neue Erweiterung zur Leiste hinzufügen"
+
+#: panel/main.c:69
+msgid "PLUGIN-NAME"
+msgstr "ERWEITERUNGSNAME"
+
+#: panel/main.c:70
+msgid "Restart the running panel instance"
+msgstr "Laufende Instanz der Leiste neustarten"
+
+#: panel/main.c:71
+msgid "Quit the running panel instance"
+msgstr "Laufende Instanz der Leiste beenden"
+
+#: panel/main.c:72
+msgid "Do not wait for a window manager on startup"
+msgstr "Beim Starten nicht auf eine Fensterverwaltung warten"
+
+#: panel/main.c:73 plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:33
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:33
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:33
+msgid "Print version information and exit"
+msgstr "Versionsinformationen ausgeben und beenden"
+
+#. parse context options
+#: panel/main.c:258
+msgid "[ARGUMENTS...]"
+msgstr "[ARGUMENTE …]"
+
+#: panel/main.c:268
+#, c-format
+msgid "Type \"%s --help\" for usage."
+msgstr "»%s --help« für Informationen zur Benutzung eingeben."
+
+#: panel/main.c:285
+msgid "The Xfce development team. All rights reserved."
+msgstr "Die Xfce-Entwicklungsmannschaft. Alle Rechte vorbehalten."
+
+#: panel/main.c:286
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Fehler bitte an <%s> melden."
+
+#. quit without error if an instance is running
+#: panel/main.c:394
+msgid "There is already a running instance"
+msgstr "Es ist bereits eine laufende Instanz vorhanden"
+
+#. spawn ourselfs again
+#: panel/main.c:405
+msgid "Restarting..."
+msgstr "Neustart …"
+
+#: panel/main.c:422
+msgid "Failed to show the preferences dialog"
+msgstr "Einstellungsdialog konnte nicht angezeigt werden"
+
+#: panel/main.c:424
+msgid "Failed to show the add new items dialog"
+msgstr "»Neue Elemente hinzufügen«-Dialog konnte nicht angezeigt werden"
+
+#: panel/main.c:426
+msgid "Failed to save the panel configuration"
+msgstr "Leisteneinstellungen konnten nicht gespeichert werden"
+
+#: panel/main.c:428
+msgid "Failed to add a plugin to the panel"
+msgstr "Erweiterung konnte nicht zur Leiste hinzugefügt werden"
+
+#: panel/main.c:430
+msgid "Failed to restart the panel"
+msgstr "Leiste konnte nicht neu gestartet werden"
+
+#: panel/main.c:432
+msgid "Failed to quit the panel"
+msgstr "Leiste konnte nicht beendet werden"
+
+#: panel/main.c:434
+msgid "Failed to send D-Bus message"
+msgstr "D-Bus-Nachricht konnte nicht gesendet werden"
+
+#: panel/main.c:442 panel/main.c:462
+#, c-format
+msgid "No running instance of %s was found"
+msgstr "Keine laufende Instanz von %s gefunden"
+
+#: panel/main.c:443
+msgid ""
+"Do you want to start the panel? If you do, make sure you save the session on"
+" logout, so the panel is automatically started the next time you login."
+msgstr "Möchten Sie die Leiste starten? Ist das der Fall, so stellen Sie bitte sicher, dass Sie die Sitzung beim Abmelden speichern, damit die Leiste beim nächsten Mal automatisch geladen wird."
+
+#: panel/main.c:448
+msgid "Execute"
+msgstr "Ausführen"
+
+#: panel/panel-application.c:210
+msgid "Failed to launch the migration application"
+msgstr "Anwendung zum Migrieren der Leisteneinstellungen konnte nicht gestartet werden"
+
+#: panel/panel-application.c:344
+#, c-format
+msgid ""
+"Plugin \"%s\" could not be loaded, do you want to remove it from xfce4-panel"
+" configuration?"
+msgstr "Die Erweiterung \"%s\" konnte nicht geladen werden, möchten Sie es aus der xfce4-panel Konfiguration entfernen?"
+
+#: panel/panel-application.c:346
+#, c-format
+msgid ""
+"This plugin is in the current xfce4-panel configuration but could not be "
+"loaded, probably due to an installation issue. If you know what you're "
+"doing, you can remove it permanently, otherwise you'd better quit and make a"
+" backup of the current configuration using %s, before checking your "
+"installation and trying to start xfce4-panel again."
+msgstr "Diese Erweiterung ist in der aktuellen xfce4-Panel-Konfiguration enthalten, konnte aber nicht geladen werden, wahrscheinlich aufgrund eines Installationsproblems. Wenn Sie wissen, was Sie tun, können Sie es dauerhaft entfernen. Andernfalls sollten Sie das Programm beenden und eine Sicherungskopie der aktuellen Konfiguration mit %s erstellen, bevor Sie Ihre Installation überprüfen und versuchen, xfce4-panel erneut zu starten."
+
+#: panel/panel-application.c:353
+msgid "Plugin loading failure"
+msgstr "Laden der Erweiterung fehlgeschlagen"
+
+#: panel/panel-application.c:354
+msgid "_Quit"
+msgstr "_Beenden"
+
+#: panel/panel-application.c:1034
+msgid ""
+"This will create a new launcher plugin on the panel and inserts the dropped "
+"files as menu items."
+msgstr "Das erzeugt eine neue Programmstartererweiterung auf der Leiste und fügt die abgelegten Dateien als Menüpunkte hinzu."
+
+#: panel/panel-application.c:1037
+msgid "Create _Launcher"
+msgstr "Programmstarter an_legen"
+
+#: panel/panel-application.c:1038
+#, c-format
+msgid "Create new launcher from %d desktop file"
+msgid_plural "Create new launcher from %d desktop files"
+msgstr[0] "Neuen Programmstarter aus %d Schreibtischdatei erstellen"
+msgstr[1] "Neuen Programmstarter aus %d Schreibtischdateien erstellen"
+
+#: panel/panel-application.c:1805
+msgid ""
+"You have started X without session manager. Clicking Quit will close the X "
+"server."
+msgstr "Sie haben X ohne Sitzungsverwaltung gestartet. Wenn Sie jetzt »Beenden« klicken, beendet das den X-Server."
+
+#: panel/panel-application.c:1808
+msgid "Quit"
+msgstr "Beenden"
+
+#: panel/panel-application.c:1808
+msgid "Are you sure you want to quit the panel?"
+msgstr "Soll die Leiste wirklich beendet werden?"
+
+#: panel/panel-application.c:1816
+#, c-format
+msgid "Failed to execute command \"%s\""
+msgstr "Befehl »%s« konnte nicht ausgeführt werden"
+
+#: panel/panel-dbus-client.c:209
+msgid ""
+"Invalid plugin event syntax specified. Use PLUGIN-NAME:NAME[:TYPE:VALUE]."
+msgstr "Ungültige Syntax für Erweiterungsereignis angegeben. Bitte ERWEITERUNGSNAME:NAME[:TYP:WERT] verwenden."
+
+#: panel/panel-dbus-client.c:239
+#, c-format
+msgid ""
+"Invalid hint type \"%s\". Valid types are bool, double, int, string and "
+"uint."
+msgstr "Nicht gültiger Hinweistyp »%s«. Erlaubte Typen sind »bool«, »double«, »int«, »string« und »uint«."
+
+#: panel/panel-dialogs.c:53
+msgid "Unable to open the e-mail address"
+msgstr "Die E-Mail-Adresse kann nicht geöffnet werden"
+
+#: panel/panel-dialogs.c:79
+msgid "The panel of the Xfce Desktop Environment"
+msgstr "Die Leiste der Xfce-Arbeitsumgebung"
+
+#: panel/panel-dialogs.c:83
+msgid "translator-credits"
+msgstr "Moritz Heiber\nFabian Nowak\nEnrico Tröger\nSimon Schneider\nPaul Seyfert\nTobias Bannert"
+
+#: panel/panel-dialogs.c:157
+msgid "Add New Item"
+msgstr "Neues Element hinzufügen"
+
+#: panel/panel-dialogs.c:157 plugins/actions/actions.c:864
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+#: plugins/directorymenu/directorymenu.c:932
+msgid "_Cancel"
+msgstr "_Abbrechen"
+
+#: panel/panel-dialogs.c:168
+msgid "Please choose a panel for the new plugin:"
+msgstr "Bitte eine Leiste für das neue Element auswählen:"
+
+#: panel/panel-dialogs.c:188 panel/panel-preferences-dialog.c:1023
+#, c-format
+msgid "Panel %d"
+msgstr "Leiste %d"
+
+#: panel/panel-dialogs.c:227
+msgid ""
+"Because the panel is running in kiosk mode, you are not allowed to make "
+"changes to the panel configuration as a regular user"
+msgstr "Da sich die Leiste im »Kiosk«-Modus befindet, sind Änderungen an der Leisteneinstellung als normaler Benutzer nicht erlaubt."
+
+#: panel/panel-dialogs.c:229
+msgid "Modifying the panel is not allowed"
+msgstr "Verändern der Leiste ist nicht erlaubt"
+
+#: panel/panel-item-dialog.c:229
+msgid "Enter search phrase here"
+msgstr "Suchbegriff hier eingeben"
+
+#: panel/panel-item-dialog.c:618
+#, c-format
+msgid "Internal name: %s"
+msgstr "Interner Name: %s"
+
+#: panel/panel-plugin-external.c:413
+#, c-format
+msgid "Plugin \"%s\" unexpectedly left the panel, do you want to restart it?"
+msgstr "Element »%s« hat die Leiste unerwartet verlassen. Soll es neu gestartet werden?"
+
+#: panel/panel-plugin-external.c:414
+#, c-format
+msgid ""
+"The plugin restarted more than once in the last %d seconds. If you press "
+"Execute the panel will try to restart the plugin otherwise it will be "
+"permanently removed from the panel."
+msgstr "Das Element wurde in den letzten %d Sekunden mehr als einmal neu gestartet. Durch Drücken von »Ausführen« wird das Element noch einmal neu gestartet. Andernfalls wird es endgültig von der Leiste entfernt."
+
+#: panel/panel-plugin-external.c:419
+msgid "Plugin Restart"
+msgstr "Erweiterung neu starten"
+
+#: panel/panel-plugin-external.c:420
+msgid "_Execute"
+msgstr "_Ausführen"
+
+#: panel/panel-preferences-dialog.c:342
+msgctxt "plugin context menu"
+msgid "_About"
+msgstr "_Über"
+
+#: panel/panel-preferences-dialog.c:346
+msgid "Show about information of the currently selected item"
+msgstr "Informationen zum ausgewähltes Objekt anzeigen"
+
+#: panel/panel-preferences-dialog.c:580
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: panel/panel-preferences-dialog.c:589
+msgid "Primary"
+msgstr "Haupt"
+
+#: panel/panel-preferences-dialog.c:1075
+msgid "The panel and plugin configurations will be permanently removed"
+msgstr "Die Einstellungen der Leiste und der Erweiterungen werden dauerhaft entfernt."
+
+#: panel/panel-preferences-dialog.c:1084
+#, c-format
+msgid "Are you sure you want to remove panel %d?"
+msgstr "Soll die Leiste %d wirklich entfernt werden?"
+
+#. I18N: append (external) in the preferences dialog if the plugin
+#. * runs external
+#: panel/panel-preferences-dialog.c:1376
+#, c-format
+msgid "%s <span color=\"grey\" size=\"small\">(external)</span>"
+msgstr "%s <span color=\"grey\" size=\"small\">(extern)</span>"
+
+#. I18N: tooltip in preferences dialog when hovering an item in the list
+#. * for external plugins
+#: panel/panel-preferences-dialog.c:1381
+#, c-format
+msgid ""
+"Internal name: %s-%d\n"
+"PID: %d"
+msgstr "Interner Name: %s-%d\nProzesskennung: %d"
+
+#. I18N: tooltip in preferences dialog when hovering an item in the list
+#. * for internal plugins
+#: panel/panel-preferences-dialog.c:1393
+#, c-format
+msgid "Internal name: %s-%d"
+msgstr "Interner Name: %s-%d"
+
+#: panel/panel-preferences-dialog.c:1508
+msgid "If you remove the item from the panel, it is permanently lost."
+msgstr "Wenn Sie dieses Element von der Leiste entfernen, ist es dauerhaft verloren."
+
+#: panel/panel-preferences-dialog.c:1512
+#: plugins/launcher/launcher-dialog.c:930
+#, c-format
+msgid "Are you sure that you want to remove these %d items?"
+msgstr "Sind Sie sicher, dass Sie diese %d Elemente entfernen möchten?"
+
+#: panel/panel-preferences-dialog.c:1514
+msgid "If you remove them from the panel, they are permanently lost."
+msgstr "Wenn Sie sie von der Leiste entfernen, gehen sie endgültig verloren."
+
+#: panel/panel-tic-tac-toe.c:108
+msgid "_New Game"
+msgstr "_Neues Spiel"
+
+#: panel/panel-tic-tac-toe.c:119
+msgid "_Level:"
+msgstr "_Ebene:"
+
+#: panel/panel-tic-tac-toe.c:125
+msgid "Novice"
+msgstr "Anfänger"
+
+#: panel/panel-tic-tac-toe.c:126
+msgid "Intermediate"
+msgstr "Erfahren"
+
+#: panel/panel-tic-tac-toe.c:127
+msgid "Experienced"
+msgstr "Profi"
+
+#: panel/panel-tic-tac-toe.c:128
+msgid "Expert"
+msgstr "Experte"
+
+#: panel/panel-window.c:3896
+msgid "_Lock Panel"
+msgstr "_Leiste sperren"
+
+#: migrate/main.c:94
+msgid "Failed to load the default configuration"
+msgstr "Standardeinstellungen konnten nicht geladen werden"
+
+#: migrate/main.c:106
+msgid "Panel config needs migration..."
+msgstr "Die Leisteneinstellungen müssen migriert werden …"
+
+#: migrate/main.c:110
+msgid "Failed to migrate the existing configuration"
+msgstr "Fehler bei der Migration der vorhandenen Einstellungen"
+
+#: migrate/main.c:116
+msgid "Panel configuration has been updated."
+msgstr "Leisteneinstellungen wurden aktualisiert."
+
+#: plugins/actions/actions.c:163
+msgid "Log Out"
+msgstr "Abmelden"
+
+#: plugins/actions/actions.c:164
+msgid "_Log Out"
+msgstr "_Abmelden"
+
+#: plugins/actions/actions.c:165
+msgid "Are you sure you want to log out?"
+msgstr "Wollen Sie sich wirklich abmelden?"
+
+#: plugins/actions/actions.c:166
+#, c-format
+msgid "Logging out in %d seconds."
+msgstr "Sie werden in %d Sekunden abgemeldet."
+
+#: plugins/actions/actions.c:171
+msgid "Log Out..."
+msgstr "Abmelden …"
+
+#: plugins/actions/actions.c:172
+msgid "Log _Out..."
+msgstr "_Abmelden …"
+
+#: plugins/actions/actions.c:178
+msgid "Switch User"
+msgstr "Benutzer wechseln"
+
+#: plugins/actions/actions.c:179
+msgid "_Switch User"
+msgstr "_Benutzer wechseln"
+
+#: plugins/actions/actions.c:185
+msgid "Lock Screen"
+msgstr "Bildschirm sperren"
+
+#: plugins/actions/actions.c:186
+msgid "Loc_k Screen"
+msgstr "Bildschirm _sperren"
+
+#: plugins/actions/actions.c:192
+msgid "Hibernate"
+msgstr "Ruhezustand"
+
+#: plugins/actions/actions.c:193
+msgid "_Hibernate"
+msgstr "_Ruhezustand"
+
+#: plugins/actions/actions.c:194
+msgid "Do you want to suspend to disk?"
+msgstr "In Bereitschaft versetzen?"
+
+#: plugins/actions/actions.c:195
+#, c-format
+msgid "Hibernating computer in %d seconds."
+msgstr "Rechner wird in %d Sekunden in den Ruhezustand versetzt."
+
+#: plugins/actions/actions.c:200
+msgid "Hybrid Sleep"
+msgstr "Ruhezustand"
+
+#: plugins/actions/actions.c:201
+msgid "_Hybrid Sleep"
+msgstr "_Ruhezustand"
+
+#: plugins/actions/actions.c:202
+msgid "Do you want to hibernate and suspend the system?"
+msgstr "Möchten Sie das System in den Ruhezustand und Bereitschaft versetzen?"
+
+#: plugins/actions/actions.c:203
+#, c-format
+msgid "Hibernating and Suspending computer in %d seconds."
+msgstr "Das System wird in den Ruhezustand und Bereitschaft in %d Sekunden versetzt."
+
+#: plugins/actions/actions.c:208
+msgid "Suspend"
+msgstr "Bereitschaft"
+
+#: plugins/actions/actions.c:209
+msgid "Sus_pend"
+msgstr "Bereit_schaft"
+
+#: plugins/actions/actions.c:210
+msgid "Do you want to suspend to RAM?"
+msgstr "In den Bereitschaftsmodus versetzen?"
+
+#: plugins/actions/actions.c:211
+#, c-format
+msgid "Suspending computer in %d seconds."
+msgstr "Der Rechner wird in %d Sekunden in Bereitschaft versetzt."
+
+#: plugins/actions/actions.c:216
+msgid "Restart"
+msgstr "Neustarten"
+
+#: plugins/actions/actions.c:217
+msgid "_Restart"
+msgstr "Neustarten"
+
+#: plugins/actions/actions.c:218
+msgid "Are you sure you want to restart?"
+msgstr "Wollen Sie wirklich neustarten?"
+
+#: plugins/actions/actions.c:219
+#, c-format
+msgid "Restarting computer in %d seconds."
+msgstr "Rechner wird in %d Sekunden neu gestartet."
+
+#: plugins/actions/actions.c:224
+msgid "Shut Down"
+msgstr "Herunterfahren"
+
+#: plugins/actions/actions.c:225
+msgid "Shut _Down"
+msgstr "_Herunterfahren"
+
+#: plugins/actions/actions.c:226
+msgid "Are you sure you want to shut down?"
+msgstr "Wollen Sie den Rechner wirklich herunterfahren?"
+
+#: plugins/actions/actions.c:227
+#, c-format
+msgid "Turning off computer in %d seconds."
+msgstr "Rechner wird in %d Sekunden heruntergefahren"
+
+#: plugins/actions/actions.c:1160
+#, c-format
+msgid "Failed to run action \"%s\""
+msgstr "Aktion »%s« konnte nicht ausgeführt werden."
+
+#: plugins/actions/actions.c:1364
+msgid "Little Mouse"
+msgstr "Kleine Maus"
+
+#: plugins/actions/actions.desktop.in.in:5
+msgid "Log out, lock or other system actions"
+msgstr "Abmelden, sperren oder andere Systemaktionen"
+
+#. I18N: default tooltip of the application menu
+#: plugins/applicationsmenu/applicationsmenu.c:32
+msgid "Applications"
+msgstr "Anwendungen"
+
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+msgid "Select An Icon"
+msgstr "Symbol auswählen"
+
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+msgid "_OK"
+msgstr "_OK"
+
+#. show an error dialog
+#: plugins/applicationsmenu/applicationsmenu.c:638 plugins/clock/clock.c:1083
+#: plugins/launcher/launcher.c:2499
+#, c-format
+msgid "Failed to execute command \"%s\"."
+msgstr "Befehl »%s« konnte nicht ausgeführt werden."
+
+#: plugins/applicationsmenu/applicationsmenu.desktop.in.in:5
+msgid "Show a menu containing categories of installed applications"
+msgstr "Menü mit Kategorien der installierten Anwendungen anzeigen"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:27
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:27
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:27
+msgid "Usage:"
+msgstr "Verwendung:"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:28
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:28
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:28
+msgid "OPTION"
+msgstr "OPTION"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:30
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:30
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:30
+msgid "Options:"
+msgstr "Optionen:"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:31
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:31
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:31
+msgid "Popup menu at current mouse position"
+msgstr "Menü an aktueller Position des Mauszeigers öffnen"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:32
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:32
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:32
+msgid "Show help options"
+msgstr "Hilfeoptionen anzeigen"
+
+#. TRANSLATORS: adjust this accordingly for your locale format
+#: plugins/clock/clock.c:42
+msgctxt "Date"
+msgid "%A %d %B %Y"
+msgstr "%A, %e. %B %Y"
+
+#: plugins/clock/clock.c:180
+msgid "Week %V"
+msgstr "Woche %V"
+
+#: plugins/clock/clock.c:326
+msgid "Time _settings"
+msgstr "Zeitein_stellungen"
+
+#: plugins/clock/clock.c:513
+msgid "Failed to execute clock command"
+msgstr "Ausführen des Uhrzeitbefehls fehlgeschlagen"
+
+#: plugins/clock/clock.c:1011
+msgid "Custom Format"
+msgstr "Benutzerdefiniertes Format"
+
+#: plugins/clock/clock.c:1062
+msgid "Configuration tool not found, please set it in the settings dialog"
+msgstr "Konfigurationstool nicht gefunden, bitte im Einstellungsdialog einstellen"
+
+#: plugins/clock/clock-digital.h:30
+msgctxt "Time"
+msgid "%R"
+msgstr "%R"
+
+#: plugins/clock/clock-digital.h:31
+msgctxt "Date"
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: plugins/clock/clock-fuzzy.c:75
+msgid "Night"
+msgstr "Nacht"
+
+#: plugins/clock/clock-fuzzy.c:76
+msgid "Early morning"
+msgstr "Früher Morgen"
+
+#: plugins/clock/clock-fuzzy.c:77
+msgid "Morning"
+msgstr "Morgen"
+
+#: plugins/clock/clock-fuzzy.c:78
+msgid "Almost noon"
+msgstr "Kurz vor Mittag"
+
+#: plugins/clock/clock-fuzzy.c:79
+msgid "Noon"
+msgstr "Mittag"
+
+#: plugins/clock/clock-fuzzy.c:80
+msgid "Afternoon"
+msgstr "Nachmittag"
+
+#: plugins/clock/clock-fuzzy.c:81
+msgid "Evening"
+msgstr "Abend"
+
+#: plugins/clock/clock-fuzzy.c:82
+msgid "Late evening"
+msgstr "Später Abend"
+
+#. I18N: %0 will be replaced with the preceding hour, %1 with
+#. * the comming hour
+#: plugins/clock/clock-fuzzy.c:88
+#, no-c-format
+msgid "%0 o'clock"
+msgstr "%0 Uhr"
+
+#: plugins/clock/clock-fuzzy.c:89
+#, no-c-format
+msgid "five past %0"
+msgstr "Fünf nach %0"
+
+#: plugins/clock/clock-fuzzy.c:90
+#, no-c-format
+msgid "ten past %0"
+msgstr "Zehn nach %0"
+
+#: plugins/clock/clock-fuzzy.c:91
+#, no-c-format
+msgid "quarter past %0"
+msgstr "Viertel nach %0"
+
+#: plugins/clock/clock-fuzzy.c:92
+#, no-c-format
+msgid "twenty past %0"
+msgstr "Zwanzig nach %0"
+
+#: plugins/clock/clock-fuzzy.c:93
+#, no-c-format
+msgid "twenty five past %0"
+msgstr "Fünf vor halb %1"
+
+#: plugins/clock/clock-fuzzy.c:94
+#, no-c-format
+msgid "half past %0"
+msgstr "Halb %1"
+
+#: plugins/clock/clock-fuzzy.c:95
+#, no-c-format
+msgid "twenty five to %1"
+msgstr "Fünf nach halb %1"
+
+#: plugins/clock/clock-fuzzy.c:96
+#, no-c-format
+msgid "twenty to %1"
+msgstr "Zwanzig vor %1"
+
+#: plugins/clock/clock-fuzzy.c:97
+#, no-c-format
+msgid "quarter to %1"
+msgstr "Viertel vor %1"
+
+#: plugins/clock/clock-fuzzy.c:98
+#, no-c-format
+msgid "ten to %1"
+msgstr "Zehn vor %1"
+
+#: plugins/clock/clock-fuzzy.c:99
+#, no-c-format
+msgid "five to %1"
+msgstr "Fünf vor %1"
+
+#: plugins/clock/clock-fuzzy.c:100
+#, no-c-format
+msgid "%1 o'clock"
+msgstr "%1 Uhr"
+
+#. I18N: some languages have a singular form for the first hour,
+#. * other languages should just use the same strings as above
+#: plugins/clock/clock-fuzzy.c:106
+#, no-c-format
+msgctxt "one"
+msgid "%0 o'clock"
+msgstr "%0 Uhr"
+
+#: plugins/clock/clock-fuzzy.c:107
+#, no-c-format
+msgctxt "one"
+msgid "five past %0"
+msgstr "Fünf nach %0"
+
+#: plugins/clock/clock-fuzzy.c:108
+#, no-c-format
+msgctxt "one"
+msgid "ten past %0"
+msgstr "Zehn nach %0"
+
+#: plugins/clock/clock-fuzzy.c:109
+#, no-c-format
+msgctxt "one"
+msgid "quarter past %0"
+msgstr "Viertel nach %0"
+
+#: plugins/clock/clock-fuzzy.c:110
+#, no-c-format
+msgctxt "one"
+msgid "twenty past %0"
+msgstr "Zwanzig nach %0"
+
+#: plugins/clock/clock-fuzzy.c:111
+#, no-c-format
+msgctxt "one"
+msgid "twenty five past %0"
+msgstr "Fünf vor halb %1"
+
+#: plugins/clock/clock-fuzzy.c:112
+#, no-c-format
+msgctxt "one"
+msgid "half past %0"
+msgstr "Halb %1"
+
+#: plugins/clock/clock-fuzzy.c:113
+#, no-c-format
+msgctxt "one"
+msgid "twenty five to %1"
+msgstr "Fünf nach halb %1"
+
+#: plugins/clock/clock-fuzzy.c:114
+#, no-c-format
+msgctxt "one"
+msgid "twenty to %1"
+msgstr "Zwanzig vor %1"
+
+#: plugins/clock/clock-fuzzy.c:115
+#, no-c-format
+msgctxt "one"
+msgid "quarter to %1"
+msgstr "Viertel vor %1"
+
+#: plugins/clock/clock-fuzzy.c:116
+#, no-c-format
+msgctxt "one"
+msgid "ten to %1"
+msgstr "Zehn vor %1"
+
+#: plugins/clock/clock-fuzzy.c:117
+#, no-c-format
+msgctxt "one"
+msgid "five to %1"
+msgstr "Fünf vor %1"
+
+#: plugins/clock/clock-fuzzy.c:118
+#, no-c-format
+msgctxt "one"
+msgid "%1 o'clock"
+msgstr "%1 Uhr"
+
+#: plugins/clock/clock-fuzzy.c:122
+msgctxt "am"
+msgid "one"
+msgstr "eins"
+
+#: plugins/clock/clock-fuzzy.c:123
+msgctxt "am"
+msgid "two"
+msgstr "zwei"
+
+#: plugins/clock/clock-fuzzy.c:124
+msgctxt "am"
+msgid "three"
+msgstr "drei"
+
+#: plugins/clock/clock-fuzzy.c:125
+msgctxt "am"
+msgid "four"
+msgstr "vier"
+
+#: plugins/clock/clock-fuzzy.c:126
+msgctxt "am"
+msgid "five"
+msgstr "fünf"
+
+#: plugins/clock/clock-fuzzy.c:127
+msgctxt "am"
+msgid "six"
+msgstr "sechs"
+
+#: plugins/clock/clock-fuzzy.c:128
+msgctxt "am"
+msgid "seven"
+msgstr "sieben"
+
+#: plugins/clock/clock-fuzzy.c:129
+msgctxt "am"
+msgid "eight"
+msgstr "acht"
+
+#: plugins/clock/clock-fuzzy.c:130
+msgctxt "am"
+msgid "nine"
+msgstr "neun"
+
+#: plugins/clock/clock-fuzzy.c:131
+msgctxt "am"
+msgid "ten"
+msgstr "zehn"
+
+#: plugins/clock/clock-fuzzy.c:132
+msgctxt "am"
+msgid "eleven"
+msgstr "elf"
+
+#. I18N: 12 AM is midnight
+#: plugins/clock/clock-fuzzy.c:134
+msgctxt "am"
+msgid "twelve"
+msgstr "zwölf"
+
+#: plugins/clock/clock-fuzzy.c:138
+msgctxt "pm"
+msgid "one"
+msgstr "eins"
+
+#: plugins/clock/clock-fuzzy.c:139
+msgctxt "pm"
+msgid "two"
+msgstr "zwei"
+
+#: plugins/clock/clock-fuzzy.c:140
+msgctxt "pm"
+msgid "three"
+msgstr "drei"
+
+#: plugins/clock/clock-fuzzy.c:141
+msgctxt "pm"
+msgid "four"
+msgstr "vier"
+
+#: plugins/clock/clock-fuzzy.c:142
+msgctxt "pm"
+msgid "five"
+msgstr "fünf"
+
+#: plugins/clock/clock-fuzzy.c:143
+msgctxt "pm"
+msgid "six"
+msgstr "sechs"
+
+#: plugins/clock/clock-fuzzy.c:144
+msgctxt "pm"
+msgid "seven"
+msgstr "sieben"
+
+#: plugins/clock/clock-fuzzy.c:145
+msgctxt "pm"
+msgid "eight"
+msgstr "acht"
+
+#: plugins/clock/clock-fuzzy.c:146
+msgctxt "pm"
+msgid "nine"
+msgstr "neun"
+
+#: plugins/clock/clock-fuzzy.c:147
+msgctxt "pm"
+msgid "ten"
+msgstr "zehn"
+
+#: plugins/clock/clock-fuzzy.c:148
+msgctxt "pm"
+msgid "eleven"
+msgstr "elf"
+
+#. I18N: 12 PM is noon
+#: plugins/clock/clock-fuzzy.c:150
+msgctxt "pm"
+msgid "twelve"
+msgstr "zwölf"
+
+#: plugins/clock/clock.desktop.in.in:5
+msgid "What time is it?"
+msgstr "Wieviel Uhr ist es?"
+
+#: plugins/directorymenu/directorymenu.c:690
+#, c-format
+msgid "Failed to launch application \"%s\""
+msgstr "Anwendung »%s« konnte nicht gestartet werden"
+
+#: plugins/directorymenu/directorymenu.c:721
+#, c-format
+msgid "Failed to query content type for \"%s\""
+msgstr "Inhaltstyp für »%s« konnte nicht erfragen werden"
+
+#: plugins/directorymenu/directorymenu.c:730
+#, c-format
+msgid "No default application found for \"%s\""
+msgstr "Keine Standardanwendung für »%s« gefunden"
+
+#: plugins/directorymenu/directorymenu.c:746
+#, c-format
+msgid "Failed to launch default application for \"%s\""
+msgstr "Vorgabeanwendung für »%s« konnte nicht gestartet werden"
+
+#: plugins/directorymenu/directorymenu.c:840
+#, c-format
+msgid "Failed to execute the preferred application for category \"%s\""
+msgstr "Bevorzugte Anwendung der Kategorie »%s« konnte nicht gestartet werden"
+
+#: plugins/directorymenu/directorymenu.c:921
+msgid "Create New Folder"
+msgstr "Neuen Ordner erstellen"
+
+#: plugins/directorymenu/directorymenu.c:926
+msgid "Create New Text Document"
+msgstr "Neues Textdokument erstellen"
+
+#: plugins/directorymenu/directorymenu.c:932
+msgid "C_reate"
+msgstr "_Erstellen"
+
+#: plugins/directorymenu/directorymenu.c:932
+msgid "Create & _Open"
+msgstr "Erstellen & Ö_ffnen"
+
+#: plugins/directorymenu/directorymenu.c:945
+msgid "Enter the new name:"
+msgstr "Neuen Namen eingeben:"
+
+#: plugins/directorymenu/directorymenu.c:981
+#, c-format
+msgid "Failed to create folder: %s"
+msgstr "Ordner konnte nicht erstellt werden: %s"
+
+#: plugins/directorymenu/directorymenu.c:1063
+msgid "Open Folder"
+msgstr "Ordner öffnen"
+
+#: plugins/directorymenu/directorymenu.c:1077
+msgid "Open in Terminal"
+msgstr "In Terminal öffnen"
+
+#: plugins/directorymenu/directorymenu.c:1091
+msgid "Create Folder..."
+msgstr "Ordner erstellen..."
+
+#: plugins/directorymenu/directorymenu.c:1105
+msgid "Create Text Document..."
+msgstr "Textdokument erstellen..."
+
+#: plugins/directorymenu/directorymenu.desktop.in.in:5
+msgid "Show a directory tree in a menu"
+msgstr "Verzeichnisbaum im Menü anzeigen"
+
+#: plugins/launcher/launcher.c:428
+msgid "Open launcher menu"
+msgstr "Programmstartermenü öffnen"
+
+#: plugins/launcher/launcher.c:1614
+msgid "Unnamed Item"
+msgstr "Unbenanntes Objekt"
+
+#: plugins/launcher/launcher.c:1816
+msgid "No items"
+msgstr "Keine Objekte"
+
+#: plugins/launcher/launcher-dialog.c:611
+msgid "Failed to open desktop item editor"
+msgstr "Fehler beim Öffnen des Einstellungsfensters für Schreibtischelemente"
+
+#: plugins/launcher/launcher-dialog.c:922
+msgid "Unnamed item"
+msgstr "Unbenanntes Objekt"
+
+#: plugins/launcher/launcher-dialog.c:923
+#, c-format
+msgid "Are you sure you want to remove \"%s\"?"
+msgstr "Soll »%s« wirklich entfernt werden?"
+
+#: plugins/launcher/launcher-dialog.c:936
+msgid "If you delete an item, it will be permanently removed"
+msgstr "Durch Löschen eines Objektes wird dieses dauerhaft entfernt"
+
+#: plugins/launcher/launcher-dialog.c:1033
+#: plugins/launcher/launcher-dialog.c:1034
+msgid "Add a new empty item"
+msgstr "Neues Objekt hinzufügen"
+
+#: plugins/launcher/launcher-dialog.c:1047
+#: plugins/launcher/launcher-dialog.c:1048
+msgid "Add a new hyperlink"
+msgstr "Neuen Hyperlink hinzufügen"
+
+#: plugins/launcher/launcher.desktop.in.in:5
+msgid "Program launcher with optional menu"
+msgstr "Programmstarter mit optionalem Menü"
+
+#: plugins/pager/pager.c:806
+msgid "Unable to open the workspace settings"
+msgstr "Arbeitsflächeneinstellungen konnten nicht geöffnet werden"
+
+#: plugins/pager/pager-buttons.c:646 plugins/windowmenu/windowmenu.c:1007
+#, c-format
+msgid "Workspace %d"
+msgstr "Arbeitsfläche %d"
+
+#: plugins/pager/pager.desktop.in.in:5
+msgid "Switch between virtual desktops"
+msgstr "Zwischen virtuellen Arbeitsflächen umschalten"
+
+#: plugins/separator/separator.desktop.in.in:5
+msgid "Adds a separator or space between panel items"
+msgstr "Fügt ein Trennelement oder Platz zwischen Leistenelementen ein"
+
+#: plugins/showdesktop/showdesktop.c:322
+msgid "Restore the minimized windows"
+msgstr "Versteckte Fenster wiederherstellen"
+
+#: plugins/showdesktop/showdesktop.c:324
+msgid "Minimize all open windows and show the desktop"
+msgstr "Geöffnete Fenster verstecken und Schreibtisch anzeigen"
+
+#: plugins/showdesktop/showdesktop.desktop.in.in:5
+msgid "Hide all windows and show the desktop"
+msgstr "Fenster verstecken und Schreibtisch zeigen"
+
+#: plugins/systray/sn-dialog.c:427
+msgid "Clear"
+msgstr "Leeren"
+
+#: plugins/systray/sn-dialog.c:432
+msgid "Are you sure you want to clear the list of known items?"
+msgstr "Sind Sie sicher, dass Sie die Liste der bekannten Elemente löschen wollen?"
+
+#: plugins/systray/systray.c:145
+msgid "Unable to start the notification area"
+msgstr "Benachrichtigungsfläche kann nicht gestartet werden"
+
+#. create fake error and show it
+#: plugins/systray/systray.c:409
+msgid ""
+"Most likely another widget took over the function of a notification area. "
+"This area will be unused."
+msgstr "Wahrscheinlich hat ein anderes Programm die Funktion der Benachrichtigungsfläche übernommen. Diese Fläche wird nicht verwendet."
+
+#: plugins/systray/systray.c:411
+msgid "The notification area lost selection"
+msgstr "Die Benachrichtigungsfläche hat die Auswahl verloren"
+
+#: plugins/systray/systray-manager.c:382
+#, c-format
+msgid "Failed to acquire manager selection for screen %d"
+msgstr "Verwaltungsauswahl für den Bildschirm %d konnte nicht erhalten werden."
+
+#: plugins/systray/systray.desktop.in.in:5
+msgid "Status Tray Plugin"
+msgstr "Status Tray-Plugins"
+
+#: plugins/systray/systray.desktop.in.in:6
+msgid ""
+"Provides status notifier items (application indicators) and legacy systray "
+"items"
+msgstr "Bietet Elemente für Statusbenachrichtiger (Anwendungsindikatoren) und alte Systray-Elemente"
+
+#: plugins/tasklist/tasklist-widget.c:3226
+#, c-format
+msgid "Unable to start new instance of '%s'"
+msgstr "Kann keine neue Instanz von '%s' starten"
+
+#: plugins/tasklist/tasklist-widget.c:3253
+msgid "Launch New Instance"
+msgstr "Starte neue Instanz"
+
+#: plugins/tasklist/tasklist-widget.c:4008
+msgid "Mi_nimize All"
+msgstr "_Alle verkleinern"
+
+#: plugins/tasklist/tasklist-widget.c:4015
+msgid "Un_minimize All"
+msgstr "Alle _wiederherstellen"
+
+#: plugins/tasklist/tasklist-widget.c:4022
+msgid "Ma_ximize All"
+msgstr "_Alle vergrößern"
+
+#: plugins/tasklist/tasklist-widget.c:4029
+msgid "_Unmaximize All"
+msgstr "Alle _wiederherstellen"
+
+#: plugins/tasklist/tasklist-widget.c:4040
+msgid "_Close All"
+msgstr "_Alle schließen"
+
+#: plugins/tasklist/tasklist-widget.c:5051
+msgid "all monitors"
+msgstr "alle Bildschirme"
+
+#: plugins/tasklist/tasklist-widget.c:5060
+msgid "panel's monitor"
+msgstr "Monitor mit der Leiste"
+
+#: plugins/tasklist/tasklist.desktop.in.in:5
+msgid "Switch between open windows using buttons"
+msgstr "Mit Knöpfen zwischen offenen Fenstern umschalten"
+
+#: plugins/windowmenu/windowmenu.c:351
+msgid "Windows"
+msgstr "Fenster"
+
+#: plugins/windowmenu/windowmenu.c:786
+msgid "Desktop"
+msgstr "Schreibtisch"
+
+#: plugins/windowmenu/windowmenu.c:1402
+msgid "No Windows"
+msgstr "Keine Fenster"
+
+#: plugins/windowmenu/windowmenu.c:1417
+msgid "Urgent Windows"
+msgstr "Wichtige Fenster"
+
+#: plugins/windowmenu/windowmenu.c:1468
+msgid "Add Workspace"
+msgstr "Arbeitsfläche hinzufügen"
+
+#: plugins/windowmenu/windowmenu.c:1490
+#, c-format
+msgid "Remove Workspace \"%s\""
+msgstr "Arbeitsfläche »%s« entfernen"
+
+#: plugins/windowmenu/windowmenu.c:1492
+#, c-format
+msgid "Remove Workspace %d"
+msgstr "Arbeitsfläche %d entfernen"
+
+#: plugins/windowmenu/windowmenu.desktop.in.in:5
+msgid "Switch between open windows using a menu"
+msgstr "Mit einem Menü zwischen offenen Fenstern umschalten"

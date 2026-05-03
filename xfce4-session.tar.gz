@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="html-devise-layout gl-system" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Sign in · GitLab</title>
+<script>
+//<![CDATA[
+window.gon={};gon.features={"passkeys":true,"twoStepSignIn":false};
+//]]>
+</script>
+
+<script>
+//<![CDATA[
+const root = document.documentElement;
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  root.classList.add('gl-dark');
+}
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+  if (e.matches) {
+    root.classList.add('gl-dark');
+  } else {
+    root.classList.remove('gl-dark');
+  }
+});
+
+//]]>
+</script>
+
+
+
+
+<meta content="light dark" name="color-scheme">
+<link rel="stylesheet" href="/assets/application-6be94c37406653e47bdb70afcadda996d60407322e4b979fbfdff1d2509411e5.css" media="(prefers-color-scheme: light)" />
+<link rel="stylesheet" href="/assets/application_dark-466217db14149b93ed8e25829673abe5881c76f5e5a8ecb67b9f332268786bd0.css" media="(prefers-color-scheme: dark)" />
+<link rel="stylesheet" href="/assets/page_bundles/login-7240ec00cf3969b710fe5e8959f8ef8eeff66d635ded28839b1b4256ae8d96a3.css" /><link rel="stylesheet" href="/assets/page_bundles/commit_description-9e7efe20f0cef17d0606edabfad0418e9eb224aaeaa2dae32c817060fa60abcc.css" /><link rel="stylesheet" href="/assets/page_bundles/work_items-af321897c3b1ae7c1f6f0cb993681211b837df7ec8e5ff59e3795fd08ab83a13.css" /><link rel="stylesheet" href="/assets/page_bundles/notes_shared-e58f07f39b2c4557134baf9f32b68c875fffb37fe1c5d8808fb7607d19f5690b.css" />
+<link rel="stylesheet" href="/assets/tailwind_cqs-92f3865c0fca5c3810f03152813a404eb28e77c54b528a543f06b8c9c197778f.css" />
+
+
+<link rel="stylesheet" href="/assets/fonts-deb7ad1d55ca77c0172d8538d53442af63604ff490c74acc2859db295c125bdb.css" />
+<link rel="stylesheet" href="/assets/highlight/themes/white-d436882f650831f756a6394bdaa66486d5ef99218601d4839f4d640558a4f307.css" media="(prefers-color-scheme: light)" />
+<link rel="stylesheet" href="/assets/highlight/themes/dark-9afe7e06099105c59ea8fe5379843ddf5c5dfcb3cc523eed3a9d4147f6ba7c5b.css" media="(prefers-color-scheme: dark)" />
+
+<script src="/assets/webpack/runtime.8028433f.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.67247c71.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/tracker.3bba319e.chunk.js" defer="defer"></script>
+<script>
+//<![CDATA[
+window.snowplowOptions = {"namespace":"gl","hostname":"gitlab.xfce.org:443","postPath":"/-/collect_events","forceSecureTracker":true,"appId":"gitlab_sm"};
+gl = window.gl || {};
+gl.snowplowStandardContext = {"schema":"iglu:com.gitlab/gitlab_standard/jsonschema/1-1-7","data":{"environment":"self-managed","source":"gitlab-rails","correlation_id":"01KQNYN8PZQP4VF0EHBBEPGKX1","extra":{},"user_id":null,"global_user_id":null,"user_type":null,"is_gitlab_team_member":null,"namespace_id":null,"ultimate_parent_namespace_id":null,"project_id":null,"feature_enabled_by_namespace_ids":null,"realm":"self-managed","deployment_type":"self-managed","context_generated_at":"2026-05-03T03:38:36.282Z"}};
+gl.snowplowPseudonymizedPageUrl = "https://gitlab.xfce.org/users/sign_in";
+gl.maskedDefaultReferrerUrl = null;
+gl.ga4MeasurementId = 'G-ENFH3X7M5Y';
+gl.duoEvents = [];
+gl.onlySendDuoEvents = true;
+
+
+//]]>
+</script>
+<link rel="preload" href="/assets/application-6be94c37406653e47bdb70afcadda996d60407322e4b979fbfdff1d2509411e5.css" as="style" type="text/css">
+<link rel="preload" href="/assets/highlight/themes/white-d436882f650831f756a6394bdaa66486d5ef99218601d4839f4d640558a4f307.css" as="style" type="text/css">
+
+
+
+
+<script src="/assets/webpack/commons-pages.search.show-super_sidebar.b3610a2f.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/super_sidebar.19b55e37.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.sessions-pages.ldap.omniauth_callbacks-pages.omniauth_callbacks-pages.sessions-p-ea3be603.636a8028.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.registrations.new-pages.sessions.new.77b1468c.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.sessions.new.f4f99bd9.chunk.js" defer="defer"></script>
+
+
+
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="Sign in · GitLab" property="og:title">
+<meta content="Welcome to Xfce&#39;s Gitlab" property="og:description">
+<meta content="https://gitlab.xfce.org/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.xfce.org/users/sign_in" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="Sign in · GitLab" property="twitter:title">
+<meta content="Welcome to Xfce&#39;s Gitlab" property="twitter:description">
+<meta content="https://gitlab.xfce.org/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="twitter:image">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="7X0F-ltCkmVsY1U79So_jYTH4LcQRt9w6mcroIjk9tafWsM-LSLmOqf0IliaH1mXLpg-ytbSuJBvHV61OyGc7Q" />
+<meta name="csp-nonce" />
+<meta name="action-cable-url" content="/-/cable" />
+<link href="/-/manifest.json" rel="manifest">
+<link rel="icon" type="image/png" href="/uploads/-/system/appearance/favicon/1/xfce_favicon.png" id="favicon" data-original-href="/uploads/-/system/appearance/favicon/1/xfce_favicon.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
+<link href="/search/opensearch.xml" rel="search" title="Search GitLab" type="application/opensearchdescription+xml">
+
+
+
+
+<meta content="Welcome to Xfce&#39;s Gitlab" name="description">
+<meta content="#ECECEF" media="(prefers-color-scheme: light)" name="theme-color">
+<meta content="#232227" media="(prefers-color-scheme: dark)" name="theme-color">
+</head>
+
+<body class="gl-h-full login-page gl-browser-generic gl-platform-other" data-page="sessions:new" data-testid="login-page">
+
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+
+
+<div class="gl-h-full gl-flex gl-flex-wrap">
+<div class="container gl-self-center">
+<main class="content">
+<div class="flash-container flash-container-page sticky" data-testid="flash-container">
+<div id="js-global-alerts"></div>
+</div>
+
+<div class="row gl-mt-5 gl-gap-y-6">
+<div class="col-md order-12">
+<div class="col-sm-12">
+<h1 class="gl-mb-5 gl-text-size-h2 gl-hidden md:gl-block">
+Welcome to Xfce&#39;s Gitlab
+</h1>
+<div class="md" id="js-custom-sign-in-description"><h1 data-sourcepos="1:1-1:24" dir="auto">&#x000A;<a href="#warning-read-this" aria-hidden="true" class="anchor" id="user-content-warning-read-this"></a><gl-emoji title="warning" data-name="warning" data-unicode-version="6.0">⚠️</gl-emoji> Read this!!!</h1>&#x000A;<p data-sourcepos="3:1-3:226" dir="auto">Due to spamming, we have disabled the creation of new accounts. For new users, SSO with GitLab and GitHub accounts is still possible. Please refer to this <a data-sourcepos="3:156-3:204" href="https://wiki.xfce.org/howto/gitlab_signup" rel="nofollow noreferrer noopener" target="_blank">page</a> for more information.</p>&#x000A;<p data-sourcepos="5:1-5:112" dir="auto">If your account was mistakenly blocked, please contact us at <a data-sourcepos="5:62-5:111" href="https://matrix.to/#/#xfce-dev:matrix.org" rel="nofollow noreferrer noopener" target="_blank">Matrix</a>.</p></div>
+</div>
+</div>
+<div class="col-md order-md-12">
+<div class="col-sm-12 bar">
+<div class="gl-text-center gl-mb-5">
+<img alt="Welcome to Xfce&#39;s Gitlab" class="gl-invisible gl-h-10 js-portrait-logo-detection lazy" data-src="/assets/logo-911de323fa0def29aaf817fca33916653fc92f3ff31647ac41d2c39bbe243edb.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<h1 class="gl-mb-3 gl-text-size-h2 md:gl-hidden">
+Welcome to Xfce&#39;s Gitlab
+</h1>
+</div>
+
+<div class="js-non-oauth-login">
+<div data-app-data="{&quot;sign_in_path&quot;:&quot;/users/sign_in&quot;,&quot;users_sign_in_path_path&quot;:&quot;/users/sign_in_path&quot;,&quot;passkeys_sign_in_path&quot;:&quot;/users/passkeys/sign_in&quot;,&quot;is_unconfirmed_email&quot;:false,&quot;new_user_confirmation_path&quot;:&quot;/users/confirmation/new&quot;,&quot;new_password_path&quot;:&quot;/users/password/new&quot;,&quot;show_captcha&quot;:false,&quot;is_remember_me_enabled&quot;:true}" id="js-sign-in-form">
+<div class="gl-spinner-container gl-my-5" role="status"><span aria-hidden class="gl-spinner gl-spinner-md gl-spinner-dark !gl-align-text-bottom"></span><span class="gl-sr-only !gl-absolute">Loading</span>
+</div>
+<form action="/users/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="U7d7BOjONhKYgbeo7QFUYP4xRrEJIEPWgHadiwy0lnUhkL3Anq5CTVMWwMuCNDJ6VG6YzM-0JDYFDOiev3H8Tg" autocomplete="off" /><input data-js-name="login" autocomplete="off" type="hidden" name="user[login]" id="user_login" />
+<input data-js-name="password" autocomplete="off" type="hidden" name="user[password]" id="user_password" />
+<input data-js-name="rememberMe" autocomplete="off" type="hidden" name="user[remember_me]" id="user_remember_me" />
+</form></div>
+
+</div>
+<div class="gl-mt-3">
+By signing in you accept the <a href='/-/users/terms' target='_blank' rel='noreferrer noopener'>Terms of Use and acknowledge the Privacy Statement and Cookie Policy</a>.
+</div>
+<div class="gl-flex gl-items-center gl-gap-5" data-testid="divider">
+<hr class="gl-grow gl-border-default">
+or sign in with
+<hr class="gl-grow gl-border-default">
+</div>
+
+<div class="gl-mt-5 gl-text-center gl-flex gl-flex-col gl-gap-3 js-oauth-login">
+<form class="js-omniauth-form" method="post" action="/users/auth/github"><button class="gl-button btn btn-block btn-md btn-default " data-testid="github-login-button" type="submit"><span class="gl-button-text">
+<img alt="GitHub" title="Sign in with GitHub" class="gl-button-icon lazy" data-src="/assets/auth_buttons/github_64-84041cd0ea392220da96f0fb9b9473c08485c4924b98c776be1bd33b0daab8c0.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<span class="gl-button-text">
+GitHub
+</span>
+
+</span>
+
+</button><input type="hidden" name="authenticity_token" value="tQo5ibTtpRNIXuLVmJZA7nzan07-eSoqEA2E05_sRffHLf9Nwo3RTIPJlbb3oyb01oVBMzjtTcqVd_HGLCkvzA" autocomplete="off" /></form>
+<form class="js-omniauth-form" method="post" action="/users/auth/gitlab"><button class="gl-button btn btn-block btn-md btn-default " data-testid="gitlab-oauth-login-button" type="submit"><span class="gl-button-text">
+<img alt="GitLab.com" title="Sign in with GitLab.com" class="gl-button-icon lazy" data-src="/assets/auth_buttons/gitlab_64-2808a5fce900f4cb87b4dce9f9907bf68ac00a39086aa3a125e3250652f9967f.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<span class="gl-button-text">
+GitLab.com
+</span>
+
+</span>
+
+</button><input type="hidden" name="authenticity_token" value="idN3hUYoyTY86IWZO5FUKIH89NV8kHWvXjADXKRxe-L79LFBMEi9afd_8vpUpDIyK6MqqLoEEk_bSnZJF7QR2Q" autocomplete="off" /></form>
+<div class="gl-form-checkbox custom-control custom-checkbox">
+<input type="checkbox" name="js-remember-me-omniauth" id="js-remember-me-omniauth" class="custom-control-input" />
+<label class="custom-control-label" for="js-remember-me-omniauth"><span>Remember me
+</span></label>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</main>
+</div>
+<div class="footer-container gl-w-full gl-self-end">
+<hr class="gl-m-0">
+<div class="container gl-py-5 gl-flex gl-justify-between gl-items-start">
+<div class="gl-hidden md:gl-flex gl-gap-5 gl-flex-wrap">
+<a href="/explore">Explore</a>
+<a href="/help">Help</a>
+<a href="https://about.gitlab.com">About GitLab</a>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" href="https://forum.gitlab.com">GitLab community forum</a>
+</div>
+<div class="js-language-switcher" data-locales="[{&quot;value&quot;:&quot;en&quot;,&quot;percentage&quot;:100,&quot;text&quot;:&quot;English&quot;},{&quot;value&quot;:&quot;pt_BR&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;português (Brasil)&quot;},{&quot;value&quot;:&quot;ko&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;한국어&quot;},{&quot;value&quot;:&quot;ja&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;日本語&quot;},{&quot;value&quot;:&quot;it&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;italiano&quot;},{&quot;value&quot;:&quot;ga_IE&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;Gaeilge&quot;},{&quot;value&quot;:&quot;fr&quot;,&quot;percentage&quot;:98,&quot;text&quot;:&quot;français&quot;},{&quot;value&quot;:&quot;es&quot;,&quot;percentage&quot;:98,&quot;text&quot;:&quot;español&quot;},{&quot;value&quot;:&quot;de&quot;,&quot;percentage&quot;:98,&quot;text&quot;:&quot;Deutsch&quot;},{&quot;value&quot;:&quot;zh_CN&quot;,&quot;percentage&quot;:94,&quot;text&quot;:&quot;简体中文&quot;}]"></div>
+
+</div>
+</div>
+
+
+</div>
+</body>
+</html>

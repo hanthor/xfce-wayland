@@ -1,0 +1,126 @@
+# xfwl4 Default theme (minimal development theme)
+# Required settings
+activate_action=click_to_focus
+button_layout=OSM
+cycle_tabwin_mode=0
+double_click_action=maximize
+easy_click=None
+placement_mode=center
+title_alignment=center
+title_shadow_active=none
+title_shadow_inactive=none
+
+# General settings
+click_to_focus=true
+raise_on_click=true
+raise_on_focus=false
+focus_new=true
+focus_hint=true
+focus_delay=250
+borderless_maximize=true
+titleless_maximize=false
+snap_to_border=true
+snap_to_windows=false
+snap_width=10
+tile_on_move=true
+wrap_layout=true
+wrap_windows=true
+wrap_cycle=true
+wrap_resistance=10
+scroll_workspaces=true
+toggle_workspaces=false
+wrap_workspaces=false
+zoom_desktop=true
+zoom_pointer=true
+workspace_count=4
+borderless_maximize=true
+title_font=Sans Bold 9
+
+# Window cycle settings
+cycle_apps_only=false
+cycle_draw_frame=true
+cycle_raise=false
+cycle_hidden=true
+cycle_minimized=false
+cycle_minimum=true
+cycle_preview=true
+cycle_workspaces=false
+
+# Mouse/keyboard
+mousewheel_rollup=true
+double_click_action=maximize
+double_click_distance=5
+double_click_time=250
+raise_delay=250
+raise_with_any_button=true
+prevent_focus_stealing=false
+repeat_urgent_blink=false
+urgent_blink=false
+
+# Visual effects
+use_compositing=true
+show_frame_shadow=true
+show_dock_shadow=true
+show_popup_shadow=false
+frame_opacity=100
+inactive_opacity=100
+move_opacity=100
+resize_opacity=100
+popup_opacity=100
+shadow_opacity=50
+shadow_delta_height=0
+shadow_delta_width=0
+shadow_delta_x=0
+shadow_delta_y=-3
+
+# Title bar
+full_width_title=true
+show_app_icon=false
+button_offset=0
+button_spacing=0
+frame_border_top=0
+title_horizontal_offset=0
+title_vertical_offset_active=0
+title_vertical_offset_inactive=0
+
+# Margins
+margin_top=0
+margin_bottom=0
+margin_left=0
+margin_right=0
+maximized_offset=0
+
+# Box resize/move
+box_move=false
+box_resize=false
+
+# Active colors (gradient titlebar: blue-ish)
+active_color_1=#3465a4
+active_color_2=#7ebae7
+active_border_color=#3465a4
+active_hilight_1=#ffffff
+active_hilight_2=#ffffff
+active_mid_1=#7ebae7
+active_mid_2=#3465a4
+active_shadow_1=#000000
+active_shadow_2=#000000
+active_text_color=#ffffff
+active_text_color_2=#ffffff
+active_text_shadow_color=#000000
+
+# Inactive colors (gray-ish)
+inactive_color_1=#999999
+inactive_color_2=#cccccc
+inactive_border_color=#999999
+inactive_hilight_1=#ffffff
+inactive_hilight_2=#ffffff
+inactive_mid_1=#cccccc
+inactive_mid_2=#999999
+inactive_shadow_1=#000000
+inactive_shadow_2=#000000
+inactive_text_color=#333333
+inactive_text_color_2=#333333
+inactive_text_shadow_color=#000000
+
+# Unredirect overlays
+unredirect_overlays=true

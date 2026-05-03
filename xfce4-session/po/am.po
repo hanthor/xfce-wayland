@@ -1,0 +1,572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# samson <sambelet@yahoo.com>, 2016-2018
+# Tegegne Tefera <tefera@mekuria.com>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce4-session\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-18 00:47+0200\n"
+"PO-Revision-Date: 2013-07-02 20:44+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>, 2016-2018\n"
+"Language-Team: Amharic (http://app.transifex.com/xfce/xfce4-session/language/am/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: am\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../libxfsm/xfsm-util.c:371
+msgid "Session"
+msgstr ""
+
+#: ../libxfsm/xfsm-util.c:382
+msgid "Last accessed"
+msgstr ""
+
+#: ../settings/main.c:102
+msgid "Settings manager socket"
+msgstr "የ ማሰናጃዎች አስተዳዳሪ ሶኬት"
+
+#: ../settings/main.c:102
+msgid "SOCKET ID"
+msgstr "ሶኬት ID"
+
+#: ../settings/main.c:103
+msgid "Version information"
+msgstr "የ እትም መረጃ"
+
+#: ../settings/main.c:115 ../xfce4-session/main.c:363
+#, c-format
+msgid "Type '%s --help' for usage."
+msgstr "ይጻፉ '%s --እርዳታ' ለ መጠቀም"
+
+#: ../settings/main.c:129 ../xfce4-session/main.c:373
+#: ../xfce4-session-logout/main.c:121
+msgid "The Xfce development team. All rights reserved."
+msgstr "The Xfce development team. All rights reserved."
+
+#: ../settings/main.c:130 ../xfce4-session/main.c:374
+#: ../xfce4-session-logout/main.c:124
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "እባክዎን ችግሩን ያሳውቁን ለ <%s>."
+
+#: ../settings/main.c:138 ../xfce4-session/main.c:382
+msgid "Unable to contact settings server"
+msgstr "የ ማሰናጃ ሰርቨር መገናኘት አልተቻለም"
+
+#: ../settings/main.c:156
+msgid "Unable to create user interface from embedded definition data"
+msgstr ""
+
+#: ../settings/main.c:170
+msgid "App_lication Autostart"
+msgstr "መተግ_በሪያ በራሱ ማስጀመሪያ "
+
+#: ../settings/main.c:176
+msgid "Currently active session:"
+msgstr ""
+
+#: ../settings/session-editor.c:56
+msgid "If running"
+msgstr "የሚሄድ ከሆነ"
+
+#: ../settings/session-editor.c:57
+msgid "Always"
+msgstr "ሁልጊዜ"
+
+#: ../settings/session-editor.c:58
+msgid "Immediately"
+msgstr "ወዲያውኑ"
+
+#: ../settings/session-editor.c:59
+msgid "Never"
+msgstr "በፍጹም"
+
+#: ../settings/session-editor.c:133
+msgid "Session Save Error"
+msgstr "የ ክፍለ ጊዜ ስህተት ማስቀመጫ"
+
+#: ../settings/session-editor.c:133
+msgid "Unable to save the session"
+msgstr " ክፍለ ጊዜውን ማስቀመጥ አልተቻለም "
+
+#: ../settings/session-editor.c:135 ../settings/session-editor.c:318
+#: ../xfce4-session/xfsm-manager.c:1327
+msgid "_Close"
+msgstr "_መዝጊያ"
+
+#: ../settings/session-editor.c:191
+msgid ""
+"The saved states of your applications will not be restored during your next "
+"login."
+msgstr ""
+
+#: ../settings/session-editor.c:196
+msgid "Clear sessions"
+msgstr " ክፍለ ጊዜ ማጽጃ"
+
+#: ../settings/session-editor.c:197
+msgid "Are you sure you want to empty the session cache?"
+msgstr ""
+
+#: ../settings/session-editor.c:198 ../settings/session-editor.c:290
+#: ../settings/xfae-dialog.c:75 ../xfce4-session/xfsm-manager.c:727
+#: ../xfce4-session/xfsm-logout-dialog.c:227
+msgid "_Cancel"
+msgstr "_መሰረዣ"
+
+#: ../settings/session-editor.c:198
+msgid "_Proceed"
+msgstr "_ይቀጥሉ"
+
+#: ../settings/session-editor.c:242
+#, c-format
+msgid "You might need to delete some files manually in \"%s\"."
+msgstr ""
+
+#: ../settings/session-editor.c:245
+msgid "All Xfce cache files could not be cleared"
+msgstr ""
+
+#: ../settings/session-editor.c:286
+#, c-format
+msgid "Are you sure you want to terminate \"%s\"?"
+msgstr ""
+
+#: ../settings/session-editor.c:287
+msgid ""
+"The application will lose any unsaved state and will not be restarted in "
+"your next session."
+msgstr ""
+
+#: ../settings/session-editor.c:289 ../settings/session-editor.c:316
+msgid "Terminate Program"
+msgstr "ፕሮግራም ማጥፊያ"
+
+#: ../settings/session-editor.c:291
+msgid "_Quit Program"
+msgstr "ፕሮግራም _ማጥፊያ"
+
+#: ../settings/session-editor.c:316
+msgid "Unable to terminate program."
+msgstr "ፕሮግራሙን ማጥፋት አልተቻለም"
+
+#: ../settings/session-editor.c:556
+msgid "(Unknown program)"
+msgstr "(የማይታወቅ ፕሮግራም)"
+
+#: ../settings/session-editor.c:814
+msgid "Priority"
+msgstr "ቅድሚያ"
+
+#: ../settings/session-editor.c:824
+msgid "PID"
+msgstr "PID"
+
+#: ../settings/session-editor.c:831 ../settings/xfae-window.c:200
+msgid "Program"
+msgstr "ፕሮግራም:"
+
+#: ../settings/session-editor.c:857
+msgid "Restart Style"
+msgstr "ዘዴ እንደገና ማስጀመሪያ"
+
+#: ../settings/xfae-dialog.c:75 ../xfce4-session/xfsm-manager.c:728
+msgid "_OK"
+msgstr "_እሺ"
+
+#: ../settings/xfae-dialog.c:78 ../settings/xfae-window.c:254
+msgid "Add application"
+msgstr "መተግበሪያ መጨመሪያ"
+
+#: ../settings/xfae-dialog.c:92
+msgid "Name:"
+msgstr "ስም: "
+
+#: ../settings/xfae-dialog.c:107
+msgid "Description:"
+msgstr "መግለጫ:"
+
+#: ../settings/xfae-dialog.c:121 ../settings/xfae-model.c:703
+msgid "Command:"
+msgstr "ትእዛዝ:"
+
+#: ../settings/xfae-dialog.c:134
+msgid "Trigger:"
+msgstr ""
+
+#: ../settings/xfae-dialog.c:205
+msgid "Select a command"
+msgstr "ትእዛዝ ይምረጡ"
+
+#: ../settings/xfae-dialog.c:206
+msgid "Cancel"
+msgstr "መሰረዣ"
+
+#: ../settings/xfae-dialog.c:207
+msgid "OK"
+msgstr "እሺ"
+
+#: ../settings/xfae-dialog.c:254 ../settings/xfae-window.c:276
+msgid "Edit application"
+msgstr "መተግበሪያ ማረሚያ"
+
+#: ../settings/xfae-model.c:138
+msgid "on login"
+msgstr ""
+
+#: ../settings/xfae-model.c:139
+msgid "on logout"
+msgstr ""
+
+#: ../settings/xfae-model.c:140
+msgid "on shutdown"
+msgstr ""
+
+#: ../settings/xfae-model.c:141
+msgid "on restart"
+msgstr ""
+
+#: ../settings/xfae-model.c:142
+msgid "on suspend"
+msgstr ""
+
+#: ../settings/xfae-model.c:143
+msgid "on hibernate"
+msgstr ""
+
+#: ../settings/xfae-model.c:144
+msgid "on hybrid sleep"
+msgstr ""
+
+#: ../settings/xfae-model.c:145
+msgid "on switch user"
+msgstr ""
+
+#: ../settings/xfae-model.c:485 ../settings/xfae-model.c:1198
+#: ../settings/xfae-model.c:1255
+#, c-format
+msgid "Failed to open %s for writing"
+msgstr "ፋይል  %sን ለመጻፍ መክፈት አልተቻለም"
+
+#: ../settings/xfae-model.c:837
+#, c-format
+msgid "Failed to unlink %s: %s"
+msgstr "መለያየት አልተቻለም %s: %s"
+
+#: ../settings/xfae-model.c:998
+#, c-format
+msgid "Failed to create file %s"
+msgstr "ፋይል መፍጠር አልተቻለም  %s"
+
+#: ../settings/xfae-model.c:1022
+#, c-format
+msgid "Failed to write file %s"
+msgstr "ፋይል ላይ መጻፍ አልተቻለም %s"
+
+#: ../settings/xfae-model.c:1082
+#, c-format
+msgid "Failed to open %s for reading"
+msgstr "መክፈት አልተቻለም %s ለ ማንበብ"
+
+#: ../settings/xfae-window.c:110
+msgid "Failed to set run hook"
+msgstr ""
+
+#: ../settings/xfae-window.c:225
+msgid "Trigger"
+msgstr ""
+
+#: ../settings/xfae-window.c:251 ../settings/xfae-window.c:340
+msgid "Add"
+msgstr "መጨመሪያ"
+
+#: ../settings/xfae-window.c:260 ../settings/xfae-window.c:346
+msgid "Remove"
+msgstr "ማስወገጃ"
+
+#: ../settings/xfae-window.c:263
+msgid "Remove application"
+msgstr ""
+
+#: ../settings/xfae-window.c:273
+msgid "Edit"
+msgstr "ማረሚያ"
+
+#: ../settings/xfae-window.c:399
+#, c-format
+msgid "Failed adding \"%s\""
+msgstr "መጨመር አልተቻለም \"%s\""
+
+#: ../settings/xfae-window.c:430 ../settings/xfae-window.c:439
+msgid "Failed to remove item"
+msgstr "እቃውን ማስወገድ አልተቻለም"
+
+#: ../settings/xfae-window.c:468
+msgid "Failed to edit item"
+msgstr "እቃውን ማረም አልተቻለም"
+
+#: ../settings/xfae-window.c:488
+#, c-format
+msgid "Failed to edit item \"%s\""
+msgstr "እቃውን ማረም አልተቻለም \"%s\""
+
+#: ../settings/xfae-window.c:516
+msgid "Failed to toggle item"
+msgstr "እቃውን መቀያየር አልተቻለም"
+
+#: ../xfce4-session/main.c:77
+msgid "Disable binding to TCP ports"
+msgstr ""
+
+#: ../xfce4-session/main.c:78 ../xfce4-session-logout/main.c:80
+msgid "Print version information and exit"
+msgstr "የ እትም መረጃ ማተሚያ እና መውጫ"
+
+#: ../xfce4-session/xfsm-chooser.c:144
+msgid "Session Manager"
+msgstr "የ ክፍለ ጊዜ አስተዳዳሪ"
+
+#: ../xfce4-session/xfsm-chooser.c:175
+msgid ""
+"Choose the session you want to restore. You can simply double-click the "
+"session name to restore it."
+msgstr "እንደገና ማስነሳት የሚፈልጉት ክፍለጊዜን ይምረጡና ሁለቴ ይጫኑት።"
+
+#: ../xfce4-session/xfsm-chooser.c:191
+msgid "Create a new session."
+msgstr "አዲስ ክፍለጊዜ መፍጠሪያ"
+
+#: ../xfce4-session/xfsm-chooser.c:198
+msgid "Delete a saved session."
+msgstr ""
+
+#. "Logout" button
+#: ../xfce4-session/xfsm-chooser.c:209
+msgid "Log Out"
+msgstr "መውጫ"
+
+#: ../xfce4-session/xfsm-chooser.c:211
+msgid "Cancel the login attempt and return to the login screen."
+msgstr "ሎግባውን ይሰርዙና ወደ ሎግባው ስክሪን ይመለሱ።"
+
+#. "Start" button
+#: ../xfce4-session/xfsm-chooser.c:218
+msgid "Start"
+msgstr ""
+
+#: ../xfce4-session/xfsm-chooser.c:219
+msgid "Start an existing session."
+msgstr ""
+
+#: ../xfce4-session/xfsm-dns.c:73
+msgid "(Unknown)"
+msgstr "(የማይታወቅ)"
+
+#: ../xfce4-session/xfsm-dns.c:146
+#, c-format
+msgid ""
+"Could not look up internet address for %s.\n"
+"This will prevent Xfce from operating correctly.\n"
+"It may be possible to correct the problem by adding\n"
+"%s to the file /etc/hosts on your system."
+msgstr "Could not look up internet address for %s.\nThis will prevent Xfce from operating correctly.\nIt may be possible to correct the problem by adding\n%s to the file /etc/hosts on your system."
+
+#: ../xfce4-session/xfsm-dns.c:152
+msgid "Continue anyway"
+msgstr "ቢሆንም ይቀጥል?"
+
+#: ../xfce4-session/xfsm-dns.c:153
+msgid "Try again"
+msgstr "እንደገና ሞክር"
+
+#: ../xfce4-session/xfsm-manager.c:592
+#, c-format
+msgid ""
+"Unable to determine failsafe session name.  Possible causes: xfconfd isn't "
+"running (D-Bus setup problem); environment variable $XDG_CONFIG_DIRS is set "
+"incorrectly (must include \"%s\"), or xfce4-session is installed "
+"incorrectly."
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:617
+#, c-format
+msgid ""
+"The specified failsafe session (\"%s\") is not marked as a failsafe session."
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:656
+msgid "The list of applications in the failsafe session is empty."
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:740
+msgid "Name for the new session"
+msgstr ""
+
+#. FIXME: migrate this into the splash screen somehow so the
+#. * window doesn't look ugly (right now no WM is running, so it
+#. * won't have window decorations).
+#: ../xfce4-session/xfsm-manager.c:817
+msgid "Session Manager Error"
+msgstr "የ ክፍለ ጊዜ አስተዳዳሪ ስህተት"
+
+#: ../xfce4-session/xfsm-manager.c:818
+msgid "Unable to load a failsafe session"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:820
+msgid "_Quit"
+msgstr "_ማጥፊያ"
+
+#: ../xfce4-session/xfsm-manager.c:1317
+msgid "Shutdown Failed"
+msgstr "ማጥፋት አልተቻለም"
+
+#: ../xfce4-session/xfsm-manager.c:1320
+msgid "Failed to suspend session"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:1322
+msgid "Failed to hibernate session"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:1324
+msgid "Failed to hybrid sleep session"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:1325
+msgid "Failed to switch user"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:1647
+#, c-format
+msgid "Can only terminate clients when in the idle state"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:2355
+msgid "Session manager must be in idle state when requesting a checkpoint"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:2425 ../xfce4-session/xfsm-manager.c:2445
+msgid "Session manager must be in idle state when requesting a shutdown"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:2482
+msgid "Session manager must be in idle state when requesting a restart"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:2518 ../xfce4-session/xfsm-manager.c:2557
+#: ../xfce4-session/xfsm-manager.c:2595
+msgid "Session manager must be in idle state when requesting a sleep"
+msgstr ""
+
+#: ../xfce4-session/xfsm-manager.c:2722
+msgid "Session manager must be in idle state when requesting a user switch"
+msgstr ""
+
+#: ../xfce4-session/xfsm-logout-dialog.c:199
+#, c-format
+msgid "Log out %s"
+msgstr "መውጫ %s"
+
+#: ../xfce4-session/xfsm-logout-dialog.c:245
+msgid "_Log Out"
+msgstr "_መውጫ"
+
+#: ../xfce4-session/xfsm-logout-dialog.c:264
+msgid "_Restart and update"
+msgstr ""
+
+#: ../xfce4-session/xfsm-logout-dialog.c:264
+msgid "_Restart"
+msgstr "እንደገና ማስጀመሪያ"
+
+#: ../xfce4-session/xfsm-logout-dialog.c:278
+msgid "Update and Shut _Down"
+msgstr ""
+
+#: ../xfce4-session/xfsm-logout-dialog.c:278
+msgid "Shut _Down"
+msgstr "_ማጥፊያ"
+
+#: ../xfce4-session/xfsm-logout-dialog.c:302
+msgid "Sus_pend"
+msgstr "ማ_ገጃ"
+
+#: ../xfce4-session/xfsm-logout-dialog.c:322
+msgid "_Hibernate"
+msgstr "_ማስተኛ"
+
+#: ../xfce4-session/xfsm-logout-dialog.c:342
+msgid "H_ybrid Sleep"
+msgstr ""
+
+#: ../xfce4-session/xfsm-logout-dialog.c:366
+msgid "Switch _User"
+msgstr "_ተጠቃሚ መቀየሪያ"
+
+#: ../xfce4-session/xfsm-logout-dialog.c:406
+msgid "An error occurred"
+msgstr "ስህተት ተፈጥሯል"
+
+#: ../xfce4-session/xfsm-shutdown.c:168
+msgid "Shutdown is blocked by the kiosk settings"
+msgstr ""
+
+#: ../xfce4-session/xfsm-shutdown.c:225
+#, c-format
+msgid "Unknown shutdown method %d"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:56
+msgid "Log out without displaying the logout dialog"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:59
+msgid "Halt without displaying the logout dialog"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:62
+msgid "Reboot without displaying the logout dialog"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:65
+msgid "Suspend without displaying the logout dialog"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:68
+msgid "Hibernate without displaying the logout dialog"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:71
+msgid "Hybrid Sleep without displaying the logout dialog"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:74
+msgid "Switch user without displaying the logout dialog"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:77
+msgid "Log out quickly; don't save the session"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:97
+msgid "Unknown error"
+msgstr "ያልታወቀ ስህተት"
+
+#: ../xfce4-session-logout/main.c:122
+msgid "Written by Benedikt Meurer <benny@xfce.org>"
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:123
+msgid "and Brian Tarricone <kelnos@xfce.org>."
+msgstr ""
+
+#: ../xfce4-session-logout/main.c:143 ../xfce4-session-logout/main.c:218
+msgid "Received error while trying to log out"
+msgstr ""

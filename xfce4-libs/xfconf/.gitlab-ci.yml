@@ -1,0 +1,18 @@
+include:
+  - project: 'xfce/xfce4-dev-tools'
+    file: '/ci/build_project.yml'
+
+# xfconf distcheck needs a working display/dbus to run tests
+# Fake it with xvfb on headless container
+dist-meson:
+  script:
+    - !reference [.setup-meson, script]
+    - xvfb-run -a meson dist -Cbuild --include-subprojects
+  artifacts:
+    when: on_failure
+    paths:
+      - '**/testlog.txt'
+release-meson:
+  script:
+    - !reference [.setup-meson, script]
+    - xvfb-run -a meson dist -Cbuild --include-subprojects

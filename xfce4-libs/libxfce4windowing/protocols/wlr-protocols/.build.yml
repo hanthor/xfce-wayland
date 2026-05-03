@@ -1,0 +1,9 @@
+image: archlinux
+packages:
+  - wayland
+sources:
+  - https://github.com/swaywm/wlr-protocols
+tasks:
+  - protocols: |
+      cd wlr-protocols
+      ./check.sh

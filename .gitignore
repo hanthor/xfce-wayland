@@ -1,0 +1,39 @@
+# Build artifacts
+**/builddir/
+**/builddir-*/
+**/target/
+**/build/
+**/*.o
+**/*.so
+**/*.a
+**/*.pc
+**/*.la
+**/meson-private/
+**/meson-logs/
+**/xfce-revision.h
+
+# Installed files
+install/
+
+# Theme placeholders
+themes/**/*.png
+
+# VM images
+*.qcow2
+*.iso
+
+# Logs
+*.log
+/tmp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Generated protocol files
+**/wayland-generated/
+
+# Secrets
+.ssh/

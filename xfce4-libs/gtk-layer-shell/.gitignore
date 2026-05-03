@@ -1,0 +1,5 @@
+build/
+gtk-priv/build/
+*/__pycache__
+*.pyc
+.mypy_cache/

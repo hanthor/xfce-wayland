@@ -1,0 +1,5269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the thunar.master package.
+# 
+# Translators:
+# Aleksey Kabanov <ak099@mail.ru>, 2018
+# AlexanderFilev, 2015,2020
+# Alexander Filёv, 2015,2020
+# Alexander Kurakin <kuraga333@mail.ru>, 2024-2025
+# Alexey Akimov <lex.akimov23@gmail.com>, 2024
+# Alex Malykh <a2m-dev@yandex.ru>, 2023
+# Andrei Stepanov, 2022-2024,2026
+# Andrey Novikov <cooking95@yandex.ru>, 2021
+# Anton Bulgakov, 2023
+# Anton Bulgakov, 2023
+# Andrey Novikov <cooking95@yandex.ru>, 2021
+# Dmitrij Smirnov <other@igus.lv>, 2011
+# AlexanderFilev, 2015,2020
+# Igor <f2404@yandex.ru>, 2017-2020
+# Igor Vornovskii, 2022-2023
+# ivmazurenko <ivmazurenko@yandex.ru>, 2021
+# ivmazurenko <ivmazurenko@yandex.ru>, 2021
+# Alexey Akimov <lex.akimov23@gmail.com>, 2024
+# ndvio, 2023
+# ndvio, 2023
+# Olesya Gerasimenko <gammaray@basealt.ru>, 2022
+# Olesya Gerasimenko <translation-team@basealt.ru>, 2022
+# Sergey Alyoshin <alyoshin.s@gmail.com>, 2014-2015,2020-2021
+# Sergey Fedoseev <fedoseev.sergey@gmail.com>, 2006
+# Victor, 2022
+# vofka, 2025
+# vofka, 2025
+# Темак, 2022-2023
+# Victor, 2022
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunar\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2026-04-02 12:49+0200\n"
+"PO-Revision-Date: 2013-07-02 20:11+0000\n"
+"Last-Translator: Andrei Stepanov, 2022-2024,2026\n"
+"Language-Team: Russian (http://app.transifex.com/xfce/thunar/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#. setup application name
+#: thunar/main.c:54 org.xfce.thunar.appdata.xml.in:9
+msgid "Thunar"
+msgstr "Thunar"
+
+#. change the accept button label text
+#: thunar/thunar-action-manager.c:324 thunar/thunar-chooser-dialog.c:903
+#: thunar/thunar-chooser-dialog.c:1314 thunar/thunar-dialogs.c:1325
+#: thunar/thunar-renamer-dialog.c:1109
+#: plugins/thunar-uca/thunar-uca-editor.c:198
+msgid "_Open"
+msgstr "_Открыть"
+
+#: thunar/thunar-action-manager.c:325 thunar/thunar-dialogs.c:1319
+msgid "_Execute"
+msgstr "_Выполнить"
+
+#: thunar/thunar-action-manager.c:326
+msgid "Edit _Launcher"
+msgstr "Изменить _значок запуска"
+
+#: thunar/thunar-action-manager.c:326
+msgid "Edit the selected launcher"
+msgstr "Изменить выбранный значок запуска"
+
+#: thunar/thunar-action-manager.c:327
+msgid "Open in new _Tab"
+msgstr "Открыть в новой _вкладке"
+
+#: thunar/thunar-action-manager.c:328
+msgid "Open in new _Window"
+msgstr "Открыть в новом _окне"
+
+#: thunar/thunar-action-manager.c:329
+msgid "Open Item _Location"
+msgstr "Открыть располо_жение объекта"
+
+#: thunar/thunar-action-manager.c:329
+msgid "Navigate to the folder in which the selected file is located"
+msgstr "Перейти в папку, в которой находится выбранный файл"
+
+#: thunar/thunar-action-manager.c:330
+msgid "Ope_n With Other Application..."
+msgstr "О_ткрыть в другом приложении…"
+
+#: thunar/thunar-action-manager.c:330 thunar/thunar-action-manager.c:3472
+msgid "Choose another application with which to open the selected file"
+msgstr "Выбрать другое приложение, чтобы открыть выбранный файл"
+
+#: thunar/thunar-action-manager.c:331
+msgid "Set Defa_ult Application..."
+msgstr "Задать при_ложение по умолчанию…"
+
+#: thunar/thunar-action-manager.c:331
+msgid ""
+"Choose an application which should be used by default to open the selected "
+"file"
+msgstr "Выбрать приложение для открытия выбранного файла, используемое по умолчанию "
+
+#. For backward compatibility the old accel paths are re-used. Currently not
+#. possible to automatically migrate to new accel paths.
+#. Waiting for https://gitlab.gnome.org/GNOME/gtk/issues/2375 to be able to
+#. fix that
+#: thunar/thunar-action-manager.c:335
+msgid "_Send To"
+msgstr "О_тправить на"
+
+#: thunar/thunar-action-manager.c:336
+msgid "_Add Bookmark"
+msgstr "_Добавить закладку"
+
+#: thunar/thunar-action-manager.c:336
+msgid ""
+"Create bookmarks for all selected folders. If nothing is selected, the "
+"current folder is bookmarked."
+msgstr "Создать закладки для всех выбранных папок. Если ничего не выбрано, текущая папка добавится в закладки."
+
+#: thunar/thunar-action-manager.c:337
+msgid "Send to _Desktop"
+msgstr "Отправить на _рабочий стол"
+
+#: thunar/thunar-action-manager.c:338
+msgid "_Properties..."
+msgstr "_Свойства..."
+
+#: thunar/thunar-action-manager.c:338
+msgid "View the properties of the selected file"
+msgstr "Просмотреть свойства выбранного файла"
+
+#: thunar/thunar-action-manager.c:339 thunar/thunar-action-manager.c:1717
+msgid "Ma_ke Link"
+msgid_plural "Ma_ke Links"
+msgstr[0] "Создать _ссылки"
+msgstr[1] "Создать _ссылки"
+msgstr[2] "Создать _ссылки"
+msgstr[3] "Создать _ссылки"
+
+#: thunar/thunar-action-manager.c:340
+msgid "Dup_licate"
+msgstr "_Дублировать"
+
+#: thunar/thunar-action-manager.c:341
+msgid "_Rename..."
+msgstr "_Переименовать..."
+
+#. prepare the menu item
+#: thunar/thunar-action-manager.c:342 thunar/thunar-application.c:2907
+#: plugins/thunar-tpa/thunar-tpa.c:187
+msgid "_Empty Trash"
+msgstr "_Очистить корзину"
+
+#: thunar/thunar-action-manager.c:342
+msgid "Delete all files and folders in the Trash"
+msgstr "Удалить все файлы и папки из корзины"
+
+#: thunar/thunar-action-manager.c:343
+msgid "_Remove from Recent"
+msgstr "_Удалить из «Недавних»"
+
+#: thunar/thunar-action-manager.c:343
+msgid "Remove the selected files from Recent"
+msgstr "Удалить выбранные файлы из «Недавних»"
+
+#: thunar/thunar-action-manager.c:344
+msgid "Create _Folder..."
+msgstr "Создать _папку..."
+
+#: thunar/thunar-action-manager.c:344
+msgid "Create an empty folder within the current folder"
+msgstr "Создать пустой каталог внутри текущего"
+
+#: thunar/thunar-action-manager.c:345
+msgid "Create _Document"
+msgstr "_Создать"
+
+#: thunar/thunar-action-manager.c:345
+msgid "Create a new document from a template"
+msgstr "Создать документ по шаблону"
+
+#: thunar/thunar-action-manager.c:347
+msgid "_Restore"
+msgstr "_Восстановить"
+
+#: thunar/thunar-action-manager.c:348
+msgid "Restore and S_how"
+msgstr "В_осстановить и показать"
+
+#: thunar/thunar-action-manager.c:349
+msgid "Mo_ve to Trash"
+msgstr "_Убрать в корзину"
+
+#: thunar/thunar-action-manager.c:352 thunar/thunar-application.c:2652
+#: plugins/thunar-uca/thunar-uca-chooser.c:379
+msgid "_Delete"
+msgstr "У_далить"
+
+#: thunar/thunar-action-manager.c:355
+msgid "_Paste"
+msgstr "Вст_авить"
+
+#: thunar/thunar-action-manager.c:355
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr "Переместить или скопировать файлы, выбранные командой «Вырезать» или «Скопировать»"
+
+#: thunar/thunar-action-manager.c:357
+msgid "_Paste Into Folder"
+msgstr "Вст_авить в папку"
+
+#: thunar/thunar-action-manager.c:357
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into the "
+"selected folder"
+msgstr "Переместить или скопировать файлы, ранее выбранные командой «Вырезать» или «Скопировать», в указанную папку"
+
+#: thunar/thunar-action-manager.c:358
+msgid "_Paste Link"
+msgstr "_Вставить ссылку"
+
+#: thunar/thunar-action-manager.c:358
+msgid "Create link to files previously selected by a Cut or Copy command"
+msgstr "Создать ссылку на файлы, ранее выбранные с помощью команды «Вырезать» или «Копировать»"
+
+#: thunar/thunar-action-manager.c:359
+msgid "_Copy"
+msgstr "C_копировать"
+
+#: thunar/thunar-action-manager.c:361
+msgid "Cu_t"
+msgstr "_Вырезать"
+
+#: thunar/thunar-action-manager.c:364
+msgid "_Mount"
+msgstr "_Подключить том"
+
+#: thunar/thunar-action-manager.c:364
+msgid "Mount the selected device"
+msgstr "Подключить выбранное устройство"
+
+#: thunar/thunar-action-manager.c:365
+msgid "_Unmount"
+msgstr "О_тключить том"
+
+#: thunar/thunar-action-manager.c:365
+msgid "Unmount the selected device"
+msgstr "Отключить выбранное устройство"
+
+#: thunar/thunar-action-manager.c:366 thunar/thunar-device.c:549
+msgid "_Eject"
+msgstr "_Извлечь"
+
+#: thunar/thunar-action-manager.c:366
+msgid "Eject the selected device"
+msgstr "Извлечь выбранное устройство"
+
+#: thunar/thunar-action-manager.c:860 thunar/thunar-dnd.c:266
+#, c-format
+msgid "Failed to execute file \"%s\" (%s)"
+msgstr "Не удалось запустить файл «%s» (%s)"
+
+#: thunar/thunar-action-manager.c:862 thunar/thunar-dnd.c:268
+#, c-format
+msgid "Failed to execute file \"%s\""
+msgstr "Не удалось запустить «%s»"
+
+#: thunar/thunar-action-manager.c:1004
+#, c-format
+msgid "Failed to open file \"%s\""
+msgstr "Не удалось открыть файл «%s»"
+
+#. we can just tell that n files failed to open
+#: thunar/thunar-action-manager.c:1010
+#, c-format
+msgid "Failed to open %d file"
+msgid_plural "Failed to open %d files"
+msgstr[0] "Не удалось открыть %d файл"
+msgstr[1] "Не удалось открыть %d файла"
+msgstr[2] "Не удалось открыть %d файлов"
+msgstr[3] "Не удалось открыть %d файлов"
+
+#: thunar/thunar-action-manager.c:1062
+msgid "Are you sure you want to open all folders?"
+msgstr "Действительно открыть все папки?"
+
+#: thunar/thunar-action-manager.c:1063
+msgid "Open folders"
+msgstr "Открыть папки"
+
+#: thunar/thunar-action-manager.c:1065
+#, c-format
+msgid "This will open %d separate file manager window."
+msgid_plural "This will open %d separate file manager windows."
+msgstr[0] "Это откроет %d отдельное окно."
+msgstr[1] "Это откроет %d отдельных окна."
+msgstr[2] "Это откроет %d отдельных окон."
+msgstr[3] "Это откроет %d отдельных окон."
+
+#: thunar/thunar-action-manager.c:1069
+#, c-format
+msgid "Open %d New Window"
+msgid_plural "Open %d New Windows"
+msgstr[0] "Открыть %d новое окно"
+msgstr[1] "Открыть %d новых окна"
+msgstr[2] "Открыть %d новых окон"
+msgstr[3] "Открыть %d новых окон"
+
+#. add the "Cancel" button
+#. configure the dialog properties
+#: thunar/thunar-action-manager.c:1070 thunar/thunar-application.c:2651
+#: thunar/thunar-application.c:2906 thunar/thunar-chooser-dialog.c:311
+#: thunar/thunar-chooser-dialog.c:777 thunar/thunar-chooser-dialog.c:852
+#: thunar/thunar-chooser-dialog.c:902 thunar/thunar-dialogs.c:104
+#: thunar/thunar-dialogs.c:256 thunar/thunar-dialogs.c:714
+#: thunar/thunar-dialogs.c:825 thunar/thunar-dialogs.c:836
+#: thunar/thunar-dialogs.c:1138 thunar/thunar-dialogs.c:1230
+#: thunar/thunar-dnd.c:168 thunar/thunar-permissions-chooser.c:568
+#: thunar/thunar-permissions-chooser.c:1183
+#: thunar/thunar-properties-dialog.c:1244 thunar/thunar-renamer-dialog.c:1108
+#: thunar/thunar-renamer-progress.c:186 thunar/thunar-renamer-progress.c:196
+#: plugins/thunar-sendto-email/main.c:216
+#: plugins/thunar-sendto-email/main.c:236
+#: plugins/thunar-sendto-email/main.c:300
+#: plugins/thunar-uca/thunar-uca-chooser.c:379
+#: plugins/thunar-uca/thunar-uca-editor.c:152
+#: plugins/thunar-uca/thunar-uca-editor.c:197
+#: plugins/thunar-uca/thunar-uca-editor.c:450
+msgid "_Cancel"
+msgstr "_Отменить"
+
+#: thunar/thunar-action-manager.c:1160 thunar/thunar-action-manager.c:2067
+#, c-format
+msgid "Failed to mount \"%s\""
+msgstr "Не удалось подключить «%s»"
+
+#. tell the user that we were unable to launch the file specified
+#: thunar/thunar-action-manager.c:1211 thunar/thunar-application.c:1810
+#: thunar/thunar-application.c:1971 thunar/thunar-location-entry.c:371
+#: thunar/thunar-location-entry.c:404
+#, c-format
+msgid "Failed to open \"%s\""
+msgstr "Не удалось открыть «%s»"
+
+#: thunar/thunar-action-manager.c:1544
+msgid "File does not exist anymore"
+msgstr "Файл больше не существует"
+
+#: thunar/thunar-action-manager.c:1545
+#, c-format
+msgid "Failed to open location for \"%s\""
+msgstr "Не удалось открыть расположение «%s»"
+
+#. aka "activate"
+#: thunar/thunar-action-manager.c:1656
+msgid "Open the selected file"
+msgid_plural "Open the selected files"
+msgstr[0] "Открыть выбранные файлы"
+msgstr[1] "Открыть выбранные файлы"
+msgstr[2] "Открыть выбранные файлы"
+msgstr[3] "Открыть выбранные файлы"
+
+#: thunar/thunar-action-manager.c:1660
+msgid "Execute the selected file"
+msgid_plural "Execute the selected files"
+msgstr[0] "Запустить выбранные файлы"
+msgstr[1] "Запустить выбранные файлы"
+msgstr[2] "Запустить выбранные файлы"
+msgstr[3] "Запустить выбранные файлы"
+
+#: thunar/thunar-action-manager.c:1668
+#, c-format
+msgid "Open in %d new _Tab"
+msgid_plural "Open in %d New _Tabs"
+msgstr[0] "Открыть в %d новой _вкладке"
+msgstr[1] "Открыть в %d новых _вкладках"
+msgstr[2] "Открыть в %d новых _вкладках"
+msgstr[3] "Открыть в %d новых _вкладках"
+
+#: thunar/thunar-action-manager.c:1669
+#, c-format
+msgid "Open the selected directory in %d new tab"
+msgid_plural "Open the selected directories in %d new tabs"
+msgstr[0] "Открыть выбранную папку в %d новой вкладке"
+msgstr[1] "Открыть выбранные папки в %d новых вкладках"
+msgstr[2] "Открыть выбранные папки в %d новых вкладках"
+msgstr[3] "Открыть выбранные папки в %d новых вкладках"
+
+#: thunar/thunar-action-manager.c:1679
+#, c-format
+msgid "Open in %d new _Window"
+msgid_plural "Open in %d New _Windows"
+msgstr[0] "Открыть в %d новом _окне"
+msgstr[1] "Открыть в %d новых _окнах"
+msgstr[2] "Открыть в %d новых _окнах"
+msgstr[3] "Открыть в %d новых _окнах"
+
+#: thunar/thunar-action-manager.c:1680
+#, c-format
+msgid "Open the selected directory in %d new window"
+msgid_plural "Open the selected directories in %d new windows"
+msgstr[0] "Открыть выбранную папку в %d новом окне"
+msgstr[1] "Открыть выбранные папки в %d новых окнах"
+msgstr[2] "Открыть выбранные папки в %d новых окнах"
+msgstr[3] "Открыть выбранные папки в %d новых окнах"
+
+#: thunar/thunar-action-manager.c:1718
+msgid "Create a symbolic link for the selected file"
+msgid_plural "Create a symbolic link for each selected file"
+msgstr[0] "Создать символическую ссылку для выбранного файла"
+msgstr[1] "Создать символическую ссылку для каждого выбранного файла"
+msgstr[2] "Создать символическую ссылку для каждого выбранного файла"
+msgstr[3] "Создать символическую ссылку для каждого выбранного файла"
+
+#: thunar/thunar-action-manager.c:1744
+msgid "Rename the selected file"
+msgid_plural "Rename the selected files"
+msgstr[0] "Переименовать выбранные файлы"
+msgstr[1] "Переименовать выбранные файлы"
+msgstr[2] "Переименовать выбранные файлы"
+msgstr[3] "Переименовать выбранные файлы"
+
+#: thunar/thunar-action-manager.c:1749
+msgid "Bulk _Rename..."
+msgstr "Массовое _переименование…"
+
+#: thunar/thunar-action-manager.c:1759
+msgid "Restore the selected file to its original location"
+msgid_plural "Restore the selected files to its original location"
+msgstr[0] "Восстановить выбранные файлы"
+msgstr[1] "Восстановить выбранные файлы"
+msgstr[2] "Восстановить выбранные файлы"
+msgstr[3] "Восстановить выбранные файлы"
+
+#: thunar/thunar-action-manager.c:1771
+msgid ""
+"Restore the selected file to its original location and open the location in "
+"a new window/tab"
+msgid_plural ""
+"Restore the selected files to their original locations and open the "
+"locations in a new window/tab"
+msgstr[0] "Восстановить выбранные файлы и открыть расположения в новом окне или вкладке"
+msgstr[1] "Восстановить выбранные файлы и открыть расположения в новом окне или вкладке"
+msgstr[2] "Восстановить выбранные файлы и открыть расположения в новом окне или вкладке"
+msgstr[3] "Восстановить выбранные файлы и открыть расположения в новом окне или вкладке"
+
+#: thunar/thunar-action-manager.c:1786
+msgid "Move the selected file to the Trash"
+msgid_plural "Move the selected files to the Trash"
+msgstr[0] "Убрать выбранные файлы в корзину"
+msgstr[1] "Убрать выбранные файлы в корзину"
+msgstr[2] "Убрать выбранные файлы в корзину"
+msgstr[3] "Убрать выбранные файлы в корзину"
+
+#: thunar/thunar-action-manager.c:1803
+msgid "Permanently delete the selected file"
+msgid_plural "Permanently delete the selected files"
+msgstr[0] "Навсегда удалить выбранные файлы"
+msgstr[1] "Навсегда удалить выбранные файлы"
+msgstr[2] "Навсегда удалить выбранные файлы"
+msgstr[3] "Навсегда удалить выбранные файлы"
+
+#: thunar/thunar-action-manager.c:1862
+msgid "Cut the selection"
+msgstr "Вырезать выделение"
+
+#: thunar/thunar-action-manager.c:1872
+msgid "Prepare the selected file to be moved with a Paste command"
+msgid_plural "Prepare the selected files to be moved with a Paste command"
+msgstr[0] "Подготовить выбранные файлы для перемещения командой «Вставить»"
+msgstr[1] "Подготовить выбранные файлы для перемещения командой «Вставить»"
+msgstr[2] "Подготовить выбранные файлы для перемещения командой «Вставить»"
+msgstr[3] "Подготовить выбранные файлы для перемещения командой «Вставить»"
+
+#: thunar/thunar-action-manager.c:1886
+msgid "Copy the selection"
+msgstr "Копировать выделение"
+
+#: thunar/thunar-action-manager.c:1896
+msgid "Prepare the selected file to be copied with a Paste command"
+msgid_plural "Prepare the selected files to be copied with a Paste command"
+msgstr[0] "Подготовить выбранные файлы для копирования командой «Вставить»"
+msgstr[1] "Подготовить выбранные файлы для копирования командой «Вставить»"
+msgstr[2] "Подготовить выбранные файлы для копирования командой «Вставить»"
+msgstr[3] "Подготовить выбранные файлы для копирования командой «Вставить»"
+
+#: thunar/thunar-action-manager.c:1919
+msgid "Paste the clipboard"
+msgstr "Вставить из буфера"
+
+#: thunar/thunar-action-manager.c:2178
+msgid "Side Pane (Add Bookmark)"
+msgid_plural "Side Pane (Add Bookmarks)"
+msgstr[0] "Боковая панель (добавить закладки)"
+msgstr[1] "Боковая панель (добавить закладки)"
+msgstr[2] "Боковая панель (добавить закладки)"
+msgstr[3] "Боковая панель (добавить закладки)"
+
+#: thunar/thunar-action-manager.c:2179
+msgid "Add the selected folder to the shortcuts side pane"
+msgid_plural "Add the selected folders to the shortcuts side pane"
+msgstr[0] "Добавить выбранные папки в закладки на боковой панели"
+msgstr[1] "Добавить выбранные папки в закладки на боковой панели"
+msgstr[2] "Добавить выбранные папки в закладки на боковой панели"
+msgstr[3] "Добавить выбранные папки в закладки на боковой панели"
+
+#: thunar/thunar-action-manager.c:2198
+msgid "Desktop (Create Link)"
+msgid_plural "Desktop (Create Links)"
+msgstr[0] "Рабочий стол (ссылки)"
+msgstr[1] "Рабочий стол (ссылки)"
+msgstr[2] "Рабочий стол (ссылки)"
+msgstr[3] "Рабочий стол (ссылки)"
+
+#: thunar/thunar-action-manager.c:2199
+msgid "Create a link to the selected file on the desktop"
+msgid_plural "Create links to the selected files on the desktop"
+msgstr[0] "Создать на рабочем столе ссылку для выбранного файла"
+msgstr[1] "Создать на рабочем столе ссылки для выбранных файлов"
+msgstr[2] "Создать на рабочем столе ссылки для выбранных файлов"
+msgstr[3] "Создать на рабочем столе ссылки для выбранных файлов"
+
+#: thunar/thunar-action-manager.c:2220 thunar/thunar-action-manager.c:2259
+#, c-format
+msgid "Send the selected file to \"%s\""
+msgid_plural "Send the selected files to \"%s\""
+msgstr[0] "Отправить выбранные файлы на «%s»"
+msgstr[1] "Отправить выбранные файлы на «%s»"
+msgstr[2] "Отправить выбранные файлы на «%s»"
+msgstr[3] "Отправить выбранные файлы на «%s»"
+
+#. ask the user to enter a name for the new folder
+#: thunar/thunar-action-manager.c:2746 thunar/thunar-application.c:2159
+msgid "New Folder"
+msgstr "Новый каталог"
+
+#: thunar/thunar-action-manager.c:2751 thunar/thunar-application.c:2160
+msgid "Create New Folder"
+msgstr "Создать новый каталог"
+
+#. generate a title for the create dialog
+#: thunar/thunar-action-manager.c:2804 thunar/thunar-application.c:2221
+#, c-format
+msgid "Create Document from template \"%s\""
+msgstr "Создать документ по шаблону «%s»"
+
+#. ask the user to enter a name for the new empty file
+#: thunar/thunar-action-manager.c:2822
+msgid "New Empty File"
+msgstr "Новый файл"
+
+#: thunar/thunar-action-manager.c:2827
+msgid "New Empty File..."
+msgstr "Новый файл..."
+
+#: thunar/thunar-action-manager.c:3049
+#, c-format
+msgid ""
+"No templates installed in\n"
+"\"%s\""
+msgstr "Нет шаблонов, установленных в\n«%s»"
+
+#: thunar/thunar-action-manager.c:3062
+msgid "_Empty File"
+msgstr "Пустой _файл"
+
+#: thunar/thunar-action-manager.c:3227
+#, c-format
+msgid "Failed to eject \"%s\""
+msgstr "Не удалось извлечь «%s»"
+
+#: thunar/thunar-action-manager.c:3289
+#, c-format
+msgid "Failed to unmount \"%s\""
+msgstr "Не удалось отключить «%s»"
+
+#: thunar/thunar-action-manager.c:3352 thunar/thunar-action-manager.c:3434
+#, c-format
+msgid "Use \"%s\" to open the selected file"
+msgid_plural "Use \"%s\" to open the selected files"
+msgstr[0] "Использовать «%s», чтобы открыть выбранные файлы"
+msgstr[1] "Использовать «%s», чтобы открыть выбранные файлы"
+msgstr[2] "Использовать «%s», чтобы открыть выбранные файлы"
+msgstr[3] "Использовать «%s», чтобы открыть выбранные файлы"
+
+#: thunar/thunar-action-manager.c:3433
+#, c-format
+msgid "_Open With \"%s\""
+msgstr "_Открыть с помощью «%s»"
+
+#. we can only show a generic "Open" action
+#: thunar/thunar-action-manager.c:3454
+msgid "_Open With Default Applications"
+msgstr "_Открыть в приложении по умолчанию"
+
+#: thunar/thunar-action-manager.c:3455
+msgid "Open the selected files with the default applications"
+msgstr "Открыть выбранные файлы в приложении по умолчанию"
+
+#: thunar/thunar-action-manager.c:3471
+msgid "Ope_n With"
+msgstr "О_ткрыть с помощью"
+
+#: thunar/thunar-application.c:85
+msgid "Open the bulk rename dialog"
+msgstr "Открыть диалог переименования нескольких файлов"
+
+#: thunar/thunar-application.c:86
+msgid "Force open in a new window"
+msgstr "Принудительно открыть в новом окне"
+
+#: thunar/thunar-application.c:87
+msgid "Run in daemon mode"
+msgstr "Запустить в режиме службы"
+
+#: thunar/thunar-application.c:89
+msgid "Quit a running Thunar instance"
+msgstr "Выйти из запущенного экземпляра Thunar"
+
+#: thunar/thunar-application.c:90
+msgid "Print version information and exit"
+msgstr "Показать информацию о версии и выйти"
+
+#. Dont have a better idea for indendation formatting the 'Arguments:' section
+#: thunar/thunar-application.c:339
+msgid "Arguments:\n"
+msgstr "Аргументы:\n"
+
+#: thunar/thunar-application.c:340
+msgid "URL"
+msgstr "Адрес"
+
+#: thunar/thunar-application.c:350
+#, c-format
+msgid "Acquired the session message bus '%s'\n"
+msgstr "Получена шина сообщений сеанса «%s»\n"
+
+#: thunar/thunar-application.c:360
+#, c-format
+msgid "Acquired the name '%s' on the session message bus\n"
+msgstr "Получено имя «%s» на шине сообщений сеанса\n"
+
+#: thunar/thunar-application.c:370
+#, c-format
+msgid "Name '%s' lost on the message dbus."
+msgstr "Имя «%s» потеряно в сообщении dbus."
+
+#: thunar/thunar-application.c:523
+msgid "The Thunar development team. All rights reserved."
+msgstr "Команда разработчиков Thunar. Все права защищены."
+
+#: thunar/thunar-application.c:524
+msgid "Written by Benedikt Meurer <benny@xfce.org>."
+msgstr "Автор: Benedikt Meurer <benny@xfce.org>."
+
+#: thunar/thunar-application.c:525
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Об ошибках сообщайте на <%s>."
+
+#. display an error message to the user
+#: thunar/thunar-application.c:962
+msgid "Failed to launch operation"
+msgstr "Не удалось запустить операцию"
+
+#: thunar/thunar-application.c:1806
+#, c-format
+msgid "Failed to open \"%s\" (%s)"
+msgstr "Не удалось открыть «%s» (%s)"
+
+#: thunar/thunar-application.c:1975
+#, c-format
+msgid "Failed to open \"%s\": %s"
+msgstr "Не удалось открыть «%s»: %s"
+
+#: thunar/thunar-application.c:2034 thunar/thunar-properties-dialog.c:1144
+#, c-format
+msgid "Failed to rename \"%s\" (%s)"
+msgstr "Не удалось переименовать «%s» (%s)"
+
+#: thunar/thunar-application.c:2038 thunar/thunar-properties-dialog.c:1148
+#, c-format
+msgid "Failed to rename \"%s\""
+msgstr "Не удалось переименовать «%s»"
+
+#: thunar/thunar-application.c:2084
+msgid "Rename Launcher Options"
+msgstr "Переименовать Параметры Запуска"
+
+#: thunar/thunar-application.c:2087
+msgid "Do you want to rename the launcher, or the file itself?"
+msgstr "Хотите переименовать значок запуска или сам файл?"
+
+#: thunar/thunar-application.c:2088
+msgid "Rename _Launcher"
+msgstr "Переименовать _Значок запуска"
+
+#: thunar/thunar-application.c:2089
+msgid "Rename _File"
+msgstr "Переименовать _Файл"
+
+#: thunar/thunar-application.c:2164
+msgid "New File"
+msgstr "Новый файл"
+
+#: thunar/thunar-application.c:2165
+msgid "Create New File"
+msgstr "Создать новый файл"
+
+#: thunar/thunar-application.c:2287
+msgid "Copying files..."
+msgstr "Копирование файлов..."
+
+#: thunar/thunar-application.c:2347
+#, c-format
+msgid "Copying files to \"%s\"..."
+msgstr "Копирование файлов в «%s»..."
+
+#: thunar/thunar-application.c:2406
+#, c-format
+msgid "Creating symbolic links in \"%s\"..."
+msgstr "Создание символьной ссылки в «%s»..."
+
+#: thunar/thunar-application.c:2496
+#, c-format
+msgid "Moving files into \"%s\"..."
+msgstr "Перемещение файлов в «%s»..."
+
+#: thunar/thunar-application.c:2543
+msgid "Moving files ..."
+msgstr "Файлы перемещаются…"
+
+#: thunar/thunar-application.c:2605
+#, c-format
+msgid ""
+"Are you sure that you want to\n"
+"permanently delete \"%s\"?"
+msgstr "Вы уверены, что хотите\nнавсегда удалить «%s»?"
+
+#: thunar/thunar-application.c:2608
+#, c-format
+msgid ""
+"Are you sure that you want to\n"
+"permanently delete \"%s\" (%s)?"
+msgstr "Уверены, что хотите\nнавсегда удалить «%s» (%s)?"
+
+#: thunar/thunar-application.c:2612
+#, c-format
+msgid ""
+"Are you sure that you want to\n"
+"move \"%s\" to trash ?"
+msgstr "Уверены, что хотите убрать\n«%s» в корзину?"
+
+#: thunar/thunar-application.c:2615
+#, c-format
+msgid ""
+"Are you sure that you want to\n"
+"move \"%s\" (%s) to trash ?"
+msgstr "Уверены, что хотите убрать\n«%s» (%s) в корзину?"
+
+#: thunar/thunar-application.c:2624
+#, c-format
+msgid ""
+"Are you sure that you want to permanently\n"
+"delete the selected file?"
+msgid_plural ""
+"Are you sure that you want to permanently\n"
+"delete the %u selected files?"
+msgstr[0] "Вы уверены, что хотите навсегда\nудалить %u выбранный файл?"
+msgstr[1] "Вы уверены, что хотите навсегда\nудалить %u выбранных файла?"
+msgstr[2] "Вы уверены, что хотите навсегда\nудалить %u выбранных файлов?"
+msgstr[3] "Вы уверены, что хотите навсегда\nудалить %u выбранных файлов?"
+
+#: thunar/thunar-application.c:2631
+#, c-format
+msgid ""
+"Are you sure that you want to\n"
+"move the selected file to trash?"
+msgid_plural ""
+"Are you sure that you want to\n"
+"move the %u selected files to trash?"
+msgstr[0] "Действительно убрать\n%u выбранный файл в корзину?"
+msgstr[1] "Действительно убрать\n%u выбранных файла в корзину?"
+msgstr[2] "Действительно убрать\n%u выбранных файлов в корзину?"
+msgstr[3] "Действительно убрать\n%u выбранных файлов в корзину?"
+
+#: thunar/thunar-application.c:2649 thunar/thunar-dialogs.c:621
+#: thunar/thunar-dialogs.c:1134
+msgid "Attention"
+msgstr "Внимание"
+
+#: thunar/thunar-application.c:2657
+msgid "If you delete a file, it is permanently lost."
+msgstr "Если вы удалите файл, он будет утрачен навсегда."
+
+#: thunar/thunar-application.c:2710
+msgid "Deleting files..."
+msgstr "Удаление файлов..."
+
+#: thunar/thunar-application.c:2768
+msgid "Moving files into the trash..."
+msgstr "Перемещение файлов в корзину..."
+
+#: thunar/thunar-application.c:2818
+msgid "Creating files..."
+msgstr "Создание файлов..."
+
+#: thunar/thunar-application.c:2859
+msgid "Creating directories..."
+msgstr "Создание каталогов..."
+
+#: thunar/thunar-application.c:2897
+msgid "Remove all files and folders from the Trash?"
+msgstr "Удалить все файлы и каталоги из корзины?"
+
+#: thunar/thunar-application.c:2904 thunar/thunar-window.c:1291
+msgid "Empty Trash"
+msgstr "Очистить корзину"
+
+#: thunar/thunar-application.c:2911
+msgid ""
+"If you choose to empty the Trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr "Если вы очистите корзину, всё её содержимое будет навсегда утеряно. Обратите внимание, что вы можете удалять объекты по отдельности."
+
+#: thunar/thunar-application.c:2928
+msgid "Emptying the Trash..."
+msgstr "Очистка корзины..."
+
+#: thunar/thunar-application.c:2975
+#, c-format
+msgid "Failed to determine the original path for \"%s\" (%s)"
+msgstr "Не удалось определить исходный путь для «%s» (%s)"
+
+#: thunar/thunar-application.c:2980
+#, c-format
+msgid "Failed to determine the original path for \"%s\""
+msgstr "Не удалось определить изначальное расположение для «%s»"
+
+#: thunar/thunar-application.c:2998
+#, c-format
+msgid "Could not restore \"%s\" (%s)"
+msgstr "Не удалось восстановить «%s» (%s)"
+
+#: thunar/thunar-application.c:3002
+#, c-format
+msgid "Could not restore \"%s\""
+msgstr "Не удалось восстановить «%s»"
+
+#: thunar/thunar-application.c:3010
+msgid "Restoring files..."
+msgstr "Восстановление файлов..."
+
+#: thunar/thunar-chooser-button.c:318 thunar/thunar-chooser-dialog.c:499
+#, c-format
+msgid "Failed to set default application for \"%s\" (%s)"
+msgstr "Не удалось назначить приложение по умолчанию для «%s» (%s)"
+
+#: thunar/thunar-chooser-button.c:323 thunar/thunar-chooser-dialog.c:505
+#, c-format
+msgid "Failed to set default application for \"%s\""
+msgstr "Не удалось назначить приложение по умолчанию для «%s»"
+
+#: thunar/thunar-chooser-button.c:456
+#, c-format
+msgid ""
+"The selected application is used to open this and other files of type "
+"\"%s\"."
+msgstr "Выбранное приложение будет использоваться для открытия этого файла и других файлов типа «%s»."
+
+#: thunar/thunar-chooser-button.c:511
+msgid "No application selected"
+msgstr "Приложение не выбрано"
+
+#: thunar/thunar-chooser-button.c:524
+msgid "Other Application..."
+msgstr "Другое приложение..."
+
+#: thunar/thunar-chooser-dialog.c:205
+msgid "Open With"
+msgstr "Открыть с помощью"
+
+#. create the "Custom command" expand
+#: thunar/thunar-chooser-dialog.c:274
+msgid "Use a _custom command:"
+msgstr "Использовать _команду:"
+
+#: thunar/thunar-chooser-dialog.c:275
+msgid ""
+"Use a custom command for an application that is not available from the above"
+" application list."
+msgstr "Использовать особую команду для запуска приложения, не представленного в этом списке."
+
+#. create the "Custom command" button
+#: thunar/thunar-chooser-dialog.c:296
+msgid "_Browse..."
+msgstr "_Обзор..."
+
+#. create the "Use as default for this kind of file" button
+#: thunar/thunar-chooser-dialog.c:302
+msgid "Use as _default for this kind of file"
+msgstr "Использовать по _умолчанию для этого типа файлов"
+
+#. add the "Ok"/"Open" button
+#: thunar/thunar-chooser-dialog.c:314 thunar/thunar-chooser-dialog.c:1314
+#: thunar/thunar-properties-dialog.c:1245 thunar/thunar-window.c:4970
+#: plugins/thunar-uca/thunar-uca-editor.c:153
+#: plugins/thunar-uca/thunar-uca-editor.c:451
+msgid "_OK"
+msgstr "_ОК"
+
+#. display an error to the user
+#: thunar/thunar-chooser-dialog.c:456
+#, c-format
+msgid "Failed to add new application \"%s\""
+msgstr "Не удалось добавить приложение «%s»"
+
+#: thunar/thunar-chooser-dialog.c:547
+#, c-format
+msgid "Failed to execute application \"%s\""
+msgstr "Не удалось запустить приложение «%s»"
+
+#. append the "Remove Launcher" item
+#: thunar/thunar-chooser-dialog.c:621
+msgid "_Remove Launcher"
+msgstr "_Удалить значок запуска"
+
+#. append the "Forget Association" item
+#: thunar/thunar-chooser-dialog.c:628
+msgid "_Forget Association"
+msgstr "_Забыть связь"
+
+#: thunar/thunar-chooser-dialog.c:709
+#, c-format
+msgid "Open <i>%s (%s)</i> and other files of type \"%s\" with:"
+msgstr "Открыть <i>%s (%s)</i> и другие файлы типа «%s» с помощью:"
+
+#: thunar/thunar-chooser-dialog.c:714
+#, c-format
+msgid "Open <i>%s</i> and other files of type \"%s\" with:"
+msgstr "Открывать <i>%s</i> и другие файлы типа «%s» при помощи:"
+
+#: thunar/thunar-chooser-dialog.c:722
+#, c-format
+msgid ""
+"Browse the file system to select an application to open files of type "
+"\"%s\"."
+msgstr "Просмотреть файловую систему, чтобы выбрать приложение, которое будет использоваться для открытия файлов типа «%s»."
+
+#: thunar/thunar-chooser-dialog.c:728
+#, c-format
+msgid ""
+"Change the default application for files of type \"%s\" to the selected "
+"application."
+msgstr "Изменить приложение по умолчанию для файлов типа «%s»."
+
+#: thunar/thunar-chooser-dialog.c:774
+#, c-format
+msgid "Are you sure that you want to remove \"%s\"?"
+msgstr "Вы уверены, что хотите удалить «%s»?"
+
+#: thunar/thunar-chooser-dialog.c:775
+msgid "Remove application launcher"
+msgstr "Удалить приложение для запуска приложений"
+
+#: thunar/thunar-chooser-dialog.c:778
+msgid "_Remove"
+msgstr "_Удалить"
+
+#: thunar/thunar-chooser-dialog.c:781
+msgid ""
+"This will remove the application launcher that appears in the file context menu, but will not uninstall the application itself.\n"
+"\n"
+"You can only remove application launchers that were created using the custom command box in the \"Open With\" dialog of the file manager."
+msgstr "Это удалит значок запуска приложения из контекстного меню, но не само приложение.\n\nВы можете удалять из этого списка только те приложения, которые были добавлены с диалогом «Открыть с помощью»."
+
+#. display an error to the user
+#: thunar/thunar-chooser-dialog.c:796
+#, c-format
+msgid "Failed to remove \"%s\""
+msgstr "Не удалось удалить «%s»"
+
+#: thunar/thunar-chooser-dialog.c:849
+#, c-format
+msgid "Are you sure that you want to forget \"%s\"?"
+msgstr "Забыть «%s»?"
+
+#: thunar/thunar-chooser-dialog.c:850
+msgid "Forget application launcher"
+msgstr "Сбросить приложение для запуска приложений"
+
+#: thunar/thunar-chooser-dialog.c:853
+msgid "_Forget"
+msgstr "_Забыть"
+
+#: thunar/thunar-chooser-dialog.c:856
+msgid ""
+"This will dissociate the application launcher for this file type, but will "
+"not uninstall or remove the application launcher itself."
+msgstr "Убрать ассоциацию приложения с данным типом файла, но приложение или его значок запуска не будут удалены."
+
+#. display an error to the user
+#: thunar/thunar-chooser-dialog.c:872
+#, c-format
+msgid "Failed to forget \"%s\""
+msgstr "Не удалось забыть «%s»"
+
+#: thunar/thunar-chooser-dialog.c:899
+#: plugins/thunar-uca/thunar-uca-editor.c:194
+msgid "Select an Application"
+msgstr "Выберите приложение"
+
+#: thunar/thunar-chooser-dialog.c:909 thunar/thunar-renamer-dialog.c:1116
+#: plugins/thunar-uca/thunar-uca-editor.c:205
+msgid "All Files"
+msgstr "Все файлы"
+
+#: thunar/thunar-chooser-dialog.c:914
+#: plugins/thunar-uca/thunar-uca-editor.c:210
+msgid "Executable Files"
+msgstr "Исполняемые файлы"
+
+#: thunar/thunar-chooser-dialog.c:929
+#: plugins/thunar-uca/thunar-uca-editor.c:225
+msgid "Perl Scripts"
+msgstr "Скрипты Perl"
+
+#: thunar/thunar-chooser-dialog.c:935
+#: plugins/thunar-uca/thunar-uca-editor.c:231
+msgid "Python Scripts"
+msgstr "Скрипты Python"
+
+#: thunar/thunar-chooser-dialog.c:941
+#: plugins/thunar-uca/thunar-uca-editor.c:237
+msgid "Ruby Scripts"
+msgstr "Скрипты Ruby"
+
+#: thunar/thunar-chooser-dialog.c:947
+#: plugins/thunar-uca/thunar-uca-editor.c:243
+msgid "Shell Scripts"
+msgstr "Скрипты Shell"
+
+#: thunar/thunar-chooser-dialog.c:1389
+msgid "Set Default Application"
+msgstr "Назначить приложение по умолчанию"
+
+#: thunar/thunar-chooser-model.c:251
+msgid "None available"
+msgstr "Нет доступных"
+
+#: thunar/thunar-chooser-model.c:300
+msgid "Default Application"
+msgstr "Приложение по умолчанию"
+
+#: thunar/thunar-chooser-model.c:311
+msgid "Recommended Applications"
+msgstr "Рекомендуемые приложения"
+
+#: thunar/thunar-chooser-model.c:330
+msgid "Other Applications"
+msgstr "Другие приложения"
+
+#: thunar/thunar-chooser-model.c:425
+#, c-format
+msgid "Failed to remove \"%s\"."
+msgstr "Не удалось удалить «%s»."
+
+#. tell the user that we cannot paste
+#: thunar/thunar-clipboard-manager.c:365
+msgid "There is nothing on the clipboard to paste"
+msgstr "Буфер обмена пуст"
+
+#. setup the dialog
+#. add the "Close" button
+#. action id
+#. visibility
+#. checkbox visible
+#. icon
+#. label
+#. tooltip
+#. setup the dialog
+#. add a regular close button, the header bar already provides one
+#: thunar/thunar-column-editor.c:125 thunar/thunar-preferences-dialog.c:271
+#: thunar/thunar-properties-dialog.c:345 thunar/thunar-renamer-dialog.c:411
+#: thunar/thunar-renamer-progress.c:203 thunar/thunar-toolbar-editor.c:143
+#: plugins/thunar-uca/thunar-uca-chooser.c:137
+msgid "_Close"
+msgstr "_Закрыть"
+
+#: thunar/thunar-column-editor.c:128
+msgid "Configure Columns in the Detailed List View"
+msgstr "Настроить столбцы для просмотра в виде списка"
+
+#. add the "Help" button
+#: thunar/thunar-column-editor.c:131 thunar/thunar-preferences-dialog.c:279
+#: thunar/thunar-properties-dialog.c:344 thunar/thunar-toolbar-editor.c:150
+#: thunar/thunar-window.c:729
+msgid "_Help"
+msgstr "_Справка"
+
+#: thunar/thunar-column-editor.c:146
+msgid "Visible Columns"
+msgstr "Отображаемые столбцы"
+
+#. create the top label for the column editor dialog
+#: thunar/thunar-column-editor.c:159
+msgid ""
+"Choose the order of information to appear in the\n"
+"detailed list view."
+msgstr "Изменить порядок отображения информации при\nпросмотре в виде списка."
+
+#. create the "Move Up" button
+#: thunar/thunar-column-editor.c:210 thunar/thunar-toolbar-editor.c:232
+msgid "Move _Up"
+msgstr "Переместить _вверх"
+
+#. create the "Move Down" button
+#: thunar/thunar-column-editor.c:224 thunar/thunar-toolbar-editor.c:243
+msgid "Move Dow_n"
+msgstr "Переместить в_низ"
+
+#. create the "Show" button
+#: thunar/thunar-column-editor.c:238
+msgid "_Show"
+msgstr "_Показать"
+
+#. create the "Hide" button
+#: thunar/thunar-column-editor.c:247
+msgid "Hi_de"
+msgstr "_Скрыть"
+
+#. create the "Use Default" button
+#: thunar/thunar-column-editor.c:264
+msgid "Use De_fault"
+msgstr "Использовать по _умолчанию"
+
+#: thunar/thunar-column-editor.c:273
+msgid "Column Sizing"
+msgstr "Размеры столбцов"
+
+#. create the label that explains the column sizing option
+#: thunar/thunar-column-editor.c:289
+msgid ""
+"By default columns will be automatically expanded if\n"
+"needed to ensure the text is fully visible. If you dis-\n"
+"able this behavior below the file manager will always\n"
+"use the user defined column widths."
+msgstr "По умолчанию столбцы будут автоматически\nрасширяться, чтобы текст был полностью видим.\nЕсли вы отключите этот режим, то столбцы\nбудут всегда иметь фиксированную ширину."
+
+#. create the "Automatically expand columns as needed" button
+#: thunar/thunar-column-editor.c:301
+msgid "Automatically _expand columns as needed"
+msgstr "Автоматически расширять столб_цы по необходимости"
+
+#: thunar/thunar-column-editor.c:315
+msgid "Size Column of Folders"
+msgstr "Размер столбца папок"
+
+#. explain what it does
+#: thunar/thunar-column-editor.c:328
+msgid "Show number of contained items:"
+msgstr "Показать количество содержащихся объектов:"
+
+#: thunar/thunar-column-model.c:367
+msgid "This column is reserved for special locations"
+msgstr "Этот столбец зарезервирован для особых расположений"
+
+#. reset page title
+#. tell the user that we're unable to determine the file info
+#: thunar/thunar-column-model.c:912 thunar/thunar-permissions-chooser.c:241
+#: thunar/thunar-properties-dialog.c:1572 thunar/thunar-util.c:430
+#: thunar/thunar-util.c:433 plugins/thunar-apr/thunar-apr-desktop-page.c:725
+#: plugins/thunar-apr/thunar-apr-image-page.c:287
+#: plugins/thunar-apr/thunar-apr-image-page.c:288
+#: plugins/thunar-uca/thunar-uca-editor.c:445
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: thunar/thunar-compact-view.c:116
+msgid "Compact directory listing"
+msgstr "Компактный список"
+
+#: thunar/thunar-compact-view.c:117
+msgid "Compact view"
+msgstr "Компактный список"
+
+#: thunar/thunar-dbus-service.c:555
+#, c-format
+msgid "Invalid filename \"%s\""
+msgstr "Недопустимое имя файла «%s»"
+
+#. LaunchFiles() invoked without a valid working directory
+#: thunar/thunar-dbus-service.c:999
+msgid "The working directory must be an absolute path"
+msgstr "Рабочий каталог должен быть указан в виде абсолютного пути"
+
+#. LaunchFiles() invoked with an empty filename list
+#: thunar/thunar-dbus-service.c:1007 thunar/thunar-dbus-service.c:1447
+msgid "At least one filename must be specified"
+msgstr "Должно быть указано как минимум одно имя файла"
+
+#: thunar/thunar-dbus-service.c:1183
+msgid "At least one source filename must be specified"
+msgstr "Должен быть указан как минимум один исходный файл"
+
+#: thunar/thunar-dbus-service.c:1193
+msgid "The number of source and target filenames must be the same"
+msgstr "Количество исходных и целевых файлов должно быть одинаковым"
+
+#: thunar/thunar-dbus-service.c:1202
+msgid "A destination directory must be specified"
+msgstr "Должен быть указан каталог назначения"
+
+#: thunar/thunar-details-view.c:205
+msgid "Configure _Columns..."
+msgstr "Наст_роить столбцы..."
+
+#: thunar/thunar-details-view.c:205
+msgid "Configure the columns in the detailed list view"
+msgstr "Настроить столбцы для просмотра в виде списка"
+
+#: thunar/thunar-details-view.c:206
+msgid "E_xpandable Folders"
+msgstr "Ра_сширяемые Каталоги"
+
+#: thunar/thunar-details-view.c:206
+msgid "Allow tree like expansion of folders"
+msgstr "Разрешить древовидное раскрытие папок"
+
+#: thunar/thunar-details-view.c:557
+msgid "Detailed directory listing"
+msgstr "Подробный список"
+
+#: thunar/thunar-details-view.c:558
+msgid "Details view"
+msgstr "Просмотр в виде списка"
+
+#: thunar/thunar-device.c:540
+msgid "Safely _Remove"
+msgstr "Б_езопасно извлечь"
+
+#: thunar/thunar-device.c:542
+msgid "_Disconnect"
+msgstr "_Отключить"
+
+#: thunar/thunar-device.c:544
+msgid "Stop the _Multi-Disk Drive"
+msgstr "Остановит_ь многодисковый накопитель"
+
+#: thunar/thunar-device.c:546
+msgid "_Lock"
+msgstr "За_блокировать"
+
+#: thunar/thunar-dialogs.c:105
+msgid "C_reate"
+msgstr "_Создать"
+
+#: thunar/thunar-dialogs.c:142
+msgid "Enter the name:"
+msgstr "Введите имя:"
+
+#. display an error message
+#: thunar/thunar-dialogs.c:183
+#, c-format
+msgid "Cannot convert filename \"%s\" to the local encoding"
+msgstr "Не удалось преобразовать имя «%s» файла в локальную кодировку"
+
+#. create a new dialog window
+#: thunar/thunar-dialogs.c:251
+#, c-format
+msgid "Rename \"%s\""
+msgstr "Переименовать «%s»"
+
+#. add the "Rename" button
+#: thunar/thunar-dialogs.c:257 thunar/thunar-renamer-dialog.c:415
+msgid "_Rename"
+msgstr "_Переименовать"
+
+#: thunar/thunar-dialogs.c:299
+msgid "Enter the new name:"
+msgstr "Введите имя:"
+
+#: thunar/thunar-dialogs.c:452
+msgid "translator-credits"
+msgstr "Андрей Федосеев <andrey.fedoseev@gmail.com>\nСергей Федосеев <fedoseev.sergey@gmail.com>\nДмитрий Смирнов <other@igus.lv>\nОлеся Герасименко <translation-team@basealt.ru>\nАртём Котлубай <artemkotlubai@yandex.ru>\nАндрей Степанов <adem4ik@gmail.com>\n "
+
+#: thunar/thunar-dialogs.c:513 thunar/thunar-renamer-progress.c:173
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:840
+#: plugins/thunar-sendto-email/main.c:137
+#: plugins/thunar-uca/thunar-uca-chooser.c:325
+#: plugins/thunar-uca/thunar-uca-provider.c:568
+msgid "Error"
+msgstr "Ошибка"
+
+#: thunar/thunar-dialogs.c:639 thunar/thunar-permissions-chooser.c:570
+msgid "_Yes"
+msgstr "_Да"
+
+#: thunar/thunar-dialogs.c:643
+msgid "Yes to _all"
+msgstr "Да для _всех"
+
+#: thunar/thunar-dialogs.c:647 thunar/thunar-dialogs.c:839
+msgid "_Replace"
+msgstr "_Заменить"
+
+#: thunar/thunar-dialogs.c:651
+msgid "Replace _All"
+msgstr "За_менить все"
+
+#: thunar/thunar-dialogs.c:655 thunar/thunar-dialogs.c:826
+#: thunar/thunar-dialogs.c:837
+msgid "_Skip"
+msgstr "_Пропустить"
+
+#: thunar/thunar-dialogs.c:659
+msgid "S_kip All"
+msgstr "Пропустить _все"
+
+#: thunar/thunar-dialogs.c:663 thunar/thunar-dialogs.c:827
+#: thunar/thunar-dialogs.c:838
+msgid "Re_name"
+msgstr "_Переименовать"
+
+#: thunar/thunar-dialogs.c:667
+msgid "Rena_me All"
+msgstr "Пере_именовать все"
+
+#: thunar/thunar-dialogs.c:671 thunar/thunar-dialogs.c:828
+msgid "_Merge"
+msgstr "Объединит_ь"
+
+#: thunar/thunar-dialogs.c:675
+msgid "_Merge All"
+msgstr "О_бъединить все"
+
+#: thunar/thunar-dialogs.c:679 thunar/thunar-permissions-chooser.c:569
+msgid "_No"
+msgstr "_Нет"
+
+#: thunar/thunar-dialogs.c:683
+msgid "N_o to all"
+msgstr "Н_ет для всех"
+
+#: thunar/thunar-dialogs.c:687
+msgid "_Retry"
+msgstr "Попробовать _снова"
+
+#: thunar/thunar-dialogs.c:691
+msgid "Copy _Anyway"
+msgstr "_Всё равно копировать"
+
+#: thunar/thunar-dialogs.c:822 thunar/thunar-dialogs.c:833
+msgid "Confirm to replace files"
+msgstr "Подтвердите замену файлов"
+
+#: thunar/thunar-dialogs.c:882
+#, c-format
+msgid "This folder already contains a symbolic link \"%s\"."
+msgstr "В этой папке уже есть ссылка «%s»."
+
+#: thunar/thunar-dialogs.c:887
+#, c-format
+msgid "This folder already contains a folder \"%s\"."
+msgstr "В этой папке уже есть папка «%s»."
+
+#: thunar/thunar-dialogs.c:893
+#, c-format
+msgid "This folder already contains a file \"%s\" (%s)."
+msgstr "В этой папке уже есть файл «%s» (%s)."
+
+#: thunar/thunar-dialogs.c:897
+#, c-format
+msgid "This folder already contains a file \"%s\"."
+msgstr "В этой папке уже есть файл «%s»."
+
+#. TRANSLATORS: First part of replace dialog sentence
+#: thunar/thunar-dialogs.c:919
+#, c-format
+msgid "Replace the link in \"%s\""
+msgstr "Заменить ссылку в «%s»"
+
+#. TRANSLATORS: First part of replace dialog sentence
+#: thunar/thunar-dialogs.c:922
+#, c-format
+msgid "Merge the existing folder in \"%s\""
+msgstr "Объединить существующую папку в «%s»"
+
+#. TRANSLATORS: First part of replace dialog sentence
+#: thunar/thunar-dialogs.c:925
+#, c-format
+msgid "Replace the existing file in \"%s\""
+msgstr "Заменить существующий файл в «%s»"
+
+#. Fourth box (size)
+#: thunar/thunar-dialogs.c:961 thunar/thunar-dialogs.c:1011
+#: thunar/thunar-properties-dialog.c:654
+msgid "Size:"
+msgstr "Размер:"
+
+#: thunar/thunar-dialogs.c:961 thunar/thunar-dialogs.c:1011
+#: thunar/thunar-properties-dialog.c:590
+msgid "Modified:"
+msgstr "Изменён:"
+
+#. TRANSLATORS: Second part of replace dialog sentence
+#: thunar/thunar-dialogs.c:973
+msgid "with the following link?"
+msgstr "следующей ссылкой?"
+
+#. TRANSLATORS: Second part of replace dialog sentence
+#: thunar/thunar-dialogs.c:976
+msgid "with the following folder?"
+msgstr "следующим каталогом?"
+
+#. TRANSLATORS: Second part of replace dialog sentence
+#: thunar/thunar-dialogs.c:979
+msgid "with the following file?"
+msgstr "следующим файлом?"
+
+#: thunar/thunar-dialogs.c:1028
+msgid "_Apply the action to all folders"
+msgstr "Применить де_йствие ко всем папкам"
+
+#: thunar/thunar-dialogs.c:1030
+msgid "_Apply the action to all files"
+msgstr "Применить де_йствие ко всем _файлам"
+
+#. TRANSLATORS: This string will be inserted in the following sentence in the
+#. second appearance of %s:
+#. * "The desktop file %s is in an insecure location and not marked as
+#. secure%s."
+#: thunar/thunar-dialogs.c:1104
+msgid "/executable"
+msgstr "/исполняемый"
+
+#: thunar/thunar-dialogs.c:1110
+#, c-format
+msgid ""
+"The desktop file %s is in an insecure location and not marked as secure%s. If you do not trust this program, click Cancel.\n"
+"\n"
+msgstr "Файл .desktop «%s» имеет небезопасное расположение и не отмечен как исполняемый%s. Если вы не доверяете этому приложению, нажмите «Отмена».\n\n"
+
+#: thunar/thunar-dialogs.c:1135
+msgid "_Launch Anyway"
+msgstr "_Запустить всё равно"
+
+#: thunar/thunar-dialogs.c:1137
+msgid "Mark As _Secure And Launch"
+msgstr "Отметить безопасным и з_апустить"
+
+#: thunar/thunar-dialogs.c:1219
+msgid "Close split pane with multiple tabs?"
+msgstr "Закрыть разделенную панель с несколькими вкладками?"
+
+#: thunar/thunar-dialogs.c:1220
+msgid ""
+"The other split pane has multiple open tabs. Closing it will close all these"
+" tabs."
+msgstr "Уже есть открытая разделенная панель с несколькими открытыми вкладками. Её закрытие приведет к закрытию всех вкладок."
+
+#: thunar/thunar-dialogs.c:1226
+msgid "Warning"
+msgstr "Внимание"
+
+#: thunar/thunar-dialogs.c:1231
+msgid "Close Pane"
+msgstr "Закрыть панель"
+
+#: thunar/thunar-dialogs.c:1234 thunar/thunar-permissions-chooser.c:600
+msgid "Do _not ask me again"
+msgstr "_Больше не спрашивать"
+
+#: thunar/thunar-dialogs.c:1293
+#, c-format
+msgid "The file \"%s\" seems to be executable. What do you want to do with it?"
+msgstr "Файл «%s» выглядит исполняемым. Что вы хотите с ним сделать?"
+
+#: thunar/thunar-dialogs.c:1298
+msgid ""
+"The selected files seem to be executable. What do you want to do with them?"
+msgstr "Выбранные файлы выглядят исполняемыми. Что вы хотите с ними сделать?"
+
+#: thunar/thunar-dialogs.c:1311
+msgid "Open Shell Script"
+msgstr "Открыть сценарий Shell"
+
+#: thunar/thunar-dialogs.c:1315
+msgid "Run In _Terminal"
+msgstr "Запустить в _Терминале"
+
+#: thunar/thunar-dialogs.c:1373
+#, c-format
+msgid "Failed to edit launcher via command \"%s\""
+msgstr "Не удалось изменить значок запуска командой «%s»"
+
+#: thunar/thunar-dnd.c:67
+msgid "Copy _Here"
+msgstr "С_копировать сюда"
+
+#: thunar/thunar-dnd.c:67
+msgid "_Move Here"
+msgstr "Пере_местить"
+
+#: thunar/thunar-dnd.c:67
+msgid "_Link Here"
+msgstr "Создать с_вязь"
+
+#: thunar/thunar-emblem-chooser.c:372
+#, c-format
+msgid "A maximum of %u emblems is supported per file."
+msgstr "Поддерживаемый максимум эмблем на файл — %u."
+
+#: thunar/thunar-emblem-chooser.c:373
+msgid "Too many emblems selected"
+msgstr "Выбрано слишком много эмблем"
+
+#: thunar/thunar-enum-types.c:87
+msgid "Name only"
+msgstr "Название"
+
+#: thunar/thunar-enum-types.c:88
+msgid "Extension only"
+msgstr "Только расширение"
+
+#: thunar/thunar-enum-types.c:89
+msgid "Name and Extension"
+msgstr "Имя и расширение"
+
+#: thunar/thunar-enum-types.c:144
+msgid "Date Created"
+msgstr "Дата создания"
+
+#: thunar/thunar-enum-types.c:145
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:134
+msgid "Date Accessed"
+msgstr "Дата доступа"
+
+#: thunar/thunar-enum-types.c:146
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:135
+msgid "Date Modified"
+msgstr "Дата изменения"
+
+#: thunar/thunar-enum-types.c:147
+msgid "Date Deleted"
+msgstr "Дата удаления"
+
+#: thunar/thunar-enum-types.c:148
+msgid "Recency"
+msgstr "Новизна"
+
+#: thunar/thunar-enum-types.c:149
+msgid "Location"
+msgstr "Расположение"
+
+#: thunar/thunar-enum-types.c:150
+msgid "Group"
+msgstr "Группа"
+
+#: thunar/thunar-enum-types.c:151
+msgid "MIME Type"
+msgstr "MIME-тип"
+
+#: thunar/thunar-enum-types.c:152 thunar/thunar-renamer-dialog.c:476
+#: thunarx/thunarx-renamer.c:170
+msgid "Name"
+msgstr "Название"
+
+#: thunar/thunar-enum-types.c:153
+msgid "Owner"
+msgstr "Владелец"
+
+#. Permissions chooser
+#: thunar/thunar-enum-types.c:154 thunar/thunar-properties-dialog.c:961
+msgid "Permissions"
+msgstr "Права"
+
+#: thunar/thunar-enum-types.c:155 thunar/thunar-statusbar.c:90
+msgid "Size"
+msgstr "Размер"
+
+#: thunar/thunar-enum-types.c:156
+msgid "Size in Bytes"
+msgstr "Размер в байтах"
+
+#: thunar/thunar-enum-types.c:157
+msgid "Type"
+msgstr "Тип"
+
+#: thunar/thunar-enum-types.c:158
+msgid "File"
+msgstr "Файл"
+
+#: thunar/thunar-enum-types.c:159
+msgid "File Name"
+msgstr "Имя файла"
+
+#: thunar/thunar-enum-types.c:698 thunar/thunar-enum-types.c:723
+#: thunar/thunar-enum-types.c:858 thunar/thunar-preferences-dialog.c:445
+#: thunar/thunar-preferences-dialog.c:1247
+#: thunar/thunar-preferences-dialog.c:1355
+#: thunar/thunar-preferences-dialog.c:1443
+msgid "Never"
+msgstr "Никогда"
+
+#: thunar/thunar-enum-types.c:699 thunar/thunar-enum-types.c:724
+msgid "Only For Remote Location"
+msgstr "Только для внешнего расположения"
+
+#: thunar/thunar-enum-types.c:700 thunar/thunar-enum-types.c:725
+#: thunar/thunar-enum-types.c:860 thunar/thunar-preferences-dialog.c:447
+#: thunar/thunar-preferences-dialog.c:1243
+#: thunar/thunar-preferences-dialog.c:1353
+#: thunar/thunar-preferences-dialog.c:1444
+msgid "Always"
+msgstr "Всегда"
+
+#: thunar/thunar-enum-types.c:783
+msgid "Copy"
+msgstr "Копировать"
+
+#: thunar/thunar-enum-types.c:784
+msgid "Move"
+msgstr "Переместить"
+
+#: thunar/thunar-enum-types.c:785
+msgid "Rename"
+msgstr "Переименовать"
+
+#: thunar/thunar-enum-types.c:786
+msgid "Create File"
+msgstr "Создать файл"
+
+#: thunar/thunar-enum-types.c:787
+msgid "Create Folder"
+msgstr "Создать папку"
+
+#: thunar/thunar-enum-types.c:788
+msgid "Delete (opposite of create)"
+msgstr "Удалить (противоположно созданию)"
+
+#: thunar/thunar-enum-types.c:789 thunar/thunar-file.c:1111
+#: thunar/thunar-gio-extensions.c:568 thunar/thunar-shortcuts-model.c:1181
+#: thunar.desktop.in:25
+msgid "Trash"
+msgstr "Корзина"
+
+#: thunar/thunar-enum-types.c:790
+msgid "Restore (opposite of trash)"
+msgstr "Восстановить (противоположно удалению)"
+
+#: thunar/thunar-enum-types.c:791
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:548
+msgid "Link"
+msgstr "Ссылка"
+
+#: thunar/thunar-enum-types.c:792
+msgid "Unlink"
+msgstr "Отвязать"
+
+#: thunar/thunar-enum-types.c:813
+msgid "Log operations"
+msgstr "Журналировать действия"
+
+#: thunar/thunar-enum-types.c:814
+msgid "Log no operations"
+msgstr "Не журналировать действия"
+
+#: thunar/thunar-enum-types.c:815
+msgid "Log only timestamps"
+msgstr "Журналировать только временные метки"
+
+#: thunar/thunar-enum-types.c:836
+msgid "Standalone"
+msgstr "Автономный"
+
+#: thunar/thunar-enum-types.c:837
+msgid "Embedded"
+msgstr "Встраиваемый"
+
+#: thunar/thunar-enum-types.c:859
+msgid "Only for local files"
+msgstr "Только для локальных файлов"
+
+#: thunar/thunar-enum-types.c:981 thunar/thunar-preferences-dialog.c:1022
+#: thunar/thunar-preferences-dialog.c:1062
+msgid "Disabled"
+msgstr "Отключена"
+
+#: thunar/thunar-enum-types.c:982
+msgid "File Manager → Terminal"
+msgstr "Проводник → Терминал"
+
+#: thunar/thunar-enum-types.c:983
+msgid "Terminal → File Manager"
+msgstr "Терминал → Проводник"
+
+#: thunar/thunar-enum-types.c:984
+msgid "Both Ways"
+msgstr "В обе стороны"
+
+#: thunar/thunar-file.c:1118 thunar/thunar-gio-extensions.c:566
+#: thunar/thunar-shortcuts-model.c:1063
+msgid "File System"
+msgstr "Файловая система"
+
+#: thunar/thunar-file.c:1592
+msgid "The root folder has no parent"
+msgstr "Корневой каталог не имеет родительского каталога"
+
+#: thunar/thunar-file.c:1690
+#, c-format
+msgid "Failed to parse the desktop file: %s"
+msgstr "Не удалось разобрать .desktop-файл: %s"
+
+#. if the .desktop file is not secure, ask user what to do
+#: thunar/thunar-file.c:1703
+msgid "Untrusted application launcher"
+msgstr "Значок запуска непроверенного приложения"
+
+#: thunar/thunar-file.c:1734
+msgid "No Exec field specified"
+msgstr "Не указано поле «Exec»"
+
+#. if the .desktop file is not secure, ask user what to do
+#: thunar/thunar-file.c:1743
+msgid "Untrusted link launcher"
+msgstr "Значок запуска непроверенной ссылки"
+
+#: thunar/thunar-file.c:1759
+msgid "No URL field specified"
+msgstr "Не указано поле URL"
+
+#: thunar/thunar-file.c:1764
+msgid "Invalid desktop file"
+msgstr "Неверный .desktop-файл"
+
+#: thunar/thunar-file.c:2594 thunar/thunar-util.c:1453
+msgid "broken link"
+msgstr "битая ссылка"
+
+#: thunar/thunar-file.c:2601
+#, c-format
+msgid "%s (link to %s)"
+msgstr "%s (ссылка к %s)"
+
+#: thunar/thunar-file.c:2603
+#, c-format
+msgid "%s (link)"
+msgstr "%s (ссылка)"
+
+#: thunar/thunar-file.c:2612
+#, c-format
+msgid "%s (mount point)"
+msgstr "%s (точка монтирования)"
+
+#. Implementation specific
+#: thunar/thunar-gio-extensions.c:85
+msgid "iPod touch"
+msgstr "iPod touch"
+
+#: thunar/thunar-gio-extensions.c:86
+msgid "iPad"
+msgstr "iPad"
+
+#: thunar/thunar-gio-extensions.c:87
+msgid "iPhone"
+msgstr "iPhone"
+
+#: thunar/thunar-gio-extensions.c:88
+msgid "Solid State Drive"
+msgstr "Твердотельный накопитель"
+
+#: thunar/thunar-gio-extensions.c:89
+msgid "System Drive"
+msgstr "Системный накопитель"
+
+#: thunar/thunar-gio-extensions.c:90 thunar/thunar-gio-extensions.c:91
+msgid "USB Drive"
+msgstr "USB-накопитель"
+
+#. Freedesktop icon-naming-spec
+#: thunar/thunar-gio-extensions.c:94
+msgid "Camera"
+msgstr "Камера"
+
+#: thunar/thunar-gio-extensions.c:95
+msgid "Harddisk"
+msgstr "Жёсткий диск"
+
+#: thunar/thunar-gio-extensions.c:96
+msgid "Optical Drive"
+msgstr "Оптический привод"
+
+#: thunar/thunar-gio-extensions.c:97
+msgid "Removable Drive"
+msgstr "Съёмный накопитель"
+
+#: thunar/thunar-gio-extensions.c:98
+msgid "Flash Drive"
+msgstr "Флэш-накопитель"
+
+#: thunar/thunar-gio-extensions.c:99
+msgid "Floppy"
+msgstr "Дискета"
+
+#: thunar/thunar-gio-extensions.c:100
+msgid "Optical Media"
+msgstr " Оптический носитель"
+
+#: thunar/thunar-gio-extensions.c:101
+msgid "Tape"
+msgstr "Ленточный накопитель"
+
+#: thunar/thunar-gio-extensions.c:102
+msgid "Multimedia Player"
+msgstr "Мультимедиаплеер"
+
+#: thunar/thunar-gio-extensions.c:103
+msgid "PDA"
+msgstr "КПК"
+
+#: thunar/thunar-gio-extensions.c:104
+msgid "Phone"
+msgstr "Телефон"
+
+#. TRANSLATORS: this will result in "<path> on <hostname>"
+#: thunar/thunar-gio-extensions.c:648
+#, c-format
+msgid "%s on %s"
+msgstr "%s на %s"
+
+#: thunar/thunar-gio-extensions.c:846
+#, c-format
+msgid "%s used (%.0f%%)  |  %s free (%.0f%%)"
+msgstr "%s использовано (%.0f%%)  |  %s свободно (%.0f%%)"
+
+#: thunar/thunar-history.c:307
+msgid "The item will be removed from the history"
+msgstr "Объект будет удалён из истории"
+
+#: thunar/thunar-history.c:318
+#, c-format
+msgid "Could not find \"%s\""
+msgstr "Не удалось найти «%s»"
+
+#: thunar/thunar-icon-view.c:178
+msgid "Icon based directory listing"
+msgstr "Просмотр в виде значков"
+
+#: thunar/thunar-icon-view.c:179
+msgid "Icon view"
+msgstr "значки"
+
+#: thunar/thunar-io-jobs.c:141 thunar/thunar-io-jobs.c:156
+#, c-format
+msgid "Error removing file: %s"
+msgstr "Ошибка при удалении файла: %s"
+
+#: thunar/thunar-io-jobs.c:269 thunar/thunar-io-jobs.c:452
+#, c-format
+msgid "The file \"%s\" already exists"
+msgstr "«%s» уже существует"
+
+#: thunar/thunar-io-jobs.c:292
+#, c-format
+msgid "Failed to create empty file \"%s\": %s"
+msgstr "Не удалось создать пустой файл «%s»: %s"
+
+#: thunar/thunar-io-jobs.c:475
+#, c-format
+msgid "Failed to create directory \"%s\": %s"
+msgstr "Не удалось создать каталог «%s»: %s"
+
+#. tell the user that we're preparing to unlink the files
+#: thunar/thunar-io-jobs.c:562
+msgid "Preparing..."
+msgstr "Подготовка..."
+
+#: thunar/thunar-io-jobs.c:608
+#, c-format
+msgid "You do not have permission to delete the file \"%s\""
+msgstr "У вас нет прав на удаление файла «%s»"
+
+#: thunar/thunar-io-jobs.c:696
+#, c-format
+msgid "Could not delete file \"%s\": %s"
+msgstr "Не удалось удалить файл «%s»: %s"
+
+#. generate a useful error message
+#: thunar/thunar-io-jobs.c:1165
+#, c-format
+msgid "Failed to change the owner of \"%s\": %s"
+msgstr "Не удалось изменить владельца для «%s»: %s"
+
+#: thunar/thunar-io-jobs.c:1166
+#, c-format
+msgid "Failed to change the group of \"%s\": %s"
+msgstr "Не удалось изменить группу для «%s»: %s"
+
+#: thunar/thunar-io-jobs.c:1319
+#, c-format
+msgid "Failed to change the permissions of \"%s\": %s"
+msgstr "Не удалось изменить права для «%s»: %s"
+
+#: thunar/thunar-io-jobs.c:2086
+#, c-format
+msgid "Selection: %s"
+msgstr "Выделено: %s"
+
+#: thunar/thunar-io-jobs.c:2102
+#, c-format
+msgid "Free space: %s"
+msgstr "Свободно: %s"
+
+#. I18N: put " (copy #)" between basename and extension
+#: thunar/thunar-io-jobs-util.c:174
+#, c-format
+msgid "%s (copy %u)%s"
+msgstr "%s (%u-я копия)%s"
+
+#. I18N: put " (copy #)" after filename (for files without extension)
+#: thunar/thunar-io-jobs-util.c:180
+#, c-format
+msgid "%s (copy %u)"
+msgstr "%s (%u-я копия)"
+
+#: thunar/thunar-job.c:841
+#, c-format
+msgid ""
+"The file \"%s\" (%s) already exists. Would you like to replace it?\n"
+"\n"
+"If you replace an existing file, its contents will be overwritten."
+msgstr "Файл «%s» (%s) уже существует. Хотите заменить его?\n\nЕсли вы замените существующий файл, его содержимое будет перезаписано."
+
+#: thunar/thunar-job.c:846
+#, c-format
+msgid ""
+"The file \"%s\" already exists. Would you like to replace it?\n"
+"\n"
+"If you replace an existing file, its contents will be overwritten."
+msgstr "Файл «%s» уже существует. Вы хотите заменить его?\n\nЕсли вы замените существующий файл, его содержимое будет перезаписано."
+
+#: thunar/thunar-job.c:932
+msgid "Do you want to overwrite it?"
+msgstr "Перезаписать?"
+
+#: thunar/thunar-job.c:989
+msgid "Do you want to permanently delete it?"
+msgstr "Удалить навсегда?"
+
+#: thunar/thunar-job.c:1043
+msgid "Do you want to create it?"
+msgstr "Создать?"
+
+#: thunar/thunar-job.c:1162
+msgid "Do you want to skip it?"
+msgstr "Пропустить?"
+
+#: thunar/thunar-job.c:1211
+msgid ""
+"There is not enough space on the destination. Try to remove files to make "
+"space."
+msgstr "Недостаточно свободного места в папке назначения. Попробуйте удалить некоторые файлы, чтобы его освободить."
+
+#: thunar/thunar-job-operation.c:791 thunar/thunar-size-label.c:484
+#: thunar/thunar-util.c:1330
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d файл"
+msgstr[1] "%d файла"
+msgstr[2] "%d файлов"
+msgstr[3] "%d файлов"
+
+#: thunar/thunar-job-operation-history.c:323
+msgid ""
+"No operation which can be undone has been performed yet.\n"
+"(For some operations undo is not supported)"
+msgstr "Ещё не было выполнено ни одного действия, которого можно было бы откатить.\n(Для некоторых действий откат не поддерживается)"
+
+#: thunar/thunar-job-operation-history.c:325
+msgid "There is no operation to undo"
+msgstr "Нет действий для отката"
+
+#: thunar/thunar-job-operation-history.c:341
+msgid ""
+"The operation you are trying to undo does not have any files associated with"
+" it, and thus cannot be undone."
+msgstr "Операция, которую вы пытаетесь отменить, не имеет файлов, связанных с ней, и поэтому не может быть отменена."
+
+#: thunar/thunar-job-operation-history.c:343
+#, c-format
+msgid "%s operation cannot be undone"
+msgstr "Действие %s нельзя откатить"
+
+#. one indexed for the dialog
+#: thunar/thunar-job-operation-history.c:355
+msgid ""
+"The following files were overwritten in the operation you are trying to undo"
+" and cannot be restored:\n"
+msgstr "Следующие файлы были перезаписаны во время действия, которое вы пытаетесь откатить, и их нельзя восстановить:\n"
+
+#: thunar/thunar-job-operation-history.c:367
+#, c-format
+msgid "%s operation can only be partially undone"
+msgstr "Действие %s можно откатить только частично"
+
+#: thunar/thunar-job-operation-history.c:384
+#, c-format
+msgid "Failed to undo operation '%s'"
+msgstr "Не удалось отменить операцию «%s»"
+
+#: thunar/thunar-job-operation-history.c:420
+msgid "No operation which can be redone available.\n"
+msgstr "Нет действия, которого можно было бы повторить.\n"
+
+#: thunar/thunar-job-operation-history.c:421
+msgid "There is no operation to redo"
+msgstr "Нет никакого действия для повторного выполнения"
+
+#: thunar/thunar-job-operation-history.c:437
+msgid ""
+"The operation you are trying to redo does not have any files associated with"
+" it, and thus cannot be redone."
+msgstr "Операция, которую вы пытаетесь повторить, не имеет файлов, связанных с ней, и поэтому не может быть повторена."
+
+#: thunar/thunar-job-operation-history.c:439
+#, c-format
+msgid "%s operation cannot be redone"
+msgstr "%s действие не может быть повторено"
+
+#. one indexed for the dialog
+#: thunar/thunar-job-operation-history.c:451
+msgid ""
+"The following files were overwritten in the operation you are trying to redo"
+" and cannot be restored:\n"
+msgstr "Следующие файлы были перезаписаны во время действия, которое вы пытаетесь повторить, и не могут быть восстановлены:\n"
+
+#: thunar/thunar-job-operation-history.c:463
+#, c-format
+msgid "%s operation can only be partially redone"
+msgstr "%s действие может быть повторено только частично"
+
+#: thunar/thunar-job-operation-history.c:478
+#, c-format
+msgid "Failed to redo operation '%s'"
+msgstr "Не удалось повторить операцию «%s»"
+
+#. TRANSLATORS: An example: 'Undo the latest 'copy' operation (2 files)
+#: thunar/thunar-job-operation-history.c:565
+#, c-format
+msgid "Undo the latest '%s' operation (%s)"
+msgstr "Отменить последнюю операцию «%s» (%s)"
+
+#: thunar/thunar-job-operation-history.c:570 thunar/thunar-window.c:676
+msgid "Undo the latest operation"
+msgstr "Отменить последнее действие"
+
+#. TRANSLATORS: An example: 'Redo the latest 'copy' operation (2 files)
+#: thunar/thunar-job-operation-history.c:590
+#, c-format
+msgid "Redo the latest '%s' operation (%s)"
+msgstr "Повторить последнюю операцию «%s» (%s)"
+
+#: thunar/thunar-job-operation-history.c:595 thunar/thunar-window.c:677
+msgid "Redo the latest operation"
+msgstr "Повторить последнее действие"
+
+#: thunar/thunar-location-entry.c:364
+msgid "File does not exist"
+msgstr "Файл не существует"
+
+#: thunar/thunar-notify.c:181
+msgid "Undo performed"
+msgstr "Отменить выполненное"
+
+#: thunar/thunar-notify.c:182
+#, c-format
+msgid "%s operation was undone"
+msgstr "%s действие было отменено"
+
+#: thunar/thunar-notify.c:187
+msgid "Redo performed"
+msgstr "Повторить"
+
+#: thunar/thunar-notify.c:188
+#, c-format
+msgid "%s operation was redone"
+msgstr "%s действие было повторено"
+
+#: thunar/thunar-notify.c:264
+msgid "Unmounting device"
+msgstr "Отключение устройства"
+
+#: thunar/thunar-notify.c:265
+#, c-format
+msgid ""
+"The device \"%s\" is being unmounted by the system. Please do not remove the"
+" media or disconnect the drive"
+msgstr "Устройство «%s» отключается. Не вынимайте его до окончания выполнения операции."
+
+#: thunar/thunar-notify.c:272 thunar/thunar-notify.c:312
+msgid "Writing data to device"
+msgstr "Запись данных на устройство"
+
+#: thunar/thunar-notify.c:273 thunar/thunar-notify.c:313
+#, c-format
+msgid ""
+"There is data that needs to be written to the device \"%s\" before it can be"
+" removed. Please do not remove the media or disconnect the drive"
+msgstr "Необходимо записать данные на устройство «%s» перед его извлечением. Не вынимайте его до окончания выполнения операции."
+
+#: thunar/thunar-notify.c:305
+msgid "Ejecting device"
+msgstr "Извлечение устройства"
+
+#: thunar/thunar-notify.c:306
+#, c-format
+msgid "The device \"%s\" is being ejected. This may take some time"
+msgstr "Устройство «%s» извлекается. Это может занять некоторое время."
+
+#: thunar/thunar-path-entry.c:238
+msgid "Icon size"
+msgstr "Размер значков"
+
+#: thunar/thunar-path-entry.c:239
+msgid "The icon size for the path entry"
+msgstr "Размер значков для элемента в панели пути"
+
+#: thunar/thunar-path-entry.c:899
+msgid "Stop Search"
+msgstr "Остановить поиск"
+
+#. add a tooltip
+#: thunar/thunar-path-entry.c:902
+msgid ""
+"Search is in progress...\n"
+"Press the cancel button or the Escape key to stop."
+msgstr "Выполняется поиск...\nНажмите кнопку отмены или клавишу Esc для его остановки."
+
+#: thunar/thunar-permissions-chooser.c:230
+msgid "Owner:"
+msgstr "Владелец:"
+
+#: thunar/thunar-permissions-chooser.c:249
+msgid "_Access:"
+msgstr "_Доступ:"
+
+#: thunar/thunar-permissions-chooser.c:277
+msgid "Gro_up:"
+msgstr "_Группа:"
+
+#: thunar/thunar-permissions-chooser.c:299
+msgid "Acc_ess:"
+msgstr "Дос_туп:"
+
+#: thunar/thunar-permissions-chooser.c:327
+msgid "Others"
+msgstr "Прочие"
+
+#: thunar/thunar-permissions-chooser.c:335
+msgid "Acce_ss:"
+msgstr "Досту_п:"
+
+#: thunar/thunar-permissions-chooser.c:363
+msgid "Program:"
+msgstr "Программа:"
+
+#: thunar/thunar-permissions-chooser.c:369
+msgid "Allow this file to _run as a program"
+msgstr "Разрешить _запуск этого файла в качестве приложения"
+
+#: thunar/thunar-permissions-chooser.c:397
+#: thunar/thunar-preferences-dialog.c:1458
+msgid ""
+"Allowing untrusted programs to run presents a security risk to your system."
+msgstr "Разрешение запускать непроверенные файлы представляет опасность для вашей системы с точки зрения безопасности."
+
+#: thunar/thunar-permissions-chooser.c:415
+msgid ""
+"The folder permissions are inconsistent, you may not be able to work with "
+"files in this folder."
+msgstr "Текущие права на папку возможно не\nпозволят вам работать с файлами в этой папке."
+
+#: thunar/thunar-permissions-chooser.c:431
+msgid "Correct _folder permissions..."
+msgstr "Исправление прав для _папки..."
+
+#: thunar/thunar-permissions-chooser.c:432
+msgid "Click here to automatically fix the folder permissions."
+msgstr "Нажмите, чтобы автоматически исправить права для папки."
+
+#: thunar/thunar-permissions-chooser.c:445
+msgid "Please wait..."
+msgstr "Подождите..."
+
+#: thunar/thunar-permissions-chooser.c:452
+msgid "Stop applying permissions recursively."
+msgstr "Прекратить рекурсивное изменение прав."
+
+#. allocate the question dialog
+#: thunar/thunar-permissions-chooser.c:565
+msgid "Question"
+msgstr "Вопрос"
+
+#: thunar/thunar-permissions-chooser.c:589
+msgid "Apply recursively?"
+msgstr "Применить рекурсивно?"
+
+#: thunar/thunar-permissions-chooser.c:595
+msgid ""
+"Do you want to apply your changes recursively to\n"
+"all files and subfolders below the selected folder?"
+msgstr "Рекурсивно применить изменения ко всем\nфайлам и папкам в выбранной папке?"
+
+#: thunar/thunar-permissions-chooser.c:601
+msgid ""
+"If you select this option your choice will be remembered and you won't be "
+"asked again. You can use the preferences dialog to alter your choice "
+"afterwards."
+msgstr "Запомнить ваш выбор, чтобы в будущем избежать этого вопроса. Вы можете изменить ваш выбор, используя диалог настроек."
+
+#: thunar/thunar-permissions-chooser.c:969
+msgid "Mixed file owners"
+msgstr "несколько владельцев"
+
+#: thunar/thunar-permissions-chooser.c:969
+msgid "Unknown file owner"
+msgstr "владелец неизвестен"
+
+#: thunar/thunar-permissions-chooser.c:1049
+#: plugins/thunar-uca/thunar-uca-editor.c:427
+#: plugins/thunar-uca/thunar-uca-editor.c:639
+msgid "None"
+msgstr "нет"
+
+#. 0000
+#: thunar/thunar-permissions-chooser.c:1050
+msgid "Write only"
+msgstr "только запись"
+
+#. 0002
+#: thunar/thunar-permissions-chooser.c:1051
+msgid "Read only"
+msgstr "только чтение"
+
+#. 0004
+#: thunar/thunar-permissions-chooser.c:1052
+msgid "Read & Write"
+msgstr "чтение и запись"
+
+#: thunar/thunar-permissions-chooser.c:1054
+msgid "Varying (no change)"
+msgstr "различный (без изменения)"
+
+#: thunar/thunar-permissions-chooser.c:1181
+msgid "Correct folder permissions automatically?"
+msgstr "Автоматически исправить права для папки?"
+
+#: thunar/thunar-permissions-chooser.c:1182
+msgid "Folder permissions"
+msgstr "Права"
+
+#: thunar/thunar-permissions-chooser.c:1184
+msgid "Correct _folder permissions"
+msgstr "Исправление прав для _папки"
+
+#: thunar/thunar-permissions-chooser.c:1186
+msgid ""
+"The folder permissions will be reset to a consistent state. Only users "
+"allowed to read the contents of this folder will be allowed to enter the "
+"folder afterwards."
+msgstr "Права для папки будут исправлены автоматически. Только пользователям, которым разрешено чтение содержимого папки, будет разрешено открыть её."
+
+#. popup the error message dialog
+#: thunar/thunar-permissions-chooser.c:1301
+msgid "Error while changing file permissions"
+msgstr "Ошибка при изменении прав доступа к файлам"
+
+#: thunar/thunar-preferences-dialog.c:268 thunar/thunar-settings.desktop.in:4
+msgid "Thunar Preferences"
+msgstr "Настройки Thunar"
+
+#. Display
+#: thunar/thunar-preferences-dialog.c:294
+msgid "Display"
+msgstr "Отображение"
+
+#: thunar/thunar-preferences-dialog.c:304
+msgid "Window Settings"
+msgstr "Настройки окна"
+
+#: thunar/thunar-preferences-dialog.c:323
+msgid "Use custom window decorations (only applied to new windows)"
+msgstr "Использовать пользовательские декорации для окон (применяется только для новых окон)"
+
+#: thunar/thunar-preferences-dialog.c:330
+msgid ""
+"Use custom, client-side window decorations instead of global, server-side "
+"ones. - Only applied to new Thunar windows"
+msgstr "Использовать пользовательские декорации окон на стороне клиента вместо глобальных на стороне сервера. - Применяется только для новых окон Thunar"
+
+#: thunar/thunar-preferences-dialog.c:338
+msgid "Use current folder icon as window icon"
+msgstr "Использовать значок текущей папки в качестве значка окна"
+
+#: thunar/thunar-preferences-dialog.c:344
+msgid "Select this option to use the current folder icon as window icon"
+msgstr "Включите этот параметр, чтобы использовать значок текущей папки в качестве значка окна."
+
+#: thunar/thunar-preferences-dialog.c:349
+msgid "View Settings"
+msgstr "Настройки вида"
+
+#: thunar/thunar-preferences-dialog.c:362
+msgid "View _new folders using:"
+msgstr "Режим о_тображения _новых папок:"
+
+#: thunar/thunar-preferences-dialog.c:368
+#: thunar/thunar-preferences-dialog.c:510
+msgid "Icon View"
+msgstr "Значки"
+
+#: thunar/thunar-preferences-dialog.c:369
+#: thunar/thunar-preferences-dialog.c:1558
+msgid "List View"
+msgstr "Список"
+
+#: thunar/thunar-preferences-dialog.c:370
+msgid "Compact View"
+msgstr "Компактный"
+
+#: thunar/thunar-preferences-dialog.c:371
+msgid "Last Active View"
+msgstr "Последний режим"
+
+#: thunar/thunar-preferences-dialog.c:387
+msgid "_Remember view settings for each folder"
+msgstr "_Запомнить настройки отображения для каждой папки"
+
+#: thunar/thunar-preferences-dialog.c:394
+msgid ""
+"Select this option to remember view type, zoom level and sort settings "
+"individually for each folder"
+msgstr "Используйте этот параметр, чтобы запоминать тип просмотра, уровень масштабирования и параметры сортировки отдельно для каждой папки."
+
+#: thunar/thunar-preferences-dialog.c:402
+msgid "gvfs metadata support is required"
+msgstr "Требуется поддержка метаданных gvfs"
+
+#: thunar/thunar-preferences-dialog.c:408
+msgid "Show file size in binary format"
+msgstr "Показывать размер файлов в двоичном формате"
+
+#: thunar/thunar-preferences-dialog.c:414
+msgid ""
+"Select this option to show file size in binary format instead of decimal."
+msgstr "Используйте этот параметр, чтобы показывать размер файла в двоичном формате вместо десятичного."
+
+#: thunar/thunar-preferences-dialog.c:423
+msgid "Thumbnails"
+msgstr "Эскизы"
+
+#: thunar/thunar-preferences-dialog.c:439
+msgid "Show thumbnails:"
+msgstr "Показывать эскизы:"
+
+#: thunar/thunar-preferences-dialog.c:446
+#: thunar/thunar-preferences-dialog.c:1244
+#: thunar/thunar-preferences-dialog.c:1354
+msgid "Local Files Only"
+msgstr "Только локальные файлы"
+
+#: thunar/thunar-preferences-dialog.c:465
+msgid "Only show thumbnails for files smaller than:"
+msgstr "Показывать эскизы только для файлов размером менее:"
+
+#: thunar/thunar-preferences-dialog.c:471
+msgid "512KiB"
+msgstr "512 КБ"
+
+#: thunar/thunar-preferences-dialog.c:472
+msgid "1MiB"
+msgstr "1 МБ"
+
+#: thunar/thunar-preferences-dialog.c:473
+msgid "10MiB"
+msgstr "10 МБ"
+
+#: thunar/thunar-preferences-dialog.c:474
+msgid "100MiB"
+msgstr "100 МБ"
+
+#: thunar/thunar-preferences-dialog.c:475
+msgid "1GiB"
+msgstr "1 ГБ"
+
+#: thunar/thunar-preferences-dialog.c:476
+msgid "10GiB"
+msgstr "10 ГБ"
+
+#: thunar/thunar-preferences-dialog.c:477
+msgid "Unlimited"
+msgstr "Без ограничений"
+
+#: thunar/thunar-preferences-dialog.c:495
+msgid "Draw frames around thumbnails"
+msgstr "Отображать рамки вокруг эскизов"
+
+#: thunar/thunar-preferences-dialog.c:501
+msgid "Select this option to draw black frames around thumbnails."
+msgstr "Используйте этот параметр, чтобы отображать чёрные рамки вокруг эскизов."
+
+#: thunar/thunar-preferences-dialog.c:526
+msgid "_Text beside icons"
+msgstr "_Текст рядом со значками"
+
+#: thunar/thunar-preferences-dialog.c:532
+msgid ""
+"Select this option to place the icon captions for items beside the icon "
+"rather than below the icon."
+msgstr "Используйте этот параметр, чтобы подписи к значкам отображались рядом с ними. Если отключено, подписи будут отображаться под значками."
+
+#: thunar/thunar-preferences-dialog.c:542
+msgid "Date"
+msgstr "Дата"
+
+#: thunar/thunar-preferences-dialog.c:555
+#: plugins/thunar-sbr/thunar-sbr-date-renamer.c:219
+msgid "_Format:"
+msgstr "_Формат:"
+
+#. TRANSLATORS: custom date format
+#: thunar/thunar-preferences-dialog.c:568
+msgid "Custom"
+msgstr "Пользовательский формат"
+
+#: thunar/thunar-preferences-dialog.c:569
+msgid "Today / Custom"
+msgstr "Сегодня/Пользовательский формат"
+
+#. TRANSLATORS: Please do not translate the first column (specifiers),
+#. 'strftime' and of course '\n'
+#: thunar/thunar-preferences-dialog.c:586
+msgid ""
+"Custom date format to apply.\n"
+"\n"
+"The most common specifiers are:\n"
+"%d day of month\n"
+"%m month\n"
+"%Y year including century\n"
+"%H hour\n"
+"%M minute\n"
+"%S second\n"
+"\n"
+"For a complete list, search 'Glib.DateTime.format'."
+msgstr "Пользовательский формат даты.\n\nНаиболее употребимые спецификаторы:\n%d день месяца\n%m месяц\n%Y год, включая век\n%H час\n%M минута\n%S секунда\n\nПолный список ищите в «Glib.DateTime.format»."
+
+#. Side Pane
+#: thunar/thunar-preferences-dialog.c:608
+msgid "Side Pane"
+msgstr "Боковая панель"
+
+#: thunar/thunar-preferences-dialog.c:618
+msgid "Shortcuts Pane"
+msgstr "Панель закладок"
+
+#: thunar/thunar-preferences-dialog.c:634
+msgid "_Icon Size:"
+msgstr "_Размер значков:"
+
+#: thunar/thunar-preferences-dialog.c:640
+#: thunar/thunar-preferences-dialog.c:812
+msgid "16px"
+msgstr "16 пикс"
+
+#: thunar/thunar-preferences-dialog.c:641
+#: thunar/thunar-preferences-dialog.c:813
+msgid "24px"
+msgstr "24 пикс"
+
+#: thunar/thunar-preferences-dialog.c:642
+#: thunar/thunar-preferences-dialog.c:814
+msgid "32px"
+msgstr "32 пикс"
+
+#: thunar/thunar-preferences-dialog.c:643
+#: thunar/thunar-preferences-dialog.c:815
+msgid "48px"
+msgstr "48 пикс"
+
+#: thunar/thunar-preferences-dialog.c:644
+#: thunar/thunar-preferences-dialog.c:816
+msgid "64px"
+msgstr "64 пикс"
+
+#: thunar/thunar-preferences-dialog.c:645
+#: thunar/thunar-preferences-dialog.c:817
+msgid "96px"
+msgstr "96 пикс"
+
+#: thunar/thunar-preferences-dialog.c:646
+#: thunar/thunar-preferences-dialog.c:818
+msgid "128px"
+msgstr "128 пикс"
+
+#: thunar/thunar-preferences-dialog.c:647
+#: thunar/thunar-preferences-dialog.c:819
+msgid "160px"
+msgstr "160 пикс"
+
+#: thunar/thunar-preferences-dialog.c:648
+#: thunar/thunar-preferences-dialog.c:820
+msgid "192px"
+msgstr "192 пикс"
+
+#: thunar/thunar-preferences-dialog.c:649
+#: thunar/thunar-preferences-dialog.c:821
+msgid "256px"
+msgstr "256 пикс"
+
+#: thunar/thunar-preferences-dialog.c:650
+#: thunar/thunar-preferences-dialog.c:822
+msgid "512px"
+msgstr "512 пикс"
+
+#: thunar/thunar-preferences-dialog.c:651
+#: thunar/thunar-preferences-dialog.c:823
+msgid "1024px"
+msgstr "1024 пикс"
+
+#: thunar/thunar-preferences-dialog.c:669
+msgid "Show icon _emblems"
+msgstr "Показывать _эмблемы на значках"
+
+#: thunar/thunar-preferences-dialog.c:675
+msgid ""
+"Select this option to display icon emblems in the shortcuts pane for all "
+"folders for which emblems have been defined in the folders properties "
+"dialog."
+msgstr "Используйте этот параметр, чтобы в панели закладок показывались эмблемы на значках."
+
+#: thunar/thunar-preferences-dialog.c:684
+msgid "Show disk space _usage bar"
+msgstr "Показывать индикатор _использования дискового пространства"
+
+#: thunar/thunar-preferences-dialog.c:697
+msgid "Use warning color when used disk space exceeds:"
+msgstr "Обозначать предупреждение цветом, когда на диске используется более:"
+
+#: thunar/thunar-preferences-dialog.c:723
+#: thunar/thunar-preferences-dialog.c:769
+msgid "Set the value to 0 to disable progress bar color changing"
+msgstr "Равное нулю значение отключает изменение цвета индикатора хода выполнения"
+
+#: thunar/thunar-preferences-dialog.c:743
+msgid "Use error color when used disk space exceeds:"
+msgstr "Обозначать ошибку цветом, когда на диске используется более:"
+
+#: thunar/thunar-preferences-dialog.c:791
+msgid "Tree Pane"
+msgstr "Дерево"
+
+#: thunar/thunar-preferences-dialog.c:807
+msgid "Icon _Size:"
+msgstr "Размер _значков:"
+
+#: thunar/thunar-preferences-dialog.c:841
+msgid "Show icon e_mblems"
+msgstr "Показывать э_мблемы на значках"
+
+#: thunar/thunar-preferences-dialog.c:847
+msgid ""
+"Select this option to display icon emblems in the tree pane for all folders "
+"for which emblems have been defined in the folders properties dialog."
+msgstr "Используйте этот параметр, чтобы включить отображение эмблем на значках в дереве."
+
+#: thunar/thunar-preferences-dialog.c:857
+msgid "Icon Style"
+msgstr "Стиль значка"
+
+#: thunar/thunar-preferences-dialog.c:873
+msgid "Use symbolic folder icons"
+msgstr "Использовать символьные значки папок"
+
+#: thunar/thunar-preferences-dialog.c:879
+msgid ""
+"Select this option to use symbolic folder icons instead of regular ones."
+msgstr "Выберите этот параметр, чтобы использовать символические значки папок вместо обычных."
+
+#: thunar/thunar-preferences-dialog.c:888
+msgid "Image Preview"
+msgstr "Предпросмотр изображения"
+
+#: thunar/thunar-preferences-dialog.c:904
+msgid "Image Preview Mode:"
+msgstr "Режим предварительного просмотра изображения:"
+
+#: thunar/thunar-preferences-dialog.c:906
+msgid ""
+"- Standalone: Image Preview uses a separate pane\n"
+"- Embedded: Image Preview is embedded in the left sidepane\n"
+msgstr "- Автономный: предпросмотр изображения использует отдельную панель\n- Встраиваемый: предпросмотр изображения встроен в левую боковую панель\n"
+
+#. Behavior
+#: thunar/thunar-preferences-dialog.c:935
+msgid "Behavior"
+msgstr "Поведение"
+
+#: thunar/thunar-preferences-dialog.c:945
+msgid "Mouse Interactions"
+msgstr "Взаимодействие с мышью"
+
+#: thunar/thunar-preferences-dialog.c:961
+msgid "_Single click to activate items"
+msgstr "_Одно нажатие открывает файл"
+
+#: thunar/thunar-preferences-dialog.c:986
+msgid ""
+"Specify the d_elay before an item gets selected\n"
+"when the mouse pointer is paused over it:"
+msgstr "Укажите _задержку перед тем, как объект будет выбран\nпри удержании над ним указателя мыши:"
+
+#: thunar/thunar-preferences-dialog.c:999
+msgid ""
+"When single-click activation is enabled, pausing the mouse pointer over an "
+"item will automatically select that item after the chosen delay. You can "
+"disable this behavior by moving the slider to the left-most position. This "
+"behavior may be useful when single clicks activate items, and you want only "
+"to select the item without activating it."
+msgstr "Если включено открытие файла одним нажатием, при удержании указателя мыши над файлом, он будет выделен по истечении указанного промежутка времени. Такой режим может быть полезным, когда одно нажатие открывает файл, а вам нужно открыть его без выделения. Вы можете отключить этот режим, поместив ползунок в крайнее левое положение."
+
+#: thunar/thunar-preferences-dialog.c:1028
+msgid "Medium"
+msgstr "Средняя"
+
+#: thunar/thunar-preferences-dialog.c:1033
+msgid "Long"
+msgstr "Большая"
+
+#: thunar/thunar-preferences-dialog.c:1042
+msgid "_Double click to activate items"
+msgstr "_Двойное нажатие открывает файл "
+
+#: thunar/thunar-preferences-dialog.c:1056
+msgid "_File Drag and Drop behavior:"
+msgstr "Поведение при перет_аскивании файлов:"
+
+#: thunar/thunar-preferences-dialog.c:1063
+msgid "Show menu only on Right Click"
+msgstr "Показывать меню только по щелчку правой кнопкой мыши"
+
+#: thunar/thunar-preferences-dialog.c:1064
+msgid "Always show menu"
+msgstr "Всегда показывать меню"
+
+#: thunar/thunar-preferences-dialog.c:1073
+msgid ""
+"Disabled:\n"
+"\t- Ignore file dragging.\n"
+"Show menu only on Right Click:\n"
+"\t- Left click + drag:\n"
+"\t\tTo same drive: Move\n"
+"\t\tTo different drive: Copy\n"
+"\t- Right click + drag:\n"
+"\t\tShow a menu to select an action.\n"
+"Always show menu:\n"
+"\t- Show a menu to select an action.\n"
+"\n"
+"Keyboard-shortcuts to select the action ahead of the drop:\n"
+"\t- [Ctrl]: Copy\n"
+"\t- [Shift]: Move\n"
+"\t- [Ctrl]+[Shift]: Create a Link"
+msgstr "Отключено:\n\t- Игнорировать перетаскивание файлов.\nПоказывать меню только при правом щелчке:\n\t- Перетаскивание левой кнопкой:\n\t\tНа тот же диск: Переместить\n\t\tНа другой диск: Копировать\n\t- Перетаскивание правой кнопкой:\n\t\tПоказывать меню выбора действия.\nВсегда показывать меню:\n\t- Показывать меню выбора действия.\n\nГорячие клавиши для выбора действия перед отпусканием:\n\t- [Ctrl]: Копировать\n\t- [Shift]: Переместить\n\t- [Ctrl]+[Shift]: Создать ссылку"
+
+#: thunar/thunar-preferences-dialog.c:1098
+msgid "Tabs and Windows"
+msgstr "Вкладки и окна"
+
+#: thunar/thunar-preferences-dialog.c:1114
+msgid "Open folders in new tabs on middle click"
+msgstr "Открывать папки в новых вкладках нажатием средней кнопки мыши"
+
+#: thunar/thunar-preferences-dialog.c:1120
+msgid ""
+"Select this option to open a new tab on middle click instead of a new window"
+msgstr "Отметьте этот параметр для открытия новой вкладки вместо нового окна нажатием средней кнопки мыши"
+
+#: thunar/thunar-preferences-dialog.c:1127
+msgid "Open new thunar instances as tabs"
+msgstr "Открывать новые копии Thunar во вкладках"
+
+#: thunar/thunar-preferences-dialog.c:1133
+msgid ""
+"Select this option to open new thunar instances as tabs in an existing "
+"thunar window"
+msgstr "Отметьте этот параметр для открытия новых копий Thunar в виде вкладок в существующем окне."
+
+#: thunar/thunar-preferences-dialog.c:1141
+msgid "Show full directory paths in tab titles"
+msgstr "Выводить полные пути папок в заголовках вкладок"
+
+#: thunar/thunar-preferences-dialog.c:1147
+msgid ""
+"Select this option to show the full directory path in the tab title instead "
+"of only the directory name"
+msgstr "Выберите этот параметр, чтобы отобразить в заголовке вкладки полный путь папки, а не только его имя"
+
+#: thunar/thunar-preferences-dialog.c:1154
+msgid "Restore tabs on startup"
+msgstr "Восстанавливать вкладки при запуске"
+
+#: thunar/thunar-preferences-dialog.c:1160
+msgid ""
+"Select this option to restore your tabs as they were last time you used "
+"Thunar"
+msgstr "Используйте этот параметр, чтобы восстановить вкладки в том виде, в котором они были при последнем использовании Thunar."
+
+#: thunar/thunar-preferences-dialog.c:1171
+msgid "Context Menu"
+msgstr "Контекстное меню"
+
+#: thunar/thunar-preferences-dialog.c:1187
+msgid "Show action to permanently delete files and folders"
+msgstr "Показывать действие безвозвратного удаления файлов и папок"
+
+#: thunar/thunar-preferences-dialog.c:1193
+msgid "Select this option to show the 'Delete' action in the context menu"
+msgstr "Выберите этот параметр, чтобы показывать действие «Удалить» в контекстном меню."
+
+#. Advanced
+#: thunar/thunar-preferences-dialog.c:1202
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: thunar/thunar-preferences-dialog.c:1212
+msgid "File Transfer"
+msgstr "Передача файлов"
+
+#: thunar/thunar-preferences-dialog.c:1229
+msgid "Transfer files in parallel:"
+msgstr "Передавать файлы в параллели:"
+
+#: thunar/thunar-preferences-dialog.c:1231
+msgid ""
+"Indicates the behavior during multiple copies:\n"
+"- Always: all copies are done simultaneously\n"
+"- Local Files Only: simultaneous copies for local (not remote, not attached) files\n"
+"- Local Files Only (Same Devices): if all files are local but on different devices (disks, mount points), copies will be sequential\n"
+"- Local Files Only (Idle Devices): if all files are local but on busy devices (disks, mount points), copies will be sequential\n"
+"- Never: all copies are done sequentially"
+msgstr "Определяет поведение при множественном копировании:\n- Всегда: все копии выполняются одновременно\n- Только локальные файлы: параллельное копирование локальных (не удаленных, не присоединенных) файлов\n- Только локальные файлы (на одном устройстве): если все файлы локальные, но находятся на разных устройствах (дисках, точках монтирования), копирование будет последовательным\n- Только локальные файлы (простаивающие устройства): если все файлы локальные, но находятся на занятых устройствах (дисках, точках монтирования), копии будут последовательными\n- Никогда: все копии выполняются последовательно"
+
+#: thunar/thunar-preferences-dialog.c:1245
+msgid "Local Files Only (Same Devices)"
+msgstr "Только локальные файлы (на одном устройстве)"
+
+#: thunar/thunar-preferences-dialog.c:1246
+msgid "Local Files Only (Idle Devices)"
+msgstr "Только локальные файлы (простаивающие устройства)"
+
+#: thunar/thunar-preferences-dialog.c:1265
+msgid "Use intermediate file on copy:"
+msgstr "Использовать промежуточный файл при копировании:"
+
+#: thunar/thunar-preferences-dialog.c:1269
+msgid ""
+"Use intermediate file '*.partial~' to copy files. This will prevent "
+"fragmented files. The new file will only be shown after the copy was "
+"successfully finished."
+msgstr "Использовать промежуточный файл «*.partial~» при копировании файлов. Это предотвращает фрагментацию файлов. Новый файл будет показан после успешного завершения копирования."
+
+#: thunar/thunar-preferences-dialog.c:1296
+msgid "Verify file contents on copy:"
+msgstr "Проверка содержимого файла при копировании:"
+
+#: thunar/thunar-preferences-dialog.c:1300
+msgid ""
+"Compare contents of original file and copy in order to detect corruption. "
+"While this will attempt to compare the actual contents that are on the "
+"destination media, Thunar may be unable to bypass filesystem caches, so this"
+" comparison may not detect all instances of corruption. Enabling this option"
+" will increase copy time."
+msgstr "Сравнить содержимое оригинального файла и копии, чтобы обнаружить повреждение. Хотя при этом будет сделана попытка сравнить фактическое содержимое, находящееся на целевом носителе, Thunar может быть не в состоянии обойти кэши файловой системы, поэтому такое сравнение может не выявить все случаи повреждения. Включение этого параметра увеличит время копирования."
+
+#: thunar/thunar-preferences-dialog.c:1330
+msgid "Search"
+msgstr "Поиск"
+
+#: thunar/thunar-preferences-dialog.c:1347
+msgid "Include subfolders:"
+msgstr "Включить подпапки:"
+
+#: thunar/thunar-preferences-dialog.c:1371
+msgid "Folder Permissions"
+msgstr "Права папки"
+
+#: thunar/thunar-preferences-dialog.c:1387
+msgid ""
+"When changing the permissions of a folder, you\n"
+"can also apply the changes to the contents of the\n"
+"folder. Select the default behavior below:"
+msgstr "При изменении прав для папки также можно\nприменить изменения к его содержимому. Выберите\nповедение по умолчанию:"
+
+#: thunar/thunar-preferences-dialog.c:1399
+#: thunar/thunar-preferences-dialog.c:1445
+msgid "Ask every time"
+msgstr "Каждый раз спрашивать"
+
+#: thunar/thunar-preferences-dialog.c:1400
+msgid "Apply to Folder and Contents"
+msgstr "Применить к папке и её содержимому"
+
+#: thunar/thunar-preferences-dialog.c:1401
+msgid "Apply to Folder Only"
+msgstr "Применить только к самой папке"
+
+#: thunar/thunar-preferences-dialog.c:1416
+msgid "Security"
+msgstr "Безопасность"
+
+#: thunar/thunar-preferences-dialog.c:1433
+msgid "Execute shell scripts:"
+msgstr "Исполнить сценарии shell:"
+
+#: thunar/thunar-preferences-dialog.c:1468
+msgid "Volume Management"
+msgstr "Управление томами"
+
+#. add check button to enable/disable auto mounting
+#: thunar/thunar-preferences-dialog.c:1485
+msgid "Enable _volume management"
+msgstr "Включить управление _томами"
+
+#: thunar/thunar-preferences-dialog.c:1504
+msgid ""
+"<a href=\"volman-config:\">Configure</a> the management of removable drives,\n"
+"devices and media."
+msgstr "<a href=\"volman-config:\">Настроить</a> управление съёмными носителями,\nустройствами и мультимедиа."
+
+#: thunar/thunar-preferences-dialog.c:1518
+#: thunar/thunar-properties-dialog.c:855
+msgid "Missing dependencies"
+msgstr "Отсутствующие зависимости"
+
+#: thunar/thunar-preferences-dialog.c:1526
+msgid ""
+"It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\n"
+"Important features including trash support,\n"
+"removable media and remote location browsing\n"
+"will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
+msgstr "Похоже, что <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> недоступен.\nВажные функции, включая поддержку корзины,\nсменные носители и просмотр удалённых местоположений,\nне смогут работать. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Узнать больше]</a>"
+
+#. Shortcuts
+#: thunar/thunar-preferences-dialog.c:1541
+msgid "Shortcuts"
+msgstr "Закладки"
+
+#: thunar/thunar-preferences-dialog.c:1556
+msgid "Window"
+msgstr "Окно"
+
+#: thunar/thunar-preferences-dialog.c:1557
+msgid "View"
+msgstr "Просмотр"
+
+#: thunar/thunar-preferences-dialog.c:1559
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:546
+msgid "Launcher"
+msgstr "Значок запуска"
+
+#: thunar/thunar-preferences-dialog.c:1560
+msgid "Status Bar"
+msgstr "Строка состояния"
+
+#: thunar/thunar-preferences-dialog.c:1568
+msgid "The Shortcuts Editor requires a Thunar window to be present."
+msgstr "Редактору комбинаций клавиш требуется открытое окно Thunar."
+
+#. tell the user that we failed to come up with the thunar-volman
+#. configuration dialog
+#: thunar/thunar-preferences-dialog.c:1632
+msgid "Failed to display the volume management settings"
+msgstr "Не удалось открыть настройки менеджера томов"
+
+#: thunar/thunar-progress-dialog.c:101
+msgid "File Operation Progress"
+msgstr "Действия над файлами"
+
+#: thunar/thunar-progress-view.c:399
+msgid "Paused"
+msgstr "Остановлено"
+
+#: thunar/thunar-progress-view.c:421
+msgid "Starting... (User request)"
+msgstr "Запуск... (запрос пользователя)"
+
+#: thunar/thunar-progress-view.c:424
+msgid "Resuming..."
+msgstr "Возобновление..."
+
+#. update the status text
+#: thunar/thunar-progress-view.c:459
+msgid "Cancelling..."
+msgstr "Отмена..."
+
+#. display the error message
+#: thunar/thunar-progress-view.c:541
+msgid "Error while processing file operation"
+msgstr "Ошибка при обработке файловой операции"
+
+#: thunar/thunar-progress-view.c:615
+msgid "Job queued"
+msgstr "Задача отложена"
+
+#: thunar/thunar-progress-view.c:634
+msgid "Resuming job..."
+msgstr "Продолжение задачи..."
+
+#: thunar/thunar-properties-dialog.c:355
+msgid "General"
+msgstr "Основные"
+
+#: thunar/thunar-properties-dialog.c:380
+#: plugins/thunar-uca/thunar-uca-editor.ui:46
+msgid "_Name:"
+msgstr "_Имя:"
+
+#: thunar/thunar-properties-dialog.c:420
+msgid "Names:"
+msgstr "Имена:"
+
+#. Second box (kind, open with, link target, original path, location, volume)
+#: thunar/thunar-properties-dialog.c:443
+msgid "Kind:"
+msgstr "Тип:"
+
+#: thunar/thunar-properties-dialog.c:457
+msgid "_Open With:"
+msgstr "О_ткрыть с помощью:"
+
+#: thunar/thunar-properties-dialog.c:474
+msgid "Link Target:"
+msgstr "Цель ссылки:"
+
+#. TRANSLATORS: Try to come up with a short translation of "Original Path"
+#. (which is the path
+#. * where the trashed file/folder was located before it was moved to the
+#. trash), otherwise the
+#. * properties dialog width will be messed up.
+#: thunar/thunar-properties-dialog.c:496 thunar/thunar-util.c:1477
+msgid "Original Path:"
+msgstr "Исходный путь:"
+
+#: thunar/thunar-properties-dialog.c:514
+msgid "Location:"
+msgstr "Адрес:"
+
+#: thunar/thunar-properties-dialog.c:531
+msgid "Volume:"
+msgstr "Том:"
+
+#. Third box (created, modified, accessed, deleted)
+#: thunar/thunar-properties-dialog.c:573
+msgid "Created:"
+msgstr "Создан:"
+
+#: thunar/thunar-properties-dialog.c:607
+msgid "Accessed:"
+msgstr "Доступ:"
+
+#: thunar/thunar-properties-dialog.c:624
+msgid "Deleted:"
+msgstr "Удалён:"
+
+#: thunar/thunar-properties-dialog.c:670
+msgid "Size on Disk:"
+msgstr "Размер на диске:"
+
+#. Fifth box (content, capacity, free space)
+#: thunar/thunar-properties-dialog.c:697
+msgid "Content:"
+msgstr "Содержимое:"
+
+#: thunar/thunar-properties-dialog.c:725
+msgid "Filesystem:"
+msgstr "Файловая система:"
+
+#: thunar/thunar-properties-dialog.c:747
+msgid "Capacity:"
+msgstr "Ёмкость:"
+
+#: thunar/thunar-properties-dialog.c:764
+msgid ""
+"Be aware that a portion of the filesystem’s total capacity is reserved for "
+"metadata. Consequently, the usable capacity is less than the total capacity."
+msgstr "Имейте в виду, что часть общей ёмкости файловой системы зарезервирована для метаданных. Следовательно, полезный размер меньше общей ёмкости."
+
+#: thunar/thunar-properties-dialog.c:771
+msgid "Usage:"
+msgstr "Использование:"
+
+#: thunar/thunar-properties-dialog.c:788
+msgid ""
+"If the filesystem’s usable capacity is unknown, its total capacity is "
+"assumed to represent 100%."
+msgstr "Если полезная ёмкость файловой системы неизвестна, предполагается, что её общая ёмкость составляет 100%."
+
+#. Emblem chooser
+#: thunar/thunar-properties-dialog.c:809
+msgid "Emblems"
+msgstr "Эмблемы"
+
+#: thunar/thunar-properties-dialog.c:824
+msgid "Highlight"
+msgstr "Подсветка"
+
+#: thunar/thunar-properties-dialog.c:863
+msgid ""
+"It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\n"
+"This feature will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
+msgstr "Похоже, что <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> недоступен.\nЭта функция не будет работать. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Узнать больше]</a>"
+
+#: thunar/thunar-properties-dialog.c:891
+msgid "Example.txt"
+msgstr "Пример.txt"
+
+#: thunar/thunar-properties-dialog.c:908
+msgid "_Apply"
+msgstr "_Применить"
+
+#: thunar/thunar-properties-dialog.c:920
+msgid "_Reset"
+msgstr "С_бросить"
+
+#: thunar/thunar-properties-dialog.c:931
+msgid "Set _Foreground"
+msgstr "Задать цвет _текста"
+
+#: thunar/thunar-properties-dialog.c:939
+msgid "Set _Background"
+msgstr "Задать цвет _фона"
+
+#: thunar/thunar-properties-dialog.c:1240
+#, c-format
+msgid "Select an Icon for \"%s\" (%s)"
+msgstr "Выберите значок для «%s» (%s)"
+
+#. allocate the chooser dialog
+#: thunar/thunar-properties-dialog.c:1242
+#: plugins/thunar-uca/thunar-uca-editor.c:448
+#, c-format
+msgid "Select an Icon for \"%s\""
+msgstr "Выберите значок для «%s»"
+
+#: thunar/thunar-properties-dialog.c:1268
+#, c-format
+msgid "Failed to change icon of \"%s\" (%s)"
+msgstr "Не удалось изменить значок для «%s» (%s)"
+
+#: thunar/thunar-properties-dialog.c:1272
+#, c-format
+msgid "Failed to change icon of \"%s\""
+msgstr "Не удалось изменить значок для «%s»"
+
+#: thunar/thunar-properties-dialog.c:1378
+#, c-format
+msgid "%s (%s) - Properties"
+msgstr "%s (%s) — Свойства"
+
+#: thunar/thunar-properties-dialog.c:1380
+#, c-format
+msgid "%s - Properties"
+msgstr "%s — Свойства"
+
+#: thunar/thunar-properties-dialog.c:1423 thunar/thunar-size-label.c:390
+#: thunar/thunar-size-label.c:475 thunar/thunar-tree-view-model.c:1409
+#: thunar/thunar-tree-view-model.c:1422
+msgid "unknown"
+msgstr "неизвестно"
+
+#: thunar/thunar-properties-dialog.c:1583
+msgid "usable"
+msgstr "полезный"
+
+#. update the properties dialog title
+#: thunar/thunar-properties-dialog.c:1657
+msgid "Properties"
+msgstr "Свойства"
+
+#: thunar/thunar-properties-dialog.c:1684
+msgid "Link Targets:"
+msgstr "Цели ссылки:"
+
+#: thunar/thunar-properties-dialog.c:1778
+msgid "mixed"
+msgstr "различные"
+
+#: thunar/thunar-renamer-dialog.c:229
+msgid "_Add Files..."
+msgstr "_Добавить файлы..."
+
+#: thunar/thunar-renamer-dialog.c:229
+msgid "Include additional files in the list of files to be renamed"
+msgstr "Включить дополнительные файлы в список для переименования"
+
+#: thunar/thunar-renamer-dialog.c:231
+msgid "Clear"
+msgstr "Очистить"
+
+#: thunar/thunar-renamer-dialog.c:231
+msgid "Clear the file list below"
+msgstr "Очистить список"
+
+#: thunar/thunar-renamer-dialog.c:232 thunar/thunar-window.c:731
+msgid "_About"
+msgstr "_О приложении"
+
+#: thunar/thunar-renamer-dialog.c:232
+msgid "Display information about Thunar Bulk Rename"
+msgstr "Показать информацию об инструменте переименования файлов Thunar"
+
+#: thunar/thunar-renamer-dialog.c:408 thunar/thunar-renamer-dialog.c:1841
+#: thunar-bulk-rename.desktop.in:4
+msgid "Rename Multiple Files"
+msgstr "Переименование нескольких файлов"
+
+#: thunar/thunar-renamer-dialog.c:412
+msgid "Close this window, cancel further changes."
+msgstr "Закройте это окно, отмените дальнейшие изменения."
+
+#: thunar/thunar-renamer-dialog.c:420
+msgid "Rename items listed above, keep this window open."
+msgstr "Переименуйте перечисленные выше элементы, оставьте это окно открытым."
+
+#: thunar/thunar-renamer-dialog.c:494
+msgid "New Name"
+msgstr "Новое имя"
+
+#: thunar/thunar-renamer-dialog.c:559
+msgid ""
+"Click here to view the documentation for the selected rename operation."
+msgstr "Нажмите, чтобы просмотреть документацию по выбранной операции переименования."
+
+#. TRANSLATORS: You can test this string by temporarily removing thunar-sbr.*
+#. from $libdir/thunarx-2/,
+#. *              and opening the multi rename dialog by selecting multiple
+#. files and pressing F2.
+#: thunar/thunar-renamer-dialog.c:670
+msgid ""
+"No renamer modules were found on your system. Please check your\n"
+"installation or contact your system administrator. If you install Thunar\n"
+"from source, be sure to enable the \"Simple Builtin Renamers\" plugin."
+msgstr "Модули для переименования не были найдены в вашей системе.\nПроверьте правильность установки или свяжитесь c вашим системным\nадминистратором. Если вы установили Thunar из исходников,\nубедитесь, что расширение «Simple Builtin Renamers» включено."
+
+#: thunar/thunar-renamer-dialog.c:907
+msgid "Remove File"
+msgid_plural "Remove Files"
+msgstr[0] "Убрать файлы"
+msgstr[1] "Убрать файлы"
+msgstr[2] "Убрать файлы"
+msgstr[3] "Убрать файлы"
+
+#: thunar/thunar-renamer-dialog.c:908
+msgid "Remove the selected file from the list of files to be renamed"
+msgid_plural "Remove the selected files from the list of files to be renamed"
+msgstr[0] "Убрать выбранные файлы из списка для переименования"
+msgstr[1] "Убрать выбранные файлы из списка для переименования"
+msgstr[2] "Убрать выбранные файлы из списка для переименования"
+msgstr[3] "Убрать выбранные файлы из списка для переименования"
+
+#. tell the user that we failed
+#: thunar/thunar-renamer-dialog.c:1004
+msgid "Failed to open the documentation browser"
+msgstr "Не удалось открыть просмотрщик документации"
+
+#. allocate the file chooser
+#: thunar/thunar-renamer-dialog.c:1105
+msgid "Select files to rename"
+msgstr "Выберите файлы для переименования"
+
+#: thunar/thunar-renamer-dialog.c:1121
+msgid "Audio Files"
+msgstr "Звуковые файлы"
+
+#: thunar/thunar-renamer-dialog.c:1126
+msgid "Image Files"
+msgstr "Изображения"
+
+#: thunar/thunar-renamer-dialog.c:1131
+msgid "Video Files"
+msgstr "Видеофайлы"
+
+#. just popup the about dialog
+#: thunar/thunar-renamer-dialog.c:1267 thunar-bulk-rename.desktop.in:3
+#: thunar-bulk-rename.desktop.in:5
+msgid "Bulk Rename"
+msgstr "Массовое переименование"
+
+#: thunar/thunar-renamer-dialog.c:1267
+msgid ""
+"Thunar Bulk Rename is a powerful and extensible\n"
+"tool to rename multiple files at once."
+msgstr "Массовое переименование файлов — это мощный расширяемый инструмент\nдля одновременного переименования нескольких файлов."
+
+#. change title to reflect the standalone status
+#: thunar/thunar-renamer-dialog.c:1841
+msgid "Bulk Rename - Rename Multiple Files"
+msgstr "Массовое переименование"
+
+#: thunar/thunar-renamer-progress.c:170
+#, c-format
+msgid "Failed to rename \"%s\" to \"%s\"."
+msgstr "Не удалось переименовать «%s» в «%s»."
+
+#: thunar/thunar-renamer-progress.c:182
+msgid ""
+"You can either choose to skip this file and continue to rename the remaining"
+" files, or revert the previously renamed files to their previous names, or "
+"cancel the operation without reverting previous changes."
+msgstr "Вы можете пропустить этот файл и продолжить переименование остальных файлов, вернуть уже переименованным файлам старые имена, либо отменить действие без возврата к старым именам."
+
+#: thunar/thunar-renamer-progress.c:187
+msgid "_Revert Changes"
+msgstr "_Отменить изменения"
+
+#: thunar/thunar-renamer-progress.c:188 thunar/thunar-renamer-progress.c:197
+msgid "_Skip This File"
+msgstr "_Пропустить этот файл"
+
+#: thunar/thunar-renamer-progress.c:194
+msgid ""
+"Do you want to skip this file and continue to rename the remaining files?"
+msgstr "Пропустить этот файл и продолжить переименование остальных файлов?"
+
+#: thunar/thunar-shortcuts-model.c:677 thunar/thunar-shortcuts-model.c:1064
+#: thunar/thunar-window.c:715
+msgid "Browse the file system"
+msgstr "Просмотр файловой системы"
+
+#: thunar/thunar-shortcuts-model.c:712
+#, c-format
+msgid "Mount and open %s (%s)"
+msgstr "Подключить и открыть %s (%s)"
+
+#: thunar/thunar-shortcuts-model.c:725 plugins/thunar-tpa/thunar-tpa.c:304
+msgid "Trash is empty"
+msgstr "Корзина пуста"
+
+#: thunar/thunar-shortcuts-model.c:729
+#, c-format
+msgid "Trash contains %d file"
+msgid_plural "Trash contains %d files"
+msgstr[0] "Корзина содержит %d файл"
+msgstr[1] "Корзина содержит %d файла"
+msgstr[2] "Корзина содержит %d файлов"
+msgstr[3] "Корзина содержит %d файлов"
+
+#: thunar/thunar-shortcuts-model.c:1057
+msgid "Devices"
+msgstr "Устройства"
+
+#: thunar/thunar-shortcuts-model.c:1100
+msgid "Network"
+msgstr "Сеть"
+
+#: thunar/thunar-shortcuts-model.c:1108
+msgid "Browse Network"
+msgstr "Обзор сети"
+
+#: thunar/thunar-shortcuts-model.c:1109 thunar/thunar-window.c:725
+msgid "Browse local network connections"
+msgstr "Отобразить локальные сетевые адреса"
+
+#: thunar/thunar-shortcuts-model.c:1131
+msgid "Places"
+msgstr "Места"
+
+#: thunar/thunar-shortcuts-model.c:1143
+msgid "Open the home folder"
+msgstr "Открыть домашний каталог"
+
+#: thunar/thunar-shortcuts-model.c:1160
+msgid "Open the desktop folder"
+msgstr "Открыть каталог рабочего стола"
+
+#: thunar/thunar-shortcuts-model.c:1208 thunar.desktop.in:21
+msgid "Computer"
+msgstr "Компьютер"
+
+#: thunar/thunar-shortcuts-model.c:1209
+msgid "Browse the computer"
+msgstr "Обзор компьютера"
+
+#: thunar/thunar-shortcuts-model.c:1221
+msgid "Recent"
+msgstr "Недавние"
+
+#: thunar/thunar-shortcuts-model.c:1222
+msgid "Browse recently used files"
+msgstr "Просмотр недавно использовавшихся файлов"
+
+#: thunar/thunar-shortcuts-view.c:265
+msgid "Re_name Shortcut"
+msgstr "_Переименовать закладку"
+
+#: thunar/thunar-shortcuts-view.c:266
+msgid "_Remove Shortcut"
+msgstr "_Удалить закладку"
+
+#: thunar/thunar-shortcuts-view.c:1722
+#, c-format
+msgid "The path \"%s\" does not refer to a directory"
+msgstr "Путь «%s» не указывает на папку"
+
+#. display an error message to the user
+#: thunar/thunar-shortcuts-view.c:1742
+msgid "Failed to add new shortcut"
+msgstr "Не удалось добавить закладку"
+
+#: thunar/thunar-size-label.c:195
+msgid "Click here to stop calculating the total size of the folder."
+msgstr "Нажмите, чтобы остановить вычисление общего размера папки."
+
+#. add the label widget
+#. tell the user that we started calculation
+#: thunar/thunar-size-label.c:205 thunar/thunar-size-label.c:362
+msgid "Calculating..."
+msgstr "Вычисление..."
+
+#. tell the user that the operation was canceled
+#: thunar/thunar-size-label.c:321
+msgid "Calculation aborted"
+msgstr "Вычисление прервано"
+
+#. setup the error text and tooltip
+#. nothing was readable
+#: thunar/thunar-size-label.c:411 thunar/thunar-size-label.c:506
+msgid "unreadable"
+msgstr "нечитаемо"
+
+#: thunar/thunar-size-label.c:483 thunar/thunar-util.c:1360
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d папка"
+msgstr[1] "%d папки"
+msgstr[2] "%d папок"
+msgstr[3] "%d папок"
+
+#: thunar/thunar-size-label.c:485
+#, c-format
+msgid "%u item (%s, %s)"
+msgid_plural "%u items (%s, %s)"
+msgstr[0] "%u объект (%s, %s)"
+msgstr[1] "%u объекта (%s, %s)"
+msgstr[2] "%u объектов (%s, %s)"
+msgstr[3] "%u объектов (%s, %s)"
+
+#. TRANSLATORS: this is shows if during the deep count size
+#. * directories were not accessible
+#: thunar/thunar-size-label.c:495
+msgid "(some contents unreadable)"
+msgstr "(некоторые папки нечитаемы)"
+
+#: thunar/thunar-standard-view.c:496
+msgid "Select _all Files"
+msgstr "Выбрать вс_ё"
+
+#: thunar/thunar-standard-view.c:496
+msgid "Select all files in this window"
+msgstr "Выбрать все элементы в этом окне"
+
+#: thunar/thunar-standard-view.c:497
+msgid "Select _by Pattern..."
+msgstr "Выбрать по _шаблону..."
+
+#: thunar/thunar-standard-view.c:497
+msgid "Select all files that match a certain pattern"
+msgstr "Выбрать все элементы, имена которых удовлетворяют заданному шаблону"
+
+#: thunar/thunar-standard-view.c:498
+msgid "_Invert Selection"
+msgstr "_Обратить выделение"
+
+#: thunar/thunar-standard-view.c:498
+msgid "Select all files but not those currently selected"
+msgstr "Выбрать все файлы, кроме тех, которые уже выбраны"
+
+#: thunar/thunar-standard-view.c:499
+msgid "U_nselect all Files"
+msgstr "С_нять выделение"
+
+#: thunar/thunar-standard-view.c:499
+msgid "Unselect all files in this window"
+msgstr "Снять выделение со всех файлов в текущем окне"
+
+#: thunar/thunar-standard-view.c:500
+msgid "Arran_ge Items"
+msgstr "_Упорядочить"
+
+#: thunar/thunar-standard-view.c:501
+msgid "_Reversed Order"
+msgstr "Обратный порядо_к"
+
+#: thunar/thunar-standard-view.c:501
+msgid "Reverse the sort order"
+msgstr "Обратить порядок сортировки"
+
+#: thunar/thunar-standard-view.c:502
+msgid "By _Name"
+msgstr "По _имени"
+
+#: thunar/thunar-standard-view.c:502
+msgid "Keep items sorted by their name"
+msgstr "Упорядочить объекты по имени"
+
+#: thunar/thunar-standard-view.c:503
+msgid "By _Size"
+msgstr "По _размеру"
+
+#: thunar/thunar-standard-view.c:503
+msgid "Keep items sorted by their size"
+msgstr "Упорядочить объекты по размеру"
+
+#: thunar/thunar-standard-view.c:504
+msgid "By _Type"
+msgstr "По _типу"
+
+#: thunar/thunar-standard-view.c:504
+msgid "Keep items sorted by their type"
+msgstr "Упорядочить объекты по типу"
+
+#: thunar/thunar-standard-view.c:505
+msgid "By _Modification Date"
+msgstr "По дате _модификации"
+
+#: thunar/thunar-standard-view.c:505
+msgid "Keep items sorted by their modification date"
+msgstr "Упорядочить объекты по дате изменения"
+
+#: thunar/thunar-standard-view.c:506
+msgid "By D_eletion Date"
+msgstr "По дате у_даления"
+
+#: thunar/thunar-standard-view.c:506
+msgid "Keep items sorted by their deletion date"
+msgstr "Упорядочить файлы по дате удаления"
+
+#: thunar/thunar-standard-view.c:507
+msgid "_Ascending"
+msgstr "По _возрастанию"
+
+#: thunar/thunar-standard-view.c:507
+msgid "Sort items in ascending order"
+msgstr "Сортировать по возрастанию"
+
+#: thunar/thunar-standard-view.c:508
+msgid "_Descending"
+msgstr "По _убыванию"
+
+#: thunar/thunar-standard-view.c:508
+msgid "Sort items in descending order"
+msgstr "Сортировать по убыванию"
+
+#: thunar/thunar-standard-view.c:509
+msgid "_Folders First"
+msgstr "_Сначала папки"
+
+#: thunar/thunar-standard-view.c:509
+msgid "Sort folders before files"
+msgstr "Сортировать сначала папки, потом файлы"
+
+#. TRANSLATORS: You can swap the order of the arguments if required.
+#: thunar/thunar-standard-view.c:1381
+#, c-format
+msgid "Search for '%1$s' in %2$s"
+msgstr "Найти «%1$s» в %2$s"
+
+#: thunar/thunar-standard-view.c:1383
+#, c-format
+msgid "Search in %s"
+msgstr "Искать в %s"
+
+#: thunar/thunar-standard-view.c:1998
+msgid "Loading folder content..."
+msgstr "Загружается содержимое папки…"
+
+#: thunar/thunar-standard-view.c:2004
+msgid "Loading statusbar information..."
+msgstr "Загружается информация строки состояния…"
+
+#: thunar/thunar-standard-view.c:2686
+#, c-format
+msgid "%d file found"
+msgid_plural "%d files found"
+msgstr[0] "Найден %d файл"
+msgstr[1] "Найдено %d файла"
+msgstr[2] "Найдено %d файлов"
+msgstr[3] "Найдено %d файлов"
+
+#. clear information from the statusbar
+#: thunar/thunar-standard-view.c:2728
+msgid "Loading selection information..."
+msgstr "Загружается информация о выбранном…"
+
+#. display an error to the user
+#: thunar/thunar-standard-view.c:2860 thunar/thunar-window.c:4783
+msgid "Failed to open the home folder"
+msgstr "Не удалось открыть домашнюю папку"
+
+#: thunar/thunar-standard-view.c:2938
+msgctxt "Select by Pattern dialog: title"
+msgid "Select by Pattern"
+msgstr "Выбрать по шаблону"
+
+#: thunar/thunar-standard-view.c:2943
+msgctxt "Select by Pattern dialog: buttons"
+msgid "_Cancel"
+msgstr "_Отмена"
+
+#: thunar/thunar-standard-view.c:2946
+msgctxt "Select by Pattern dialog: buttons"
+msgid "_Select"
+msgstr "_Выбрать"
+
+#: thunar/thunar-standard-view.c:2960
+msgctxt "Select by Pattern dialog: labels: pattern entry textbox"
+msgid "_Pattern:"
+msgstr "_Шаблон:"
+
+#: thunar/thunar-standard-view.c:2961
+msgctxt ""
+"Select by Pattern dialog: tooltips on label for pattern entry textbox"
+msgid ""
+"Files whose name matches the wildcard pattern you enter will be selected in "
+"the main window."
+msgstr "Файлы, имя которых соответствует введённому вами шаблону подстановочных знаков, будут выбраны в главном окне."
+
+#. TRANSLATORS: the * and ? characters are the ASCII wildcard special symbols,
+#. and they must not be localized.
+#: thunar/thunar-standard-view.c:2975
+msgctxt "Select by Pattern dialog: tooltips: pattern entry text box"
+msgid ""
+"? matches exactly one character,\n"
+"* matches any number of characters, including zero.\n"
+"\n"
+"For example: *.txt, file??.png, pict\n"
+"\n"
+"Without any * or ? wildcards, the pattern will match anywhere in a name. With wildcards, the pattern must match at both the start and the end of a name."
+msgstr "? соответствует только одному символу,\n* соответствует любому числу символов, включая ноль.\n\nНапример: *.txt, file??.png, pict\n\nЕсли нет подстановочных знаков «*» или «?», то шаблон будет соответствовать любому месту в имени. При использовании подстановочных знаков шаблон ищет соответствие как в начале, так и в конце имени."
+
+#: thunar/thunar-standard-view.c:2979
+msgctxt "Select by Pattern dialog: labels: case sensitive checkbox"
+msgid "C_ase sensitive"
+msgstr "С учётом _регистра"
+
+#: thunar/thunar-standard-view.c:2980
+msgctxt "Select by Pattern dialog: tooltips: case sensitive checkbox"
+msgid ""
+"If enabled, letter case must match the pattern.\n"
+"Examp* would match Example.txt and not example.txt"
+msgstr "Если включено, регистр букв должен соответствовать шаблону.\nПрим* будет соответствовать Пример.txt и не будет — пример.txt"
+
+#: thunar/thunar-standard-view.c:2985
+msgctxt "Select by Pattern dialog: labels: match diacritics checkbox"
+msgid "_Match diacritics"
+msgstr "Сопоставит_ь диакритические знаки"
+
+#: thunar/thunar-standard-view.c:2986
+msgctxt "Select by Pattern dialog: tooltips: match diacritics checkbox"
+msgid ""
+"If enabled, require accents to match the pattern.\n"
+"Rés* would match Résumé.txt and not Resume.txt"
+msgstr "Если включено, необходимо, чтобы акценты соответствовали шаблону.\nRés* будет соответствовать Résumé.txt и не будет — Resume.txt"
+
+#. tell the user that the file name provided by the X Direct Save source is
+#. invalid
+#: thunar/thunar-standard-view.c:3434
+msgid "Invalid filename provided by XDS drag site"
+msgstr "Из источника XDS получено неверное имя файла."
+
+#. display an error dialog to the user
+#: thunar/thunar-standard-view.c:3630
+#, c-format
+msgid "Failed to create a link for the URL \"%s\""
+msgstr "Не удалось создать ссылку на адрес «%s»"
+
+#: thunar/thunar-standard-view.c:3677
+msgid "Untitled document"
+msgstr "Документ без названия"
+
+#: thunar/thunar-standard-view.c:4177 thunar/thunar-window.c:4880
+#, c-format
+msgid "Failed to open directory \"%s\""
+msgstr "Не удалось открыть папку «%s»"
+
+#: thunar/thunar-statusbar.c:90
+msgid "Show size"
+msgstr "Показывать размер"
+
+#: thunar/thunar-statusbar.c:91
+msgid "Size in bytes"
+msgstr "Размер в байтах"
+
+#: thunar/thunar-statusbar.c:91
+msgid "Show size in bytes"
+msgstr "Показывать размер в байтах"
+
+#: thunar/thunar-statusbar.c:92
+msgid "Filetype"
+msgstr "Тип файла"
+
+#: thunar/thunar-statusbar.c:92
+msgid "Show filetype"
+msgstr "Показывать тип файла"
+
+#: thunar/thunar-statusbar.c:93
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#: thunar/thunar-statusbar.c:93
+msgid "Show display name"
+msgstr "Показывать отображаемое имя"
+
+#: thunar/thunar-statusbar.c:94
+msgid "Last Modified"
+msgstr "Дата изменения"
+
+#: thunar/thunar-statusbar.c:94
+msgid "Show last modified"
+msgstr "Показывать дату изменения"
+
+#: thunar/thunar-statusbar.c:95
+msgid "Hidden Files Count"
+msgstr "Количество скрытых файлов"
+
+#: thunar/thunar-statusbar.c:95
+msgid "Show hidden files count"
+msgstr "Показать количество скрытых файлов"
+
+#: thunar/thunar-toolbar-editor.c:147
+msgid "Configure the Toolbar"
+msgstr "Настроить панель инструментов"
+
+#. create the top label for the toolbar editor dialog
+#: thunar/thunar-toolbar-editor.c:162
+msgid ""
+"Configure the order and visibility of toolbar items.\n"
+"Note that toolbar items are always executed for the current directory."
+msgstr "Настройка порядка и видимость элементов панели инструментов.\nОбратите внимание, что элементы панели инструментов всегда выполняются для текущего каталога."
+
+#. create the "Use Default" button
+#: thunar/thunar-toolbar-editor.c:259
+msgid "De_fault Order"
+msgstr "Ст_андартный порядок"
+
+#. create the "Symbolic Icons" checkbox
+#: thunar/thunar-toolbar-editor.c:265
+msgid "_Symbolic Icons"
+msgstr "_Символьные иконки"
+
+#: thunar/thunar-toolbar-editor.c:271
+msgid "Use symbolic icons instead of regular ones (if available)."
+msgstr "Использовать символьные иконки вместо обычных (если они доступны)."
+
+#: thunar/thunar-toolbar-editor.c:626
+msgid "Only visible when the menubar is hidden"
+msgstr "Отображается только при скрытом меню"
+
+#: thunar/thunar-transfer-job.c:630
+msgid "Verifying file contents..."
+msgstr "Проверяется содержимое файла…"
+
+#. ask the user to retry
+#: thunar/thunar-transfer-job.c:926
+#, c-format
+msgid "Failed to move file \"%s\": %s"
+msgstr "Не удалось переместить файл «%s»: %s"
+
+#. ask the user to skip this node and all subnodes
+#: thunar/thunar-transfer-job.c:1024
+#, c-format
+msgid "Failed to copy file \"%s\": %s"
+msgstr "Не удалось скопировать файл «%s»: %s"
+
+#: thunar/thunar-transfer-job.c:1107
+#, c-format
+msgid ""
+"Error while copying to \"%s\": %s more space is required to copy to the "
+"destination"
+msgstr "Ошибка при копировании в «%s»: недостаточно места для завершения копирования (требуется %s)."
+
+#. update progress information
+#: thunar/thunar-transfer-job.c:1140
+#, c-format
+msgid "Trying to restore \"%s\""
+msgstr "Попытка восстановить «%s»"
+
+#: thunar/thunar-transfer-job.c:1168
+#, c-format
+msgid ""
+"The folder \"%s\" does not exist anymore but is required to restore the file"
+" \"%s\" from the trash"
+msgstr "Папка «%s» больше не существует. Она необходима, чтобы восстановить файл «%s» из корзины"
+
+#: thunar/thunar-transfer-job.c:1194
+#, c-format
+msgid "Failed to restore the folder \"%s\""
+msgstr "Не удалось восстановить папку «%s»"
+
+#. update progress information
+#: thunar/thunar-transfer-job.c:1271
+#, c-format
+msgid "Trying to move \"%s\""
+msgstr "Попытка переместить «%s»"
+
+#. update progress information
+#: thunar/thunar-transfer-job.c:1355
+#, c-format
+msgid "Could not move \"%s\" directly. Collecting files for copying..."
+msgstr "Невозможно переместить «%s» напрямую. Файл отмечен для группового копирования…"
+
+#: thunar/thunar-transfer-job.c:1621
+msgid "Collecting files..."
+msgstr "Сбор файлов..."
+
+#: thunar/thunar-transfer-job.c:1796
+#, c-format
+msgid "%s of %s"
+msgstr "%s из %s"
+
+#: thunar/thunar-transfer-job.c:1816
+#, c-format
+msgid "%lu hour remaining (%s/sec)"
+msgid_plural "%lu hours remaining (%s/sec)"
+msgstr[0] "остался %lu час (%s/с)"
+msgstr[1] "осталось %lu часа (%s/с)"
+msgstr[2] "осталось %lu часов (%s/с)"
+msgstr[3] "осталось %lu часов (%s/с)"
+
+#: thunar/thunar-transfer-job.c:1822
+#, c-format
+msgid "%lu minute remaining (%s/sec)"
+msgid_plural "%lu minutes remaining (%s/sec)"
+msgstr[0] "осталась %lu минута (%s/с)"
+msgstr[1] "осталось %lu минуты (%s/с)"
+msgstr[2] "осталось %lu минут (%s/с)"
+msgstr[3] "осталось %lu минут (%s/с)"
+
+#: thunar/thunar-transfer-job.c:1827
+#, c-format
+msgid "%lu second remaining (%s/sec)"
+msgid_plural "%lu seconds remaining (%s/sec)"
+msgstr[0] "осталась %lu секунда (%s/с)"
+msgstr[1] "осталось %lu секунды (%s/с)"
+msgstr[2] "осталось %lu секунд (%s/с)"
+msgstr[3] "осталось %lu секунд (%s/с)"
+
+#: thunar/thunar-tree-model.c:644 thunar/thunar-tree-view-model.c:1338
+#: thunar/thunar-tree-view-model.c:1473
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: thunar/thunar-tree-view-model.c:1411 thunar/thunar-tree-view-model.c:1424
+#, c-format
+msgid "%u item"
+msgid_plural "%u items"
+msgstr[0] "%u объект"
+msgstr[1] "%u объекта"
+msgstr[2] "%u объектов"
+msgstr[3] "%u объектов"
+
+#: thunar/thunar-util.c:304
+msgid "Invalid path"
+msgstr "Недействительный путь"
+
+#: thunar/thunar-util.c:339
+#, c-format
+msgid "Unknown user \"%s\""
+msgstr "Неизвестный пользователь «%s»"
+
+#. TRANSLATORS: file was modified less than one day ago
+#: thunar/thunar-util.c:451
+msgid "Today"
+msgstr "сегодня"
+
+#. TRANSLATORS: file was modified less than one day ago
+#: thunar/thunar-util.c:456
+#, c-format
+msgid "Today at %X"
+msgstr "сегодня в %X"
+
+#. TRANSLATORS: file was modified less than two days ago
+#: thunar/thunar-util.c:464
+msgid "Yesterday"
+msgstr "вчера"
+
+#. TRANSLATORS: file was modified less than two days ago
+#: thunar/thunar-util.c:469
+#, c-format
+msgid "Yesterday at %X"
+msgstr "вчера в %X"
+
+#. Days from last week
+#: thunar/thunar-util.c:487
+#, c-format
+msgid "%A at %X"
+msgstr "%A в %X"
+
+#. Any other date
+#: thunar/thunar-util.c:492
+#, c-format
+msgid "%x at %X"
+msgstr "%x в %X"
+
+#: thunar/thunar-util.c:801
+#, c-format
+msgid "%.*s %u%s"
+msgstr "%.*s %u%s"
+
+#: thunar/thunar-util.c:803
+#, c-format
+msgid "%.*s (copy %u)%s"
+msgstr "%.*s (%u-я копия)%s"
+
+#: thunar/thunar-util.c:808
+#, c-format
+msgid "link to %.*s%s"
+msgstr "ссылка на %.*s%s"
+
+#: thunar/thunar-util.c:813
+#, c-format
+msgid "link %u to %.*s%s"
+msgstr "ссылка %u на %.*s%s"
+
+#: thunar/thunar-util.c:836
+msgid "Search:"
+msgstr "Поиск:"
+
+#: thunar/thunar-util.c:1334 thunar/thunar-util.c:1367
+#, c-format
+msgid "%s (%d hidden)"
+msgstr "%s (%d скрыто)"
+
+#: thunar/thunar-util.c:1351
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: thunar/thunar-util.c:1374
+msgid "0 items"
+msgstr "0 файлов"
+
+#: thunar/thunar-util.c:1383 thunar/thunar-util.c:1505
+#, c-format
+msgid "Last Modified: %s"
+msgstr "Дата изменения: %s"
+
+#: thunar/thunar-util.c:1432
+#, c-format
+msgid "\"%s\" (%s)"
+msgstr "«%s» (%s)"
+
+#: thunar/thunar-util.c:1434
+#, c-format
+msgid "\"%s\""
+msgstr "«%s»"
+
+#: thunar/thunar-util.c:1455
+#, c-format
+msgid "link to %s"
+msgstr "ссылка на %s"
+
+#: thunar/thunar-util.c:1457
+msgid "shortcut"
+msgstr "сочетание клавиш"
+
+#: thunar/thunar-util.c:1459
+msgid "mountable"
+msgstr "возможно подключить"
+
+#: thunar/thunar-util.c:1461
+msgid "mount point"
+msgstr "точка монтирования"
+
+#. append the image dimensions to the statusbar text
+#: thunar/thunar-util.c:1495 plugins/thunar-apr/thunar-apr-image-page.c:154
+msgid "Image Size:"
+msgstr "Размер:"
+
+#: thunar/thunar-window.c:667
+msgid "_File"
+msgstr "_Файл"
+
+#: thunar/thunar-window.c:668
+msgid "New _Tab"
+msgstr "Новая _вкладка"
+
+#: thunar/thunar-window.c:668
+msgid "Open a new tab for the displayed location"
+msgstr "Открыть новую вкладку для текущего адреса"
+
+#: thunar/thunar-window.c:669
+msgid "New _Window"
+msgstr "Новое _окно"
+
+#: thunar/thunar-window.c:669
+msgid "Open a new Thunar window for the displayed location"
+msgstr "Открыть новое окно Thunar для текущего адреса"
+
+#: thunar/thunar-window.c:670
+msgid "Detac_h Tab"
+msgstr "_Отсоединить вкладку"
+
+#: thunar/thunar-window.c:670
+msgid "Open current folder in a new window"
+msgstr "Открыть текущую папку в новом окне"
+
+#: thunar/thunar-window.c:671
+msgid "Close Ta_b"
+msgstr "Закры_ть вкладку"
+
+#: thunar/thunar-window.c:671
+msgid "Close this folder"
+msgstr "Закрыть эту папку"
+
+#: thunar/thunar-window.c:672
+msgid "_Close Window"
+msgstr "_Закрыть окно"
+
+#: thunar/thunar-window.c:672
+msgid "Close this window"
+msgstr "Закрыть это окно"
+
+#: thunar/thunar-window.c:673
+msgid "Close _All Windows"
+msgstr "Закрыть вс_е окна"
+
+#: thunar/thunar-window.c:673
+msgid "Close all Thunar windows"
+msgstr "Закрыть все окна проводника"
+
+#: thunar/thunar-window.c:675
+msgid "_Edit"
+msgstr "_Правка"
+
+#: thunar/thunar-window.c:676
+msgid "_Undo"
+msgstr "_Отменить"
+
+#: thunar/thunar-window.c:677
+msgid "Red_o"
+msgstr "П_овторить"
+
+#: thunar/thunar-window.c:678
+msgid "Pr_eferences..."
+msgstr "Н_астройки..."
+
+#: thunar/thunar-window.c:678
+msgid "Edit Thunar's Preferences"
+msgstr "Редактировать настройки Thunar"
+
+#: thunar/thunar-window.c:680
+msgid "_View"
+msgstr "_Вид"
+
+#: thunar/thunar-window.c:681
+msgid "_Reload"
+msgstr "_Обновить"
+
+#: thunar/thunar-window.c:681
+msgid "Reload the current folder"
+msgstr "Обновить текущий каталог"
+
+#: thunar/thunar-window.c:684
+msgid "S_plit View"
+msgstr "Ра_здельный просмотр"
+
+#: thunar/thunar-window.c:684
+msgid "Open/Close Split View"
+msgstr "Показать/скрыть дополнительную панель"
+
+#: thunar/thunar-window.c:685
+msgid "Switch Focused Split View Pane"
+msgstr "Переключить активную разделенную панель просмотра"
+
+#: thunar/thunar-window.c:686
+msgid "Locatio_n Selector"
+msgstr "_Выбор местоположения"
+
+#: thunar/thunar-window.c:687
+msgid "_Text Style"
+msgstr "Стиль т_екста"
+
+#: thunar/thunar-window.c:687
+msgid "Traditional text box showing the current path"
+msgstr "Традиционное текстовое поле с показом текущего пути"
+
+#: thunar/thunar-window.c:688
+msgid "_Buttons Style"
+msgstr "_Стиль кнопок"
+
+#: thunar/thunar-window.c:688
+msgid "Modern approach with buttons that correspond to folders"
+msgstr "Современный способ отображения: с кнопками, соответствующими папкам"
+
+#: thunar/thunar-window.c:689
+msgid "_Side Pane"
+msgstr "_Боковая панель"
+
+#: thunar/thunar-window.c:690
+msgid "_Shortcuts"
+msgstr "_Закладки"
+
+#: thunar/thunar-window.c:690
+msgid "Toggles the visibility of the shortcuts pane"
+msgstr "Отображение панели закладок"
+
+#: thunar/thunar-window.c:691
+msgid "_Tree"
+msgstr "_Дерево"
+
+#: thunar/thunar-window.c:691
+msgid "Toggles the visibility of the tree pane"
+msgstr "Отображение дерева"
+
+#: thunar/thunar-window.c:693
+msgid "_Image Preview"
+msgstr "Предпросмотр и_зображения"
+
+#: thunar/thunar-window.c:693
+msgid "Change the visibility of this window's image preview"
+msgstr "Изменить видимость предварительного просмотра изображения в этом окне"
+
+#: thunar/thunar-window.c:694
+msgid "St_atusbar"
+msgstr "С_трока состояния"
+
+#: thunar/thunar-window.c:694
+msgid "Change the visibility of this window's statusbar"
+msgstr "Отображение строки статуса"
+
+#: thunar/thunar-window.c:695
+msgid "_Menubar"
+msgstr "Панель меню"
+
+#: thunar/thunar-window.c:695
+msgid "Change the visibility of this window's menubar"
+msgstr "Отображение меню окна"
+
+#: thunar/thunar-window.c:697
+msgid "_Terminal"
+msgstr "_Терминал"
+
+#: thunar/thunar-window.c:697
+msgid "Toggle the visibility of the terminal emulator"
+msgstr "Отображение эмулятора терминала"
+
+#: thunar/thunar-window.c:699
+msgid "Configure _Toolbar..."
+msgstr "Настроить пан_ель инструментов…"
+
+#: thunar/thunar-window.c:699
+msgid "Configure the toolbar"
+msgstr "Настроить панель инструментов"
+
+#: thunar/thunar-window.c:700
+msgid "Cl_ear Saved Folder View Settings"
+msgstr "О_чистить настройки отображения сохраненных папок"
+
+#: thunar/thunar-window.c:700
+msgid "Delete saved view settings for this folder"
+msgstr "Удалить сохранённые настойки вида для этой папки"
+
+#: thunar/thunar-window.c:701
+msgid "Show _Hidden Files"
+msgstr "_Скрытые файлы"
+
+#: thunar/thunar-window.c:701
+msgid "Toggles the display of hidden files in the current tab"
+msgstr "Включает/отключает отображение скрытых файлов в текущей вкладке"
+
+#: thunar/thunar-window.c:702
+msgid "Show _File Highlight"
+msgstr "Показать подсветку _файла"
+
+#: thunar/thunar-window.c:702
+msgid ""
+"Toggles the display of file highlight which can be configured in the file "
+"specific property dialog"
+msgstr "Переключает отображение подсветки файлов, которое можно настроить в диалоговом окне свойств определённого файла"
+
+#: thunar/thunar-window.c:703
+msgid "Zoom I_n"
+msgstr "У_величить"
+
+#: thunar/thunar-window.c:703
+msgid "Show the contents in more detail"
+msgstr "Более подробный просмотр содержимого"
+
+#: thunar/thunar-window.c:706
+msgid "Zoom _Out"
+msgstr "У_меньшить"
+
+#: thunar/thunar-window.c:706
+msgid "Show the contents in less detail"
+msgstr "Менее подробный просмотр содержимого"
+
+#: thunar/thunar-window.c:708
+msgid "Normal Si_ze"
+msgstr "Обы_чный размер"
+
+#: thunar/thunar-window.c:708
+msgid "Show the contents at the normal size"
+msgstr "Просмотр содержимого в обычном размере"
+
+#: thunar/thunar-window.c:710
+msgid "_Icon View"
+msgstr "_Значки"
+
+#: thunar/thunar-window.c:710
+msgid "Display folder content in an icon view"
+msgstr "Отображать содержимое каталога в виде значков"
+
+#: thunar/thunar-window.c:711
+msgid "_List View"
+msgstr "_Список"
+
+#: thunar/thunar-window.c:711
+msgid "Display folder content in a detailed list view"
+msgstr "Отображать содержимое каталога в виде подробного списка"
+
+#: thunar/thunar-window.c:712
+msgid "_Compact View"
+msgstr "_Компактный"
+
+#: thunar/thunar-window.c:712
+msgid "Display folder content in a compact list view"
+msgstr "Отображать содержимое папки в виде компактного списка"
+
+#: thunar/thunar-window.c:714
+msgid "_Go"
+msgstr "П_ереход"
+
+#: thunar/thunar-window.c:715
+msgid "F_ile System"
+msgstr "Фай_ловая система"
+
+#: thunar/thunar-window.c:716
+msgid "_Home"
+msgstr "_Домашняя папка"
+
+#: thunar/thunar-window.c:716
+msgid "Go to the home folder"
+msgstr "Перейти в домашнюю папку"
+
+#: thunar/thunar-window.c:717
+msgid "_Desktop"
+msgstr "Рабо_чий стол"
+
+#: thunar/thunar-window.c:717
+msgid "Go to the desktop folder"
+msgstr "Перейти в папку рабочего стола"
+
+#: thunar/thunar-window.c:718
+msgid "_Computer"
+msgstr "_Компьютер"
+
+#: thunar/thunar-window.c:718
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr "Просмотреть все локальные и удалённые диски и папки, доступные с этого компьютера"
+
+#: thunar/thunar-window.c:719
+msgid "_Recent"
+msgstr "_Недавнее"
+
+#: thunar/thunar-window.c:719
+msgid "Display recently used files"
+msgstr "Показать недавно использовавшиеся файлы"
+
+#: thunar/thunar-window.c:720
+msgid "_Trash"
+msgstr "Корзи_на"
+
+#: thunar/thunar-window.c:720
+msgid "Display the contents of the trash can"
+msgstr "Отобразить содержимое корзины"
+
+#: thunar/thunar-window.c:721
+msgid "Open _Parent"
+msgstr "_Родительская папка"
+
+#: thunar/thunar-window.c:721
+msgid "Open the parent folder"
+msgstr "Перейти в родительскую папку"
+
+#: thunar/thunar-window.c:722
+msgid "_Open Location..."
+msgstr "_Открыть адрес..."
+
+#: thunar/thunar-window.c:722
+msgid "Specify a location to open"
+msgstr "Перейти по указанному адресу"
+
+#: thunar/thunar-window.c:724
+msgid "T_emplates"
+msgstr "_Шаблоны"
+
+#: thunar/thunar-window.c:724
+msgid "Go to the templates folder"
+msgstr "Перейти в папку шаблонов"
+
+#: thunar/thunar-window.c:725
+msgid "Browse _Network"
+msgstr "Обзор _Сети"
+
+#: thunar/thunar-window.c:727
+msgid "_Bookmarks"
+msgstr "_Закладки"
+
+#: thunar/thunar-window.c:730
+msgid "_Contents"
+msgstr "_Содержание"
+
+#: thunar/thunar-window.c:730
+msgid "Display Thunar user manual"
+msgstr "Показать руководство пользователя Thunar"
+
+#: thunar/thunar-window.c:731
+msgid "Display information about Thunar"
+msgstr "Показать информацию о Thunar"
+
+#: thunar/thunar-window.c:733
+msgid "_Back"
+msgstr "Н_азад"
+
+#: thunar/thunar-window.c:733
+msgid "Go to the previous visited folder"
+msgstr "Перейти к предыдущему посещённому каталогу"
+
+#: thunar/thunar-window.c:736
+msgid "_Forward"
+msgstr "_Вперёд"
+
+#: thunar/thunar-window.c:736
+msgid "Go to the next visited folder"
+msgstr "Перейти к следующему посещённому каталогу"
+
+#: thunar/thunar-window.c:738
+msgid "_Previous Tab"
+msgstr "_Предыдущая вкладка"
+
+#: thunar/thunar-window.c:738
+msgid "Switch to Previous Tab"
+msgstr "Перейти на предыдущую вкладку"
+
+#: thunar/thunar-window.c:740
+msgid "_Next Tab"
+msgstr "_Следующая вкладка"
+
+#: thunar/thunar-window.c:740
+msgid "Switch to Next Tab"
+msgstr "Перейти на следующую вкладку"
+
+#: thunar/thunar-window.c:743
+msgid "_Search for Files..."
+msgstr "_Поиск файлов…"
+
+#: thunar/thunar-window.c:743
+msgid "Search for a specific file in the current folder and Recent"
+msgstr "Искать определённый файл в текущей папке и «Недавних»"
+
+#: thunar/thunar-window.c:745
+msgid "Stop search for files"
+msgstr "Остановить поиск файлов"
+
+#: thunar/thunar-window.c:747
+msgid "Menu"
+msgstr "Меню"
+
+#: thunar/thunar-window.c:747
+msgid "Show the menu"
+msgstr "Показать меню"
+
+#. add the label with the root warning
+#: thunar/thunar-window.c:1097
+msgid "Warning: you are using the root account. You may harm your system."
+msgstr "Внимание: вы используете учётную запись суперпользователя. Вы можете повредить свою систему."
+
+#: thunar/thunar-window.c:1168
+msgid "Size: "
+msgstr "Размер:"
+
+#. TRANSLATORS: `Catfish' is a software package, please don't translate it.
+#: thunar/thunar-window.c:1277
+msgid "Search with Catfish..."
+msgstr "Поиск с помощью Catfish…"
+
+#: thunar/thunar-window.c:1289
+msgid "Restore Selected Items"
+msgstr "Восстановить выделенные файлы"
+
+#: thunar/thunar-window.c:3103
+msgid "Close tab"
+msgstr "Закрыть вкладку"
+
+#: thunar/thunar-window.c:3628
+#, c-format
+msgid "Open the location \"%s\""
+msgstr "Перейти в «%s»"
+
+#: thunar/thunar-window.c:4711
+msgid "Failed to open parent folder"
+msgstr "Не удалось открыть родительскую папку"
+
+#: thunar/thunar-window.c:4854
+#, c-format
+msgid "The directory \"%s\" does not exist. Do you want to create it?"
+msgstr "Папка «%s» не существует. Создать её?"
+
+#: thunar/thunar-window.c:4856
+msgid "Create directory"
+msgstr "Создать папку"
+
+#. display an error to the user
+#: thunar/thunar-window.c:4925
+msgid "Failed to browse the computer"
+msgstr "Не удалось отобразить компьютер"
+
+#. display the "About Templates" dialog
+#: thunar/thunar-window.c:4968
+msgid "About Templates"
+msgstr "Об использовании шаблонов"
+
+#: thunar/thunar-window.c:4990
+msgid "All files in this folder will appear in the \"Create Document\" menu."
+msgstr "Все файлы, находящиеся в этой папке, появятся в меню «Создать документ»."
+
+#: thunar/thunar-window.c:4997
+msgid ""
+"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Thunar will add an entry for this document in the \"Create Document\" menu.\n"
+"\n"
+"You can then select the entry from the \"Create Document\" menu and a copy of the document will be created in the directory you are viewing."
+msgstr "Если вы часто создаёте документы определённого типа, сделайте копию одного из них и поместите её в эту папку. Thunar добавит в меню «Создать документ» пункт, соответствующий этому документу.\n\nВы сможете выбрать этот пункт меню «Создать документ», и копия документа будет создана в папке, которую вы просматриваете в данное время."
+
+#: thunar/thunar-window.c:5009
+msgid "Do _not display this message again"
+msgstr "Больше _не показывать это сообщение"
+
+#. display an error to the user
+#: thunar/thunar-window.c:5043
+msgid "Failed to open the file system root folder"
+msgstr "Не удалось открыть корневую папку"
+
+#. display an error to the user
+#: thunar/thunar-window.c:5079
+msgid "Failed to display `Recent`"
+msgstr "Не удалось показать «Недавние»"
+
+#. display an error to the user
+#: thunar/thunar-window.c:5115
+msgid "Failed to display the contents of the trash can"
+msgstr "Не удалось отобразить содержимое корзины"
+
+#. display an error to the user
+#: thunar/thunar-window.c:5151
+msgid "Failed to browse the network"
+msgstr "Не удалось отобразить сеть"
+
+#: thunar/thunar-window.c:5310
+msgid ""
+"Thunar is a fast and easy to use file manager\n"
+"for the Xfce Desktop Environment."
+msgstr "Thunar это быстрый и простой в использовании файловый\nменеджер для рабочего окружения Xfce."
+
+#: thunar/thunar-window.c:6455
+msgid "Select an image to preview"
+msgstr "Выберите изображение для предварительного просмотра"
+
+#: thunar/thunar-window.c:6599
+msgid "Failed to launch search with Catfish"
+msgstr "Не удалось запустить поиск с Catfish"
+
+#: thunar/thunar-window.c:6930
+msgid "Change the active view type"
+msgstr "Изменить тип активного представления"
+
+#. add a proxy menu item for the view switcher to be represent in the overflow
+#. menu
+#: thunar/thunar-window.c:6933 thunar/thunar-window.c:6958
+msgid "View Switcher"
+msgstr "Переключатель отображения"
+
+#. add a proxy menu item for the location bar to represent the bar in the
+#. overflow menu
+#: thunar/thunar-window.c:7127 thunar/thunar-window.c:7132
+msgid "Location Bar"
+msgstr "Панель местоположения"
+
+#: thunarx/thunarx-property-page.c:111
+msgid "Label"
+msgstr "Метка"
+
+#: thunarx/thunarx-property-page.c:112
+msgid "Text of the page's label"
+msgstr "Текст метки страницы"
+
+#: thunarx/thunarx-property-page.c:124
+msgid "Label widget"
+msgstr "Виджет для метки"
+
+#: thunarx/thunarx-property-page.c:125
+msgid "A widget to display in place of the usual page label"
+msgstr "Виджет, который будет отображён вместо обычной метки страницы"
+
+#: thunarx/thunarx-provider-plugin.c:80
+msgid "Resident"
+msgstr "Резидент"
+
+#: thunarx/thunarx-provider-plugin.c:81
+msgid "Don't unload the plugin from memory"
+msgstr "Не выгружать расширение из памяти"
+
+#: thunarx/thunarx-renamer.c:155
+msgid "Help URL"
+msgstr "Справка"
+
+#: thunarx/thunarx-renamer.c:156
+msgid "The URL to the documentation of the renamer"
+msgstr "Адрес, по которому расположена документация инструмента переименования"
+
+#: thunarx/thunarx-renamer.c:171
+msgid "The user visible name of the renamer"
+msgstr "Видимое для пользователя название инструмента переименования"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:254
+#: plugins/thunar-apr/thunar-apr-image-page.c:58
+msgid "Description:"
+msgstr "Описание:"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:261
+msgid ""
+"The generic name of the entry, for example \"Web Browser\" in case of "
+"Firefox."
+msgstr "Название, например «Браузер» в случае с Firefox."
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:281
+msgid "Command:"
+msgstr "Команда:"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:288
+msgid "The program to execute, possibly with arguments."
+msgstr "Приложение, которое будет запущено, с возможными аргументами."
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:307
+msgid "Working Directory:"
+msgstr "Рабочая папка"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:314
+msgid "The working directory for the program."
+msgstr "Рабочая папка для приложения"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:333
+msgid "URL:"
+msgstr "Адрес:"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:340
+msgid "The URL to access."
+msgstr "Адрес, который будет открыт."
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:359
+#: plugins/thunar-apr/thunar-apr-image-page.c:59
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:366
+msgid ""
+"Tooltip for the entry, for example \"View sites on the Internet\" in case of"
+" Firefox. Should not be redundant with the name or the description."
+msgstr "Подсказка, например «Просмотр Всемирной паутины» в случае с Firefox. Не путайте это поле с именем или описанием."
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:398
+msgid "Options:"
+msgstr "Настройки:"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:404
+msgid "Use _startup notification"
+msgstr "Использовать _уведомление о запуске"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:405
+msgid ""
+"Select this option to enable startup notification when the command is run "
+"from the file manager or the menu. Not every application supports startup "
+"notification."
+msgstr "Используйте этот параметр, чтобы включить уведомление о запуске, когда команда запускается из проводника или меню. Не все приложения поддерживают уведомление о запуске."
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:425
+msgid "Run in _terminal"
+msgstr "Выполнить в _терминале"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:426
+msgid "Select this option to run the command in a terminal window."
+msgstr "Включите этот параметр, чтобы команда выполнялась в окне терминала."
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:444
+msgid "Security:"
+msgstr "Безопасность:"
+
+#. same function as in thunar-permission-chooser.c
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:451
+msgid "Allow this file to _run as a .desktop file"
+msgstr "Разрешить _запуск этого файла как файла .desktop"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:452
+msgid ""
+"Select this to enable executable permission bit(+x). Thunar will not launch "
+"the .desktop file if not set."
+msgstr "Используйте этот параметр для включения бита разрешения на выполнение (+x). Thunar не запустит файл .desktop, если этот бит не установлен."
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:469
+msgid "Set this file as trusted"
+msgstr "Установить этот файл как доверенный"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:470
+msgid ""
+"Select this option to trust this .desktop file. This will generate a "
+"checksum of the file and store it via gvfs. The additional check will "
+"protect from malicious launchers which e.g. pretend to be a picture, having "
+"the executable flag pre-set"
+msgstr "Выберите этот параметр, чтобы сделать доверенным этот файл .desktop: контрольная сумма файла будет сгенерирована и сохранена с помощью gvfs. Дополнительная проверка предоставит защиту от вредоносных средств запуска, которые имитируют изображение, но имеют предустановленный флаг исполняемого файла."
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:839
+#, c-format
+msgid "Failed to save \"%s\"."
+msgstr "Не удалось сохранить «%s»."
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:46
+msgid "Date Taken:"
+msgstr "Снимок сделан:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:47
+msgid "Camera Brand:"
+msgstr "Производитель камеры:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:48
+msgid "Camera Model:"
+msgstr "Модель камеры:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:49
+msgid "Exposure Time:"
+msgstr "Выдержка:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:50
+msgid "Exposure Program:"
+msgstr "Режим выдержки:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:51
+msgid "Aperture Value:"
+msgstr "Значение апертуры:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:52
+msgid "Metering Mode:"
+msgstr "Режим замера:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:53
+msgid "Flash Fired:"
+msgstr "Вспышка:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:54
+msgid "Focal Length:"
+msgstr "Фокусное расстояние:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:55
+msgid "Shutter Speed:"
+msgstr "Скорость затвора:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:56
+msgid "ISO Speed Ratings:"
+msgstr "Светочувствительность по ISO:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:57
+msgid "Software:"
+msgstr "Программное обеспечение:"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:117
+msgid "Image"
+msgstr "Изображение"
+
+#: plugins/thunar-apr/thunar-apr-image-page.c:132
+msgid "Image Type:"
+msgstr "Тип:"
+
+#. update the "Image Size" label
+#: plugins/thunar-apr/thunar-apr-image-page.c:257
+#, c-format
+msgid "%dx%d pixel"
+msgid_plural "%dx%d pixels"
+msgstr[0] "%d×%d точек"
+msgstr[1] "%d×%d точек"
+msgstr[2] "%d×%d точек"
+msgstr[3] "%d×%d точек"
+
+#: plugins/thunar-sbr/thunar-sbr-case-renamer.c:115
+msgid "Con_vert to:"
+msgstr "_Преобразование:"
+
+#: plugins/thunar-sbr/thunar-sbr-case-renamer.c:265
+msgid "Uppercase / Lowercase"
+msgstr "Заглавные и строчные"
+
+#: plugins/thunar-sbr/thunar-sbr-date-renamer.c:197
+msgid "Insert _time:"
+msgstr "Вставить _время:"
+
+#: plugins/thunar-sbr/thunar-sbr-date-renamer.c:228
+msgid ""
+"The format describes the date and time parts to insert into the file name. "
+"For example, %Y will be substituted with the year, %m with the month and %d "
+"with the day. See the documentation of the date utility for additional "
+"information."
+msgstr "Этот формат описывает дату и время, которые будут вставлены в имя файла. Например, вместо %Y будет подставлен год, вместо %m — месяц, а вместо %d — день. Дополнительные сведения вы можете получить из документации к утилите date."
+
+#: plugins/thunar-sbr/thunar-sbr-date-renamer.c:244
+#: plugins/thunar-sbr/thunar-sbr-insert-renamer.c:198
+msgid "_At position:"
+msgstr "_На позиции:"
+
+#: plugins/thunar-sbr/thunar-sbr-date-renamer.c:592
+msgid "Insert Date / Time"
+msgstr "Вставить дату и время"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:90
+msgid "lowercase"
+msgstr "строчные"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:91
+msgid "UPPERCASE"
+msgstr "ЗАГЛАВНЫЕ"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:92
+msgid "Title Case"
+msgstr "Регистр заголовка"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:93
+msgid "First character uppercase"
+msgstr "Заглавная первая буква"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:99
+msgid "Insert"
+msgstr "Вставить"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:100
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:106
+msgid "1, 2, 3, ..."
+msgstr "1, 2, 3, ..."
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:107
+msgid "01, 02, 03, ..."
+msgstr "01, 02, 03, ..."
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:108
+msgid "001, 002, 003, ..."
+msgstr "001, 002, 003, ..."
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:109
+msgid "0001, 0002, 0003, ..."
+msgstr "0001, 0002, 0003, ..."
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:110
+msgid "00001, 00002, 00003, ..."
+msgstr "00001, 00002, 00003, ..."
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:111
+msgid "a, b, c, d, ..."
+msgstr "a, b, c, d, ..."
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:117
+msgid "From the front (left)"
+msgstr "С начала (слева)"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:118
+msgid "From the back (right)"
+msgstr "С конца (справа)"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:124
+msgid "Old Name - Text - Number"
+msgstr "Старое имя - Текст - Номер"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:125
+msgid "Number - Text - Old Name"
+msgstr "Номер - Текст - Старое имя"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:126
+msgid "Text - Number"
+msgstr "Текст - Номер"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:127
+msgid "Number - Text"
+msgstr "Номер - Текст"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:133
+msgid "Current"
+msgstr "Текущая дата"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:137
+msgid "Date Picture Taken"
+msgstr "Дата создания снимка"
+
+#: plugins/thunar-sbr/thunar-sbr-insert-renamer.c:178
+#: plugins/thunar-sbr/thunar-sbr-number-renamer.c:261
+msgid "_Text:"
+msgstr "_Текст:"
+
+#: plugins/thunar-sbr/thunar-sbr-insert-renamer.c:387
+msgid "Insert / Overwrite"
+msgstr "Вставить и перезаписать"
+
+#: plugins/thunar-sbr/thunar-sbr-number-renamer.c:187
+msgid "_Number Format:"
+msgstr "_Формат нумерации:"
+
+#: plugins/thunar-sbr/thunar-sbr-number-renamer.c:219
+msgid "_Start With:"
+msgstr "_Начинать с:"
+
+#: plugins/thunar-sbr/thunar-sbr-number-renamer.c:232
+msgid "Text _Format:"
+msgstr "Формат _текста:"
+
+#: plugins/thunar-sbr/thunar-sbr-number-renamer.c:523
+msgid "Numbering"
+msgstr "Нумерация"
+
+#: plugins/thunar-sbr/thunar-sbr-remove-renamer.c:175
+msgid "Remove _From Position:"
+msgstr "Удалить _начиная с:"
+
+#: plugins/thunar-sbr/thunar-sbr-remove-renamer.c:211
+msgid "_To Position:"
+msgstr "_До:"
+
+#: plugins/thunar-sbr/thunar-sbr-remove-renamer.c:419
+msgid "Remove Characters"
+msgstr "Удалить символы"
+
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:212
+msgid "_Search For:"
+msgstr "_Искать:"
+
+#. reset to default tooltip
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:220
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:577
+msgid "Enter the text to search for in the file names."
+msgstr "Укажите текст для поиска в именах файлов."
+
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:234
+msgid "Regular _Expression"
+msgstr "_Регулярное выражение"
+
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:236
+msgid ""
+"If you enable this option, the pattern will be treated as a regular "
+"expression and matched using the Perl-compatible regular expressions (PCRE)."
+" Check the documentation for details about the regular expression syntax."
+msgstr "Если включено, текст шаблона будет рассматриваться как регулярное выражение и будет произведён поиск соответствий с использованием регулярных выражений, совместимых с Perl (PCRE). Для подробного ознакомления с синтаксисом регулярных выражений обратитесь к документации."
+
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:243
+msgid "Replace _With:"
+msgstr "_Заменить на:"
+
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:251
+msgid ""
+"Enter the text that should be used as replacement for the pattern above."
+msgstr "Укажите текст, который будет использоваться в качестве замены для шаблона, указанного выше."
+
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:265
+msgid "C_ase Sensitive Search"
+msgstr "П_оиск с учётом регистра"
+
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:267
+msgid ""
+"If you enable this option, the pattern will be searched in a case-sensitive "
+"manner. The default is to use a case-insensitive search."
+msgstr "Если включено, поиск будет производиться с учётом регистра символов. По умолчанию используется регистронезависимый поиск."
+
+#. setup a tooltip with the error message
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:554
+#, c-format
+msgid "Invalid regular expression, at character position %ld: %s"
+msgstr "Недопустимое регулярное выражение на позиции %ld: %s"
+
+#: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:595
+msgid "Search & Replace"
+msgstr "Поиск и замена"
+
+#: plugins/thunar-sendto-email/main.c:213
+#, c-format
+msgid "Send \"%s\" as compressed archive?"
+msgstr "Отправить «%s» как сжатый архив?"
+
+#: plugins/thunar-sendto-email/main.c:215
+#: plugins/thunar-sendto-email/main.c:235
+msgid "Send email"
+msgstr "Отправить эл. почту"
+
+#: plugins/thunar-sendto-email/main.c:217
+#: plugins/thunar-sendto-email/main.c:237
+msgid "Send _directly"
+msgstr "Отправить _напрямую"
+
+#: plugins/thunar-sendto-email/main.c:218
+msgid "Send com_pressed"
+msgstr "Отправить с_жатым"
+
+#: plugins/thunar-sendto-email/main.c:220
+msgid ""
+"When sending a file via email, you can either choose to send the file "
+"directly, as is, or compress the file before attaching it to an email. It is"
+" highly recommended to compress large files before sending them."
+msgstr "При отправке файла по почте вы можете либо отправить файл в исходном виде, либо сжать файл. Желательно сжимать большие файлы перед отправлением."
+
+#: plugins/thunar-sendto-email/main.c:231
+#, c-format
+msgid "Send %d file as compressed archive?"
+msgid_plural "Send %d files as compressed archive?"
+msgstr[0] "Отправить %d файл в виде архива?"
+msgstr[1] "Отправить %d файла в виде архива?"
+msgstr[2] "Отправить %d файлов в виде архива?"
+msgstr[3] "Отправить %d файлов в виде архива?"
+
+#: plugins/thunar-sendto-email/main.c:238
+msgid "Send as _archive"
+msgstr "Отправить как _архив"
+
+#: plugins/thunar-sendto-email/main.c:240
+msgid ""
+"When sending multiple files via email, you can either choose to send the "
+"files directly, attaching multiple files to an email, or send all files "
+"compressed into a single archive file and attach the archive. It is highly "
+"recommended to send multiple large files as archive."
+msgstr "При отправке нескольких файлов по почте вы можете отправить их, прикрепив каждый файл к письму, либо сжать их в один архив, который будет прикреплён к письму. Очень желательно отправлять большие файлы в виде архива."
+
+#. allocate the progress dialog
+#. setup the label
+#: plugins/thunar-sendto-email/main.c:298
+#: plugins/thunar-sendto-email/main.c:324
+msgid "Compressing files..."
+msgstr "Сжатие файлов..."
+
+#. tell the user that the command failed
+#: plugins/thunar-sendto-email/main.c:349
+#, c-format
+msgid "ZIP command terminated with error %d"
+msgstr "Команда ZIP завершилась с ошибкой %d"
+
+#: plugins/thunar-sendto-email/main.c:438
+msgid "Failed to create temporary directory"
+msgstr "Не удалось создать временную папку"
+
+#: plugins/thunar-sendto-email/main.c:500
+#: plugins/thunar-sendto-email/main.c:511
+#, c-format
+msgid "Failed to create symbolic link for \"%s\""
+msgstr "Не удалось создать символическую ссылку для «%s»"
+
+#. tell the user that we failed to compress the file(s)
+#: plugins/thunar-sendto-email/main.c:535
+#, c-format
+msgid "Failed to compress %d file"
+msgid_plural "Failed to compress %d files"
+msgstr[0] "Не удалось сжать %d файл"
+msgstr[1] "Не удалось сжать %d файла"
+msgstr[2] "Не удалось сжать %d файлов"
+msgstr[3] "Не удалось сжать %d файлов"
+
+#. tell the user that we failed
+#: plugins/thunar-sendto-email/main.c:675
+msgid "Failed to compose new email"
+msgstr "Не удалось создать письмо"
+
+#: plugins/thunar-sendto-email/thunar-sendto-email.desktop.in.in:5
+msgid "Mail Recipient"
+msgstr "Электронная почта"
+
+#. tell the user that we failed to connect to the trash
+#: plugins/thunar-tpa/thunar-tpa.c:289 plugins/thunar-tpa/thunar-tpa.c:329
+#: plugins/thunar-tpa/thunar-tpa.c:356 plugins/thunar-tpa/thunar-tpa.c:383
+msgid "Failed to connect to the Trash"
+msgstr "Не удалось подключиться к корзине"
+
+#. tell the user whether the trash is full or empty
+#: plugins/thunar-tpa/thunar-tpa.c:304
+msgid "Trash contains files"
+msgstr "Корзина содержит файлы"
+
+#: plugins/thunar-tpa/thunar-tpa.desktop.in:4
+msgid "Trash Applet"
+msgstr "Корзина"
+
+#: plugins/thunar-tpa/thunar-tpa.desktop.in:5
+msgid "Display the trash can"
+msgstr "Отображает корзину на панели"
+
+#: plugins/thunar-uca/thunar-uca-chooser.c:275
+#: plugins/thunar-uca/thunar-uca-editor.ui:11
+msgid "Edit Action"
+msgstr "Изменить действие"
+
+#: plugins/thunar-uca/thunar-uca-chooser.c:275
+msgid "Create Action"
+msgstr "Создать действие"
+
+#: plugins/thunar-uca/thunar-uca-chooser.c:324
+msgid "Failed to save actions to disk."
+msgstr "Не удалось сохранить действия на диск."
+
+#: plugins/thunar-uca/thunar-uca-chooser.c:376
+#, c-format
+msgid ""
+"Are you sure that you want to delete\n"
+"action \"%s\"?"
+msgstr "Действительно удалить действие «%s»?"
+
+#: plugins/thunar-uca/thunar-uca-chooser.c:377
+msgid "Delete action"
+msgstr "Удалить действие"
+
+#: plugins/thunar-uca/thunar-uca-chooser.c:378
+msgid "If you delete a custom action, it is permanently lost."
+msgstr "Если вы удалите файл, он будет утрачен навсегда."
+
+#. skip leading slash
+#: plugins/thunar-uca/thunar-uca-editor.c:369
+#, c-format
+msgid "This keyboard shortcut is currently used by: '%s'"
+msgstr "Это сочетание клавиш используется: «%s»"
+
+#: plugins/thunar-uca/thunar-uca-editor.c:372
+msgid "Keyboard shortcut already in use"
+msgstr "Сочетание клавиш уже используется"
+
+#. setup a label to tell that no icon was selected
+#: plugins/thunar-uca/thunar-uca-editor.c:523
+#: plugins/thunar-uca/thunar-uca-editor.ui:279
+msgid "No icon"
+msgstr "Без значка"
+
+#: plugins/thunar-uca/thunar-uca-model.c:863
+msgid "End element handler called while in root context"
+msgstr "Обработчик завершающего элемента вызван в контексте корневой папки"
+
+#: plugins/thunar-uca/thunar-uca-model.c:984
+#, c-format
+msgid "Unknown closing element <%s>"
+msgstr "Неизвестный закрывающий элемент <%s>"
+
+#: plugins/thunar-uca/thunar-uca-model.c:1514
+msgid "Failed to determine save location for uca.xml"
+msgstr "Не удалось определить адрес для сохранения uca.xml"
+
+#: plugins/thunar-uca/thunar-uca-model.c:1643
+msgid "Command not configured"
+msgstr "Команда не настроена"
+
+#: plugins/thunar-uca/thunar-uca-provider.c:184
+msgid "Confi_gure custom actions..."
+msgstr "Настрой_ка пользовательских действий..."
+
+#: plugins/thunar-uca/thunar-uca-provider.c:184
+msgid ""
+"Setup custom actions that will appear in the file managers context menus"
+msgstr "Настройка особых действий, которые появятся в контекстном меню проводника"
+
+#: plugins/thunar-uca/thunar-uca-provider.c:567
+#, c-format
+msgid "Failed to launch action \"%s\"."
+msgstr "Не удалось выполнить действие «%s»."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:63
+msgid "The name of the action that will be displayed in the context menu."
+msgstr "Название действия, которое будет отображено в контекстном меню."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:76
+msgid "_Description:"
+msgstr "_Описание:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:93
+msgid ""
+"The description of the action that will be displayed as tooltip in the "
+"statusbar when selecting the item from the context menu."
+msgstr "Описание действия, которое будет отображено в подсказке в строке состояния, когда действие будет выбрано в контекстном меню."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:106
+msgid "_Submenu:"
+msgstr "По_дменю:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:123
+msgid ""
+"The submenu in which the action will be displayed. Leave empty for no menu. "
+"Use '/' for nested menus."
+msgstr "Подменю для отображения действия. Оставьте пустым, если нет меню. Используйте «/» для вложенных меню."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:136
+msgid "_Command:"
+msgstr "_Команда:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:157
+msgid ""
+"The command (including the necessary parameters) to perform the action. See "
+"the command parameter legend below for a list of supported parameter "
+"variables, which will be substituted when launching the command. When upper-"
+"case letters (e.g. %F, %D, %N) are used, the action will be applicable even "
+"if more than one item is selected. Else the action will only be applicable "
+"if exactly one item is selected."
+msgstr "Команда (включая необходимые параметры), необходимая для выполнения действия. Ниже приведено описание доступных параметров. Если используются буквы в верхнем регистре (например, %F, %D, %N), то действие может применяться к нескольким выбранным объектам. Иначе действие будет применено только в том случае, если выбран один объект."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:172
+msgid ""
+"Browse the file system to select an application to use for this action."
+msgstr "Просмотреть файловую систему, чтобы выбрать приложение, которое будет использовано в этом действии."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:201
+msgid "Keyboard _Shortcut:"
+msgstr "_Сочетание клавиш"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:219
+msgid "The keyboard shortcut for the action."
+msgstr "Сочетание клавиш для действия."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:234
+msgid "Clear the keyboard shortcut for this action."
+msgstr "Очистить сочетание клавиш для этого действия."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:263
+msgid "_Icon:"
+msgstr "З_начок:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:283
+msgid ""
+"Click this button to select an icon file that will be displayed in the "
+"context menu in addition to the action name chosen above."
+msgstr "Нажмите эту кнопку, чтобы выбрать файл со значком, который будет отображён в контекстном меню вместе с названием действия."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:294
+msgid "Use Startup Notification"
+msgstr "Использовать уведомление о запуске"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:298
+msgid ""
+"Enable this option if you want a waiting cursor to be shown while the action"
+" is launched. This is also highly recommended if you have focus stealing "
+"prevention enabled in your window manager."
+msgstr "Включите эту опцию, если вы хотите ожидать появление курсора, пока действие запущено. Также это рекомендуется, если у вас включен режим перехвата"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:351
+msgid ""
+"The following command parameters will be substituted when launching the "
+"action:"
+msgstr "Следующие параметры команд будут подставлены при запуске действия:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:461
+msgid ""
+"If no file is selected, the current directory will be treated as selected "
+"file."
+msgstr "Если файлов не выбрано, то выбранным файлом будет считаться текущий каталог."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:478
+msgid "file name of the selected file"
+msgstr "имя выбранного файла"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:494
+msgid "file names of all selected files"
+msgstr "имена всех выбранных файлов"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:509
+msgid "path of the selected file's directory"
+msgstr "путь к каталогу выбранного файла"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:524
+msgid "paths of all selected files' directories"
+msgstr "пути к каталогам всех выбранных файлов"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:539
+msgid "path of the selected file including the file name"
+msgstr "путь к выбранному файлу вместе его именем"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:554
+msgid "paths of all selected files including the file names"
+msgstr "пути ко всем выбранным файлам вместе их именами"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:626
+msgid "Basic"
+msgstr "Основное"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:644
+msgid "_File Pattern:"
+msgstr "Шаблон _файлов:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:661
+msgid ""
+"Enter a list of patterns that will be used to determine whether this action "
+"should be displayed for a selected file. If you specify more than one "
+"pattern here, the list items must be separated with semicolons (e.g. "
+"*.txt;*.doc)."
+msgstr "Введите список шаблонов, которые будут использованы для определения того, должно ли это действие отображаться для данного файла. При указании нескольких шаблонов разделяйте их точкой с запятой (например, *.txt;*.doc)."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:664
+#: plugins/thunar-uca/thunar-uca-editor.ui:695
+msgid "*"
+msgstr "*"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:675
+msgid "_Range (min-max):"
+msgstr "_Диапазон (наим.-наиб.):"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:692
+msgid ""
+"If the command should operate on say two or three files, enter the numerical"
+" range 2-3. If there are no limits, this string should be empty."
+msgstr "Если команду требуется выполнить, к примеру, над двумя или тремя файлами, введите числовой диапазон 2-3. Если ограничений нет, эту строку следует оставить пустой."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:706
+msgid "Appears if selection contains:"
+msgstr "Появляться, если выделение содержит:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:726
+msgid "_Directories **"
+msgstr "Пап_ки **"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:741
+msgid "_Audio Files"
+msgstr "_Звуковые файлы"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:755
+msgid "_Image Files"
+msgstr "_Изображения"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:770
+msgid "_Text Files"
+msgstr "_Текстовые файлы"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:784
+msgid "_Video Files"
+msgstr "_Видеофайлы"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:798
+msgid "_Other Files"
+msgstr "_Другие файлы"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:851
+msgid ""
+"This page lists the conditions under which the action will appear in the file managers context menus. The file patterns are specified as a list of simple file patterns separated by semicolons (e.g. *.txt;*.doc). For an action to appear in the context menu of a file or folder, at least one of these patterns must match the name of the file or folder. Additionally, you can specify that the action should only appear for certain kinds of files.\n"
+"\n"
+"** The custom action will be eligible to appear in the toolbar."
+msgstr "На этой странице перечислены условия, при которых действие появится в контекстном меню проводника. Шаблоны имён файлов указываются в виде списка и разделяются точкой с запятой (напр., *.txt;*.doc). Чтобы действие появилось в контекстном меню для файла или папки, оно должны соответствовать хотя бы одному из этих шаблонов. Также вы можете указать действия, которые будут появляться только для определённых типов файлов.\n\n** Пользовательское действие будет иметь право отображаться на панели инструментов."
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:916
+msgid "Appearance Conditions"
+msgstr "Условия появления"
+
+#: plugins/thunar-uca/thunar-uca-chooser.ui:12
+msgid "Custom Actions"
+msgstr "Особые действия"
+
+#: plugins/thunar-uca/thunar-uca-chooser.ui:32
+msgid ""
+"Configure custom actions that will appear in the file manager's context menus and/or toolbar.\n"
+"These actions are applicable to folders or certain kinds of files.\n"
+"\n"
+"Check the <a href=\"https://docs.xfce.org/xfce/thunar/custom-actions\">documentation</a> for a collection of custom action examples."
+msgstr "Настройка пользовательских действий, которые будут отображаться в контекстных меню и/или на панели инструментов файлового менеджера.\nЭти действия применимы к папкам или определённым типам файлов.\n\nПримеры пользовательских действий можно найти в <a href=\"https://docs.xfce.org/xfce/thunar/custom-actions\">документации</a>."
+
+#: plugins/thunar-uca/thunar-uca-chooser.ui:88
+msgid "Add a new custom action."
+msgstr "Создает пользовательское действие."
+
+#: plugins/thunar-uca/thunar-uca-chooser.ui:97
+msgid "Edit the currently selected action."
+msgstr "Изменить выбранное действие."
+
+#: plugins/thunar-uca/thunar-uca-chooser.ui:106
+msgid "Delete the currently selected action."
+msgstr "Удалить выбранное действие."
+
+#: plugins/thunar-uca/thunar-uca-chooser.ui:115
+msgid "Move the currently selected action up by one row."
+msgstr "Сдвинуть выбранное действие на одну позицию выше."
+
+#: plugins/thunar-uca/thunar-uca-chooser.ui:124
+msgid "Move the currently selected action down by one row."
+msgstr "Сдвинуть выбранное действие на одну позицию ниже."
+
+#: plugins/thunar-wallpaper/twp-provider.c:156
+msgid "Set as wallpaper"
+msgstr "Сделать фоном рабочего стола"
+
+#: thunar.desktop.in:3
+msgid "Thunar File Manager"
+msgstr "Проводник Thunar"
+
+#: thunar.desktop.in:4
+msgid "Browse the filesystem with the file manager"
+msgstr "Просмотр файловой системы с помощью проводника"
+
+#: thunar.desktop.in:5
+msgid "File Manager"
+msgstr "Файловый менеджер"
+
+#: thunar.desktop.in:6
+msgid ""
+"file "
+"manager;explorer;finder;browser;folders;directory;directories;partitions;drives;network;devices;rename;move;copy;delete;permissions;home;trash;"
+msgstr "проводник;поиск;просмотр;папки;папка;разделы;диски;сеть;устройства;переименовать;переместить;копировать;удалить;допуск;домой;корзина;"
+
+#: thunar.desktop.in:17
+msgid "Home"
+msgstr "Домашняя папка"
+
+#: thunar-bulk-rename.desktop.in:6
+msgid "bulk;renamer;renaming;thunar;files;folders;directory;directories;"
+msgstr "пакет;переименовать;переименование;thunar;файлы;папки;папка;проводник;"
+
+#: thunar/thunar-settings.desktop.in:5
+msgid "Configure the Thunar file manager"
+msgstr "Настроить проводник Thunar"
+
+#: thunar/thunar-settings.desktop.in:6
+msgid ""
+"thunar;settings;preferences;configure;thumbnails;file size;date "
+"format;shortcuts pane;tree view;tabs;"
+msgstr "thunar;настройки;настроить;значки;размер файла;формат даты;панель закладок;древовидный список;вкладки;"
+
+#: org.xfce.thunar.appdata.xml.in:10
+msgid "File Browser"
+msgstr "Обозреватель файлов"
+
+#: org.xfce.thunar.appdata.xml.in:12
+msgid ""
+"Thunar is a file browser specifically designed for the Xfce Desktop, but "
+"also can serve as an alternate file browser for other Desktop environments. "
+"It has a simple, clean two-pane design for browsing all your files."
+msgstr "Thunar — проводник изначально для оболочки Xfce, но может использоваться и в других оболочках. Имеет простой понятный двухпанельный вид для просмотра всех ваших файлов."
+
+#: org.xfce.thunar.appdata.xml.in:26
+msgid "Screenshot of the XFCE Thunar File Browser User Interface"
+msgstr "Скриншот пользовательского интерфейса файлового браузера XFCE Thunar"
+
+#. SECURITY:
+#. - A normal active user can run thunar without elevated rights. They
+#. may wish to modify files they normally do not have read/write access
+#. to. This isn't a good idea, but is common on single user systems.
+#: org.xfce.thunar.policy.in.in:26
+msgid "Run Thunar as root"
+msgstr "Запустить Thunar от суперпользователя"
+
+#: org.xfce.thunar.policy.in.in:27
+msgid "Authentication is required to run Thunar as root."
+msgstr "Требуется аутентификация для запуска Thunar от суперпользователя"

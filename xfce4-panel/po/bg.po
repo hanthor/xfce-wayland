@@ -1,0 +1,2291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce4-panel.master package.
+# 
+# Translators:
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2012
+# Ivailo Panamski <ipanamski@gmail.com>, 2018
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2012
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2014-2015,2017-2020,2022-2026
+# Любомир Василев, 2015
+# Красимир Беров, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce4-panel\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2026-01-17 00:55+0100\n"
+"PO-Revision-Date: 2013-07-02 20:26+0000\n"
+"Last-Translator: Kiril Kirilov <cybercop_montana@abv.bg>, 2014-2015,2017-2020,2022-2026\n"
+"Language-Team: Bulgarian (http://app.transifex.com/xfce/xfce4-panel/language/bg/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: panel-desktop-handler.desktop.in:4
+msgid "Create Launcher on the panel"
+msgstr "Създаване на стартер в панела"
+
+#: panel-desktop-handler.desktop.in:5
+msgid ""
+"Add a new launcher to the panel based on the information of this desktop "
+"file"
+msgstr "Добавяне на нов стартер в панела, използващ данните от този десктоп файл"
+
+#: panel-preferences.desktop.in:8
+msgid ""
+"panels;settings;preferences;taskbar;autohide;application "
+"menu;start;buttons;launcher;notification area;status;icons;plugins;"
+msgstr "панели;настройки;предпочитания;лента на задачите;автоматично скриване;меню на програмите;бутони;стартер;зона за уведомяване;състояние;икони;добавки;"
+
+#: panel-preferences.desktop.in:15 panel/panel-window.c:3859
+msgid "Panel"
+msgstr "Панел"
+
+#: panel-preferences.desktop.in:16
+msgid "Customize the panel"
+msgstr "Персонализация на панела"
+
+#: common/resources/panel-preferences-dialog.glade:13
+msgid "Never"
+msgstr "Никога"
+
+#: common/resources/panel-preferences-dialog.glade:16
+msgid "Intelligently"
+msgstr "Интелигентно"
+
+#: common/resources/panel-preferences-dialog.glade:19
+msgid "Always"
+msgstr "Винаги"
+
+#: common/resources/panel-preferences-dialog.glade:71
+msgid "Horizontal"
+msgstr "Хоризонтално"
+
+#: common/resources/panel-preferences-dialog.glade:74
+msgid "Vertical"
+msgstr "Вертикално"
+
+#: common/resources/panel-preferences-dialog.glade:77
+msgid "Deskbar"
+msgstr "Работни ленти"
+
+#: common/resources/panel-preferences-dialog.glade:124
+msgid "None (use system style)"
+msgstr "Без (използване на системен стил)"
+
+#: common/resources/panel-preferences-dialog.glade:127
+msgid "Solid color"
+msgstr "Плътен цвят"
+
+#: common/resources/panel-preferences-dialog.glade:130
+msgid "Background image"
+msgstr "Изображение за фон"
+
+#: common/resources/panel-preferences-dialog.glade:136
+msgid "Panel Preferences"
+msgstr "Настройки на панела"
+
+#: common/resources/panel-preferences-dialog.glade:153
+#: common/resources/actions-dialog.glade:82
+#: common/resources/applicationsmenu-dialog.glade:55
+#: common/resources/clock-dialog.glade:105
+#: common/resources/directorymenu-dialog.glade:34
+#: common/resources/launcher-dialog.glade:103
+#: common/resources/launcher-dialog.glade:270
+#: common/resources/pager-dialog.glade:97
+#: common/resources/separator-dialog.glade:58
+#: common/resources/showdesktop-dialog.glade:34
+#: common/resources/sn-dialog.glade:65
+#: common/resources/tasklist-dialog.glade:86
+#: common/resources/windowmenu-dialog.glade:51 panel/panel-item-dialog.c:205
+#: panel/panel-tic-tac-toe.c:110
+msgid "_Close"
+msgstr "_Затваряне"
+
+#. help item
+#: common/resources/panel-preferences-dialog.glade:168
+#: common/resources/actions-dialog.glade:97
+#: common/resources/applicationsmenu-dialog.glade:39
+#: common/resources/clock-dialog.glade:120
+#: common/resources/directorymenu-dialog.glade:49
+#: common/resources/launcher-dialog.glade:254
+#: common/resources/pager-dialog.glade:81
+#: common/resources/separator-dialog.glade:73
+#: common/resources/showdesktop-dialog.glade:49
+#: common/resources/tasklist-dialog.glade:102
+#: common/resources/windowmenu-dialog.glade:66
+#: libxfce4panel/xfce-panel-plugin.c:1344 panel/panel-item-dialog.c:201
+#: panel/panel-window.c:3925
+msgid "_Help"
+msgstr "_Помощ"
+
+#: common/resources/panel-preferences-dialog.glade:213
+msgid "Profiles:"
+msgstr "Профили:"
+
+#: common/resources/panel-preferences-dialog.glade:241
+msgid "_Backup and restore"
+msgstr "_Резервно копие и възстановяване"
+
+#: common/resources/panel-preferences-dialog.glade:245
+msgid "Switch between panel presets"
+msgstr "Превключване между зададените конфигурации на панела"
+
+#: common/resources/panel-preferences-dialog.glade:289
+msgid "Add a new panel"
+msgstr "Добавяне на нов панел"
+
+#: common/resources/panel-preferences-dialog.glade:314
+msgid "Remove the currently selected panel"
+msgstr "Премахване на текущо избран панел"
+
+#: common/resources/panel-preferences-dialog.glade:365
+#: common/resources/panel-preferences-dialog.glade:745
+msgid "<b>General</b>"
+msgstr "<b>Общи</b>"
+
+#: common/resources/panel-preferences-dialog.glade:380
+msgid "M_ode:"
+msgstr "Режим:"
+
+#: common/resources/panel-preferences-dialog.glade:409
+msgid "Span mo_nitors"
+msgstr "Обединяване на екрани"
+
+#: common/resources/panel-preferences-dialog.glade:413
+msgid "Select this option to extend the panel over multiple monitors."
+msgstr "Изберете тази опция, за да се разшири панела на няколко монитора."
+
+#: common/resources/panel-preferences-dialog.glade:426
+msgid "_Lock panel"
+msgstr "Заключване на панела"
+
+#: common/resources/panel-preferences-dialog.glade:430
+msgid ""
+"Select this option to hide the handles of the panel and lock its position."
+msgstr "Изберете тази опция, за да се скрият ръкохватките и да се заключи позицията на панела."
+
+#: common/resources/panel-preferences-dialog.glade:443
+msgid "_Reserve space on screen edges for the panel"
+msgstr "_Запазване на място по краищата на екрана за панела"
+
+#: common/resources/panel-preferences-dialog.glade:447
+msgid ""
+"Select this option if you don't want maximized windows to overlap the panel "
+"area. This only works when the panel is attached to a screen edge and "
+"autohide is disabled."
+msgstr "Изберете тази опция, ако не искате максимизираните прозорци да се застъпват с областта на панела. Това работи само, когато панелът е прикрепен към ръба на екрана и автоматичното скриване е деактивирано."
+
+#: common/resources/panel-preferences-dialog.glade:460
+msgid "_Keep panel below windows"
+msgstr "Панелът да се държи под прозорците"
+
+#: common/resources/panel-preferences-dialog.glade:464
+msgid ""
+"Select this option if you want windows to cover the panel. When autohide is "
+"enabled, panel is always on top."
+msgstr "Изберете тази опция, ако искате прозорците да покриват панела. Когато автоматичното скриване е активирано, панелът винаги е отгоре."
+
+#: common/resources/panel-preferences-dialog.glade:485
+msgid "Au_tomatically hide the panel:"
+msgstr "_Автоматично скриване на панела:"
+
+#: common/resources/panel-preferences-dialog.glade:526
+msgid "O_utput:"
+msgstr "Изход:"
+
+#. I18N: name of the section (frame) in the panel preferences where the user
+#. can define the length and size of the panel
+#: common/resources/panel-preferences-dialog.glade:570
+msgid "<b>Measurements</b>"
+msgstr "<b>Размери</b>"
+
+#: common/resources/panel-preferences-dialog.glade:585
+msgid "Row _size (pixels):"
+msgstr "Размер на ред (пиксели):"
+
+#: common/resources/panel-preferences-dialog.glade:599
+msgid "Num_ber of rows:"
+msgstr "Брой редове:"
+
+#: common/resources/panel-preferences-dialog.glade:613
+msgid "L_ength (pixels):"
+msgstr "Дължина (пиксели):"
+
+#: common/resources/panel-preferences-dialog.glade:642
+msgid "Border width (pixels):"
+msgstr "Ширина на границата (пиксели):"
+
+#: common/resources/panel-preferences-dialog.glade:665
+msgid "A_utomatically increase the length"
+msgstr "Автоматично разширяване на дължината"
+
+#: common/resources/panel-preferences-dialog.glade:669
+msgid ""
+"Select this option to automatically increase the length of the panel if the "
+"plugins request more space."
+msgstr "Изберете тази опция за автоматично увеличаване ширината на панела, ако добавките се нуждаят от повече място."
+
+#: common/resources/panel-preferences-dialog.glade:719
+msgid "D_isplay"
+msgstr "Екран"
+
+#: common/resources/panel-preferences-dialog.glade:760
+msgid "Dark mode"
+msgstr "Тъмен режим"
+
+#: common/resources/panel-preferences-dialog.glade:800
+msgid "<b>Background</b>"
+msgstr "<b>Фон</b>"
+
+#: common/resources/panel-preferences-dialog.glade:815
+#: common/resources/separator-dialog.glade:123
+msgid "_Style:"
+msgstr "Стил:"
+
+#: common/resources/panel-preferences-dialog.glade:847
+msgid "C_olor:"
+msgstr "Цвят:"
+
+#: common/resources/panel-preferences-dialog.glade:862
+msgid "Pick a Panel Color"
+msgstr "Избор на цвят на панела"
+
+#: common/resources/panel-preferences-dialog.glade:875
+msgid "_File:"
+msgstr "_Файл:"
+
+#: common/resources/panel-preferences-dialog.glade:888
+msgid "Select A Background Image"
+msgstr "Избор на изображение за фон"
+
+#: common/resources/panel-preferences-dialog.glade:915
+msgid "<b>Icons</b>"
+msgstr "<b>Икони</b>"
+
+#: common/resources/panel-preferences-dialog.glade:929
+msgid "Adjust size au_tomatically"
+msgstr "Автоматично задаване на размера"
+
+#: common/resources/panel-preferences-dialog.glade:966
+msgid "Fixed icon _size (pixels):"
+msgstr "Фиксиран размер на иконите (пиксели):"
+
+#: common/resources/panel-preferences-dialog.glade:1009
+msgid "<b>Opacity</b>"
+msgstr "<b>Непрозрачност</b>"
+
+#: common/resources/panel-preferences-dialog.glade:1035
+msgid "Configure..."
+msgstr "Конфигуриране..."
+
+#: common/resources/panel-preferences-dialog.glade:1073
+msgid ""
+"<b>Compositing is currently disabled</b>\n"
+"Enable compositing in the window manager for opacity settings in the panel."
+msgstr "<b>В момента, композирането е изключено</b>\nВключете композирането в мениджъра на прозорците за настройване прозрачността на панела."
+
+#. I18N: label for the enter transparency slider
+#: common/resources/panel-preferences-dialog.glade:1113
+msgid "_Enter:"
+msgstr "Влизане:"
+
+#. I18N: label for the leave transparency slider
+#: common/resources/panel-preferences-dialog.glade:1140
+msgid "_Leave:"
+msgstr "Напускане:"
+
+#: common/resources/panel-preferences-dialog.glade:1153
+msgid ""
+"Transparency when the pointer is not hovering over the panel, with 0 being "
+"fully transparent and 100 fully opaque."
+msgstr "Прозрачност, когато показалецът на мишката не се намира над панела (0 — пълна прозрачност, 100 — непрозрачно)."
+
+#: common/resources/panel-preferences-dialog.glade:1180
+msgid "Appeara_nce"
+msgstr "Външен вид"
+
+#: common/resources/panel-preferences-dialog.glade:1208
+msgid "Ite_ms"
+msgstr "Елементи"
+
+#: common/resources/actions-dialog.glade:35
+#: common/resources/actions-dialog.glade:64
+#: plugins/actions/actions.desktop.in.in:4
+msgid "Action Buttons"
+msgstr "Бутони за действие"
+
+#: common/resources/actions-dialog.glade:38 plugins/actions/actions.c:32
+msgid "Session Menu"
+msgstr "Меню на сесиите"
+
+#: common/resources/actions-dialog.glade:49
+msgid "Full Name"
+msgstr "Пълно име"
+
+#: common/resources/actions-dialog.glade:52
+msgid "Username"
+msgstr "Потребителско име"
+
+#: common/resources/actions-dialog.glade:55
+msgid "User ID"
+msgstr "Потребителски ID"
+
+#: common/resources/actions-dialog.glade:58
+msgid "Custom"
+msgstr "Потребителски"
+
+#: common/resources/actions-dialog.glade:162
+msgid "Appeara_nce:"
+msgstr "Външен вид:"
+
+#: common/resources/actions-dialog.glade:188
+msgid "Title:"
+msgstr "Заглавие:"
+
+#: common/resources/actions-dialog.glade:201
+msgid "Custo_m title:"
+msgstr "Потребителско заглавие:"
+
+#: common/resources/actions-dialog.glade:255
+#: common/resources/launcher-dialog.glade:306
+msgid "General"
+msgstr "Общи"
+
+#: common/resources/actions-dialog.glade:303
+msgid "Visible"
+msgstr "Видим"
+
+#: common/resources/actions-dialog.glade:314
+msgid "Action"
+msgstr "Действие"
+
+#: common/resources/actions-dialog.glade:334
+msgid "_Show confirmation dialog"
+msgstr "Показване на диалог за потвърждение"
+
+#: common/resources/actions-dialog.glade:338
+msgid ""
+"Show a confirmation dialog with a 30 second timeout for some of the actions."
+msgstr "Показване на диалог за потвърждение с възможност за отмяна на действието в продължение на 30 секунди."
+
+#: common/resources/actions-dialog.glade:354
+msgid "_Actions"
+msgstr "_Действия"
+
+#: common/resources/applicationsmenu-dialog.glade:23
+#: plugins/applicationsmenu/applicationsmenu.desktop.in.in:4
+msgid "Applications Menu"
+msgstr "Меню на програмите"
+
+#: common/resources/applicationsmenu-dialog.glade:101
+#: common/resources/directorymenu-dialog.glade:122
+msgid "_Icon:"
+msgstr "Икона:"
+
+#: common/resources/applicationsmenu-dialog.glade:125
+msgid "Button _title:"
+msgstr "Заглавие на бутон:"
+
+#: common/resources/applicationsmenu-dialog.glade:136
+msgid "Show button on one _line"
+msgstr "Показване на бутон на един ред"
+
+#: common/resources/applicationsmenu-dialog.glade:151
+msgid "_Show button title"
+msgstr "Показване на заглавието на бутон"
+
+#: common/resources/applicationsmenu-dialog.glade:166
+msgid "Show application d_escription in tooltip"
+msgstr "Показване на описание в изскачащите уведомления"
+
+#: common/resources/applicationsmenu-dialog.glade:182
+msgid "Show ic_ons in menu"
+msgstr "Показване на икони в менюто"
+
+#: common/resources/applicationsmenu-dialog.glade:197
+msgid "Show generic application n_ames"
+msgstr "Показване на обобщаващи имена на програмите"
+
+#: common/resources/applicationsmenu-dialog.glade:201
+msgid ""
+"Select this option to show the generic application name in the menu, for "
+"example \"File Manager\" instead of \"Thunar\""
+msgstr "Изберете тази опция, за да се показват обобщаващи имена на на програмите в менюто, например „Файлов мениджър“ вместо „Thunar“"
+
+#: common/resources/applicationsmenu-dialog.glade:229
+#: common/resources/clock-dialog.glade:418
+#: common/resources/directorymenu-dialog.glade:150
+#: common/resources/separator-dialog.glade:222
+#: common/resources/tasklist-dialog.glade:266
+#: common/resources/windowmenu-dialog.glade:209
+msgid "Appearance"
+msgstr "Външен вид"
+
+#: common/resources/applicationsmenu-dialog.glade:267
+msgid "Use the _default menu"
+msgstr "Използване на меню по подразбиране"
+
+#: common/resources/applicationsmenu-dialog.glade:282
+msgid "Ed_it Menu"
+msgstr "Редактиране на меню"
+
+#: common/resources/applicationsmenu-dialog.glade:304
+msgid "Use c_ustom menu file:"
+msgstr "Използване на потребителско меню от файл:"
+
+#: common/resources/applicationsmenu-dialog.glade:333
+msgid "Menu _file:"
+msgstr "Файл с меню:"
+
+#: common/resources/applicationsmenu-dialog.glade:346
+msgid "Select A Menu File"
+msgstr "Избор на файл с меню"
+
+#: common/resources/applicationsmenu-dialog.glade:371
+msgid "Menu File"
+msgstr "Файл с меню"
+
+#: common/resources/clock-dialog.glade:13
+msgid "Decimal"
+msgstr "Десетична"
+
+#: common/resources/clock-dialog.glade:16
+msgid "Sexagesimal"
+msgstr "Шестдесетична"
+
+#: common/resources/clock-dialog.glade:19
+msgid "Binary time"
+msgstr "Бинарно време"
+
+#: common/resources/clock-dialog.glade:30
+msgid "Date, then time"
+msgstr "Дата, след това час"
+
+#: common/resources/clock-dialog.glade:33
+msgid "Time, then date"
+msgstr "Час, след това дата"
+
+#: common/resources/clock-dialog.glade:36
+msgid "Date Only"
+msgstr "Само дата"
+
+#: common/resources/clock-dialog.glade:39
+msgid "Time Only"
+msgstr "Само час"
+
+#: common/resources/clock-dialog.glade:71
+msgid "Analog"
+msgstr "Аналогов"
+
+#: common/resources/clock-dialog.glade:74
+msgid "Binary"
+msgstr "Бинарен"
+
+#: common/resources/clock-dialog.glade:77
+msgid "Digital"
+msgstr "Цифров"
+
+#: common/resources/clock-dialog.glade:80
+msgid "Fuzzy"
+msgstr "Неточен"
+
+#: common/resources/clock-dialog.glade:83
+msgid "LCD"
+msgstr "LED"
+
+#: common/resources/clock-dialog.glade:89 plugins/clock/clock.desktop.in.in:4
+msgid "Clock"
+msgstr "Часовник"
+
+#: common/resources/clock-dialog.glade:172
+msgid ""
+"Name of a timezone corresponding a file in the zoneinfo database, for "
+"example \"America/New_York\". Leave empty to use the localtime."
+msgstr "Наименованието на часовата зона съответства на файла с информацията за часовите зони в базата с данни, например „America/New_York“. Оставете празно, за да използвате местното време."
+
+#: common/resources/clock-dialog.glade:183
+msgid "Time_zone:"
+msgstr "Часова зона:"
+
+#: common/resources/clock-dialog.glade:200
+msgid ""
+"Command to start on right-click \"Time settings\" menu item. Default is "
+"\"time-admin\"."
+msgstr "Командата да стартира при щракване с десния бутон върху елемента от менюто „Настройки на времето“. По подразбиране е „time-admin“."
+
+#: common/resources/clock-dialog.glade:211
+msgid "Configuration tool:"
+msgstr "Инструмент за конфигуриране:"
+
+#: common/resources/clock-dialog.glade:227
+msgid "Time Settings"
+msgstr "Настройки на времето"
+
+#: common/resources/clock-dialog.glade:263
+msgid ""
+"If set, this command is run when the plugin is left-clicked, instead of "
+"displaying the default calendar."
+msgstr "Ако е зададена, тази команда се изпълнява при щракване с левия бутон върху добавката, вместо да показва календара по подразбиране."
+
+#: common/resources/clock-dialog.glade:274
+msgid "Co_mmand:"
+msgstr "Команда:"
+
+#: common/resources/clock-dialog.glade:286
+msgid "_Show week numbers"
+msgstr "_Показване на номера на седмицата"
+
+#: common/resources/clock-dialog.glade:307
+msgid "Calendar"
+msgstr "Календар"
+
+#: common/resources/clock-dialog.glade:342
+#: common/resources/clock-dialog.glade:682
+#: common/resources/clock-dialog.glade:804
+msgid ""
+"The format describes the date and time parts to insert into the panel. For "
+"example, %Y will be substituted with the year, %m with the month and %d with"
+" the day. Similarly, <b></b> tags will make the text bold. See the \"Help\" "
+"page for additional information."
+msgstr "Форматът описва начина на показване на датата и часа в панела. Например, %Y ще бъде заменено с година, %m с месец, а %d с ден. По същия начин елементите <b></b> ще направят текста удебелен. За подробности, вижте страницата „Помощ“."
+
+#: common/resources/clock-dialog.glade:371
+msgid "_Tooltip format:"
+msgstr "Формат на подсказките:"
+
+#: common/resources/clock-dialog.glade:384
+#: common/resources/clock-dialog.glade:632
+msgid "_Layout:"
+msgstr "Оформление:"
+
+#: common/resources/clock-dialog.glade:448
+msgid "Sho_w AM/PM"
+msgstr "Показване на AM/PM"
+
+#: common/resources/clock-dialog.glade:463
+msgid "Fl_ash time separators"
+msgstr "Мигащи разделители"
+
+#: common/resources/clock-dialog.glade:478
+msgid "24-_hour clock"
+msgstr "24-часов формат"
+
+#: common/resources/clock-dialog.glade:521
+msgid "Binary mode:"
+msgstr "Бинарен режим:"
+
+#: common/resources/clock-dialog.glade:537
+msgid "Display _seconds"
+msgstr "Показване на секунди"
+
+#. I18N: the fuzziness the *precision* of the fuzzy clock. Time steps of 5, 15
+#. or parts of the day.
+#: common/resources/clock-dialog.glade:558
+msgid "F_uzziness:"
+msgstr "Степен на неточност:"
+
+#: common/resources/clock-dialog.glade:592
+msgid "Show _inactive segments"
+msgstr "Показване на _неактивните сегменти"
+
+#: common/resources/clock-dialog.glade:607
+msgid "Show gri_d"
+msgstr "Показване на мрежа"
+
+#: common/resources/clock-dialog.glade:653
+#: common/resources/clock-dialog.glade:775
+msgid "Font:"
+msgstr "Шрифт:"
+
+#: common/resources/clock-dialog.glade:666
+#: common/resources/clock-dialog.glade:788
+msgid "Format:"
+msgstr "Формат:"
+
+#: common/resources/clock-dialog.glade:683
+#: common/resources/clock-dialog.glade:805
+msgid ""
+"The format describes the date and time parts to insert into the panel. For "
+"example, %Y will be substituted with the year, %m with the month and %d with"
+" the day. Similarly, &lt;b&gt;&lt;/b&gt; tags will make the text bold. See "
+"the &quot;Help&quot; page for additional information."
+msgstr "Форматът описва частите за дата и час, които да се вмъкнат в панела. Например %Y ще бъде заменено с годината, %m с месеца и  %d с деня. По същия начин &lt;b&gt;&lt;/b&gt; етикетите ще направят текста удебелен. Вижте &quot;Помощ&quot; страница за допълнителна информация."
+
+#: common/resources/clock-dialog.glade:712
+msgid "Date"
+msgstr "Дата"
+
+#: common/resources/clock-dialog.glade:757
+msgid "Time"
+msgstr "Час"
+
+#: common/resources/clock-dialog.glade:884
+msgid "Clock Options"
+msgstr "Настройки на часовника"
+
+#: common/resources/directorymenu-dialog.glade:18
+#: plugins/directorymenu/directorymenu.c:293
+#: plugins/directorymenu/directorymenu.desktop.in.in:4
+msgid "Directory Menu"
+msgstr "Меню на директория"
+
+#: common/resources/directorymenu-dialog.glade:99
+msgid "Select A Directory"
+msgstr "Избор на директория"
+
+#: common/resources/directorymenu-dialog.glade:135
+msgid "_Base Directory:"
+msgstr "Основна директория:"
+
+#: common/resources/directorymenu-dialog.glade:179
+msgid "Show 'New Text _Document'"
+msgstr "Показване на \"Нов текстов _документ\""
+
+#: common/resources/directorymenu-dialog.glade:194
+msgid "Show '_New Folder'"
+msgstr "Показване на \"Нова _папка\""
+
+#: common/resources/directorymenu-dialog.glade:209
+msgid "Show 'Open in _Terminal'"
+msgstr "Покажи \"Отваряне в _терминал\""
+
+#: common/resources/directorymenu-dialog.glade:224
+msgid "Show '_Open _Folder'"
+msgstr "Покажи \"Отваряне на _папка\""
+
+#: common/resources/directorymenu-dialog.glade:243
+msgid "Menu"
+msgstr "Меню"
+
+#: common/resources/directorymenu-dialog.glade:272
+msgid "Show _hidden files"
+msgstr "Показване на скритите файлове"
+
+#: common/resources/directorymenu-dialog.glade:289
+msgid ""
+"Enter a list of patterns that will be used to determine which files are "
+"visible in a directory. If you specify more than one pattern here, the list "
+"items must be separated with semicolons (e.g. *.txt;*.doc)."
+msgstr "Въведете списък на шаблоните, които трябва да удовлетворят файловете, които се виждат в папката. Ако искате да въведете повече от един шаблон, то те трябва да бъдат разделени с точка и запетая, например *.txt;*.doc."
+
+#: common/resources/directorymenu-dialog.glade:301
+msgid "_File Pattern:"
+msgstr "Шаблон на файл:"
+
+#: common/resources/directorymenu-dialog.glade:316
+#: common/resources/tasklist-dialog.glade:529
+#: common/resources/windowmenu-dialog.glade:263
+msgid "Filtering"
+msgstr "Филтриране"
+
+#: common/resources/launcher-dialog.glade:30
+msgid "Default"
+msgstr "По подразбиране"
+
+#: common/resources/launcher-dialog.glade:33
+msgid "North"
+msgstr "Север"
+
+#: common/resources/launcher-dialog.glade:36
+msgid "West"
+msgstr "Запад"
+
+#: common/resources/launcher-dialog.glade:39
+msgid "East"
+msgstr "Изток"
+
+#: common/resources/launcher-dialog.glade:42
+msgid "South"
+msgstr "Юг"
+
+#: common/resources/launcher-dialog.glade:45
+msgid "Inside Button"
+msgstr "В бутона"
+
+#: common/resources/launcher-dialog.glade:66 panel/panel-item-dialog.c:192
+msgid "Add New Items"
+msgstr "Добавяне на нов елемент"
+
+#: common/resources/launcher-dialog.glade:73
+msgid "Add one or more existing items to the launcher"
+msgstr "Добавяне на един или няколко съществуващи елемента в стартера"
+
+#: common/resources/launcher-dialog.glade:87 panel/panel-dialogs.c:157
+#: panel/panel-item-dialog.c:197
+msgid "_Add"
+msgstr "_Добавяне"
+
+#: common/resources/launcher-dialog.glade:140 panel/panel-item-dialog.c:221
+msgid "_Search:"
+msgstr "Търсене:"
+
+#: common/resources/launcher-dialog.glade:235
+#: plugins/launcher/launcher.desktop.in.in:4
+msgid "Launcher"
+msgstr "Стартер"
+
+#: common/resources/launcher-dialog.glade:321
+msgid "Disable t_ooltips"
+msgstr "Изключване на подсказките"
+
+#: common/resources/launcher-dialog.glade:325
+msgid ""
+"Select this option to disable the tooltips when moving over the panel button"
+" or menu items."
+msgstr "Изберете тази опция, за да изключите подсказките при придвижване над бутоните в панела или елементите в менюто."
+
+#: common/resources/launcher-dialog.glade:337
+msgid "Show _label instead of icon"
+msgstr "Показване на заглавие, вместо икона"
+
+#: common/resources/launcher-dialog.glade:352
+msgid "Show last _used item in panel"
+msgstr "Показване на последният използван елемент в панела"
+
+#: common/resources/launcher-dialog.glade:356
+msgid "Select this option to move the clicked menu item to the panel."
+msgstr "Изберете тази опция, за да преместите избраният елемент от менюто в панела."
+
+#: common/resources/launcher-dialog.glade:375
+msgid "_Arrow button position:"
+msgstr "Позицията на бутона със стрелка:"
+
+#: common/resources/launcher-dialog.glade:418
+msgid "Advanced"
+msgstr "Разширени"
+
+#: common/resources/pager-dialog.glade:15
+msgid "Buttons"
+msgstr "Бутони"
+
+#: common/resources/pager-dialog.glade:19
+msgid "Miniature View"
+msgstr "Миниатюрен изглед"
+
+#: common/resources/pager-dialog.glade:48 plugins/pager/pager.desktop.in.in:4
+msgid "Workspace Switcher"
+msgstr "Превключване на работните места"
+
+#: common/resources/pager-dialog.glade:64 plugins/pager/pager.c:706
+msgid "Workspace _Settings..."
+msgstr "Настройка на работните места..."
+
+#: common/resources/pager-dialog.glade:131
+msgid "Number of _rows:"
+msgstr "Брой редове:"
+
+#: common/resources/pager-dialog.glade:197
+msgid "Show workspace number"
+msgstr "Показване номера на работното място"
+
+#: common/resources/pager-dialog.glade:210
+msgid "Switch workspaces using the mouse wheel"
+msgstr "Смяна на работните места с колелото на мишката"
+
+#: common/resources/pager-dialog.glade:224
+msgid "Wrap around workspaces"
+msgstr "Промяна на работните пространства"
+
+#: common/resources/pager-dialog.glade:241
+msgid "<b>Appearance</b>"
+msgstr "<b>Външен вид</b>"
+
+#: common/resources/separator-dialog.glade:27
+msgid "Transparent"
+msgstr "Прозрачност"
+
+#: common/resources/separator-dialog.glade:30
+#: common/resources/separator-dialog.glade:42 plugins/actions/actions.c:726
+#: plugins/separator/separator.desktop.in.in:4
+msgid "Separator"
+msgstr "Разделител"
+
+#: common/resources/separator-dialog.glade:33
+msgid "Handle"
+msgstr "Ръкохватка"
+
+#: common/resources/separator-dialog.glade:36
+msgid "Dots"
+msgstr "Точки"
+
+#: common/resources/separator-dialog.glade:161
+msgid "_Expand"
+msgstr "Разширяване"
+
+#: common/resources/separator-dialog.glade:183
+msgid "Si_ze:"
+msgstr "Размер:"
+
+#: common/resources/showdesktop-dialog.glade:18
+#: plugins/showdesktop/showdesktop.c:327
+#: plugins/showdesktop/showdesktop.desktop.in.in:4
+msgid "Show Desktop"
+msgstr "Показване на работният плот"
+
+#: common/resources/showdesktop-dialog.glade:92
+msgid "_Show on mouse hover"
+msgstr "Показване при _задържане на показалеца на мишката"
+
+#: common/resources/showdesktop-dialog.glade:113
+#: common/resources/sn-dialog.glade:300
+msgid "Behavior"
+msgstr "Поведение"
+
+#: common/resources/sn-dialog.glade:48
+msgid "Status Tray Items"
+msgstr "Елементи в зоната за състоянието"
+
+#: common/resources/sn-dialog.glade:80
+msgid "C_lear Known Items"
+msgstr "Изчисти познатите елементи"
+
+#: common/resources/sn-dialog.glade:84
+msgid "Resets the list of items and their visibility settings"
+msgstr "Нулиране на списъка с елементите и техните настройки за видимост"
+
+#: common/resources/sn-dialog.glade:144
+msgid "_Fixed icon size (pixels):"
+msgstr "Фиксиран размер на икона (пиксели):"
+
+#: common/resources/sn-dialog.glade:185
+msgid "Adjust size _automatically"
+msgstr "Задаване на размера автоматично"
+
+#: common/resources/sn-dialog.glade:213
+msgid "Icons"
+msgstr "Икони"
+
+#: common/resources/sn-dialog.glade:246
+msgid "Arrange _items in a single row"
+msgstr "Подреждане на елементите в един ред"
+
+#: common/resources/sn-dialog.glade:250
+msgid "If enabled, ensure that the items are laid out in a single row"
+msgstr "Ако е включено, уверете се, че елементите са подредени в един ред"
+
+#: common/resources/sn-dialog.glade:262
+msgid "_Hide items by default"
+msgstr "Скриване на елементите по подразбиране"
+
+#: common/resources/sn-dialog.glade:266
+msgid "When enabled, all new items will be marked as \"Hidden\""
+msgstr "Когато е включено, всички нови елементи ще бъдат маркирани, като \"Скрити\""
+
+#: common/resources/sn-dialog.glade:278
+msgid "_Square items"
+msgstr "Квадратни елементи"
+
+#: common/resources/sn-dialog.glade:282
+msgid "Item buttons will take a square when it's possible"
+msgstr "Бутоните на елементите ще станат квадратни, когато това е възможно"
+
+#: common/resources/sn-dialog.glade:386 common/resources/sn-dialog.glade:618
+msgid "Item"
+msgstr "Елемент"
+
+#: common/resources/sn-dialog.glade:398 common/resources/sn-dialog.glade:630
+msgid "Hidden"
+msgstr "Скрит"
+
+#: common/resources/sn-dialog.glade:426 common/resources/sn-dialog.glade:658
+msgid "Move the selected item one row up"
+msgstr "Преместване на избраният елемент с един ред нагоре"
+
+#: common/resources/sn-dialog.glade:446 common/resources/sn-dialog.glade:678
+msgid "Move the selected item one row down"
+msgstr "Преместване на избраният елемент с един ред надолу"
+
+#: common/resources/sn-dialog.glade:479 common/resources/sn-dialog.glade:711
+msgid "Known Items"
+msgstr "Познати елементи"
+
+#: common/resources/sn-dialog.glade:512
+msgid "_Menu is primary action"
+msgstr "Менюто е основно действие"
+
+#: common/resources/sn-dialog.glade:516
+msgid "Left click will always display the menu for item"
+msgstr "Кликването с ляв бутон винаги ще показва менюто на елементите"
+
+#: common/resources/sn-dialog.glade:528
+msgid "_Request symbolic icons"
+msgstr "Изискват се символни икони"
+
+#: common/resources/sn-dialog.glade:532
+msgid "Load symbolic icons if available"
+msgstr "Зареждане на символни икони, ако са налични"
+
+#: common/resources/sn-dialog.glade:550
+msgid "Features"
+msgstr "Функции"
+
+#: common/resources/sn-dialog.glade:566
+msgid "Status Notifiers"
+msgstr "Уведомяване за състоянието"
+
+#: common/resources/sn-dialog.glade:720
+msgid "Systray Icons"
+msgstr "Икони в зоната за уведомяване"
+
+#: common/resources/tasklist-dialog.glade:23
+msgid "Nothing"
+msgstr "Нищо"
+
+#: common/resources/tasklist-dialog.glade:26
+msgid "Close Window"
+msgstr "Затваряне на прозореца"
+
+#: common/resources/tasklist-dialog.glade:29
+msgid "Minimize Window"
+msgstr "Минимизиране на прозореца"
+
+#: common/resources/tasklist-dialog.glade:32
+msgid "New Instance"
+msgstr "Ново копие"
+
+#: common/resources/tasklist-dialog.glade:43
+msgid "Timestamp"
+msgstr "Клеймо"
+
+#: common/resources/tasklist-dialog.glade:46
+msgid "Group title and timestamp"
+msgstr "Групиране на заглавие и клеймо"
+
+#: common/resources/tasklist-dialog.glade:49
+msgid "Window title"
+msgstr "Заглавие на прозорец"
+
+#: common/resources/tasklist-dialog.glade:52
+msgid "Group title and window title"
+msgstr "Групиране на име на програма и заглавие на прозорец"
+
+#: common/resources/tasklist-dialog.glade:55
+msgid "None, allow drag-and-drop"
+msgstr "Без, позволява влачене и пускане"
+
+#: common/resources/tasklist-dialog.glade:70
+#: plugins/tasklist/tasklist.desktop.in.in:4
+msgid "Window Buttons"
+msgstr "Бутони на прозорец"
+
+#: common/resources/tasklist-dialog.glade:152
+msgid "Show button _labels"
+msgstr "Показване на заглавията на бутоните"
+
+#: common/resources/tasklist-dialog.glade:168
+msgid "Show _flat buttons"
+msgstr "Показване на плоски бутони"
+
+#: common/resources/tasklist-dialog.glade:184
+msgid "Show _handle"
+msgstr "Показване на ръкохватка"
+
+#: common/resources/tasklist-dialog.glade:200
+msgid "Show _tooltips"
+msgstr "Показване на подсказки"
+
+#: common/resources/tasklist-dialog.glade:223
+msgid "Sorting _order:"
+msgstr "Ред на подреждане:"
+
+#: common/resources/tasklist-dialog.glade:306
+msgid "Mi_ddle click action:"
+msgstr "Действие при кликване със среден бутон на мишката:"
+
+#: common/resources/tasklist-dialog.glade:344
+msgid "_Group windows by application"
+msgstr "_Групиране на прозорците по приложение"
+
+#: common/resources/tasklist-dialog.glade:360
+msgid "Restore minimized windows to current _workspace"
+msgstr "Възстановяване на минимизираните прозорци в текущото работно място"
+
+#: common/resources/tasklist-dialog.glade:376
+msgid "D_raw window frame when hovering a button"
+msgstr "Очертава рамка на прозореца при посочване на бутон"
+
+#: common/resources/tasklist-dialog.glade:392
+msgid "_Switch windows using the mouse wheel"
+msgstr "Превключване на прозорците с колелото на мишката"
+
+#: common/resources/tasklist-dialog.glade:414
+msgid "Behaviour"
+msgstr "Поведение"
+
+#: common/resources/tasklist-dialog.glade:447
+#: common/resources/windowmenu-dialog.glade:242
+msgid "Show windows from _all workspaces"
+msgstr "Показване на прозорците от всички работни места"
+
+#: common/resources/tasklist-dialog.glade:470
+msgid "Show windows _from:"
+msgstr "Показване на прозорци от:"
+
+#: common/resources/tasklist-dialog.glade:507
+msgid "Show only _minimized windows"
+msgstr "Показване само на минимизираните прозорци"
+
+#: common/resources/windowmenu-dialog.glade:23
+msgid "Icon"
+msgstr "Икона"
+
+#: common/resources/windowmenu-dialog.glade:26
+msgid "Arrow"
+msgstr "Стрелка"
+
+#: common/resources/windowmenu-dialog.glade:29
+msgid "Text"
+msgstr "Текст"
+
+#: common/resources/windowmenu-dialog.glade:35
+#: plugins/windowmenu/windowmenu.desktop.in.in:4
+msgid "Window Menu"
+msgstr "Меню на прозорец"
+
+#: common/resources/windowmenu-dialog.glade:122
+msgid "Button layout:"
+msgstr "Оформление на бутон:"
+
+#: common/resources/windowmenu-dialog.glade:158
+msgid "Show workspace a_ctions"
+msgstr "Показване на действията с работните места"
+
+#: common/resources/windowmenu-dialog.glade:173
+msgid "Show workspace _names"
+msgstr "Показване на имената на работните места"
+
+#: common/resources/windowmenu-dialog.glade:188
+msgid "Enable _urgency notification"
+msgstr "Включване на спешни уведомявания"
+
+#. I18N: monitor name in the output selector
+#: common/panel-utils.c:425
+#, c-format
+msgid "Monitor %d"
+msgstr "Монитор %d"
+
+#: libxfce4panel/xfce-panel-plugin.c:1109
+#: panel/panel-preferences-dialog.c:1499
+msgid "Remove"
+msgstr "Премахване"
+
+#: libxfce4panel/xfce-panel-plugin.c:1110
+msgid ""
+"Removing the item from the panel also means its configuration will be lost."
+msgstr "При премахване на елемента от панела, конфигурацията му също ще бъде изгубена."
+
+#: libxfce4panel/xfce-panel-plugin.c:1114
+#: panel/panel-preferences-dialog.c:1506
+#, c-format
+msgid "Are you sure that you want to remove \"%s\"?"
+msgstr "Сигурни ли сте, че искате да премахнете „%s“?"
+
+#. properties item
+#: libxfce4panel/xfce-panel-plugin.c:1236
+msgid "_Properties"
+msgstr "_Свойства"
+
+#. about item
+#: libxfce4panel/xfce-panel-plugin.c:1247 panel/panel-window.c:3934
+msgid "_About"
+msgstr "_Относно"
+
+#. move item
+#: libxfce4panel/xfce-panel-plugin.c:1258
+msgid "_Move"
+msgstr "_Преместване"
+
+#. remove
+#: libxfce4panel/xfce-panel-plugin.c:1274 panel/panel-application.c:354
+#: panel/panel-plugin-external.c:420 panel/panel-preferences-dialog.c:1076
+#: plugins/launcher/launcher-dialog.c:935
+msgid "_Remove"
+msgstr "_Премахване"
+
+#: libxfce4panel/xfce-panel-plugin.c:1292
+msgid "Pane_l"
+msgstr "Панел"
+
+#. add new items
+#: libxfce4panel/xfce-panel-plugin.c:1300 panel/panel-window.c:3871
+msgid "Add _New Items..."
+msgstr "Добавяне на нови елементи..."
+
+#. customize panel
+#: libxfce4panel/xfce-panel-plugin.c:1311 panel/panel-window.c:3882
+msgid "Panel Pr_eferences..."
+msgstr "Настройки на панела..."
+
+#. logout item
+#: libxfce4panel/xfce-panel-plugin.c:1328 panel/panel-window.c:3909
+msgid "Log _Out"
+msgstr "Изход"
+
+#. about item
+#: libxfce4panel/xfce-panel-plugin.c:1355
+msgid "About"
+msgstr "Относно"
+
+#: panel/main.c:66
+msgid "Show the 'Panel Preferences' dialog"
+msgstr "Показване на прозореца „Настройки на панела“"
+
+#: panel/main.c:66 panel/main.c:67
+msgid "PANEL-NUMBER"
+msgstr "НОМЕР НА ПАНЕЛ"
+
+#: panel/main.c:67
+msgid "Show the 'Add New Items' dialog"
+msgstr "Показване на прозореца „Добавяне на нови елементи“"
+
+#: panel/main.c:68
+msgid "Save the panel configuration"
+msgstr "Запазване на конфигурацията на панела"
+
+#: panel/main.c:69
+msgid "Add a new plugin to the panel"
+msgstr "Добавяне на нова добавка в панела"
+
+#: panel/main.c:69
+msgid "PLUGIN-NAME"
+msgstr "ИМЕ НА ДОБАВКА"
+
+#: panel/main.c:70
+msgid "Restart the running panel instance"
+msgstr "Рестартиране на текущо стартираният панел"
+
+#: panel/main.c:71
+msgid "Quit the running panel instance"
+msgstr "Изключване на текущо стартираният панел"
+
+#: panel/main.c:72
+msgid "Do not wait for a window manager on startup"
+msgstr "Не изчаквай мениджъра на прозорци при стартиране"
+
+#: panel/main.c:73 plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:33
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:33
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:33
+msgid "Print version information and exit"
+msgstr "Показване на сведения за изданието и изход"
+
+#. parse context options
+#: panel/main.c:258
+msgid "[ARGUMENTS...]"
+msgstr "[ПАРАМЕТРИ...]"
+
+#: panel/main.c:268
+#, c-format
+msgid "Type \"%s --help\" for usage."
+msgstr "Напишете „%s --help“ за показване на потребителското ръководство."
+
+#: panel/main.c:285
+msgid "The Xfce development team. All rights reserved."
+msgstr "Екипът по разработката на Xfce. Всички права са запазени."
+
+#: panel/main.c:286
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Моля, докладвайте грешки на <%s>."
+
+#. quit without error if an instance is running
+#: panel/main.c:394
+msgid "There is already a running instance"
+msgstr "Вече има стартирано копие"
+
+#. spawn ourselfs again
+#: panel/main.c:405
+msgid "Restarting..."
+msgstr "Рестартиране..."
+
+#: panel/main.c:422
+msgid "Failed to show the preferences dialog"
+msgstr "Не може да бъде показан диалогът с настройките"
+
+#: panel/main.c:424
+msgid "Failed to show the add new items dialog"
+msgstr "Не може да бъде показан диалогът за добавяне на нови елементи"
+
+#: panel/main.c:426
+msgid "Failed to save the panel configuration"
+msgstr "Не могат да бъдат запазени настройките на панела"
+
+#: panel/main.c:428
+msgid "Failed to add a plugin to the panel"
+msgstr "Неуспешно добавяне на добавка в панела"
+
+#: panel/main.c:430
+msgid "Failed to restart the panel"
+msgstr "Не може да бъде рестартиран панела"
+
+#: panel/main.c:432
+msgid "Failed to quit the panel"
+msgstr "Не може да бъде изключен панела"
+
+#: panel/main.c:434
+msgid "Failed to send D-Bus message"
+msgstr "Не може да бъде изпратено съобщение на D-Bus"
+
+#: panel/main.c:442 panel/main.c:462
+#, c-format
+msgid "No running instance of %s was found"
+msgstr "Не е намерено стартирано копие на %s"
+
+#: panel/main.c:443
+msgid ""
+"Do you want to start the panel? If you do, make sure you save the session on"
+" logout, so the panel is automatically started the next time you login."
+msgstr "Искате ли да стартирате панела? Ако искате, запазете сесията преди да излезете. Панелът ще стартира автоматично при следващото влизане."
+
+#: panel/main.c:448
+msgid "Execute"
+msgstr "Изпълнение"
+
+#: panel/panel-application.c:210
+msgid "Failed to launch the migration application"
+msgstr "Не може да бъде стартирана миграцията на програмата"
+
+#: panel/panel-application.c:344
+#, c-format
+msgid ""
+"Plugin \"%s\" could not be loaded, do you want to remove it from xfce4-panel"
+" configuration?"
+msgstr "Добавката „%s“ не може да бъде заредена, искате ли да я премахнете от конфигурацията на xfce4-panel?"
+
+#: panel/panel-application.c:346
+#, c-format
+msgid ""
+"This plugin is in the current xfce4-panel configuration but could not be "
+"loaded, probably due to an installation issue. If you know what you're "
+"doing, you can remove it permanently, otherwise you'd better quit and make a"
+" backup of the current configuration using %s, before checking your "
+"installation and trying to start xfce4-panel again."
+msgstr "Този плъгин е в текущата конфигурация на xfce4-panel, но не може да бъде зареден, вероятно поради проблем с инсталацията. Ако знаете какво правите, можете да го премахнете за постоянно, в противен случай по-добре излезте и направете резервно копие на текущата конфигурация с помощта на %s, преди да проверите инсталацията си и да опитате да стартирате xfce4-panel отново."
+
+#: panel/panel-application.c:353
+msgid "Plugin loading failure"
+msgstr "Зареждането на добавката е неуспешно"
+
+#: panel/panel-application.c:354
+msgid "_Quit"
+msgstr "_"
+
+#: panel/panel-application.c:1034
+msgid ""
+"This will create a new launcher plugin on the panel and inserts the dropped "
+"files as menu items."
+msgstr "Това ще създаде нов стартер в панела и ще добави довлачените файлове като елементи в менюто."
+
+#: panel/panel-application.c:1037
+msgid "Create _Launcher"
+msgstr "Създаване на стартер"
+
+#: panel/panel-application.c:1038
+#, c-format
+msgid "Create new launcher from %d desktop file"
+msgid_plural "Create new launcher from %d desktop files"
+msgstr[0] "Създаване на нов стартер от %d десктоп файл"
+msgstr[1] "Създаване на нов стартер от %d десктоп файла"
+
+#: panel/panel-application.c:1805
+msgid ""
+"You have started X without session manager. Clicking Quit will close the X "
+"server."
+msgstr "Вие сте стартирали X-сървъра без мениджъра на сесиите. Кликнете на Изключване да затворите X сървъра."
+
+#: panel/panel-application.c:1808
+msgid "Quit"
+msgstr "Изход"
+
+#: panel/panel-application.c:1808
+msgid "Are you sure you want to quit the panel?"
+msgstr "Наистина ли искате да изключите панела?"
+
+#: panel/panel-application.c:1816
+#, c-format
+msgid "Failed to execute command \"%s\""
+msgstr "Не може да бъде стартирана команда „%s“"
+
+#: panel/panel-dbus-client.c:209
+msgid ""
+"Invalid plugin event syntax specified. Use PLUGIN-NAME:NAME[:TYPE:VALUE]."
+msgstr "Неправилен синтаксис на събитие в добавка. Използвайте ИМЕ НА ДОБАВКА:ТИП[:ТИП:СТОЙНОСТ]."
+
+#: panel/panel-dbus-client.c:239
+#, c-format
+msgid ""
+"Invalid hint type \"%s\". Valid types are bool, double, int, string and "
+"uint."
+msgstr "Невалиден тип подсказка „%s“. Допустими типове: булев, числов, символен и неделими числа."
+
+#: panel/panel-dialogs.c:53
+msgid "Unable to open the e-mail address"
+msgstr "Не може да бъде отворен e-mail адреса"
+
+#: panel/panel-dialogs.c:79
+msgid "The panel of the Xfce Desktop Environment"
+msgstr "Панелът на графична среда Xfce"
+
+#: panel/panel-dialogs.c:83
+msgid "translator-credits"
+msgstr "Kiril Kirilov (Cybercop) <cybercop_montana@abv.bg>"
+
+#: panel/panel-dialogs.c:157
+msgid "Add New Item"
+msgstr "Добавяне на нов елемент"
+
+#: panel/panel-dialogs.c:157 plugins/actions/actions.c:864
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+#: plugins/directorymenu/directorymenu.c:932
+msgid "_Cancel"
+msgstr "_Отказ"
+
+#: panel/panel-dialogs.c:168
+msgid "Please choose a panel for the new plugin:"
+msgstr "Моля, изберете панел за новата добавка:"
+
+#: panel/panel-dialogs.c:188 panel/panel-preferences-dialog.c:1023
+#, c-format
+msgid "Panel %d"
+msgstr "Панел %d"
+
+#: panel/panel-dialogs.c:227
+msgid ""
+"Because the panel is running in kiosk mode, you are not allowed to make "
+"changes to the panel configuration as a regular user"
+msgstr "Тъй- като, панелът е стартиран в режим kiosk, вие не можете да правите промени в настройките му като обикновен потребител"
+
+#: panel/panel-dialogs.c:229
+msgid "Modifying the panel is not allowed"
+msgstr "Не е разрешено да се правят промени в панела"
+
+#: panel/panel-item-dialog.c:229
+msgid "Enter search phrase here"
+msgstr "Въведете дума за търсене тук"
+
+#: panel/panel-item-dialog.c:618
+#, c-format
+msgid "Internal name: %s"
+msgstr "Вътрешно име: %s"
+
+#: panel/panel-plugin-external.c:413
+#, c-format
+msgid "Plugin \"%s\" unexpectedly left the panel, do you want to restart it?"
+msgstr "Добавката „%s“ внезапно изчезна от панела. Искате ли да я рестартирате?"
+
+#: panel/panel-plugin-external.c:414
+#, c-format
+msgid ""
+"The plugin restarted more than once in the last %d seconds. If you press "
+"Execute the panel will try to restart the plugin otherwise it will be "
+"permanently removed from the panel."
+msgstr "Добавката е била стартирана няколко пъти в последните %d секунди. Ако натиснете „Изпълнение“, панелът ще опита да я рестартира. В противен случай, тя ще бъде окончателно премахната от него."
+
+#: panel/panel-plugin-external.c:419
+msgid "Plugin Restart"
+msgstr "Рестартиране на добавка"
+
+#: panel/panel-plugin-external.c:420
+msgid "_Execute"
+msgstr "_Изпълнение"
+
+#: panel/panel-preferences-dialog.c:342
+msgctxt "plugin context menu"
+msgid "_About"
+msgstr "_Относно"
+
+#: panel/panel-preferences-dialog.c:346
+msgid "Show about information of the currently selected item"
+msgstr "Показване на сведения за текущо избраният елемент."
+
+#: panel/panel-preferences-dialog.c:580
+msgid "Automatic"
+msgstr "Автоматично"
+
+#: panel/panel-preferences-dialog.c:589
+msgid "Primary"
+msgstr "Главен"
+
+#: panel/panel-preferences-dialog.c:1075
+msgid "The panel and plugin configurations will be permanently removed"
+msgstr "Избраният панел ще бъде напълно премахнат заедно с всичките му елементи"
+
+#: panel/panel-preferences-dialog.c:1084
+#, c-format
+msgid "Are you sure you want to remove panel %d?"
+msgstr "Наистина ли искате да премахнете панел %d?"
+
+#. I18N: append (external) in the preferences dialog if the plugin
+#. * runs external
+#: panel/panel-preferences-dialog.c:1376
+#, c-format
+msgid "%s <span color=\"grey\" size=\"small\">(external)</span>"
+msgstr "%s <span color=\"grey\" size=\"small\">(external)</span>"
+
+#. I18N: tooltip in preferences dialog when hovering an item in the list
+#. * for external plugins
+#: panel/panel-preferences-dialog.c:1381
+#, c-format
+msgid ""
+"Internal name: %s-%d\n"
+"PID: %d"
+msgstr "Вътрешно име: %s-%d\nPID: %d"
+
+#. I18N: tooltip in preferences dialog when hovering an item in the list
+#. * for internal plugins
+#: panel/panel-preferences-dialog.c:1393
+#, c-format
+msgid "Internal name: %s-%d"
+msgstr "Вътрешно име: %s-%d"
+
+#: panel/panel-preferences-dialog.c:1508
+msgid "If you remove the item from the panel, it is permanently lost."
+msgstr "Ако премахнете този елемент от панела, той ще бъде изгубен окончателно."
+
+#: panel/panel-preferences-dialog.c:1512
+#: plugins/launcher/launcher-dialog.c:930
+#, c-format
+msgid "Are you sure that you want to remove these %d items?"
+msgstr "Сигурни ли сте, че искате да премахнете тези %d елемента?"
+
+#: panel/panel-preferences-dialog.c:1514
+msgid "If you remove them from the panel, they are permanently lost."
+msgstr "Ако ги премахнете от панела, те ще бъдат изгубени безвъзвратно."
+
+#: panel/panel-tic-tac-toe.c:108
+msgid "_New Game"
+msgstr "Нова игра"
+
+#: panel/panel-tic-tac-toe.c:119
+msgid "_Level:"
+msgstr "Ниво:"
+
+#: panel/panel-tic-tac-toe.c:125
+msgid "Novice"
+msgstr "Новак"
+
+#: panel/panel-tic-tac-toe.c:126
+msgid "Intermediate"
+msgstr "Любител"
+
+#: panel/panel-tic-tac-toe.c:127
+msgid "Experienced"
+msgstr "Опитен"
+
+#: panel/panel-tic-tac-toe.c:128
+msgid "Expert"
+msgstr "Експерт"
+
+#: panel/panel-window.c:3896
+msgid "_Lock Panel"
+msgstr "Заключване на панел"
+
+#: migrate/main.c:94
+msgid "Failed to load the default configuration"
+msgstr "Не може да бъде заредена конфигурация по подразбиране"
+
+#: migrate/main.c:106
+msgid "Panel config needs migration..."
+msgstr "Конфигурацията на панела трябва да бъде пренесена..."
+
+#: migrate/main.c:110
+msgid "Failed to migrate the existing configuration"
+msgstr "Не може да бъде пренесена съществуващата конфигурация"
+
+#: migrate/main.c:116
+msgid "Panel configuration has been updated."
+msgstr "Конфигурацията на панела ще бъде обновена."
+
+#: plugins/actions/actions.c:163
+msgid "Log Out"
+msgstr "Изход"
+
+#: plugins/actions/actions.c:164
+msgid "_Log Out"
+msgstr "Изход"
+
+#: plugins/actions/actions.c:165
+msgid "Are you sure you want to log out?"
+msgstr "Сигурен ли сте, че искате да излезете?"
+
+#: plugins/actions/actions.c:166
+#, c-format
+msgid "Logging out in %d seconds."
+msgstr "Излизане след %d секунди."
+
+#: plugins/actions/actions.c:171
+msgid "Log Out..."
+msgstr "Излизане..."
+
+#: plugins/actions/actions.c:172
+msgid "Log _Out..."
+msgstr "Излизане..."
+
+#: plugins/actions/actions.c:178
+msgid "Switch User"
+msgstr "Смяна на потребител"
+
+#: plugins/actions/actions.c:179
+msgid "_Switch User"
+msgstr "Смяна на потребител..."
+
+#: plugins/actions/actions.c:185
+msgid "Lock Screen"
+msgstr "Заключване на екрана"
+
+#: plugins/actions/actions.c:186
+msgid "Loc_k Screen"
+msgstr "Заключване на екрана"
+
+#: plugins/actions/actions.c:192
+msgid "Hibernate"
+msgstr "Дълбоко приспиване"
+
+#: plugins/actions/actions.c:193
+msgid "_Hibernate"
+msgstr "Дълбоко приспиване"
+
+#: plugins/actions/actions.c:194
+msgid "Do you want to suspend to disk?"
+msgstr "Искате ли да приспите компютъра върху диска?"
+
+#: plugins/actions/actions.c:195
+#, c-format
+msgid "Hibernating computer in %d seconds."
+msgstr "Дълбоко приспиване на компютъра след %d секунди."
+
+#: plugins/actions/actions.c:200
+msgid "Hybrid Sleep"
+msgstr "Хибридно приспиване"
+
+#: plugins/actions/actions.c:201
+msgid "_Hybrid Sleep"
+msgstr "_Хибридно приспиване"
+
+#: plugins/actions/actions.c:202
+msgid "Do you want to hibernate and suspend the system?"
+msgstr "Искате ли да приспите и да въведете в хибернация системата?"
+
+#: plugins/actions/actions.c:203
+#, c-format
+msgid "Hibernating and Suspending computer in %d seconds."
+msgstr "Приспиване и въвеждане в хибернация на компютъра след %d секунди."
+
+#: plugins/actions/actions.c:208
+msgid "Suspend"
+msgstr "Приспиване"
+
+#: plugins/actions/actions.c:209
+msgid "Sus_pend"
+msgstr "Приспиване"
+
+#: plugins/actions/actions.c:210
+msgid "Do you want to suspend to RAM?"
+msgstr "Искате ли да приспите компютъра върху RAM паметта?"
+
+#: plugins/actions/actions.c:211
+#, c-format
+msgid "Suspending computer in %d seconds."
+msgstr "Приспиване на компютъра след %d секунди."
+
+#: plugins/actions/actions.c:216
+msgid "Restart"
+msgstr "Рестартиране"
+
+#: plugins/actions/actions.c:217
+msgid "_Restart"
+msgstr "Рестартиране"
+
+#: plugins/actions/actions.c:218
+msgid "Are you sure you want to restart?"
+msgstr "Сигурен ли сте, че искате да рестартирате компютъра?"
+
+#: plugins/actions/actions.c:219
+#, c-format
+msgid "Restarting computer in %d seconds."
+msgstr "Рестартиране на компютъра след %d секунди."
+
+#: plugins/actions/actions.c:224
+msgid "Shut Down"
+msgstr "Изключване"
+
+#: plugins/actions/actions.c:225
+msgid "Shut _Down"
+msgstr "Изключване"
+
+#: plugins/actions/actions.c:226
+msgid "Are you sure you want to shut down?"
+msgstr "Сигурен ли сте, че искате да изключите компютъра?"
+
+#: plugins/actions/actions.c:227
+#, c-format
+msgid "Turning off computer in %d seconds."
+msgstr "Компютърът ще бъде изключен след %d секунди."
+
+#: plugins/actions/actions.c:1160
+#, c-format
+msgid "Failed to run action \"%s\""
+msgstr "Неуспешно изпълнение на действие „%s“"
+
+#: plugins/actions/actions.c:1364
+msgid "Little Mouse"
+msgstr "Малка мишка"
+
+#: plugins/actions/actions.desktop.in.in:5
+msgid "Log out, lock or other system actions"
+msgstr "Изход, заключване и други системни действия"
+
+#. I18N: default tooltip of the application menu
+#: plugins/applicationsmenu/applicationsmenu.c:32
+msgid "Applications"
+msgstr "Програми"
+
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+msgid "Select An Icon"
+msgstr "Избиране на икона"
+
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+msgid "_OK"
+msgstr "_ОК"
+
+#. show an error dialog
+#: plugins/applicationsmenu/applicationsmenu.c:638 plugins/clock/clock.c:1083
+#: plugins/launcher/launcher.c:2499
+#, c-format
+msgid "Failed to execute command \"%s\"."
+msgstr "Неуспех при изпълнението на команда „%s“."
+
+#: plugins/applicationsmenu/applicationsmenu.desktop.in.in:5
+msgid "Show a menu containing categories of installed applications"
+msgstr "Показване на меню, съдържащо инсталираните програми по категории"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:27
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:27
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:27
+msgid "Usage:"
+msgstr "Използване:"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:28
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:28
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:28
+msgid "OPTION"
+msgstr "ОПЦИЯ"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:30
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:30
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:30
+msgid "Options:"
+msgstr "Опции:"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:31
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:31
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:31
+msgid "Popup menu at current mouse position"
+msgstr "Показване на изскачащо меню в текущата позиция на мишката"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:32
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:32
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:32
+msgid "Show help options"
+msgstr "Показване на опции за помощ"
+
+#. TRANSLATORS: adjust this accordingly for your locale format
+#: plugins/clock/clock.c:42
+msgctxt "Date"
+msgid "%A %d %B %Y"
+msgstr "%A%d %B %Y"
+
+#: plugins/clock/clock.c:180
+msgid "Week %V"
+msgstr "Седмица %V"
+
+#: plugins/clock/clock.c:326
+msgid "Time _settings"
+msgstr "Настройки на времето"
+
+#: plugins/clock/clock.c:513
+msgid "Failed to execute clock command"
+msgstr "Неуспех при стартирането на часовника"
+
+#: plugins/clock/clock.c:1011
+msgid "Custom Format"
+msgstr "Потребителски формат"
+
+#: plugins/clock/clock.c:1062
+msgid "Configuration tool not found, please set it in the settings dialog"
+msgstr "Инструментът за конфигуриране не е намерен, моля, задайте го в диалога с настройките"
+
+#: plugins/clock/clock-digital.h:30
+msgctxt "Time"
+msgid "%R"
+msgstr "%R"
+
+#: plugins/clock/clock-digital.h:31
+msgctxt "Date"
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: plugins/clock/clock-fuzzy.c:75
+msgid "Night"
+msgstr "Нощ"
+
+#: plugins/clock/clock-fuzzy.c:76
+msgid "Early morning"
+msgstr "Ранна сутрин"
+
+#: plugins/clock/clock-fuzzy.c:77
+msgid "Morning"
+msgstr "Сутрин"
+
+#: plugins/clock/clock-fuzzy.c:78
+msgid "Almost noon"
+msgstr "Преди обяд"
+
+#: plugins/clock/clock-fuzzy.c:79
+msgid "Noon"
+msgstr "Обяд"
+
+#: plugins/clock/clock-fuzzy.c:80
+msgid "Afternoon"
+msgstr "Следобяд"
+
+#: plugins/clock/clock-fuzzy.c:81
+msgid "Evening"
+msgstr "Вечер"
+
+#: plugins/clock/clock-fuzzy.c:82
+msgid "Late evening"
+msgstr "Късна вечер"
+
+#. I18N: %0 will be replaced with the preceding hour, %1 with
+#. * the comming hour
+#: plugins/clock/clock-fuzzy.c:88
+#, no-c-format
+msgid "%0 o'clock"
+msgstr "%0 часа"
+
+#: plugins/clock/clock-fuzzy.c:89
+#, no-c-format
+msgid "five past %0"
+msgstr "%0 и пет"
+
+#: plugins/clock/clock-fuzzy.c:90
+#, no-c-format
+msgid "ten past %0"
+msgstr "%0 и десет"
+
+#: plugins/clock/clock-fuzzy.c:91
+#, no-c-format
+msgid "quarter past %0"
+msgstr "%0 и петнадесет"
+
+#: plugins/clock/clock-fuzzy.c:92
+#, no-c-format
+msgid "twenty past %0"
+msgstr "%0 и двадесет"
+
+#: plugins/clock/clock-fuzzy.c:93
+#, no-c-format
+msgid "twenty five past %0"
+msgstr "%0 и двадесет и пет"
+
+#: plugins/clock/clock-fuzzy.c:94
+#, no-c-format
+msgid "half past %0"
+msgstr "%0 и половина"
+
+#: plugins/clock/clock-fuzzy.c:95
+#, no-c-format
+msgid "twenty five to %1"
+msgstr "%1 без двадесет и пет"
+
+#: plugins/clock/clock-fuzzy.c:96
+#, no-c-format
+msgid "twenty to %1"
+msgstr "%1 без двадесет"
+
+#: plugins/clock/clock-fuzzy.c:97
+#, no-c-format
+msgid "quarter to %1"
+msgstr "%1 без петнадесет"
+
+#: plugins/clock/clock-fuzzy.c:98
+#, no-c-format
+msgid "ten to %1"
+msgstr "%1 без десет"
+
+#: plugins/clock/clock-fuzzy.c:99
+#, no-c-format
+msgid "five to %1"
+msgstr "%1 без пет"
+
+#: plugins/clock/clock-fuzzy.c:100
+#, no-c-format
+msgid "%1 o'clock"
+msgstr "%1 часа"
+
+#. I18N: some languages have a singular form for the first hour,
+#. * other languages should just use the same strings as above
+#: plugins/clock/clock-fuzzy.c:106
+#, no-c-format
+msgctxt "one"
+msgid "%0 o'clock"
+msgstr "%0 часа"
+
+#: plugins/clock/clock-fuzzy.c:107
+#, no-c-format
+msgctxt "one"
+msgid "five past %0"
+msgstr "%0 и пет"
+
+#: plugins/clock/clock-fuzzy.c:108
+#, no-c-format
+msgctxt "one"
+msgid "ten past %0"
+msgstr "%0 и десет"
+
+#: plugins/clock/clock-fuzzy.c:109
+#, no-c-format
+msgctxt "one"
+msgid "quarter past %0"
+msgstr "%0 и петнадесет"
+
+#: plugins/clock/clock-fuzzy.c:110
+#, no-c-format
+msgctxt "one"
+msgid "twenty past %0"
+msgstr "%0 и двадесет"
+
+#: plugins/clock/clock-fuzzy.c:111
+#, no-c-format
+msgctxt "one"
+msgid "twenty five past %0"
+msgstr "%0 и двадесет и пет"
+
+#: plugins/clock/clock-fuzzy.c:112
+#, no-c-format
+msgctxt "one"
+msgid "half past %0"
+msgstr "%0 и половина"
+
+#: plugins/clock/clock-fuzzy.c:113
+#, no-c-format
+msgctxt "one"
+msgid "twenty five to %1"
+msgstr "%1 без двадесет и пет"
+
+#: plugins/clock/clock-fuzzy.c:114
+#, no-c-format
+msgctxt "one"
+msgid "twenty to %1"
+msgstr "%1 без двадесет"
+
+#: plugins/clock/clock-fuzzy.c:115
+#, no-c-format
+msgctxt "one"
+msgid "quarter to %1"
+msgstr "%1 без петнадесет"
+
+#: plugins/clock/clock-fuzzy.c:116
+#, no-c-format
+msgctxt "one"
+msgid "ten to %1"
+msgstr "%1 без десет"
+
+#: plugins/clock/clock-fuzzy.c:117
+#, no-c-format
+msgctxt "one"
+msgid "five to %1"
+msgstr "%1 без пет"
+
+#: plugins/clock/clock-fuzzy.c:118
+#, no-c-format
+msgctxt "one"
+msgid "%1 o'clock"
+msgstr "%1 часа"
+
+#: plugins/clock/clock-fuzzy.c:122
+msgctxt "am"
+msgid "one"
+msgstr "един"
+
+#: plugins/clock/clock-fuzzy.c:123
+msgctxt "am"
+msgid "two"
+msgstr "два"
+
+#: plugins/clock/clock-fuzzy.c:124
+msgctxt "am"
+msgid "three"
+msgstr "три"
+
+#: plugins/clock/clock-fuzzy.c:125
+msgctxt "am"
+msgid "four"
+msgstr "четири"
+
+#: plugins/clock/clock-fuzzy.c:126
+msgctxt "am"
+msgid "five"
+msgstr "пет"
+
+#: plugins/clock/clock-fuzzy.c:127
+msgctxt "am"
+msgid "six"
+msgstr "шест"
+
+#: plugins/clock/clock-fuzzy.c:128
+msgctxt "am"
+msgid "seven"
+msgstr "седем"
+
+#: plugins/clock/clock-fuzzy.c:129
+msgctxt "am"
+msgid "eight"
+msgstr "осем"
+
+#: plugins/clock/clock-fuzzy.c:130
+msgctxt "am"
+msgid "nine"
+msgstr "девет"
+
+#: plugins/clock/clock-fuzzy.c:131
+msgctxt "am"
+msgid "ten"
+msgstr "десет"
+
+#: plugins/clock/clock-fuzzy.c:132
+msgctxt "am"
+msgid "eleven"
+msgstr "единадесет"
+
+#. I18N: 12 AM is midnight
+#: plugins/clock/clock-fuzzy.c:134
+msgctxt "am"
+msgid "twelve"
+msgstr "дванадесет"
+
+#: plugins/clock/clock-fuzzy.c:138
+msgctxt "pm"
+msgid "one"
+msgstr "един"
+
+#: plugins/clock/clock-fuzzy.c:139
+msgctxt "pm"
+msgid "two"
+msgstr "два"
+
+#: plugins/clock/clock-fuzzy.c:140
+msgctxt "pm"
+msgid "three"
+msgstr "три"
+
+#: plugins/clock/clock-fuzzy.c:141
+msgctxt "pm"
+msgid "four"
+msgstr "четири"
+
+#: plugins/clock/clock-fuzzy.c:142
+msgctxt "pm"
+msgid "five"
+msgstr "пет"
+
+#: plugins/clock/clock-fuzzy.c:143
+msgctxt "pm"
+msgid "six"
+msgstr "шест"
+
+#: plugins/clock/clock-fuzzy.c:144
+msgctxt "pm"
+msgid "seven"
+msgstr "седем"
+
+#: plugins/clock/clock-fuzzy.c:145
+msgctxt "pm"
+msgid "eight"
+msgstr "осем"
+
+#: plugins/clock/clock-fuzzy.c:146
+msgctxt "pm"
+msgid "nine"
+msgstr "девет"
+
+#: plugins/clock/clock-fuzzy.c:147
+msgctxt "pm"
+msgid "ten"
+msgstr "десет"
+
+#: plugins/clock/clock-fuzzy.c:148
+msgctxt "pm"
+msgid "eleven"
+msgstr "единадесет"
+
+#. I18N: 12 PM is noon
+#: plugins/clock/clock-fuzzy.c:150
+msgctxt "pm"
+msgid "twelve"
+msgstr "дванадесет"
+
+#: plugins/clock/clock.desktop.in.in:5
+msgid "What time is it?"
+msgstr "Колко е часът?"
+
+#: plugins/directorymenu/directorymenu.c:690
+#, c-format
+msgid "Failed to launch application \"%s\""
+msgstr "Неуспешно стартиране на програмата „%s“"
+
+#: plugins/directorymenu/directorymenu.c:721
+#, c-format
+msgid "Failed to query content type for \"%s\""
+msgstr "Неуспешно запитване за типа на съдържанието на „%s“"
+
+#: plugins/directorymenu/directorymenu.c:730
+#, c-format
+msgid "No default application found for \"%s\""
+msgstr "Не е намерена програма по подразбиране за „%s“"
+
+#: plugins/directorymenu/directorymenu.c:746
+#, c-format
+msgid "Failed to launch default application for \"%s\""
+msgstr "Неуспешно стартиране на програмата по подразбиране за „%s“"
+
+#: plugins/directorymenu/directorymenu.c:840
+#, c-format
+msgid "Failed to execute the preferred application for category \"%s\""
+msgstr "Неуспешно изпълнение на предпочитаната програма за категория „%s“"
+
+#: plugins/directorymenu/directorymenu.c:921
+msgid "Create New Folder"
+msgstr "Създаване на нова папка"
+
+#: plugins/directorymenu/directorymenu.c:926
+msgid "Create New Text Document"
+msgstr "Създаване на нов текстов документ"
+
+#: plugins/directorymenu/directorymenu.c:932
+msgid "C_reate"
+msgstr "_Създаване"
+
+#: plugins/directorymenu/directorymenu.c:932
+msgid "Create & _Open"
+msgstr "Създаване и _Отваряне"
+
+#: plugins/directorymenu/directorymenu.c:945
+msgid "Enter the new name:"
+msgstr "Въведете новото име:"
+
+#: plugins/directorymenu/directorymenu.c:981
+#, c-format
+msgid "Failed to create folder: %s"
+msgstr "Неуспешно създаване на папка: %s"
+
+#: plugins/directorymenu/directorymenu.c:1063
+msgid "Open Folder"
+msgstr "Отваряне на папка"
+
+#: plugins/directorymenu/directorymenu.c:1077
+msgid "Open in Terminal"
+msgstr "Отваряне в терминал"
+
+#: plugins/directorymenu/directorymenu.c:1091
+msgid "Create Folder..."
+msgstr "Създаване на папка..."
+
+#: plugins/directorymenu/directorymenu.c:1105
+msgid "Create Text Document..."
+msgstr "Създаване на текстов документ..."
+
+#: plugins/directorymenu/directorymenu.desktop.in.in:5
+msgid "Show a directory tree in a menu"
+msgstr "Показване на дървото на директориите в меню"
+
+#: plugins/launcher/launcher.c:428
+msgid "Open launcher menu"
+msgstr "Отваряне на стартер на меню"
+
+#: plugins/launcher/launcher.c:1614
+msgid "Unnamed Item"
+msgstr "Елемент без име"
+
+#: plugins/launcher/launcher.c:1816
+msgid "No items"
+msgstr "Няма елементи"
+
+#: plugins/launcher/launcher-dialog.c:611
+msgid "Failed to open desktop item editor"
+msgstr "Не може да бъде отворен редактора на елементите на работният плот"
+
+#: plugins/launcher/launcher-dialog.c:922
+msgid "Unnamed item"
+msgstr "Елемент без име"
+
+#: plugins/launcher/launcher-dialog.c:923
+#, c-format
+msgid "Are you sure you want to remove \"%s\"?"
+msgstr "Сигурни ли сте, че искате да премахнете „%s“?"
+
+#: plugins/launcher/launcher-dialog.c:936
+msgid "If you delete an item, it will be permanently removed"
+msgstr "Ако изтриете елемента, той ще бъде изгубен безвъзвратно"
+
+#: plugins/launcher/launcher-dialog.c:1033
+#: plugins/launcher/launcher-dialog.c:1034
+msgid "Add a new empty item"
+msgstr "Добавяне на нов празен елемент"
+
+#: plugins/launcher/launcher-dialog.c:1047
+#: plugins/launcher/launcher-dialog.c:1048
+msgid "Add a new hyperlink"
+msgstr "Добавяне на нова хипервръзка"
+
+#: plugins/launcher/launcher.desktop.in.in:5
+msgid "Program launcher with optional menu"
+msgstr "Стартер на програма с допълнително меню"
+
+#: plugins/pager/pager.c:806
+msgid "Unable to open the workspace settings"
+msgstr "Не могат да бъдат отворени настройките на работните места"
+
+#: plugins/pager/pager-buttons.c:646 plugins/windowmenu/windowmenu.c:1007
+#, c-format
+msgid "Workspace %d"
+msgstr "Работно място %d"
+
+#: plugins/pager/pager.desktop.in.in:5
+msgid "Switch between virtual desktops"
+msgstr "Превключване между виртуалните работни плотове"
+
+#: plugins/separator/separator.desktop.in.in:5
+msgid "Adds a separator or space between panel items"
+msgstr "Добавя разделител или разстояние между елементите в панела"
+
+#: plugins/showdesktop/showdesktop.c:322
+msgid "Restore the minimized windows"
+msgstr "Възстановяване на минимизираните прозорци"
+
+#: plugins/showdesktop/showdesktop.c:324
+msgid "Minimize all open windows and show the desktop"
+msgstr "Минимизиране на всички прозорци и показване на работният плот"
+
+#: plugins/showdesktop/showdesktop.desktop.in.in:5
+msgid "Hide all windows and show the desktop"
+msgstr "Скриване на всички прозорци и показване на работният плот"
+
+#: plugins/systray/sn-dialog.c:427
+msgid "Clear"
+msgstr "Изчистване"
+
+#: plugins/systray/sn-dialog.c:432
+msgid "Are you sure you want to clear the list of known items?"
+msgstr "Наистина ли искате да изчистите списъка с познатите елементи?"
+
+#: plugins/systray/systray.c:145
+msgid "Unable to start the notification area"
+msgstr "Неуспех при стартиране на областта за уведомяване"
+
+#. create fake error and show it
+#: plugins/systray/systray.c:409
+msgid ""
+"Most likely another widget took over the function of a notification area. "
+"This area will be unused."
+msgstr "Най-вероятно, друга програма е поела функцията на областта за уведомяване. Тази зона няма да бъде използвана."
+
+#: plugins/systray/systray.c:411
+msgid "The notification area lost selection"
+msgstr "Областта за уведомяване изгуби селекцията си"
+
+#: plugins/systray/systray-manager.c:382
+#, c-format
+msgid "Failed to acquire manager selection for screen %d"
+msgstr "Не може да бъде стартиран мениджър за избор на екран %d"
+
+#: plugins/systray/systray.desktop.in.in:5
+msgid "Status Tray Plugin"
+msgstr "Добавка за зоната на състоянието"
+
+#: plugins/systray/systray.desktop.in.in:6
+msgid ""
+"Provides status notifier items (application indicators) and legacy systray "
+"items"
+msgstr "Предоставя елементи за уведомлението за състоянието (приложения и индикатори) и наследените елементи от зоната за уведомяване "
+
+#: plugins/tasklist/tasklist-widget.c:3226
+#, c-format
+msgid "Unable to start new instance of '%s'"
+msgstr "Не може да бъде стартирано ново копие на \"%s\""
+
+#: plugins/tasklist/tasklist-widget.c:3253
+msgid "Launch New Instance"
+msgstr "Стартиране на ново копие"
+
+#: plugins/tasklist/tasklist-widget.c:4008
+msgid "Mi_nimize All"
+msgstr "Минимизиране на всички"
+
+#: plugins/tasklist/tasklist-widget.c:4015
+msgid "Un_minimize All"
+msgstr "Деминимизиране на всички"
+
+#: plugins/tasklist/tasklist-widget.c:4022
+msgid "Ma_ximize All"
+msgstr "Максимизиране на всички"
+
+#: plugins/tasklist/tasklist-widget.c:4029
+msgid "_Unmaximize All"
+msgstr "Демаксимизиране на всички"
+
+#: plugins/tasklist/tasklist-widget.c:4040
+msgid "_Close All"
+msgstr "Затваряне на всички"
+
+#: plugins/tasklist/tasklist-widget.c:5051
+msgid "all monitors"
+msgstr "всички монитори"
+
+#: plugins/tasklist/tasklist-widget.c:5060
+msgid "panel's monitor"
+msgstr "монитор на панела"
+
+#: plugins/tasklist/tasklist.desktop.in.in:5
+msgid "Switch between open windows using buttons"
+msgstr "Превключване между отворените прозорци с помощта на бутоните"
+
+#: plugins/windowmenu/windowmenu.c:351
+msgid "Windows"
+msgstr "Прозорци"
+
+#: plugins/windowmenu/windowmenu.c:786
+msgid "Desktop"
+msgstr "Работен плот"
+
+#: plugins/windowmenu/windowmenu.c:1402
+msgid "No Windows"
+msgstr "Няма прозорци"
+
+#: plugins/windowmenu/windowmenu.c:1417
+msgid "Urgent Windows"
+msgstr "Спешни прозорци"
+
+#: plugins/windowmenu/windowmenu.c:1468
+msgid "Add Workspace"
+msgstr "Добавяне на работно място"
+
+#: plugins/windowmenu/windowmenu.c:1490
+#, c-format
+msgid "Remove Workspace \"%s\""
+msgstr "Премахване на работно място „%s“"
+
+#: plugins/windowmenu/windowmenu.c:1492
+#, c-format
+msgid "Remove Workspace %d"
+msgstr "Премахване на работно място %d"
+
+#: plugins/windowmenu/windowmenu.desktop.in.in:5
+msgid "Switch between open windows using a menu"
+msgstr "Превключване между отворените прозорци, като се използва менюто"

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 32 32"
+   style="display:inline;enable-background:new"
+   version="1.0"
+   id="svg11300"
+   height="32"
+   width="32"
+   sodipodi:docname="org.xfce.panel.statustray.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="/home/maug/Programming/xfce4-panem/48x48/org.xfce.systray.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1322"
+     inkscape:window-height="411"
+     id="namedview35"
+     showgrid="false"
+     inkscape:zoom="16"
+     inkscape:cx="27.28125"
+     inkscape:cy="26.5625"
+     inkscape:window-x="388"
+     inkscape:window-y="451"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1960"
+     inkscape:document-rotation="0"
+     showguides="false"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid844"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <title
+     id="title4162">Adwaita Icon Template</title>
+  <defs
+     id="defs3" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Adwaita Icon Template</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     style="opacity:1;fill:#006888;stroke:none;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+     id="path1970"
+     cx="8"
+     cy="14"
+     r="6" />
+  <g
+     id="g1960"
+     transform="matrix(0,0.43709582,-0.43709582,0,104.30784,-48.368826)"
+     style="fill:#6acfec">
+    <path
+       style="display:inline;fill:#00aade;fill-opacity:1;stroke:#006888;stroke-width:2.28782787;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 130.10609,207.75271 c -0.87669,-8.71269 -2.80623,-19.63611 -11.43914,-32.02959 h 45.75655 c -8.49455,14.713 -9.15131,19.29782 -9.15131,32.02959"
+       id="path1823"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <rect
+       style="display:inline;opacity:1;fill:#6acfec;fill-opacity:1;fill-rule:nonzero;stroke:#006888;stroke-width:2.28783;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
+       id="rect1853"
+       width="52.620041"
+       height="4.5756555"
+       x="115.23521"
+       y="171.14746"
+       ry="2.2878277"
+       rx="2.3918202" />
+    <path
+       style="fill:#003445;stroke:#006888;stroke-width:2.28783px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 152.98436,220.33576 25.16611,-6.86348 v -6.86349 l -25.16611,4.57566"
+       id="path1968"
+       sodipodi:nodetypes="cccc" />
+    <rect
+       style="fill:#006888;fill-rule:evenodd;stroke:none;stroke-width:2.29865;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1962"
+       width="13.726967"
+       height="27.453936"
+       x="-220.33575"
+       y="128.96217"
+       transform="rotate(-90)" />
+  </g>
+</svg>
