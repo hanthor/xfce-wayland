@@ -67,7 +67,7 @@
 14. ~~**xfce4-netload-plugin**~~ ✅ Built & installed
 
 ### TODO
-- **xfce4-screenshooter-plugin** ❌ Blocked: repository not found on xfce-mirror
+- **xfce4-screenshooter-plugin** ✅ Built & installed (found as `xfce4-screenshooter`, includes panel-plugin)
 - **xfce4-datetime-plugin** ✅ Built & installed (autotools, patched includes + gettext)
 
 ### Notes
@@ -115,7 +115,7 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 - Theme images may be missing → placeholder generation script available
 - Panel plugins install to `$INSTALL_PREFIX/lib64/xfce4/panel/plugins/`
 
-## Installed Binaries Summary (33 total)
+## Installed Binaries Summary (34 total)
 
 | Binary | Purpose | Wayland |
 |--------|---------|---------|
@@ -132,10 +132,11 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 | xfce4-settings | Settings | Wayland |
 | xfconfd | Config daemon | N/A |
 | tumblerd | Thumbnailer | N/A |
+| xfce4-screenshooter | Screenshots | Wayland (gtk-layer-shell) |
 
-## Panel Plugins (22 installed)
+## Panel Plugins (23 installed)
 
-actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, separator, showdesktop, systray, tasklist, verve, windowmenu, power-manager
+actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, screenshooter, separator, showdesktop, systray, tasklist, verve, windowmenu, power-manager
 
 ## Integration Test Results
 
