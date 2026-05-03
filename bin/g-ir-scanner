@@ -1,0 +1,4 @@
+#!/bin/bash
+INSTALL_PREFIX=/var/home/james/dev/xfce-wayland/install
+GIR_DIR="$INSTALL_PREFIX/share/gir-1.0"
+exec /usr/bin/g-ir-scanner --add-include-path="$GIR_DIR" "$@"

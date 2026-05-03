@@ -1,11 +1,12 @@
-custom_target(
-  'Thunar.1',
-  input: 'Thunar.xml',
-  output: 'Thunar.1',
-  command: [xsltproc, '--nonet', '--output', '@OUTPUT@', 'http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl', '@INPUT@'],
-  install: true,
-  install_dir: get_option('prefix') / get_option('mandir') / 'man1',
-)
+# Man page generation disabled (requires network access)
+# custom_target(
+#   'Thunar.1',
+#   input: 'Thunar.xml',
+#   output: 'Thunar.1',
+#   command: [xsltproc, '--nonet', '--output', '@OUTPUT@', 'http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl', '@INPUT@'],
+#   install: true,
+#   install_dir: get_option('prefix') / get_option('mandir') / 'man1',
+# )
 
 install_data(
   'README.gtkrc',

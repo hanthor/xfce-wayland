@@ -146,7 +146,6 @@ static const struct zwlr_output_head_v1_listener head_listener = {
     .make = head_make,
     .model = head_model,
     .serial_number = head_serial_number,
-    .adaptive_sync = head_adaptive_sync,
 };
 
 static const struct zwlr_output_mode_v1_listener mode_listener = {
