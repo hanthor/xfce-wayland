@@ -5,7 +5,7 @@ set -euo pipefail
 REPO_ROOT="/var/home/james/dev/xfce-wayland"
 VM_DIR="$REPO_ROOT/vm"
 DISK="$REPO_ROOT/xfwl4-test.qcow2"
-ISO_URL="https://download.fedoraproject.org/pub/fedora/linux/releases/41/Server/x86_64/iso/Fedora-Server-dvd-x86_64-41-1.7.iso"
+ISO_URL="https://download.fedoraproject.org/pub/fedora/linux/releases/44/Server/x86_64/iso/Fedora-Server-dvd-x86_64-44-1.6.iso"
 ISO="$VM_DIR/fedora.iso"
 
 mkdir -p "$VM_DIR"

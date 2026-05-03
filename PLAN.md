@@ -138,6 +138,27 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 
 actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, screenshooter, separator, showdesktop, systray, tasklist, verve, windowmenu, power-manager
 
+## TTY Backend Status
+
+**Build**: ✅ Compiles with `--no-default-features -F udev -F egl -F xwayland` (19MB release)
+**Deployed**: `install/bin/xfwl4-tty` (separate from winit build at `install/bin/xfwl4`)
+
+**Container test (Fedora 44)**:
+- ✅ All library dependencies resolved
+- ✅ dbus + xfconfd start successfully
+- ✅ xfconf initializes
+- ✅ UI supervisor starts
+- ✅ udev backend starts
+- ❌ `libseat` session fails (expected — needs real TTY/logind)
+
+**Test methods**:
+- `run-container-tty.sh` — Fedora 44 podman container (validates build/deps/init)
+- `run-vm-tty.sh` — QEMU VM with virtio-gpu (full TTY backend test)
+
+**Known fixes applied**:
+- cli.rs: compile-time `#[cfg]` guards for backend selection (was runtime `cfg!()`)
+- wlr_screencopy.rs: added `udev` to `WlrBufferConstraints.dma` field cfg
+
 ## Integration Test Results
 
 Full stack tested via `test-integration.sh`:
