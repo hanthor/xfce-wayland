@@ -137,6 +137,24 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 
 actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, separator, showdesktop, systray, tasklist, verve, windowmenu, power-manager
 
+## Integration Test Results
+
+Full stack tested via `test-integration.sh`:
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| xfwl4 | ✅ Running | winit backend, EGL BAD_SURFACE cosmetic |
+| xfconfd | ✅ Running | Config daemon |
+| xfce4-panel | ✅ Running | 22 panel plugins available |
+| xfce4-notifyd | ✅ Running | Notification daemon |
+| xfdesktop | ✅ Running | Desktop background |
+| xfce4-terminal | ✅ Connects | GTK3 app on Wayland |
+| thunar | ✅ Connects | File manager (x11=disabled) |
+| xfce4-appfinder | ✅ Connects | Menu file needed |
+| xfce4-taskmanager | ✅ Connects | GTK3 app on Wayland |
+
+**EGL BAD_SURFACE errors** are cosmetic in nested Xvfb mode — compositor remains stable and functional.
+
 ## Integration Test Target
 
 Full stack inside xfwl4 winit backend:
