@@ -1,0 +1,8 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+_Name=DateTime
+_Comment=Date and Time plugin with a simple calendar
+Icon=xfce-schedule
+X-XFCE-Module=datetime
+X-XFCE-Internal=FALSE
+X-XFCE-API=2.0

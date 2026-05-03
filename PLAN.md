@@ -66,9 +66,18 @@
 13. ~~**xfce4-cpugraph-plugin**~~ ✅ Built & installed
 14. ~~**xfce4-netload-plugin**~~ ✅ Built & installed
 
-### TODO / BLOCKED
-- **xfce4-datetime-plugin** ❌ Blocked: needs xfce4-dev-tools (autotools, not meson)
+### TODO
 - **xfce4-screenshooter-plugin** ❌ Blocked: repository not found on xfce-mirror
+- **xfce4-datetime-plugin** ✅ Built & installed (autotools, patched includes + gettext)
+
+### Notes
+- `xdt-gen-visibility` shim created in `bin/` for builds requiring visibility headers
+- `adaptive_sync` callback removed from `xfce4-power-manager/common/xfpm-common.c` (protocol mismatch)
+- `wlr-protocols` cloned for `xfce4-power-manager` and `xfce4-clipman-plugin`
+- `manpage` generation disabled for `xfce4-terminal` (xsltproc network access)
+- `xfce4-dev-tools` installed to custom prefix for datetime-plugin autotools build
+- `datetime-dialog.c` include path fixed: `xfce-panel-plugin.h` → `libxfce4panel.h`
+- `GETTEXT_PACKAGE` added to config.h for datetime-plugin
 
 ### Notes
 - `xdt-gen-visibility` shim created in `bin/` for builds requiring visibility headers
@@ -124,9 +133,9 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 | xfconfd | Config daemon | N/A |
 | tumblerd | Thumbnailer | N/A |
 
-## Panel Plugins (21 installed)
+## Panel Plugins (22 installed)
 
-actions, applicationsmenu, clipman, clock, cpugraph, directorymenu, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, separator, showdesktop, systray, tasklist, verve, windowmenu, power-manager
+actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, separator, showdesktop, systray, tasklist, verve, windowmenu, power-manager
 
 ## Integration Test Target
 

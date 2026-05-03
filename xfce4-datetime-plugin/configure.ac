@@ -1,0 +1,54 @@
+dnl Version information
+m4_define([datetime_version_major], [0])
+m4_define([datetime_version_minor], [8])
+m4_define([datetime_version_micro], [3])
+m4_define([datetime_version_tag], [git])
+m4_define([datetime_version], [datetime_version_major().datetime_version_minor().datetime_version_micro()])
+
+m4_define([datetime_debug_default], [ifelse(datetime_version_tag(), [git], [yes], [minimum])])
+
+dnl Initialize autoconf
+AC_COPYRIGHT([Copyright (c) 2006-2020
+        Remco den Breeje <remco@sx.mine.nu>
+        Diego Ongaro <ongardie@gmail.com>
+        Landry Breuil <landry@xfce.org>])
+AC_INIT([xfce4-datetime-plugin], [datetime_version], [xfce-dev@xfce.org])
+AC_CONFIG_MACRO_DIRS([m4])
+
+dnl Initialize automake
+AM_INIT_AUTOMAKE([1.8 no-dist-gzip dist-bzip2 foreign])
+AM_GNU_GETTEXT_VERSION(0.22.5)
+AC_CONFIG_HEADERS([config.h])
+AM_MAINTAINER_MODE()
+m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
+
+dnl Check for UNIX variants
+AC_USE_SYSTEM_EXTENSIONS
+
+dnl check for basic programs
+AC_PROG_CC
+AC_PROG_INSTALL
+IT_PROG_INTLTOOL([0.35.0])
+
+dnl Initialize libtools
+LT_PREREQ([2.2.6])
+LT_INIT([disable-static])
+
+dnl Check for i18n support
+AM_GNU_GETTEXT([external])
+
+dnl Check for required packages
+XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.12.0])
+XDT_CHECK_PACKAGE([LIBXFCE4PANEL],[libxfce4panel-2.0],[4.12.0])
+
+#CFLAGS="$CFLAGS -Wall -Werror"
+
+dnl Check for debugging support
+XDT_FEATURE_DEBUG([datetime_debug_default])
+
+AC_CONFIG_FILES([
+Makefile
+po/Makefile.in
+panel-plugin/Makefile
+])
+AC_OUTPUT
