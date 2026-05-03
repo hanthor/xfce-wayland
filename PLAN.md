@@ -106,6 +106,28 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 - Theme images may be missing → placeholder generation script available
 - Panel plugins install to `$INSTALL_PREFIX/lib64/xfce4/panel/plugins/`
 
+## Installed Binaries Summary (33 total)
+
+| Binary | Purpose | Wayland |
+|--------|---------|---------|
+| xfwl4 | Compositor | Native |
+| xfce4-panel | Panel | Wayland |
+| xfce4-session | Session manager | Wayland |
+| xfce4-terminal | Terminal | Wayland (gtk-layer-shell) |
+| xfce4-appfinder | App launcher | GTK3 |
+| xfce4-notifyd | Notifications | Wayland (gtk-layer-shell) |
+| xfce4-power-manager | Power management | Wayland |
+| xfce4-taskmanager | Task manager | GTK3 (x11=disabled) |
+| thunar | File manager | Wayland (x11=disabled) |
+| xfdesktop | Desktop | Wayland |
+| xfce4-settings | Settings | Wayland |
+| xfconfd | Config daemon | N/A |
+| tumblerd | Thumbnailer | N/A |
+
+## Panel Plugins (21 installed)
+
+actions, applicationsmenu, clipman, clock, cpugraph, directorymenu, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, separator, showdesktop, systray, tasklist, verve, windowmenu, power-manager
+
 ## Integration Test Target
 
 Full stack inside xfwl4 winit backend:
