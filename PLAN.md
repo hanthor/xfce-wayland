@@ -66,9 +66,19 @@
 13. ~~**xfce4-cpugraph-plugin**~~ ✅ Built & installed
 14. ~~**xfce4-netload-plugin**~~ ✅ Built & installed
 
-### TODO
-- **xfce4-screenshooter-plugin** ✅ Built & installed (found as `xfce4-screenshooter`, includes panel-plugin)
-- **xfce4-datetime-plugin** ✅ Built & installed (autotools, patched includes + gettext)
+### TODO → DONE
+- ~~**xfce4-screenshooter-plugin**~~ ✅ Built & installed (found as `xfce4-screenshooter`, includes panel-plugin)
+- ~~**xfce4-datetime-plugin**~~ ✅ Built & installed (autotools, patched includes + gettext)
+- ~~**thunar-archive-plugin**~~ ✅ Built & installed (archive support for Thunar)
+- ~~**xfce4-diskperf-plugin**~~ ✅ Built & installed (disk I/O monitor)
+- ~~**xfce4-sensors-plugin**~~ ✅ Built & installed (hardware sensors)
+- ~~**xfce4-weather-plugin**~~ ✅ Built & installed (weather display)
+- ~~**xfce4-screensaver**~~ ✅ Built & installed (X11 only, libwlembed unavailable)
+- ~~**catfish**~~ ✅ Built & installed (file search, Python/GTK3)
+- ~~**xfce4-dict**~~ ✅ Built & installed (dictionary + panel plugin)
+- ~~**xfce4-mpc-plugin**~~ ✅ Built & installed (MPD control panel plugin)
+- ~~**mousepad**~~ ✅ Built & installed (text editor)
+- ~~**ristretto**~~ ✅ Built & installed (image viewer)
 
 ### Notes
 - `xdt-gen-visibility` shim created in `bin/` for builds requiring visibility headers
@@ -115,7 +125,7 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 - Theme images may be missing → placeholder generation script available
 - Panel plugins install to `$INSTALL_PREFIX/lib64/xfce4/panel/plugins/`
 
-## Installed Binaries Summary (47 total)
+## Installed Binaries Summary (54 total)
 
 | Binary | Purpose | Wayland |
 |--------|---------|---------|
@@ -136,17 +146,22 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 | xfce4-sensors | Sensor monitor | GTK3 |
 | thunar-volman | Volume manager | GTK3 |
 | thunar-volman-settings | Volume settings | GTK3 |
+| catfish | File search | GTK3 (Python) |
+| xfce4-dict | Dictionary | GTK3 |
+| mousepad | Text editor | GTK3 |
+| ristretto | Image viewer | GTK3 |
 
-## Panel Plugins (26 installed)
+## Panel Plugins (28 installed)
 
-actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systray, tasklist, verve, weather, windowmenu, power-manager
+actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, dict, genmon, launcher, mount, mpc, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systray, tasklist, verve, weather, windowmenu, power-manager
 
 ## Remaining Components
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| xfce4-screensaver | ❌ Blocked | Needs libwlembed (source not available) |
+| xfce4-screensaver | ✅ Built (X11 only) | libwlembed unavailable (GitLab blocked), built with -Dwayland=disabled |
 | xfce4-wmdet-plugin | ❌ Removed | Repository no longer exists |
+| xfce4-dockapp-plugin | ❌ Removed | Repository no longer exists |
 
 ## TTY Backend Status
 
@@ -177,7 +192,7 @@ Full stack tested via `test-integration.sh`:
 |-----------|--------|-------|
 | xfwl4 | ✅ Running | winit backend, EGL BAD_SURFACE cosmetic |
 | xfconfd | ✅ Running | Config daemon |
-| xfce4-panel | ✅ Running | 22 panel plugins available |
+| xfce4-panel | ✅ Running | 28 panel plugins available |
 | xfce4-notifyd | ✅ Running | Notification daemon |
 | xfdesktop | ✅ Running | Desktop background |
 | xfce4-terminal | ✅ Connects | GTK3 app on Wayland |

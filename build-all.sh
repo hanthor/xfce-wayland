@@ -23,6 +23,15 @@ done
 
 cd "$REPO_ROOT"
 
+# Create catfish Python native file (needs system Python with dbus/gi/pexpect)
+cat > /tmp/catfish-python.ini << 'PYEOF'
+[binaries]
+python = '/usr/bin/python3.12'
+
+[python]
+python = '/usr/bin/python3.12'
+PYEOF
+
 # Component build definitions: dir wayland_flag x11_flag
 declare -a COMPONENTS=(
     "tumbler:false:false"
@@ -46,6 +55,12 @@ declare -a COMPONENTS=(
     "xfce4-sensors-plugin:false:false"
     "xfce4-weather-plugin:false:false"
     "xfce4-screenshooter:true:false"
+    "xfce4-screensaver:false:false"       # X11 only (libwlembed unavailable)
+    "catfish:false:false"                  # Python/GTK3 (needs system Python)
+    "xfce4-dict:false:false"               # GTK3 + panel plugin
+    "xfce4-mpc-plugin:false:false"         # GTK3 panel plugin
+    "mousepad:false:false"                 # GTK3 text editor
+    "ristretto:false:false"                # GTK3 image viewer
 )
 
 build_component() {
@@ -63,6 +78,11 @@ build_component() {
     [[ "$wayland" == "true" ]] && meson_opts="$meson_opts -Dwayland=enabled"
     [[ "$x11" == "true" ]] && meson_opts="$meson_opts -Dx11=disabled"
 
+    # Special cases
+    local native_file=""
+    [[ "$dir" == "catfish" ]] && native_file="--native-file=/tmp/catfish-python.ini"
+    [[ "$dir" == "xfce4-screensaver" ]] && meson_opts="$meson_opts -Dwayland=disabled -Dx11=enabled"
+
     echo "=== Building $dir ==="
     cd "$path"
 
@@ -72,8 +92,8 @@ build_component() {
     fi
 
     if [[ ! -d builddir ]] || [[ ! -f builddir/build.ninja ]]; then
-        echo "[SETUP] meson $meson_opts"
-        meson setup builddir $meson_opts 2>&1 | tail -2
+        echo "[SETUP] meson $meson_opts $native_file"
+        meson setup builddir $meson_opts $native_file 2>&1 | tail -2
     fi
 
     ninja -C builddir 2>&1 | tail -2
