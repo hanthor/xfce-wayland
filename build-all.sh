@@ -61,6 +61,10 @@ declare -a COMPONENTS=(
     "xfce4-mpc-plugin:false:false"         # GTK3 panel plugin
     "mousepad:false:false"                 # GTK3 text editor
     "ristretto:false:false"                # GTK3 image viewer
+    "libwlembed:false:false"               # Wayland embedding library
+    "xfce4-wmdock-plugin:false:false"      # Autotools (dockapp replacement)
+    "xfce4-systemload-plugin:false:false"  # System load monitor
+    "xfce4-mailwatch-plugin:false:false"   # Mail notification
 )
 
 build_component() {
@@ -81,7 +85,8 @@ build_component() {
     # Special cases
     local native_file=""
     [[ "$dir" == "catfish" ]] && native_file="--native-file=/tmp/catfish-python.ini"
-    [[ "$dir" == "xfce4-screensaver" ]] && meson_opts="$meson_opts -Dwayland=disabled -Dx11=enabled"
+    [[ "$dir" == "xfce4-screensaver" ]] && meson_opts="$meson_opts -Dwayland=enabled -Dx11=enabled"
+    [[ "$dir" == "libwlembed" ]] && meson_opts="$meson_opts -Dvisibility=false"
 
     echo "=== Building $dir ==="
     cd "$path"
@@ -89,6 +94,21 @@ build_component() {
     if [[ "$CLEAN" == true ]]; then
         echo "[CLEAN] Removing builddir"
         rm -rf builddir
+    fi
+
+    # Autotools components
+    if [[ "$dir" == "xfce4-wmdock-plugin" ]]; then
+        echo "[SETUP] autotools build"
+        [[ ! -f configure ]] && {
+            [[ -f configure.ac.in ]] && mv configure.ac.in configure.ac
+            mkdir -p m4
+            cp "$INSTALL_PREFIX/share/aclocal/xdt-*.m4" m4/ 2>/dev/null || true
+        }
+        [[ ! -f Makefile ]] && ./autogen.sh --prefix=$INSTALL_PREFIX 2>&1 | tail -2
+        make -j$(nproc) 2>&1 | tail -2
+        cp panel-plugin/.libs/libwmdock.so "$INSTALL_PREFIX/lib64/xfce4/panel/plugins/" 2>/dev/null || true
+        echo ""
+        continue
     fi
 
     if [[ ! -d builddir ]] || [[ ! -f builddir/build.ninja ]]; then

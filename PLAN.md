@@ -79,6 +79,10 @@
 - ~~**xfce4-mpc-plugin**~~ ✅ Built & installed (MPD control panel plugin)
 - ~~**mousepad**~~ ✅ Built & installed (text editor)
 - ~~**ristretto**~~ ✅ Built & installed (image viewer)
+- ~~**libwlembed**~~ ✅ Built & installed (Wayland embedding library)
+- ~~**xfce4-wmdock-plugin**~~ ✅ Built & installed (dockapp replacement, autotools)
+- ~~**xfce4-systemload-plugin**~~ ✅ Built & installed (system load monitor)
+- ~~**xfce4-mailwatch-plugin**~~ ✅ Built & installed (mail notification)
 
 ### Notes
 - `xdt-gen-visibility` shim created in `bin/` for builds requiring visibility headers
@@ -125,7 +129,7 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 - Theme images may be missing → placeholder generation script available
 - Panel plugins install to `$INSTALL_PREFIX/lib64/xfce4/panel/plugins/`
 
-## Installed Binaries Summary (54 total)
+## Installed Binaries Summary (55 total)
 
 | Binary | Purpose | Wayland |
 |--------|---------|---------|
@@ -150,18 +154,19 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 | xfce4-dict | Dictionary | GTK3 |
 | mousepad | Text editor | GTK3 |
 | ristretto | Image viewer | GTK3 |
+| xfce4-screensaver-dialog | Screensaver dialog | GTK3 |
 
-## Panel Plugins (28 installed)
+## Panel Plugins (31 installed)
 
-actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, dict, genmon, launcher, mount, mpc, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systray, tasklist, verve, weather, windowmenu, power-manager
+actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, dict, genmon, launcher, mailwatch, mount, mpc, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systemload, systray, tasklist, verve, weather, windowmenu, wmdock, power-manager
 
 ## Remaining Components
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| xfce4-screensaver | ✅ Built (X11 only) | libwlembed unavailable (GitLab blocked), built with -Dwayland=disabled |
+| xfce4-screensaver | ✅ Built (Wayland + X11) | libwlembed found via OpenMandriva GitHub mirror, built with full Wayland support |
 | xfce4-wmdet-plugin | ❌ Removed | Repository no longer exists |
-| xfce4-dockapp-plugin | ❌ Removed | Repository no longer exists |
+| xfce4-dockapp-plugin | ✅ Replaced by xfce4-wmdock-plugin | Original removed, wmdock-plugin from GitHub clone works |
 
 ## TTY Backend Status
 
@@ -192,7 +197,7 @@ Full stack tested via `test-integration.sh`:
 |-----------|--------|-------|
 | xfwl4 | ✅ Running | winit backend, EGL BAD_SURFACE cosmetic |
 | xfconfd | ✅ Running | Config daemon |
-| xfce4-panel | ✅ Running | 28 panel plugins available |
+| xfce4-panel | ✅ Running | 31 panel plugins available |
 | xfce4-notifyd | ✅ Running | Notification daemon |
 | xfdesktop | ✅ Running | Desktop background |
 | xfce4-terminal | ✅ Connects | GTK3 app on Wayland |

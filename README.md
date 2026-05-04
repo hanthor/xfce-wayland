@@ -53,7 +53,7 @@ sudo ./run-session.sh
 
 ## Current Status
 
-### Built & Installed: 54 Binaries + 28 Panel Plugins
+### Built & Installed: 55 Binaries + 31 Panel Plugins
 
 | Component | Wayland Support | Status |
 |-----------|----------------|--------|
@@ -81,15 +81,15 @@ sudo ./run-session.sh
 | tumblerd | Thumbnailer | ✅ Built |
 | thunar-volman | Volume manager | ✅ Built |
 | thunar-archive-plugin | Archive support | ✅ Built |
-| xfce4-screensaver | Screen locker | ✅ Built (X11) |
+| xfce4-screensaver | Screen locker | ✅ Built (Wayland + X11) |
 | **Libraries** | | |
 | libxfce4ui, libxfce4util, xfconf | Core libs | ✅ Built + GIR |
 | garcon, gtk-layer-shell | Menu/Layer shell | ✅ Built |
 | libxfce4windowing | Windowing abstraction | ✅ Built |
 
-### Panel Plugins (28)
+### Panel Plugins (31)
 
-actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, dict, genmon, launcher, mount, mpc, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systray, tasklist, verve, weather, windowmenu, power-manager
+actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, dict, genmon, launcher, mailwatch, mount, mpc, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systemload, systray, tasklist, verve, weather, windowmenu, wmdock, power-manager
 
 ### Integration Test Results
 
@@ -98,7 +98,7 @@ actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, di
 | xfwl4 (winit) | ✅ Running | EGL BAD_SURFACE cosmetic in nested |
 | xfwl4 (tty) | ✅ Running | Needs real TTY for libseat |
 | xfconfd | ✅ Running | Config daemon |
-| xfce4-panel | ✅ Running | 26 plugins available |
+| xfce4-panel | ✅ Running | 31 plugins available |
 | xfce4-notifyd | ✅ Running | Notification daemon |
 | xfdesktop | ✅ Running | Desktop background |
 | xfce4-terminal | ✅ Connects | Wayland client |
@@ -110,8 +110,7 @@ actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, di
 
 | Component | Reason |
 |-----------|--------|
-| xfce4-screensaver | ✅ Built (X11 only) | libwlembed unavailable on GitLab (Cloudflare blocked), built with -Dwayland=disabled |
-| xfce4-wmdet-plugin | Repository removed |
+| xfce4-wmdet-plugin | Repository removed (not replaced) |
 
 ## Build Configuration
 
