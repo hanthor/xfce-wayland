@@ -53,7 +53,7 @@ sudo ./run-session.sh
 
 ## Current Status
 
-### Built & Installed: 47 Binaries + 26 Panel Plugins
+### Built & Installed: 54 Binaries + 28 Panel Plugins
 
 | Component | Wayland Support | Status |
 |-----------|----------------|--------|
@@ -69,6 +69,11 @@ sudo ./run-session.sh
 | xfce4-terminal | Wayland (gtk-layer-shell) | ✅ Built |
 | xfce4-notifyd | Wayland (gtk-layer-shell) | ✅ Built |
 | xfce4-screenshooter | Wayland (gtk-layer-shell) | ✅ Built |
+| **Utilities** | | |
+| catfish | File search | GTK3 (Python) ✅ |
+| xfce4-dict | Dictionary | GTK3 ✅ |
+| mousepad | Text editor | GTK3 ✅ |
+| ristretto | Image viewer | GTK3 ✅ |
 | xfce4-appfinder | GTK3 | ✅ Built |
 | xfce4-taskmanager | GTK3 (x11=disabled) | ✅ Built |
 | xfce4-power-manager | Wayland | ✅ Built |
@@ -76,14 +81,15 @@ sudo ./run-session.sh
 | tumblerd | Thumbnailer | ✅ Built |
 | thunar-volman | Volume manager | ✅ Built |
 | thunar-archive-plugin | Archive support | ✅ Built |
+| xfce4-screensaver | Screen locker | ✅ Built (X11) |
 | **Libraries** | | |
 | libxfce4ui, libxfce4util, xfconf | Core libs | ✅ Built + GIR |
 | garcon, gtk-layer-shell | Menu/Layer shell | ✅ Built |
 | libxfce4windowing | Windowing abstraction | ✅ Built |
 
-### Panel Plugins (26)
+### Panel Plugins (28)
 
-actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systray, tasklist, verve, weather, windowmenu, power-manager
+actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, dict, genmon, launcher, mount, mpc, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systray, tasklist, verve, weather, windowmenu, power-manager
 
 ### Integration Test Results
 
@@ -104,7 +110,7 @@ actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, di
 
 | Component | Reason |
 |-----------|--------|
-| xfce4-screensaver | Needs libwlembed (source unavailable) |
+| xfce4-screensaver | ✅ Built (X11 only) | libwlembed unavailable on GitLab (Cloudflare blocked), built with -Dwayland=disabled |
 | xfce4-wmdet-plugin | Repository removed |
 
 ## Build Configuration
