@@ -4,167 +4,138 @@ This project contains the work toward a native Wayland port of the XFCE desktop 
 
 ## Project Structure
 
-- **`xfwl4/`** - The core XFCE Wayland compositor, written in Rust using the [Smithay](https://github.com/smithay/smithay) framework
-- **`xfce4-libs/`** - XFCE libraries (libxfce4util, libxfce4ui, xfconf) with Wayland-aware modifications
+- **`xfwl4/`** - The core XFCE Wayland compositor, written in Rust using [Smithay](https://github.com/smithay/smithay)
+- **`xfce4-libs/`** - XFCE libraries (libxfce4util, libxfce4ui, xfconf, garcon, gtk-layer-shell)
 - **`install/`** - Local build/install prefix for development dependencies
 - **`themes/`** - Default theme for development testing
-- **`vm/`** - QEMU VM configuration for full TTY testing
 
 ## Quick Start
 
-### Build
+### Build All Components
 
 ```bash
-# Debug profile (full debug info)
-./build.sh debug
+# Build all components
+./build-all.sh
 
-# Release profile (optimized, 29MB vs 437MB)
-./build.sh release
+# Clean and rebuild
+./build-all.sh --clean
+
+# Include xfwl4 (winit + tty backends)
+./build-all.sh --clean --xfwl4
+```
+
+### Run Full Desktop Session
+
+```bash
+# Nested mode (inside Xvfb, for testing)
+./run-session.sh --nested
+
+# TTY mode (direct DRM/KMS, needs sudo + real console)
+sudo ./run-session.sh
 ```
 
 ### Integration Test (Headless)
 
-Run xfwl4 in Xvfb with a Wayland client:
-
 ```bash
-./test-nested.sh      # debug profile
-./test-nested.sh release
+./test-integration.sh    # Full stack test: compositor + panel + apps
+./run-container-tty.sh   # TTY backend test in Fedora 44 container
 ```
 
-This starts Xvfb, launches xfwl4 with the winit backend, and connects weston-terminal.
-
-### Nested Mode (With Display)
-
-Run xfwl4 nested inside a display session:
+### QEMU VM (Full TTY Testing)
 
 ```bash
-./run-winit.sh        # debug profile
-./run-winit.sh release
-```
-
-If no display is available, Xvfb is started automatically.
-
-### Test (QEMU VM - Full TTY Mode)
-
-For testing the TTY backend (direct DRM/KMS access):
-
-```bash
-# One-time setup: creates disk and downloads Fedora ISO
+# One-time setup: creates disk and downloads Fedora 44 ISO
 ./setup-vm.sh
 
-# Boot the installed VM
-./run-vm.sh
+# Boot the installed VM (virtio-gpu)
+./run-vm-tty.sh
 ```
-
-Inside the VM, install dependencies and build xfwl4, then run on a TTY:
-```bash
-# Switch to TTY2 (Ctrl+Alt+F2)
-./builddir/xfwl4/relwithdebinfo/xfwl4 --backend tty
-```
-
-## Build Dependencies
-
-### Host (Bluefin/CentOS 10)
-
-The build system uses a local prefix at `install/` for custom-built dependencies:
-
-| Library | Version | Source | Notes |
-|---------|---------|--------|-------|
-| pixman | 0.44.0 | Built from source | System version too old |
-| libxfce4util | 4.20.1 | `xfce4-libs/libxfce4util` | Meson build |
-| libxfce4ui | 4.21.7-dev | `xfce4-libs/libxfce4ui` | Meson build |
-| xfconf | 4.21.2 | `xfce4-libs/xfconf` | Meson build |
-
-System packages needed:
-- `rust`, `cargo` (via Homebrew)
-- `meson`, `ninja-build` (via Homebrew)
-- `wayland-devel`, `libdrm-devel`, `libinput-devel`, `libseat-devel`
-- `systemd-devel`, `mesa-libgbm-devel`, `libxkbcommon-devel`
-- `gtk3-devel`, `gobject-introspection-devel`
-- `xorg-x11-server-Xwayland-devel`, `libxcb-devel`
-
-### VM (Fedora Server)
-
-```bash
-sudo dnf install -y rust cargo gcc meson ninja-build \
-  pkgconf-pkg-config wayland-devel wayland-protocols \
-  libdrm-devel libinput-devel libseat-devel systemd-devel \
-  mesa-libgbm-devel pixman-devel libxkbcommon-devel \
-  gtk3-devel gobject-introspection-devel \
-  xorg-x11-server-Xwayland-devel libxcb-devel \
-  qemu-kvm qemu-img
-```
-
-## xfwl4 Architecture
-
-xfwl4 is a full-featured Wayland compositor implementing the XFCE window manager functionality:
-
-- **Window Management**: Tiling, maximizing, minimizing, fullscreen, shading, sticky windows
-- **Workspaces**: Multiple workspaces with keyboard/mouse switching
-- **Decorations**: Native window decorations (titlebars) with theming
-- **Xwayland**: Full X11 compatibility layer
-- **Input**: Keyboard, pointer, touch, tablet support
-- **Configuration**: xfconf-based settings, GTK3 integration
-- **Backends**:
-  - `tty` — Direct DRM/KMS (production use)
-  - `winit` — Nested in X11/Wayland (development/testing)
-  - `x11` — Nested in X11 (legacy testing)
-
-## Development Workflow
-
-1. **Code changes** in `xfwl4/src/`
-2. **Rebuild**: `./build.sh debug` (incremental, fast)
-3. **Test nested**: `./test-nested.sh` (headless integration test)
-4. **Debug**: Use `RUST_BACKTRACE=1` and `RUST_LOG=debug` env vars
-5. **Full test**: Boot VM, test TTY backend
 
 ## Current Status
 
-### Working
+### Built & Installed: 47 Binaries + 26 Panel Plugins
 
-- ✅ Full build pipeline (debug + release profiles)
-- ✅ EGL/OpenGL ES rendering pipeline
-- ✅ Wayland compositor initialization
-- ✅ XWayland integration
-- ✅ Window decoration system (titlebars, buttons)
-- ✅ xfconf configuration system
-- ✅ Theme loading (rc format, color resolution)
-- ✅ Keyboard input handling
-- ✅ Output management (1280x800@60Hz)
-- ✅ Wayland client connections (weston-terminal tested)
-- ✅ UI supervisor process (crash recovery)
-- ✅ Integration test suite (headless)
+| Component | Wayland Support | Status |
+|-----------|----------------|--------|
+| **Compositor** | | |
+| xfwl4 | Native (Rust/Smithay) | ✅ winit + tty backends |
+| **Core Desktop** | | |
+| xfce4-panel | Wayland | ✅ Built |
+| xfce4-session | Wayland | ✅ Built |
+| xfdesktop | Wayland | ✅ Built |
+| xfce4-settings | Wayland | ✅ Built |
+| thunar | GTK3 (x11=disabled) | ✅ Built |
+| **Applications** | | |
+| xfce4-terminal | Wayland (gtk-layer-shell) | ✅ Built |
+| xfce4-notifyd | Wayland (gtk-layer-shell) | ✅ Built |
+| xfce4-screenshooter | Wayland (gtk-layer-shell) | ✅ Built |
+| xfce4-appfinder | GTK3 | ✅ Built |
+| xfce4-taskmanager | GTK3 (x11=disabled) | ✅ Built |
+| xfce4-power-manager | Wayland | ✅ Built |
+| **Services** | | |
+| tumblerd | Thumbnailer | ✅ Built |
+| thunar-volman | Volume manager | ✅ Built |
+| thunar-archive-plugin | Archive support | ✅ Built |
+| **Libraries** | | |
+| libxfce4ui, libxfce4util, xfconf | Core libs | ✅ Built + GIR |
+| garcon, gtk-layer-shell | Menu/Layer shell | ✅ Built |
+| libxfce4windowing | Windowing abstraction | ✅ Built |
 
-### Known Issues
+### Panel Plugins (26)
 
-- EGL BAD_SURFACE errors in nested Xvfb mode (cosmetic, compositor stable)
-- UI supervisor process crashes on Xvfb (recovered automatically)
-- Theme images are minimal placeholder PNGs (16x16 solid color)
-- `activate_action` setting has parse issue (defaults to correct behavior)
+actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systray, tasklist, verve, weather, windowmenu, power-manager
 
-### Still Needed for Full XFCE Desktop
+### Integration Test Results
 
-- [ ] xfce4-session Wayland port
-- [ ] xfce4-panel Wayland port
-- [ ] xfdesktop Wayland port
-- [ ] Thunar Wayland port
-- [ ] Settings daemon (xfsettingsd) Wayland adaptation
-- [ ] Screen locker (xfce4-screensaver) Wayland port
-- [ ] Power manager Wayland port
+| Component | Status | Notes |
+|-----------|--------|-------|
+| xfwl4 (winit) | ✅ Running | EGL BAD_SURFACE cosmetic in nested |
+| xfwl4 (tty) | ✅ Running | Needs real TTY for libseat |
+| xfconfd | ✅ Running | Config daemon |
+| xfce4-panel | ✅ Running | 26 plugins available |
+| xfce4-notifyd | ✅ Running | Notification daemon |
+| xfdesktop | ✅ Running | Desktop background |
+| xfce4-terminal | ✅ Connects | Wayland client |
+| thunar | ✅ Connects | File manager (x11=disabled) |
+| xfce4-appfinder | ✅ Connects | App launcher |
+| xfce4-taskmanager | ✅ Connects | GTK3 app |
 
-## Key Components
+### Blocked
 
-### xfwl4 Core (`xfwl4/src/core/`)
+| Component | Reason |
+|-----------|--------|
+| xfce4-screensaver | Needs libwlembed (source unavailable) |
+| xfce4-wmdet-plugin | Repository removed |
 
-- `shell/` — Window management, tiling, workspace logic
-- `workspaces/` — Workspace manager, window stacking
-- `config/` — xfconf integration, settings parsing
-- `focus/` — Keyboard focus management
-- `handlers/` — Protocol handlers (xdg_shell, layer_shell, etc.)
-- `state.rs` — Main compositor state
+## Build Configuration
 
-### Backends (`xfwl4/src/backend/`)
+```bash
+# Environment
+INSTALL_PREFIX=/var/home/james/dev/xfce-wayland/install
+export PKG_CONFIG_PATH="$INSTALL_PREFIX/lib64/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:/usr/lib64/pkgconfig:/usr/share/pkgconfig"
+export LD_LIBRARY_PATH="$INSTALL_PREFIX/lib64"
+export XDG_DATA_DIRS="$INSTALL_PREFIX/share:/usr/share"
+export PATH="$INSTALL_PREFIX/bin:$PATH"
 
-- `udev/` — Direct DRM/KMS backend (TTY mode)
-- `winit/` — Nested backend via winit crate
-- `x11/` — X11 nested backend
+# xfwl4 backends
+cargo build --release --no-default-features -F winit -F egl -F xwayland   # Nested
+cargo build --release --no-default-features -F udev -F egl -F xwayland    # TTY
+```
+
+## Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `build-all.sh` | Batch build all components (`--clean`, `--xfwl4`) |
+| `run-session.sh` | Full desktop session (`--nested` or TTY) |
+| `test-integration.sh` | Headless full stack test |
+| `run-container-tty.sh` | Fedora 44 container TTY test |
+| `run-vm-tty.sh` | QEMU VM with virtio-gpu |
+| `setup-vm.sh` | QEMU VM provisioning (Fedora 44) |
+
+## Known Issues
+
+- **EGL BAD_SURFACE** in nested Xvfb mode (cosmetic, compositor stable)
+- **UI supervisor** crashes on Xvfb (auto-recovered)
+- **libseat session** needs real TTY/logind (works in QEMU)
+- **Immutable host** (`bootc`): `ninja install` fails → manual `cp` workaround
