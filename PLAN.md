@@ -115,7 +115,7 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 - Theme images may be missing → placeholder generation script available
 - Panel plugins install to `$INSTALL_PREFIX/lib64/xfce4/panel/plugins/`
 
-## Installed Binaries Summary (34 total)
+## Installed Binaries Summary (47 total)
 
 | Binary | Purpose | Wayland |
 |--------|---------|---------|
@@ -133,10 +133,20 @@ meson setup builddir -Dprefix=$INSTALL_PREFIX
 | xfconfd | Config daemon | N/A |
 | tumblerd | Thumbnailer | N/A |
 | xfce4-screenshooter | Screenshots | Wayland (gtk-layer-shell) |
+| xfce4-sensors | Sensor monitor | GTK3 |
+| thunar-volman | Volume manager | GTK3 |
+| thunar-volman-settings | Volume settings | GTK3 |
 
-## Panel Plugins (23 installed)
+## Panel Plugins (26 installed)
 
-actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, screenshooter, separator, showdesktop, systray, tasklist, verve, windowmenu, power-manager
+actions, applicationsmenu, clipman, clock, cpugraph, datetime, directorymenu, diskperf, genmon, launcher, mount, netload, notification, pager, places, pulseaudio, screenshooter, separator, sensors, showdesktop, systray, tasklist, verve, weather, windowmenu, power-manager
+
+## Remaining Components
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| xfce4-screensaver | ❌ Blocked | Needs libwlembed (source not available) |
+| xfce4-wmdet-plugin | ❌ Removed | Repository no longer exists |
 
 ## TTY Backend Status
 
